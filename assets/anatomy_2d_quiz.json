@@ -1,0 +1,184 @@
+{
+  "İskelet Sistemi": {
+    "image": "./assets/drawables/anatomy_skeletal.jpg",
+    "icon": "💀",
+    "questions": [
+      {
+        "prompt": "Lütfen 'Kafatası (Cranium)' bölgesini bularak tıklayın.",
+        "rect": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 1.0,
+          "bottom": 0.25
+        },
+        "explanation": "Doğru! Kafatası kemikleri oynamaz eklemlerle birbirine bağlıdır."
+      },
+      {
+        "prompt": "Lütfen 'Uyluk Kemiği (Femur)' bölgesini bularak tıklayın.",
+        "rect": {
+          "left": 0.0,
+          "top": 0.5,
+          "right": 1.0,
+          "bottom": 0.8
+        },
+        "explanation": "Harika! Femur, vücudun en uzun ve en güçlü kemiğidir."
+      }
+    ]
+  },
+  "Kardiyovasküler Sistem": {
+    "image": "./assets/drawables/anatomy_cardio.jpg",
+    "icon": "🫀",
+    "questions": [
+      {
+        "prompt": "Kalbin 'Aort' damarının bulunduğu üst kısmını işaretleyin.",
+        "rect": {
+          "left": 0.3,
+          "top": 0.1,
+          "right": 0.7,
+          "bottom": 0.4
+        },
+        "explanation": "Aort, sol karıncıktan çıkarak temiz kanı tüm vücuda dağıtır."
+      },
+      {
+        "prompt": "Kalbin sol karıncık (ventrikül) tarafını (görselin sağ alt kısmı) işaretleyin.",
+        "rect": {
+          "left": 0.5,
+          "top": 0.5,
+          "right": 1.0,
+          "bottom": 0.9
+        },
+        "explanation": "Tebrikler! Sol karıncık kas tabakası (miyokard) en kalın olan bölümdür."
+      }
+    ]
+  },
+  "Solunum Sistemi": {
+    "image": "./assets/drawables/anatomy_resp.jpg",
+    "icon": "🫁",
+    "questions": [
+      {
+        "prompt": "Soluk borusu (Trakea) bölgesini işaretleyin.",
+        "rect": {
+          "left": 0.3,
+          "top": 0.0,
+          "right": 0.7,
+          "bottom": 0.35
+        },
+        "explanation": "Trakea 'C' şeklindeki kıkırdak halkalardan oluşur."
+      },
+      {
+        "prompt": "Akciğerlerin alt kısmında bulunan Diyafram kasına yakın bölgeyi işaretleyin.",
+        "rect": {
+          "left": 0.0,
+          "top": 0.7,
+          "right": 1.0,
+          "bottom": 1.0
+        },
+        "explanation": "Diyafram kasılarak göğüs boşluğu hacmini artırır ve soluk almayı sağlar."
+      }
+    ]
+  },
+  "Sinir Sistemi": {
+    "image": "./assets/drawables/anatomy_nervous.jpg",
+    "icon": "🧠",
+    "questions": [
+      {
+        "prompt": "Beyin (Cerebrum) bölgesini işaretleyin.",
+        "rect": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 1.0,
+          "bottom": 0.4
+        },
+        "explanation": "Cerebrum, zeka, hafıza ve istemli kas hareketlerinin merkezidir."
+      },
+      {
+        "prompt": "Omurilik (Medulla Spinalis) bölgesini işaretleyin.",
+        "rect": {
+          "left": 0.3,
+          "top": 0.5,
+          "right": 0.7,
+          "bottom": 1.0
+        },
+        "explanation": "Omurilik, refleks merkezi olarak görev yapar ve beyinle organlar arası iletişimi sağlar."
+      }
+    ]
+  },
+  "Sindirim Sistemi": {
+    "image": "./assets/drawables/anatomy_digest.jpg",
+    "icon": "🥩",
+    "questions": [
+      {
+        "prompt": "Mide (Gaster) bölgesini işaretleyin.",
+        "rect": {
+          "left": 0.3,
+          "top": 0.2,
+          "right": 0.8,
+          "bottom": 0.5
+        },
+        "explanation": "Mide, pepsin enzimi ve hidroklorik asit ile proteinlerin kimyasal sindirimini başlatır."
+      },
+      {
+        "prompt": "İnce ve kalın bağırsakların bulunduğu alt bölgeyi işaretleyin.",
+        "rect": {
+          "left": 0.0,
+          "top": 0.5,
+          "right": 1.0,
+          "bottom": 1.0
+        },
+        "explanation": "İnce bağırsakta kimyasal sindirim tamamlanır, kalın bağırsakta su ve mineraller emilir."
+      }
+    ]
+  },
+  "Üriner Sistem": {
+    "image": "./assets/drawables/anatomy_urinary.jpg",
+    "icon": "💧",
+    "questions": [
+      {
+        "prompt": "Böbrekler (Ren) bölgesini işaretleyin.",
+        "rect": {
+          "left": 0.1,
+          "top": 0.2,
+          "right": 0.9,
+          "bottom": 0.6
+        },
+        "explanation": "Böbrekler, nefronlar aracılığıyla kanı süzerek idrar oluşturur."
+      },
+      {
+        "prompt": "İdrar Kesesi (Mesane) bölgesini işaretleyin.",
+        "rect": {
+          "left": 0.3,
+          "top": 0.7,
+          "right": 0.7,
+          "bottom": 1.0
+        },
+        "explanation": "Mesane, idrarın geçici olarak depolandığı kaslı torbadır."
+      }
+    ]
+  },
+  "Beyin Sapı": {
+    "image": "./assets/drawables/anatomy_brainstem.jpg",
+    "icon": "🧬",
+    "questions": [
+      {
+        "prompt": "Omurilik Soğanı (Medulla Oblongata) bölgesini (en alt kısım) işaretleyin.",
+        "rect": {
+          "left": 0.2,
+          "top": 0.6,
+          "right": 0.8,
+          "bottom": 1.0
+        },
+        "explanation": "Omurilik soğanı; solunum, dolaşım gibi hayati refleksleri kontrol eder."
+      },
+      {
+        "prompt": "Pons (Varolii Köprüsü) bölgesini (orta-alt kısım) işaretleyin.",
+        "rect": {
+          "left": 0.2,
+          "top": 0.3,
+          "right": 0.8,
+          "bottom": 0.6
+        },
+        "explanation": "Pons sadece memelilerde bulunur ve beyincik yarım kürelerini birbirine bağlar."
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "unitName": "Otonom ve Kardiyovasküler Farmakoloji",
+    "unitIndex": 1,
+    "sections": [
+      {
+        "title": "Otonom Reseptörler ve Sempatomimetikler",
+        "content": "Sempatik sistem adrenerjik reseptörler aracılığıyla işlev görür:\n\n- **Alfa-1 Reseptörler (Gq - Fosfolipaz C -> IP3/DAG -> Ca2+ artışı)**: Vasküler düz kaslarda vazokonstriksiyon, pupillada midriyazis (m. dilatator pupillae), mesane sfinkterinde kasılma. Agonist: Fenilefrin; Antagonist: Doksazosin, Prazosin.\n- **Alfa-2 Reseptörler (Gi - Adenilat Siklaz inhibisyonu -> cAMP azalması)**: Presinaptik nöronda yer alır, otoreseptördür; noradrenalin salınımını durdurur. Santral sempatolitikler: Klonidin, Metildopa (gebelikte güvenli antihipertansif).\n- **Beta-1 Reseptörler (Gs - Adenilat Siklaz aktivasyonu -> cAMP artışı)**: Kalpte bulunur; pozitif inotrop, kronotrop, dromotrop etki. Böbrekte jukstaglomerüler hücrelerden renin salgısını artırır. Agonist: Dobutamin; Bloker: Metoprolol, Bisoprolol, Esmolol.\n- **Beta-2 Reseptörler (Gs -> cAMP artışı)**: Bronş düz kaslarında bronkodilatasyon, uterus düz kasında gevşeme (tokoliz), iskelet kası damarlarında vazodilatasyon, karaciğerde glikojenoliz ve hücre içine potasyum sokulması (hipokalemi riski). Agonist: Salbutamol, Salmeterol, Terbutalin.\n- **Beta-3 Reseptörler**: Yağ dokusunda lipoliz, detrusor kasında gevşeme. Agonist: Mirabegron (aşırı aktif mesane tedavisinde).",
+        "summary": "Alfa-1 (Gq): Vazokonstriksiyon. Alfa-2 (Gi): Presinaptik inhibisyon. Beta-1 (Gs): Kalp hızı ve kasılması artışı, renin salgısı. Beta-2 (Gs): Bronkodilatasyon ve vazodilatasyon.",
+        "keyPoints": [
+          "Anafilaksinin 1. tercih ilacı Adrenalin'dir (Alfa-1 ile ödemi çözer, Beta-2 ile bronkospazmı açar, Beta-1 ile tansiyonu toparlar).",
+          "Gebelikte hipertansiyon: Metildopa, Labetalol, Hidralazin.",
+          "Selektif Beta-1 blokerler (Kardiyoselektif): Metoprolol, Atenolol, Bisoprolol, Nebivolol, Esmolol (En kısa etkili)."
+        ],
+        "model3d": "system_nervous_sys",
+        "image2d": "gorsel_hafiza/autonomic_receptors.png"
+      },
+      {
+        "title": "Antihipertansif ve Kalp Yetersizliği İlaçları",
+        "content": "Kardiyovasküler ilaçlar TUS Farmakolojide her sınavda en az 3-4 soru getirir.\n\n- **ACE İnhibitörleri (-pril grubu)**: Anjiyotensin I'in anjiyotensin II'ye dönüşümünü engeller. Bradikinin yıkımını da önledikleri için kuru öksürük ve anjiyoödem yaparlar. Bilateral renal arter darlığında ve gebelikte kesin kontrendikedir!\n- **Anjiyotensin Reseptör Blokerleri (ARB -sartan grubu)**: AT1 reseptörlerini bloke eder; bradikinin birikimi yapmazlar, kuru öksürük nadirdir.\n- **ARNI (Sakubitril / Valsartan)**: Sakubitril neprilisin enzimini inhibe eder; BNP ve ANP düzeyini artırır. HFrEF tedavisinde mortaliteyi belirgin azaltır.\n- **SGLT-2 İnhibitörleri (-gliflozin)**: Dapagliflozin, Empagliflozin. Diyabetten bağımsız olarak kalp yetersizliğinde mortaliteyi düşüren yeni nesil kılavuz ilacıdır.\n- **Beta Blokerler**: Kalp yetersizliğinde mortaliteyi düşüren 4 beta bloker: **Karvedilol, Metoprolol süksinat, Bisoprolol, Nebivolol**.",
+        "summary": "Kalp yetmezliğinde mortaliteyi azaltanlar: ACEİ/ARB/ARNI, Beta bloker (KMB-N), MRA (Spironolakton), SGLT-2 inhibitörleri.",
+        "keyPoints": [
+          "Kuru öksürük ve anjiyoödem yan etkisi bradikinin birikimine bağlıdır (ACE İnhibitörleri).",
+          "Bilateral renal arter darlığında ACEİ/ARB verilirse akut böbrek hasarı gelişir.",
+          "Digoksin mortaliteyi azaltmaz; sadece semptomları ve hastaneye yatışı azaltır."
+        ],
+        "model3d": "heart",
+        "image2d": "gorsel_hafiza/ecg_st_elevation.png"
+      }
+    ]
+  },
+  {
+    "unitName": "Antimikrobiyal Farmakoloji",
+    "unitIndex": 2,
+    "sections": [
+      {
+        "title": "Antibiyotik Etki Mekanizmaları ve Hedefleri",
+        "content": "Antibiyotikler bakteriyel hedeflerine göre sınıflandırılır:\n\n- **Hücre Duvarı Sentez İnhibitörleri**:\n  - **Beta-Laktamlar**: Penisilinler, Sefalosporinler, Karbapenemler, Monobaktam (Aztreonam). PBP (Penisilin Bağlayan Protein) enzimlerini inhibe ederek transpeptidasyonu engeller.\n  - **Glikopeptitler**: Vankomisin, Teikoplanin. D-Ala-D-Ala ucuna bağlanarak hücre duvarı sentezini engeller. MRSA tedavisinde 1. tercihtir. Hızlı infüzyonda histamin salınımı ile 'Kırmızı Adam Sendromu' yapar.\n- **Protein Sentez İnhibitörleri (Ribozom Hedefliler)**:\n  - **30S Alt Birimi Hedefleyenler**: **A**minoglikozidler (Gentamisin, Amikasin - bakterisidal, nefrotoksik, ototoksik), **T**etrasiklinler (Doksisiklin - bakteriyostatik, dişlerde renk değişikliği, kemik gelişiminde gerilik).\n  - **50S Alt Birimi Hedefleyenler**: **C**hloramphenicol (Gri bebek sendromu, aplastik anemi), **C**lindamycin (Pseudomembranöz enterokolit - C. difficile), **E**rythromycin/Makrolidler (Motilin agonisti, QT uzaması), **L**inezolid (Trombositopeni, Serotonin sendromu).\n- **DNA Giraz (Topoizomeraz II/IV) İnhibitörleri**: Florokinolonlar (Siprofloksasin, Levofloksasin). Tendon rüptürü (özellikle aşil tendonu) ve QT uzaması riski taşır.",
+        "summary": "Hücre duvarı: Beta laktamlar (PBP), Vankomisin (D-Ala-D-Ala). 30S inhibitörleri: Aminoglikozid, Tetrasiklin. 50S inhibitörleri: Kloramfenikol, Klindamisin, Makrolid, Linezolid.",
+        "keyPoints": [
+          "30S Şifresi: AT (Aminoglikozid, Tetrasiklin).",
+          "50S Şifresi: CCEL (Cloramphenicol, Clindamycin, Erythromycin, Linezolid).",
+          "Kırmızı Adam Sendromu: Vankomisin hızlı infüzyonunda histamin deşarjı.",
+          "Tendonit ve tendon rüptürü riski: Florokinolonlar."
+        ],
+        "model3d": "system_cardiovascular_sys",
+        "image2d": "gorsel_hafiza/antibiotic_targets.png"
+      }
+    ]
+  }
+]

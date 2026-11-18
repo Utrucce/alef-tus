@@ -1,0 +1,50 @@
+[
+  {
+    "unitName": "Gastrointestinal Cerrahi ve Karın Acilleri",
+    "unitIndex": 1,
+    "sections": [
+      {
+        "title": "Akut Apandisit ve Peritonit Bulguları",
+        "content": "En sık acil cerrahi tablosudur:\n\n- Gençte lenfoid hiperplazi, yaşlıda fekalit lümeni tıkar.\n- Göbek çevresinden sağ alt kadrana (McBurney) göç eden ağrı.\n- Rovsing (+), Psoas (+) retroçekal, Obturator (+) pelvik apandisit.\n- Çocuk ve gebede ilk tetkik USG, erişkinde kontrastlı Abdominal BT.",
+        "summary": "Lümen tıkanması -> Viseral ağrı -> Pariyetal ağrı (McBurney). En sık komplikasyon perforasyondur.",
+        "keyPoints": [
+          "Rovsing belirtisi: Sol kadrana basınca sağda ağrı.",
+          "Gebelikte apandiks sağ üst kadrana yer değiştirir.",
+          "Perfore apandisitte acil cerrahi ve antibiyoterapi esastır."
+        ],
+        "model3d": "intestine",
+        "image2d": "gorsel_hafiza/acute_appendicitis.png"
+      },
+      {
+        "title": "İnguinal ve Femoral Fıtıklar",
+        "content": "Fıtık cerrahisinde anatomik sınırlar:\n\n- **İndirekt İnguinal Fıtık**: Tüm yaşlarda ve her iki cinste en sıktır. Processus vaginalis açık kalmıştır. A. epigastrica inferior'un lateralindedir.\n- **Direkt İnguinal Fıtık**: Hesselbach üçgeninden çıkar. A. epigastrica inferior'un medialindedir.\n- **Femoral Fıtık**: Canalis femoralis'ten çıkar. Kadınlarda daha sıktır. Boğulma (strangülasyon) riski en yüksek fıtıktır; hemen opere edilir.",
+        "summary": "Lateral = İndirekt (en sık). Medial = Direkt (Hesselbach). Femoral = Strangülasyon riski en yüksek.",
+        "keyPoints": [
+          "A. epigastrica inferior fıtık ayrım çizgisidir.",
+          "Femoral fıtık strangülasyon riski nedeniyle elektif beklenmez, acil opere edilir.",
+          "Richter fıtığı: Lümenin antimezenterik kenarının boğulması."
+        ],
+        "model3d": "system_skeletal_sys",
+        "image2d": "gorsel_hafiza/hernia_anatomy.png"
+      }
+    ]
+  },
+  {
+    "unitName": "Hepato-Biliyer ve Pankreas Cerrahisi",
+    "unitIndex": 2,
+    "sections": [
+      {
+        "title": "Safra Taşları, Kolesistit ve Kolanjit",
+        "content": "Biliyer ağaç enfeksiyonları ve cerrahi yaklaşım:\n\n- **Akut Kolesistit**: Ductus cysticus'un taşla tıkanmasıdır. Sağ üst kadran ağrısı, ateş ve lökositoz. **Murphy Belirtisi (+)**'dir. Tanıda ilk tercih USG (kese duvarı >4 mm, perikolesistik sıvı, çift hat).\n- **Akut Kolanjit (Bakteriyel Safra Yolu Enfeksiyonu)**:\n  - **Charcot Triadı**: Ateş, Sarılık, Sağ üst kadran ağrısı.\n  - **Reynolds Pentadı**: Charcot triadı + Hipotansiyon (Şok) + Mental konfüzyon. Acil dekompresyon (ERCP ile sfinkterotomi ve stent) gerektiren hayatı tehdit edici tablodur!\n- **Biliyer Pankreatit**: Safra taşının Oddi sfinkterine oturması ile tetiklenir; erken ERCP endikasyonudur.",
+        "summary": "Kolesistit Murphy belirtisi (kistik kanal tıkanması). Kolanjit Charcot triadı ve Reynolds pentadı (acil ERCP gerekir).",
+        "keyPoints": [
+          "Reynolds Pentadı: Charcot triadı + Şok + Bilinç bulanıklığı (acil ERCP).",
+          "Koledokolitiyaziste altın standart tanı ve tedavi: ERCP.",
+          "Safra kesesi ampiyemi ve gangrenoz kolesistit acil cerrahi gerektirir."
+        ],
+        "model3d": "liver",
+        "image2d": "gorsel_hafiza/acute_appendicitis.png"
+      }
+    ]
+  }
+]

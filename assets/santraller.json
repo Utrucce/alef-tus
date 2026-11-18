@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Afşin Elbistan Termik Santrali",
+    "description": "Kahramanmaraş'ta bulunan, Türkiye'nin linyit rezervi en yüksek bölgesinde kurulan ve linyitle çalışan en büyük termik santrallerden biridir.",
+    "type": "Termik Santral",
+    "provinces": ["46"]
+  },
+  {
+    "name": "Çatalağzı Termik Santrali",
+    "description": "Zonguldak'ta yer alan, Türkiye'de taş kömürü ile çalışan tek termik santraldir.",
+    "type": "Termik Santral",
+    "provinces": ["67"]
+  },
+  {
+    "name": "Atatürk Barajı ve HES",
+    "description": "Şanlıurfa ve Adıyaman arasında Fırat Nehri üzerinde kurulu, Türkiye'nin en büyük, dünyanın da sayılı hidroelektrik santrallerinden biridir. GAP'ın en önemli projesidir.",
+    "type": "Hidroelektrik Santral",
+    "provinces": ["63", "02"]
+  },
+  {
+    "name": "Sarayköy Jeotermal Santrali",
+    "description": "Denizli'de bulunan, Türkiye'nin ilk jeotermal enerji santralidir.",
+    "type": "Jeotermal Santral",
+    "provinces": ["20"]
+  },
+  {
+    "name": "Alaçatı Rüzgar Santrali",
+    "description": "İzmir'in Çeşme ilçesinde yer alan, Türkiye'nin ilk rüzgar enerjisi santrali olarak bilinir.",
+    "type": "Rüzgar Santrali",
+    "provinces": ["35"]
+  },
+  {
+    "name": "Karapınar Güneş Enerjisi Santrali (GES)",
+    "description": "Konya'nın Karapınar ilçesinde kurulan, Türkiye'nin ve Avrupa'nın en büyük güneş enerjisi santralidir.",
+    "type": "Güneş Santrali",
+    "provinces": ["42"]
+  },
+  {
+    "name": "Akkuyu Nükleer Santrali",
+    "description": "Mersin'in Gülnar ilçesinde yapımı devam eden, Türkiye'nin ilk nükleer enerji santralidir.",
+    "type": "Nükleer Santral",
+    "provinces": ["33"]
+  },
+  {
+    "name": "Hamitabat Doğalgaz Çevrim Santrali",
+    "description": "Kırklareli'nin Lüleburgaz ilçesinde, yerli doğalgaz da kullanılarak elektrik üretilen önemli bir santraldir.",
+    "type": "Termik Santral",
+    "provinces": ["39"]
+  },
+  {
+    "name": "Ambarlı Doğalgaz Çevrim Santrali",
+    "description": "İstanbul'da bulunan, Türkiye'nin en büyük elektrik üretim kapasitesine sahip doğalgaz çevrim santrallerinden biridir.",
+    "type": "Termik Santral",
+    "provinces": ["34"]
+  },
+  {
+    "name": "Soma Termik Santrali",
+    "description": "Manisa'da linyit kömürü ile çalışan önemli termik santrallerden biridir.",
+    "type": "Termik Santral",
+    "provinces": ["45"]
+  },
+  {
+    "name": "Yatağan Termik Santrali",
+    "description": "Muğla'da yer alan, linyit ile elektrik üreten bir termik santraldir.",
+    "type": "Termik Santral",
+    "provinces": ["48"]
+  },
+  {
+    "name": "Tunçbilek Termik Santrali",
+    "description": "Kütahya'da linyit madeni havzasında kurulan ve elektrik üreten termik santral.",
+    "type": "Termik Santral",
+    "provinces": ["43"]
+  },
+  {
+    "name": "Seyitömer Termik Santrali",
+    "description": "Kütahya'nın Seyitömer bölgesinde linyit kömürü ile çalışan bir başka önemli termik santral.",
+    "type": "Termik Santral",
+    "provinces": ["43"]
+  },
+  {
+    "name": "Orhaneli Termik Santrali",
+    "description": "Bursa'da linyit kullanılarak elektrik üretimi sağlayan termik santral.",
+    "type": "Termik Santral",
+    "provinces": ["16"]
+  },
+  {
+    "name": "Karakaya Barajı ve HES",
+    "description": "Diyarbakır ve Malatya sınırlarında, Fırat Nehri üzerinde Atatürk Barajı'ndan sonra en fazla elektrik üreten barajlardan biridir.",
+    "type": "Hidroelektrik Santral",
+    "provinces": ["21", "44"]
+  },
+  {
+    "name": "Keban Barajı ve HES",
+    "description": "Elazığ'da Fırat Nehri üzerinde kurulan, Türkiye'nin ilk büyük barajı ve hidroelektrik santrallerinden biridir.",
+    "type": "Hidroelektrik Santral",
+    "provinces": ["23"]
+  },
+  {
+    "name": "Birecik Barajı ve HES",
+    "description": "Şanlıurfa ve Gaziantep sınırlarında, Fırat Nehri üzerinde bulunan, enerji ve sulama amaçlı büyük bir barajdır.",
+    "type": "Hidroelektrik Santral",
+    "provinces": ["63", "27"]
+  },
+  {
+    "name": "Deriner Barajı ve HES",
+    "description": "Artvin'de Çoruh Nehri üzerinde bulunan, Türkiye'nin en yüksek, Avrupa'nın ve dünyanın sayılı yüksek barajlarındandır.",
+    "type": "Hidroelektrik Santral",
+    "provinces": ["08"]
+  },
+  {
+    "name": "Ilısu Barajı (Prof. Dr. Veysel Eroğlu) ve HES",
+    "description": "Mardin ve Batman sınırlarında, Dicle Nehri üzerinde kurulan ve büyük hidroelektrik kapasitesine sahip bir barajdır.",
+    "type": "Hidroelektrik Santral",
+    "provinces": ["72", "47"]
+  },
+  {
+    "name": "Ermenek Barajı ve HES",
+    "description": "Karaman'da Göksu Nehri üzerinde yer alan yüksek barajlardan biridir.",
+    "type": "Hidroelektrik Santral",
+    "provinces": ["70"]
+  },
+  {
+    "name": "Oymapınar Barajı ve HES",
+    "description": "Antalya'da Manavgat Nehri üzerinde kurulu olup, özellikle bölgedeki sanayi tesislerine enerji sağlamasıyla bilinir.",
+    "type": "Hidroelektrik Santral",
+    "provinces": ["07"]
+  },
+  {
+    "name": "Kızıldere Jeotermal Santrali",
+    "description": "Denizli Sarayköy mevkiinde, yeraltı sıcak su kaynaklarından elektrik üreten önemli bir santral.",
+    "type": "Jeotermal Santral",
+    "provinces": ["20"]
+  },
+  {
+    "name": "Germencik Jeotermal Santrali",
+    "description": "Aydın'ın Germencik ilçesinde Türkiye'nin en yüksek kapasiteli jeotermal santrallerinden biri.",
+    "type": "Jeotermal Santral",
+    "provinces": ["09"]
+  },
+  {
+    "name": "Geyikli Rüzgar Enerji Santrali",
+    "description": "Çanakkale'de kurulu olan ve bölgenin güçlü rüzgar potansiyelini değerlendiren rüzgar santrali.",
+    "type": "Rüzgar Santrali",
+    "provinces": ["17"]
+  },
+  {
+    "name": "Bandırma Rüzgar Enerji Santrali",
+    "description": "Balıkesir'in rüzgar potansiyeli yüksek kıyı bölgelerinde yer alan önemli bir RES projesidir.",
+    "type": "Rüzgar Santrali",
+    "provinces": ["10"]
+  },
+  {
+    "name": "Sinop Nükleer Santrali (Proje)",
+    "description": "Sinop İnceburun'da planlanan, Türkiye'nin ikinci nükleer santral projesi.",
+    "type": "Nükleer Santral",
+    "provinces": ["57"]
+  },
+  {
+    "name": "Çan Termik Santrali",
+    "description": "Çanakkale'de linyit kömürü ile elektrik üreten bir termik santral.",
+    "type": "Termik Santral",
+    "provinces": ["17"]
+  },
+  {
+    "name": "Kangal Termik Santrali",
+    "description": "Sivas'ta bulunan ve yerel linyit kaynaklarını kullanan termik santral.",
+    "type": "Termik Santral",
+    "provinces": ["58"]
+  },
+  {
+    "name": "Çayırhan Termik Santrali",
+    "description": "Ankara'da linyit kullanarak elektrik üreten bir termik santral.",
+    "type": "Termik Santral",
+    "provinces": ["06"]
+  },
+  {
+    "name": "Ovaakça Doğalgaz Çevrim Santrali",
+    "description": "Bursa'da yer alan, yüksek üretim kapasiteli bir doğalgaz çevrim santralidir.",
+    "type": "Termik Santral",
+    "provinces": ["16"]
+  }
+]

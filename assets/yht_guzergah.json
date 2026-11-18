@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Ankara - İstanbul YHT",
+    "description": "Ankara ile İstanbul'u bağlayan temel yüksek hızlı tren hattıdır. Eskişehir, Bilecik, Kocaeli güzergahından ilerler.",
+    "type": "YHT Hattı",
+    "provinces": ["06", "26", "11", "41", "34"]
+  },
+  {
+    "name": "Ankara - Konya YHT",
+    "description": "Ankara ile Konya arasında 2011 yılında hizmete girmiş, iki şehir arası ulaşımı 1 saat 50 dakikaya indiren hattan oluşur.",
+    "type": "YHT Hattı",
+    "provinces": ["06", "42"]
+  },
+  {
+    "name": "Ankara - Sivas YHT",
+    "description": "Kırıkkale ve Yozgat üzerinden Ankara ile Sivas'ı birbirine bağlayan yüksek hızlı demiryolu hattıdır. 250 km/s hıza uygundur.",
+    "type": "YHT Hattı",
+    "provinces": ["06", "71", "66", "58"]
+  },
+  {
+    "name": "Ankara - İzmir YHT Projesi",
+    "description": "Yapımı devam eden, Afyonkarahisar, Uşak ve Manisa üzerinden İzmir'i Ankara'ya bağlayacak olan stratejik YHT projesidir.",
+    "type": "Demiryolu Projesi",
+    "provinces": ["06", "26", "03", "64", "45", "35"]
+  },
+  {
+    "name": "Konya - Karaman Hızlı Tren Hattı",
+    "description": "Konya-Karaman arası ulaşımı hızlandıran ve gelecekte Mersin, Adana, Gaziantep güzergahına uzatılması planlanan demiryoludur.",
+    "type": "YHT Hattı",
+    "provinces": ["42", "70"]
+  },
+  {
+    "name": "Bursa - Osmaneli YHT Projesi",
+    "description": "Bursa'yı Bilecik (Osmaneli) üzerinden Ankara-İstanbul YHT hattına entegre edecek olan yüksek hızlı tren projesidir.",
+    "type": "Demiryolu Projesi",
+    "provinces": ["16", "11"]
+  },
+  {
+    "name": "Marmaray",
+    "description": "Asya ile Avrupa yakasını deniz altından tüp geçitle bağlayan, İstanbul'un en önemli banliyö ve transit demiryolu hattıdır.",
+    "type": "Banliyö Hattı",
+    "provinces": ["34"]
+  },
+  {
+    "name": "Başkentray",
+    "description": "Ankara'da Sincan ile Kayaş arasında hizmet veren, YHT ve diğer tren seferleriyle entegre çalışan banliyö treni sistemidir.",
+    "type": "Banliyö Hattı",
+    "provinces": ["06"]
+  },
+  {
+    "name": "İZBAN",
+    "description": "İzmir'de Aliağa'dan Selçuk'a kadar uzanan, Türkiye'nin en uzun şehir içi banliyö sistemlerinden biridir.",
+    "type": "Banliyö Hattı",
+    "provinces": ["35"]
+  },
+  {
+    "name": "Ankaray",
+    "description": "AŞTİ ile Dikimevi arasında hizmet veren, Ankara'nın ilk hafif raylı taşıma sistemidir (Metro/Hafif Raylı).",
+    "type": "Metro",
+    "provinces": ["06"]
+  },
+  {
+    "name": "Gebze - Halkalı Banliyö Hattı",
+    "description": "Marmaray ile entegre olarak İstanbul'un Avrupa ve Anadolu yakalarını Kocaeli (Gebze) ile bağlayan banliyö ağıdır.",
+    "type": "Banliyö Hattı",
+    "provinces": ["34", "41"]
+  },
+  {
+    "name": "Samsun - Sivas (Kalın) Demiryolu",
+    "description": "Karadeniz'i İç Anadolu'ya bağlayan önemli bir yük ve yolcu hattıdır. Cumhuriyetin ilk yıllarında inşa edilmiş, yakın zamanda modernize edilmiştir.",
+    "type": "Demiryolu Hattı",
+    "provinces": ["55", "05", "60", "58"]
+  },
+  {
+    "name": "Bakü - Tiflis - Kars (BTK) Demiryolu",
+    "description": "Demir İpek Yolu olarak da bilinen, Asya ile Avrupa arasında kesintisiz yük taşımacılığını sağlayan uluslararası stratejik hattan Türkiye bölümüdür.",
+    "type": "Demiryolu Hattı",
+    "provinces": ["36"]
+  },
+  {
+    "name": "Kars - Iğdır - Nahçıvan Demiryolu Projesi",
+    "description": "Türkiye ile Nahçıvan ve dolayısıyla Azerbaycan ana karası arasında doğrudan demiryolu bağlantısı kurmayı amaçlayan stratejik bir projedir.",
+    "type": "Demiryolu Projesi",
+    "provinces": ["36", "76"]
+  },
+  {
+    "name": "Karaman - Ulukışla - Yenice - Mersin - Adana Projesi",
+    "description": "İç Anadolu'yu Akdeniz'e bağlayacak, yük ve yolcu taşımacılığında hız ve kapasite artışı sağlayacak olan demiryolu projesidir.",
+    "type": "Demiryolu Projesi",
+    "provinces": ["70", "51", "33", "01"]
+  },
+  {
+    "name": "Yerköy - Kayseri YHT Projesi",
+    "description": "Ankara-Sivas YHT hattına Yerköy'den bağlanarak Kayseri'yi yüksek hızlı tren ağına dahil edecek olan demiryolu projesidir.",
+    "type": "Demiryolu Projesi",
+    "provinces": ["66", "38"]
+  },
+  {
+    "name": "Halkalı - Kapıkule Hızlı Tren Projesi",
+    "description": "Türkiye'yi Avrupa'ya bağlayacak, İstanbul-Edirne arasındaki seyahat süresini kısaltacak olan modern hızlı demiryolu projesidir.",
+    "type": "Demiryolu Projesi",
+    "provinces": ["34", "59", "39", "22"]
+  },
+  {
+    "name": "Erzincan - Erzurum - Kars Hızlı Tren Projesi",
+    "description": "Sivas'a kadar ulaşan hızlı tren ağını Doğu Anadolu üzerinden Kafkaslara (Kars) ulaştıracak olan, proje aşamasındaki hattan oluşur.",
+    "type": "Demiryolu Projesi",
+    "provinces": ["24", "25", "36"]
+  },
+  {
+    "name": "Gaziray",
+    "description": "Gaziantep sanayi bölgeleri ile şehir merkezini birbirine bağlayan, ulaşıma büyük nefes aldıran modern banliyö ve raylı sistem ağıdır.",
+    "type": "Banliyö Hattı",
+    "provinces": ["27"]
+  },
+  {
+    "name": "Sivas - Erzincan Hızlı Tren Projesi",
+    "description": "Ankara-Sivas hattının doğuya uzatılmasında ilk etap olan, Doğu Anadolu ile İç Anadolu bağlantısını hızlandıracak hattan oluşur.",
+    "type": "Demiryolu Projesi",
+    "provinces": ["58", "24"]
+  },
+  {
+    "name": "Zonguldak - Karabük - Irmak Demiryolu",
+    "description": "Batı Karadeniz'in maden ve demir-çelik ürünlerini (Kömür Hattı) İç Anadolu'ya taşıyan, rehabilitasyonu AB fonlarıyla yapılmış önemli bir yük hattıdır.",
+    "type": "Demiryolu Hattı",
+    "provinces": ["67", "78", "18", "06"]
+  },
+  {
+    "name": "Divriği - İskenderun Demiryolu Hattı",
+    "description": "Sivas-Divriği'den çıkarılan demir cevherini İskenderun demir çelik fabrikalarına taşımak amacıyla kullanılan kritik endüstriyel demiryolu koridorudur.",
+    "type": "Demiryolu Hattı",
+    "provinces": ["58", "44", "80", "31"]
+  },
+  {
+    "name": "Mersin - Adana - Osmaniye - Gaziantep Hızlı Tren Projesi",
+    "description": "Çukurova ile Güneydoğu Anadolu'yu birbirine bağlayan, sanayi ve liman entegrasyonu açısından büyük önem taşıyan yüksek standartlı demiryolu projesi.",
+    "type": "Demiryolu Projesi",
+    "provinces": ["33", "01", "80", "27"]
+  }
+]

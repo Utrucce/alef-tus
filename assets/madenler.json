@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Bor",
+    "description": "Dünya rezervlerinde birinciyiz. Balıkesir (Susurluk, Bigadiç), Kütahya (Emet), Eskişehir (Seyitgazi), Bursa (Mustafakemalpaşa) önemli alanlardır.",
+    "provinces": ["10", "43", "26", "16"]
+  },
+  {
+    "name": "Demir",
+    "description": "Ağır sanayinin hammaddesidir. Sivas (Divriği, Hasançelebi), Malatya (Hekimhan), Sakarya (Çamdağı) önemli çıkarım alanlarıdır.",
+    "provinces": ["58", "44", "54"]
+  },
+  {
+    "name": "Krom",
+    "description": "Çeliğin sertleştirilmesinde ve paslanmaz çelik üretiminde kullanılır. Elazığ (Guleman), Muğla (Fethiye, Köyceğiz), Antalya, Burdur'da çıkarılır.",
+    "provinces": ["23", "48", "07", "15"]
+  },
+  {
+    "name": "Bakır",
+    "description": "İletkenliği yüksek olduğu için elektrik-elektronik sanayisinde kullanılır. Artvin (Murgul), Rize (Çayeli), Kastamonu (Küre), Elazığ (Maden) önemli yerlerdir.",
+    "provinces": ["08", "53", "37", "23"]
+  },
+  {
+    "name": "Boksit (Alüminyum)",
+    "description": "Hafif olduğu için uçak, otomotiv ve inşaat sektöründe kullanılır. Antalya (Akseki), Konya (Seydişehir), Hatay (Payas), Gaziantep (İslahiye) bölgelerinde çıkarılır.",
+    "provinces": ["07", "42", "31", "27"]
+  },
+  {
+    "name": "Kükürt",
+    "description": "Kimya, gübre ve ilaç sanayisinde kullanılır. Isparta (Keçiborlu) ve Denizli (Sarayköy) önemli çıkarım alanlarıydı ancak üretim durmuştur.",
+    "provinces": ["32", "20"]
+  },
+  {
+    "name": "Barit",
+    "description": "Sondaj kuyularında ve cam-boya sanayisinde kullanılır. Antalya (Gazipaşa), Kahramanmaraş (Elbistan), Elazığ, Muş dolaylarında çıkarılır.",
+    "provinces": ["07", "46", "23", "49"]
+  },
+  {
+    "name": "Fosfat",
+    "description": "Suni gübre yapımında kullanılır. Ülkemizde rezervi yetersizdir. Mardin (Mazıdağı), Batman, Bitlis'te çıkarılır.",
+    "provinces": ["47", "72", "13"]
+  },
+  {
+    "name": "Tuz",
+    "description": "Gıda ve kimya sanayisinde kullanılır. Üretimin büyük kısmı Tuz Gölü ve İzmir Çamaltı Tuzlası'ndan sağlanır. Kaya tuzu Kırşehir, Çankırı, Nevşehir, Yozgat'ta bulunur.",
+    "provinces": ["35", "42", "68", "18", "40"]
+  },
+  {
+    "name": "Lületaşı",
+    "description": "Süs eşyası, takı ve pipo yapımında kullanılır. Türkiye bu madende dünyada tektir. Sadece Eskişehir'de çıkarılır.",
+    "provinces": ["26"]
+  },
+  {
+    "name": "Oltutaşı",
+    "description": "Tespih, takı ve süs eşyası yapımında kullanılır. Erzurum'un Oltu ilçesinde çıkarılır.",
+    "provinces": ["25"]
+  },
+  {
+    "name": "Mermer",
+    "description": "İhracatımızda en fazla gelir getiren madenlerden biridir. Balıkesir (Marmara Adası), Bilecik, Afyonkarahisar, Bursa önemli yerlerdir.",
+    "provinces": ["10", "11", "03", "16"]
+  },
+  {
+    "name": "Zımpara Taşı",
+    "description": "Aşındırıcı ve parlatıcı olarak kullanılır. İzmir, Aydın, Muğla dolaylarında çıkarılır.",
+    "provinces": ["35", "09", "48"]
+  },
+  {
+    "name": "Volfram (Tungsten)",
+    "description": "Isıya dayanıklı olduğu için ampul teli ve uzay-havacılık sanayisinde kullanılır. Bursa (Uludağ) en önemli yerdir.",
+    "provinces": ["16"]
+  },
+  {
+    "name": "Kurşun - Çinko",
+    "description": "Genellikle doğada bir arada bulunurlar. Akü yapımı ve kablo izolasyonunda kullanılır. Elazığ (Keban), Kayseri, Niğde, Yozgat, Çanakkale'de çıkarılır.",
+    "provinces": ["23", "38", "51", "66", "17"]
+  },
+  {
+    "name": "Altın",
+    "description": "Mücevherat ve elektronikte kullanılır. İzmir (Bergama-Ovacık), Manisa (Sart), Çanakkale (Kirazlı), Gümüşhane (Mastra), Erzincan (İliç)'te çıkarılır.",
+    "provinces": ["35", "45", "17", "29", "24"]
+  },
+  {
+    "name": "Uranyum",
+    "description": "Nükleer enerji (radyoaktif) hammaddesidir. Yozgat (Sorgun), Aydın (Koçarlı), Manisa (Salihli)'de rezervleri vardır.",
+    "provinces": ["66", "09", "45"]
+  },
+  {
+    "name": "Toryum",
+    "description": "Nükleer enerji (radyoaktif) hammaddesidir. Dünyada zengin rezervlere sahibiz. Eskişehir (Sivrihisar) ve Isparta (Aksu) çevresinde bulunur.",
+    "provinces": ["26", "32"]
+  },
+  {
+    "name": "Taş Kömürü",
+    "description": "I. Jeolojik zamanda oluşmuştur, kalorisi yüksektir. Demir-çelik sanayisinde yakıt olarak kullanılır. Zonguldak, Bartın, Karabük (Ereğli, Amasra) havzasında çıkarılır.",
+    "provinces": ["67", "74", "78"]
+  },
+  {
+    "name": "Linyit",
+    "description": "III. Jeolojik zamanda oluşmuştur. Türkiye'de en yaygın enerji kaynağıdır. Kahramanmaraş (Afşin-Elbistan), Manisa (Soma), Kütahya (Tunçbilek, Tavşanlı, Seyitömer), Ankara (Çayırhan, Nallıhan)'da çıkarılır.",
+    "provinces": ["46", "45", "43", "06"]
+  },
+  {
+    "name": "Petrol",
+    "description": "Büyük kısmı Güneydoğu Anadolu'dan çıkarılır, ancak ihtiyacımızı karşılamaz. Batman (Raman, Garzan), Diyarbakır, Siirt, Adıyaman önemli yerlerdir.",
+    "provinces": ["72", "21", "56", "02"]
+  },
+  {
+    "name": "Doğalgaz",
+    "description": "Türkiye'de elektrik üretiminde sıkça kullanılır. Kırklareli (Hamitabat), Düzce (Akçakoca), Tekirdağ (Hayrabolu), Mardin (Çamurlu)'da çıkarılır.",
+    "provinces": ["39", "81", "59", "47"]
+  },
+  {
+    "name": "Asbest (Amyant)",
+    "description": "Isıya çok dayanıklıdır, itfaiyeci elbisesi ve fren balatalarında kullanılır. Bursa, Eskişehir, Sivas, Hatay'da bulunur. Kanserojen olduğu için kullanımı kısıtlanmıştır.",
+    "provinces": ["16", "26", "58", "31"]
+  },
+  {
+    "name": "Civa",
+    "description": "Doğada sıvı halde bulunan tek madendir. Tıpta, dişçilikte, ilaç ve termometre yapımında kullanılır. İzmir (Ödemiş, Karaburun), Konya (Sarayönü)'nde çıkarılır.",
+    "provinces": ["35", "42"]
+  },
+  {
+    "name": "Trona (Soda Külü)",
+    "description": "Cam, deterjan ve kağıt sanayisinde kullanılır. Türkiye rezerv bakımından dünyada ilk sıralardadır. Ankara (Beypazarı, Kazan)'da çıkarılır.",
+    "provinces": ["06"]
+  },
+  {
+    "name": "Manganez",
+    "description": "Demir ve çeliğin sertleşmesinde kullanılır. Adana (Ceyhan), Artvin (Borçka), Denizli (Tavas), Kastamonu'da bulunur.",
+    "provinces": ["01", "08", "20", "37"]
+  },
+  {
+    "name": "Antimon",
+    "description": "Kurşunla karıştırılarak cephane ve matbaa harfi yapımında kullanılır. Tokat (Turhal), Balıkesir, İzmir, Kütahya'da çıkarılır.",
+    "provinces": ["60", "10", "35", "43"]
+  },
+  {
+    "name": "Jeotermal",
+    "description": "Yer altı sıcak sularından elde edilen enerjidir. Kırık hatların (fay) olduğu yerlerde yaygındır. Aydın (Germencik), Denizli (Sarayköy), Çanakkale (Tuzla), İzmir (Balçova) önemlidir.",
+    "provinces": ["09", "20", "17", "35"]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "name": "ALΣF TUS - Tıpta Uzmanlık Eğitimi",
+  "short_name": "ALΣF TUS",
+  "description": "TUS Hazırlık, 6.388 Soru, Tıbbi Notlar, 3D/2D Anatomi Laboratuvarı ve Sevimli Dost Pıtrak",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0F0C29",
+  "theme_color": "#0F0C29",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./assets/ic_launcher.webp",
+      "sizes": "192x192 512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ]
+}

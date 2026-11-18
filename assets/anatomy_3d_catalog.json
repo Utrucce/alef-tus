@@ -1,0 +1,1186 @@
+{
+  "organs": [
+    {
+      "id": "heart",
+      "title": "Kalp",
+      "latin": "Cor",
+      "system": "Kardiyovasküler Sistem",
+      "icon": "🫀",
+      "model": "models/heart.glb",
+      "accent": "#FF4D6D",
+      "scale": 2.0,
+      "description": "Oksijenlenmiş kanı tüm vücuda pompalayan hayati kas organıdır. Sol ventrikül miyokard tabakası en kalındır.",
+      "clinical": "Kalbin ileti sistemi: SA düğüm -> AV düğüm -> His demeti -> Purkinje lifleridir. Koroner damarlar esas olarak diastolde kanlanır.",
+      "bloodSupply": "A. coronaria dextra ve A. coronaria sinistra (Aort kökünden sinus valsalvalardan dallanır).",
+      "conditions": [
+        "Koroner Arter Hastalığı (MI)",
+        "Aritmiler",
+        "Kapak Hastalıkları",
+        "Kalp Yetersizliği"
+      ],
+      "hotspots": [
+        {
+          "id": "aorta",
+          "ta": "Aorta",
+          "title": "Aort Damarı",
+          "position": [
+            -0.35,
+            1.65,
+            0.55
+          ],
+          "color": "#ee7c6a",
+          "detail": "Sol karıncıktan çıkan ana arterdir. Temiz kanı vücuda taşır. Truncus brachiocephalicus, A. carotis communis sinistra ve A. subclavia sinistra dallarını verir."
+        },
+        {
+          "id": "left-atrium",
+          "ta": "Atrium sinistrum",
+          "title": "Sol Kulakçık",
+          "position": [
+            0.82,
+            0.65,
+            0.5
+          ],
+          "color": "#f2a33b",
+          "detail": "Akciğerlerden gelen 4 adet Vv. pulmonales ile oksijenlenmiş temiz kanı karşılar ve mitral kapakla sol ventriküle iletir."
+        },
+        {
+          "id": "right-atrium",
+          "ta": "Atrium dextrum",
+          "title": "Sağ Kulakçık",
+          "position": [
+            -0.9,
+            0.35,
+            0.55
+          ],
+          "color": "#6393d8",
+          "detail": "Vena cava superior, Vena cava inferior ve Sinus coronarius venöz kanını toplar. Fossa ovalis ve SA düğüm burada bulunur."
+        },
+        {
+          "id": "left-ventricle",
+          "ta": "Ventriculus sinister",
+          "title": "Sol Karıncık",
+          "position": [
+            0.7,
+            -0.75,
+            0.65
+          ],
+          "color": "#f2a33b",
+          "detail": "Sistemik dolaşımın ana motorudur; miyokardı sağ ventrikülden 3 kat kalındır. Kanı aort kapağından geçirerek tüm vücuda basar."
+        },
+        {
+          "id": "right-ventricle",
+          "ta": "Ventriculus dexter",
+          "title": "Sağ Karıncık",
+          "position": [
+            -0.65,
+            -0.68,
+            0.66
+          ],
+          "color": "#ee7c6a",
+          "detail": "Triküspit kapaktan gelen kanı Truncus pulmonalis üzerinden akciğerlere pompalar. Trabecula septomarginalis (moderatör bant) içerir."
+        },
+        {
+          "id": "mitral",
+          "ta": "Valva atrioventricularis sinistra",
+          "title": "Mitral Kapak",
+          "position": [
+            0.18,
+            -1.35,
+            0.48
+          ],
+          "color": "#d89bc4",
+          "detail": "Sol kulakçık ile karıncık arasındaki 2 yaprakçıklı biküspit kapaktır; sistolde kapanarak kanın geriye kaçmasını engeller."
+        }
+      ]
+    },
+    {
+      "id": "brain",
+      "title": "Beyin",
+      "latin": "Encephalon",
+      "system": "Sinir Sistemi",
+      "icon": "🧠",
+      "model": "models/brain.glb",
+      "accent": "#9D4EDD",
+      "scale": 2.0,
+      "description": "Merkezi sinir sisteminin komuta merkezidir. Bilinç, hafıza, motor kontrol ve duyusal algıyı koordine eder.",
+      "clinical": "Glukoz ve oksijen kesintisine en duyarlı organdır (4-6 dakikada hasar başlar). A. carotis interna ve A. vertebralis (Willis Poligonu) ile beslenir.",
+      "bloodSupply": "Circulus arteriosus cerebri (Willis Poligonu).",
+      "conditions": [
+        "İnme (SVO)",
+        "Subaraknoid Kanama",
+        "Menenjit",
+        "Tümörler"
+      ],
+      "hotspots": [
+        {
+          "id": "frontal",
+          "ta": "Lobus frontalis",
+          "title": "Frontal Lob",
+          "position": [
+            -0.7,
+            0.65,
+            0.8
+          ],
+          "color": "#ee7c6a",
+          "detail": "Primer motor korteks (alan 4), planlama, kişilik ve motor konuşma merkezi (Broca - alan 44, 45) burada yer alır."
+        },
+        {
+          "id": "parietal",
+          "ta": "Lobus parietalis",
+          "title": "Parietal Lob",
+          "position": [
+            0.15,
+            1.1,
+            0.65
+          ],
+          "color": "#f2a33b",
+          "detail": "Primer somatosensoriyel korteks (alan 3, 1, 2) yer alır; dokunma, basınç, ağrı ve vücut pozisyon duyusunu işler."
+        },
+        {
+          "id": "temporal",
+          "ta": "Lobus temporalis",
+          "title": "Temporal Lob",
+          "position": [
+            0.75,
+            -0.1,
+            0.82
+          ],
+          "color": "#6393d8",
+          "detail": "Primer işitme alanı (alan 41, 42), konuşulanı anlama (Wernicke - alan 22) ve hafızanın merkezi Hipokampus buradadır."
+        },
+        {
+          "id": "cerebellum",
+          "ta": "Cerebellum",
+          "title": "Beyincik",
+          "position": [
+            0.72,
+            -0.9,
+            0.55
+          ],
+          "color": "#d89bc4",
+          "detail": "Denge, kas tonusu ve istemli hareketlerin koordinasyonunu yönetir. Lezyonunda ataksi, dismetri ve nistagmus görülür."
+        }
+      ]
+    },
+    {
+      "id": "skull",
+      "title": "Kafatası",
+      "latin": "Cranium",
+      "system": "İskelet Sistemi",
+      "icon": "💀",
+      "model": "models/skull.glb",
+      "accent": "#00FF87",
+      "scale": 1.8,
+      "description": "Beyni ve duyu organlarını koruyan, neurocranium ve viscerocranium'dan oluşan kemik yapıdır.",
+      "clinical": "Kafatası tabanındaki delikler (Foramina cranii) TUS'un en vazgeçilmez soru konusudur. Pterion noktası A. meningea media kanamaları için kritiktir.",
+      "bloodSupply": "A. meningea media, A. carotis interna ve externa dalları.",
+      "conditions": [
+        "Epidural Hematom",
+        "Kafatası Taban Kırıkları",
+        "Trigeminal Nevralji"
+      ],
+      "hotspots": [
+        {
+          "id": "os-frontale",
+          "ta": "Os frontale",
+          "title": "Alın Kemiği (Os Frontale)",
+          "position": [
+            0,
+            0.6,
+            0.9
+          ],
+          "color": "#00FF87",
+          "detail": "Alın bölgesini ve orbita tavanını oluşturur. Sinus frontalis burada yer alır. Foramen supraorbitale'den V1 sinir dalları geçer."
+        },
+        {
+          "id": "os-parietale",
+          "ta": "Os parietale",
+          "title": "Çeper Kemiği (Os Parietale)",
+          "position": [
+            0.5,
+            0.7,
+            0.2
+          ],
+          "color": "#00C6FF",
+          "detail": "Kafatasının üst yan kubbesini oluşturan çift kemiktir. Sutura sagittalis ile birleşir, iç yüzünde sulcus sinus sagittalis superior uzanır."
+        },
+        {
+          "id": "os-temporale",
+          "ta": "Os temporale",
+          "title": "Şakak Kemiği (Os Temporale)",
+          "position": [
+            0.85,
+            0.1,
+            0.1
+          ],
+          "color": "#FFD166",
+          "detail": "İşitme ve denge organlarını barındıran pars petrosa'yı içerir. Meatus acusticus internus (CN VII ve VIII) buradan geçer."
+        },
+        {
+          "id": "os-occipitale",
+          "ta": "Os occipitale",
+          "title": "Art Kafa Kemiği (Os Occipitale)",
+          "position": [
+            0,
+            -0.3,
+            -0.9
+          ],
+          "color": "#FF758C",
+          "detail": "Foramen magnum'u (medulla oblongata çıkışı) çevreler. Condylus occipitalis ile atlas omuruna bağlanır."
+        },
+        {
+          "id": "mandibula",
+          "ta": "Mandibula",
+          "title": "Alt Çene Kemiği (Mandibula)",
+          "position": [
+            0,
+            -0.8,
+            0.7
+          ],
+          "color": "#FF9800",
+          "detail": "Yüz iskeletinin tek hareketli kemiğidir. Articulatio temporomandibularis (Çene eklemi) ile kafatasına bağlanır."
+        }
+      ]
+    },
+    {
+      "id": "stomach",
+      "title": "Mide",
+      "latin": "Gaster",
+      "system": "Sindirim Sistemi",
+      "icon": "🍲",
+      "model": "models/stomach.glb",
+      "accent": "#F4A261",
+      "scale": 1.9,
+      "description": "Özofagus ile duodenum arasında yer alan, mekanik ve kimyasal sindirimin başladığı J şekilli organdır.",
+      "clinical": "Pariyetal hücreler HCl ve İntrensek Faktör (B12 emilimi) üretir. Helikobakter pilori enfeksiyonu en sık antruma yerleşir.",
+      "bloodSupply": "Truncus coeliacus dalları (A. gastrica sinistra/dextra, Aa. gastricae breves, A. gastroomentalis sinistra/dextra).",
+      "conditions": [
+        "Peptik Ülser",
+        "GÖRH",
+        "Gastrit",
+        "Mide Kanseri"
+      ],
+      "hotspots": [
+        {
+          "id": "cardia",
+          "ta": "Cardia",
+          "title": "Kardia (Mide Girişi)",
+          "position": [
+            0.2,
+            0.8,
+            0.3
+          ],
+          "color": "#00F0FF",
+          "detail": "Özofagusun mideye açıldığı T11 hizasındaki bölümdür. Z-çizgisi ve alt özofagus sfinkter mekanizması reflüyü önler."
+        },
+        {
+          "id": "fundus",
+          "ta": "Fundus gastricus",
+          "title": "Mide Kubbesi (Fundus)",
+          "position": [
+            0.6,
+            0.9,
+            -0.2
+          ],
+          "color": "#FFD166",
+          "detail": "Kardia seviyesinin üstünde kalan kubbe kısımdır. Direkt karın grafisinde mide hava cebi olarak izlenir."
+        },
+        {
+          "id": "corpus",
+          "ta": "Corpus gastricum",
+          "title": "Mide Gövdesi (Korpus)",
+          "position": [
+            0.3,
+            0.1,
+            0.2
+          ],
+          "color": "#00FF87",
+          "detail": "Midenin en geniş bölümüdür. Pariyetal hücrelerin (asit salgılayan) en yoğun bulunduğu yerdir."
+        },
+        {
+          "id": "antrum",
+          "ta": "Antrum pyloricum",
+          "title": "Mide Mağarası (Antrum)",
+          "position": [
+            -0.5,
+            -0.6,
+            0.3
+          ],
+          "color": "#FF758C",
+          "detail": "Gastrin üreten G hücrelerinin merkezidir. Mide motor hareketleriyle kimusu öğütür ve pilora iletir."
+        },
+        {
+          "id": "pylorus",
+          "ta": "Pylorus",
+          "title": "Pilor Sfinkteri",
+          "position": [
+            -0.9,
+            -0.4,
+            0.1
+          ],
+          "color": "#9D4EDD",
+          "detail": "Duodenuma geçişi denetleyen güçlü sfinkter kasıdır. İnfantlarda hipertrofisi safrasız fışkırır kusmaya yol açar."
+        }
+      ]
+    },
+    {
+      "id": "lungs",
+      "title": "Akciğerler",
+      "latin": "Pulmones",
+      "system": "Solunum Sistemi",
+      "icon": "🫁",
+      "model": "models/lungs.glb",
+      "accent": "#00B4D8",
+      "scale": 2.0,
+      "description": "Göğüs boşluğunda kalbin iki yanında yer alan gaz alışveriş organlarıdır.",
+      "clinical": "Sağ akciğer 3 loblu (oblik ve horizontal fissür), sol akciğer 2 lobludur (tek oblik fissür ve lingula pulmonis).",
+      "bloodSupply": "Fonksiyonel: A. pulmonalis / Vv. pulmonales. Besleyici: Aa. bronchiales.",
+      "conditions": [
+        "Pnömoni",
+        "KOAH",
+        "Pulmoner Emboli",
+        "Pnömotoraks"
+      ],
+      "hotspots": [
+        {
+          "id": "trachea",
+          "ta": "Trachea",
+          "title": "Soluk Borusu (Trakea)",
+          "position": [
+            0,
+            1.6,
+            0.2
+          ],
+          "color": "#6393d8",
+          "detail": "C6'dan başlar, T4-T5 (Carina) hizasında sağ ve sol ana bronşlara ayrılır."
+        },
+        {
+          "id": "right-lung",
+          "ta": "Pulmo dexter",
+          "title": "Sağ Akciğer",
+          "position": [
+            -1.2,
+            0.1,
+            0.7
+          ],
+          "color": "#ee7c6a",
+          "detail": "3 lobdan (üst, orta, alt) oluşur. Bronş açısı daha diktir, yabancı cisimler çoğunlukla sağa kaçar."
+        },
+        {
+          "id": "left-lung",
+          "ta": "Pulmo sinister",
+          "title": "Sol Akciğer",
+          "position": [
+            1.2,
+            0.1,
+            0.7
+          ],
+          "color": "#f2a33b",
+          "detail": "2 lobdan oluşur. Kalbin oturduğu incisura cardiaca ve lingula pulmonis içerir."
+        },
+        {
+          "id": "bronchus",
+          "ta": "Bronchus principalis",
+          "title": "Ana Bronşlar",
+          "position": [
+            -0.03,
+            0.3,
+            0.35
+          ],
+          "color": "#d89bc4",
+          "detail": "Sağ ana bronş daha geniş, daha kısa ve daha dikeydir; sol ana bronş daha uzun ve açılıdır."
+        },
+        {
+          "id": "base",
+          "ta": "Basis pulmonis",
+          "title": "Akciğer Tabanı",
+          "position": [
+            -1.14,
+            -1.2,
+            1
+          ],
+          "color": "#7fa88a",
+          "detail": "Diyafram kubbesine oturan konkav yüzeydir. Recessus costodiaphragmaticus komşuluğu önemlidir."
+        }
+      ]
+    },
+    {
+      "id": "liver",
+      "title": "Karaciğer",
+      "latin": "Hepar",
+      "system": "Gastrointestinal & Metabolizma",
+      "icon": "🩸",
+      "model": "models/liver.glb",
+      "accent": "#E76F51",
+      "scale": 2.0,
+      "description": "Vücudun en büyük iç organıdır. Protein sentezi, safra yapımı ve toksin arındırma merkezidir.",
+      "clinical": "Çift kan dolaşımı vardır (%80 V. Portae, %20 A. hepatica propria). Couinaud'a göre 8 fonksiyonel segmente ayrılır.",
+      "bloodSupply": "Vena portae hepatis ve Arteria hepatica propria.",
+      "conditions": [
+        "Siroz",
+        "Hepatit",
+        "Portal Hipertansiyon"
+      ],
+      "hotspots": [
+        {
+          "id": "right-lobe",
+          "ta": "Lobus hepatis dexter",
+          "title": "Sağ Lob",
+          "position": [
+            -0.75,
+            0.35,
+            0.75
+          ],
+          "color": "#ee7c6a",
+          "detail": "En büyük lobdur (segment 5, 6, 7, 8). Safra kesesi yatağı alt yüzeyindedir."
+        },
+        {
+          "id": "left-lobe",
+          "ta": "Lobus hepatis sinister",
+          "title": "Sol Lob",
+          "position": [
+            0.85,
+            0.25,
+            0.75
+          ],
+          "color": "#f2a33b",
+          "detail": "Mide ile komşudur. Ligamentum falciforme ile sağ lobdan anatomik olarak ayrılır."
+        },
+        {
+          "id": "portal",
+          "ta": "Porta hepatis",
+          "title": "Karaciğer Kapısı",
+          "position": [
+            0.1,
+            -0.3,
+            0.82
+          ],
+          "color": "#6393d8",
+          "detail": "Portal triadın (V. portae, A. hepatica propria, Ductus hepaticus communis) giriş-çıkış merkezidir."
+        }
+      ]
+    },
+    {
+      "id": "kidneys",
+      "title": "Böbrekler",
+      "latin": "Renes",
+      "system": "Üriner Sistem",
+      "icon": "💧",
+      "model": "models/kidneys.glb",
+      "accent": "#2A9D8F",
+      "scale": 2.0,
+      "description": "Kanı süzerek atık maddeleri idrarla uzaklaştıran, tansiyon ve eritropoezi denetleyen çift organdır.",
+      "clinical": "Sağ böbrek karaciğer baskısıyla 1-2 cm daha aşağıdadır. Fonksiyonel birim nefrondur.",
+      "bloodSupply": "Arteria renalis (L1-L2 seviyesi).",
+      "conditions": [
+        "Glomerülonefrit",
+        "Nefrolitiyazis",
+        "Akut Böbrek Hasarı"
+      ],
+      "hotspots": [
+        {
+          "id": "cortex",
+          "ta": "Cortex renalis",
+          "title": "Böbrek Korteksi",
+          "position": [
+            -0.9,
+            0.55,
+            0.7
+          ],
+          "color": "#ee7c6a",
+          "detail": "Glomerüller ve kıvrımlı tübülleri içerir. Eritropoietin fibroblastlarca burada üretilir."
+        },
+        {
+          "id": "medulla",
+          "ta": "Medulla renalis",
+          "title": "Böbrek Medullası",
+          "position": [
+            0.85,
+            0.2,
+            0.7
+          ],
+          "color": "#f2a33b",
+          "detail": "Malpighi piramitlerini ve Henle kulplarını içerir. İdrar konsantrasyonu sağlanır."
+        },
+        {
+          "id": "ureter",
+          "ta": "Ureter",
+          "title": "Üreter Girişi",
+          "position": [
+            0.4,
+            -1.1,
+            0.5
+          ],
+          "color": "#6393d8",
+          "detail": "Pelvis renalis'ten idrarı mesaneye taşır. 3 anatomik darlık taş düşürmede kritiktir."
+        }
+      ]
+    },
+    {
+      "id": "eyeball",
+      "title": "Göz Küresi",
+      "latin": "Bulbus Oculi",
+      "system": "Duyu Organı",
+      "icon": "👁️",
+      "model": "models/eyeball.glb",
+      "accent": "#48CAE4",
+      "scale": 2.0,
+      "description": "Işığı kırarak retinada odaklayan ve görme siniriyle beyne aktaran karmaşık duyu organıdır.",
+      "clinical": "Kornea gözün en güçlü kırıcısıdır (~43 dioptri). N. opticus 3 kat beyin zarıyla sarılıdır.",
+      "bloodSupply": "Arteria centralis retinae.",
+      "conditions": [
+        "Glokom",
+        "Katarakt",
+        "Retina Dekolmanı"
+      ],
+      "hotspots": [
+        {
+          "id": "cornea",
+          "ta": "Cornea",
+          "title": "Saydam Kornea",
+          "position": [
+            -0.94,
+            0.05,
+            1.47
+          ],
+          "color": "#6393d8",
+          "detail": "En ön saydam kısımdır. Damarsızdır, beslenmesini diffüzyonla humor aquosus'tan alır."
+        },
+        {
+          "id": "iris",
+          "ta": "Iris & Pupilla",
+          "title": "İris ve Göz Bebeği",
+          "position": [
+            -1.22,
+            -0.53,
+            1.15
+          ],
+          "color": "#f2a33b",
+          "detail": "Göz rengini verir. M. sphincter ve dilator pupillae ile ışık girişini ayarlar."
+        },
+        {
+          "id": "optic",
+          "ta": "Nervus opticus (CN II)",
+          "title": "Görme Siniri",
+          "position": [
+            1.61,
+            -0.18,
+            0.54
+          ],
+          "color": "#d89bc4",
+          "detail": "Retina ganglion hücre aksonlarıdır. KİBAS durumunda papilödem gelişir."
+        }
+      ]
+    },
+    {
+      "id": "intestine",
+      "title": "Bağırsaklar",
+      "latin": "Intestinum",
+      "system": "Sindirim Sistemi",
+      "icon": "🥩",
+      "model": "models/intestine.glb",
+      "accent": "#F4A261",
+      "scale": 2.0,
+      "description": "Besinlerin sindirim ve emiliminin tamamlandığı uzun kıvrımlı sindirim kanalıdır.",
+      "clinical": "İnce bağırsak villuslarla emilim yapar. Kalın bağırsakta taenia coli, haustra ve apendiks epiploika vardır.",
+      "bloodSupply": "AMS ve AMI.",
+      "conditions": [
+        "Apendisit",
+        "Crohn",
+        "Ülseratif Kolit"
+      ],
+      "hotspots": [
+        {
+          "id": "duodenum",
+          "ta": "Duodenum",
+          "title": "Onikiparmak Bağırsağı",
+          "position": [
+            0.6,
+            0.8,
+            0.75
+          ],
+          "color": "#f2a33b",
+          "detail": "Pankreas başını sarar. Papilla duodeni major (Oddi sfinkteri) koledok ve Wirsung kanallarını alır."
+        },
+        {
+          "id": "jejunum",
+          "ta": "Jejunum",
+          "title": "Boş Bağırsak",
+          "position": [
+            -0.45,
+            0.1,
+            0.82
+          ],
+          "color": "#ee7c6a",
+          "detail": "İnce bağırsağın üst 2/5'idir. Kerckring plikaları ve vaskülarizasyonu çok zengindir."
+        },
+        {
+          "id": "colon",
+          "ta": "Colon",
+          "title": "Kolon (Kalın Bağırsak)",
+          "position": [
+            0.75,
+            -0.55,
+            0.72
+          ],
+          "color": "#6393d8",
+          "detail": "Su ve elektrolitleri emer. 3 adet taenia coli kas şeridi içerir."
+        }
+      ]
+    },
+    {
+      "id": "pancreas",
+      "title": "Pankreas",
+      "latin": "Pancreas",
+      "system": "Endokrin & Ekzokrin",
+      "icon": "🥞",
+      "model": "models/pancreas.glb",
+      "accent": "#E9C46A",
+      "scale": 2.0,
+      "description": "Hem sindirim enzimleri hem de insülin ve glukagon salgılayan retroperitoneal karma bez.",
+      "clinical": "Pankreas başı tümörlerinde ağrısız sarılık (Courvoisier bulgusu) gelişir. Kuyruğu dalakla komşudur.",
+      "bloodSupply": "A. splenica ve Aa. pancreaticoduodenales.",
+      "conditions": [
+        "Pankreatit",
+        "Diyabet",
+        "Pankreas Kanseri"
+      ],
+      "hotspots": [
+        {
+          "id": "head",
+          "ta": "Caput pancreatis",
+          "title": "Pankreas Başı",
+          "position": [
+            -1.32,
+            -0.36,
+            0.55
+          ],
+          "color": "#ee7c6a",
+          "detail": "Duodenum kavsi içindedir. Arkasından V. cava inferior ve koledok geçer."
+        },
+        {
+          "id": "body",
+          "ta": "Corpus pancreatis",
+          "title": "Pankreas Gövdesi",
+          "position": [
+            0.05,
+            0.25,
+            0.45
+          ],
+          "color": "#f2a33b",
+          "detail": "Aort abdominalis'i çaprazlar. Üst kenarında A. splenica kıvrılarak seyreder."
+        },
+        {
+          "id": "tail",
+          "ta": "Cauda pancreatis",
+          "title": "Pankreas Kuyruğu",
+          "position": [
+            1.55,
+            0.3,
+            0.35
+          ],
+          "color": "#6393d8",
+          "detail": "İntraperitoneal tek kısımdır; Lig. splenorenale içinde dalak hilusuna uzanır."
+        },
+        {
+          "id": "duct",
+          "ta": "Ductus pancreaticus",
+          "title": "Wirsung Kanalı",
+          "position": [
+            -0.61,
+            0.39,
+            0.5
+          ],
+          "color": "#d89bc4",
+          "detail": "Koledokla birleşerek Vater ampulü üzerinden duodenuma enzim boşaltır."
+        }
+      ]
+    },
+    {
+      "id": "skin",
+      "title": "Deri Katmanları",
+      "latin": "Integumentum",
+      "system": "Örtü Sistemi",
+      "icon": "🔬",
+      "model": "models/skin.glb",
+      "accent": "#DDA15E",
+      "scale": 2.0,
+      "description": "Vücudun dış ortam bariyerini oluşturan, duyu ve ısı dengesinden sorumlu en geniş organ.",
+      "clinical": "Epidermis damarsızdır. Dermal papillalar parmak izlerini oluşturur.",
+      "bloodSupply": "Pleksus vascularis superficialis ve profundus.",
+      "conditions": [
+        "Melanom",
+        "Sedef",
+        "Yanıklar"
+      ],
+      "hotspots": [
+        {
+          "id": "epidermis",
+          "ta": "Epidermis",
+          "title": "Üst Deri (Epidermis)",
+          "position": [
+            -0.05,
+            0.88,
+            1.4
+          ],
+          "color": "#ee7c6a",
+          "detail": "Keratinize epiteldir. Melanosit, Langerhans ve Merkel hücrelerini içerir. Damarsızdır."
+        },
+        {
+          "id": "dermis",
+          "ta": "Dermis",
+          "title": "Gerçek Deri (Dermis)",
+          "position": [
+            0.29,
+            0.05,
+            1.4
+          ],
+          "color": "#f2a33b",
+          "detail": "Kolajen ve elastik lifler, Meissner ve Pacini cisimcikleri, damarlar ve bezler içerir."
+        },
+        {
+          "id": "hypodermis",
+          "ta": "Tela subcutanea",
+          "title": "Deri Altı (Hipodermis)",
+          "position": [
+            -0.39,
+            -1.15,
+            1.4
+          ],
+          "color": "#6393d8",
+          "detail": "Adipoz dokudan zengindir; ısı izolasyonu ve enerji deposudur."
+        },
+        {
+          "id": "follicle",
+          "ta": "Folliculus pili",
+          "title": "Kıl Kökü & Kası",
+          "position": [
+            0.89,
+            -0.44,
+            1.4
+          ],
+          "color": "#d89bc4",
+          "detail": "M. arrector pili (sempatik) kasılarak piloereksiyon (tüylerin dikleşmesi) sağlar."
+        }
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "skeletal_system",
+      "title": "İskelet Sistemi",
+      "latin": "Systema Skeletale",
+      "system": "Hareket Sistemi",
+      "icon": "💀",
+      "model": "models/system_skeletal_sys.glb",
+      "accent": "#00FF87",
+      "scale": 1.8,
+      "description": "206 kemikten oluşan aksiyal ve appendiküler kemik iskelet.",
+      "clinical": "Hematopoez iliak kanat, sternum ve vertebralarda devam eder.",
+      "bloodSupply": "Aa. nutritiae ve periosteal damarlar.",
+      "conditions": [
+        "Osteoporoz",
+        "Kırıklar",
+        "Osteomiyelit"
+      ],
+      "hotspots": [
+        {
+          "id": "skel-skull",
+          "ta": "Cranium",
+          "title": "Kafatası (Cranium)",
+          "position": [
+            0,
+            1.6,
+            0.1
+          ],
+          "color": "#00FF87",
+          "detail": "Beyni koruyan neurocranium ve yüz iskeleti viscerocranium'dan oluşur."
+        },
+        {
+          "id": "skel-spine",
+          "ta": "Columna vertebralis",
+          "title": "Omurga",
+          "position": [
+            0,
+            0.5,
+            -0.1
+          ],
+          "color": "#00C6FF",
+          "detail": "33 vertebradan oluşur (7 servikal, 12 torakal, 5 lumbal, 5 sakral, 4 koksigeal). Omuriliği korur."
+        },
+        {
+          "id": "skel-ribs",
+          "ta": "Costae & Sternum",
+          "title": "Göğüs Kafesi",
+          "position": [
+            0,
+            0.7,
+            0.25
+          ],
+          "color": "#FFD166",
+          "detail": "12 çift kaburga ve sternum kalp ile akciğerleri korur; solunuma katılır."
+        },
+        {
+          "id": "skel-pelvis",
+          "ta": "Pelvis",
+          "title": "Leğen Kemiği (Pelvis)",
+          "position": [
+            0,
+            -0.1,
+            0.05
+          ],
+          "color": "#FF758C",
+          "detail": "Os coxae (ilium, ischium, pubis) ve os sacrum'dan oluşur; gövde ağırlığını bacaklara aktarır."
+        },
+        {
+          "id": "skel-femur",
+          "ta": "Femur",
+          "title": "Uyluk Kemiği (Femur)",
+          "position": [
+            0.25,
+            -0.7,
+            0.05
+          ],
+          "color": "#9D4EDD",
+          "detail": "Vücudun en uzun ve en güçlü kemiğidir. Collum femoris kırıkları avasküler nekroz riski taşır."
+        }
+      ]
+    },
+    {
+      "id": "brainstem",
+      "title": "Beyin Sapı",
+      "latin": "Truncus Encephali",
+      "system": "Sinir Sistemi",
+      "icon": "🧩",
+      "model": "models/BrainStem.glb",
+      "accent": "#FFD166",
+      "scale": 2.0,
+      "description": "Mesencephalon, Pons ve Medulla oblongata'dan oluşur.",
+      "clinical": "III'ten XII'ye kadar kraniyal sinir çekirdeklerini ve hayati merkezleri barındırır.",
+      "bloodSupply": "A. basilaris ve A. vertebralis dalları.",
+      "conditions": [
+        "Wallenberg Sendromu",
+        "Weber Sendromu",
+        "Koma"
+      ],
+      "hotspots": [
+        {
+          "id": "bs-mesen",
+          "ta": "Mesencephalon",
+          "title": "Orta Beyin (Mesencephalon)",
+          "position": [
+            0,
+            0.7,
+            0.2
+          ],
+          "color": "#FF4D6D",
+          "detail": "Colliculus superior (görme refleksleri) ve inferior (işitme refleksleri) ile III-IV sinir çekirdeklerini içerir."
+        },
+        {
+          "id": "bs-pons",
+          "ta": "Pons",
+          "title": "Pons (Varolii)",
+          "position": [
+            0,
+            0.1,
+            0.4
+          ],
+          "color": "#00F0FF",
+          "detail": "V, VI, VII ve VIII. kraniyal sinir çekirdeklerini barındırır. Beyincik yarım kürelerini bağlar."
+        },
+        {
+          "id": "bs-medulla",
+          "ta": "Medulla oblongata",
+          "title": "Omurilik Soğanı",
+          "position": [
+            0,
+            -0.6,
+            0.25
+          ],
+          "color": "#00FF87",
+          "detail": "Solunum ve dolaşım gibi hayati otonom refleks merkezlerini ve IX, X, XI, XII çekirdeklerini içerir."
+        }
+      ]
+    },
+    {
+      "id": "cardiovascular_system",
+      "title": "Dolaşım Sistemi",
+      "latin": "Systema Cardiovasculare",
+      "system": "Kardiyovasküler",
+      "icon": "🫀",
+      "model": "models/system_cardiovascular_sys.glb",
+      "accent": "#EF476F",
+      "scale": 1.8,
+      "description": "Kalp ve tüm vücuda yayılan arteriyel ve venöz vasküler ağ.",
+      "clinical": "Aort kavsi dalları ve alt ekstremite venöz kapak mekanizması TUS'ta esastır.",
+      "bloodSupply": "Sistemik ve pulmoner dolaşım.",
+      "conditions": [
+        "Aort Diseksiyonu",
+        "DVT",
+        "Anevrizma"
+      ],
+      "hotspots": [
+        {
+          "id": "cv-aorta",
+          "ta": "Arcus aortae",
+          "title": "Aort Kavsi",
+          "position": [
+            0,
+            0.8,
+            0.15
+          ],
+          "color": "#EF476F",
+          "detail": "Truncus brachiocephalicus, A. carotis communis sinistra ve A. subclavia sinistra buradan ayrılır."
+        },
+        {
+          "id": "cv-carotid",
+          "ta": "Arteria carotis",
+          "title": "Şah Damarı (Karotis)",
+          "position": [
+            0.15,
+            1.2,
+            0.1
+          ],
+          "color": "#FFD166",
+          "detail": "C4 hizasında interna (beyin) ve externa (yüz) dallarına ayrılır. Glomus caroticum kemoreseptördür."
+        },
+        {
+          "id": "cv-femoral",
+          "ta": "Arteria femoralis",
+          "title": "Femoral Arter",
+          "position": [
+            0.2,
+            -0.4,
+            0.1
+          ],
+          "color": "#00F0FF",
+          "detail": "Lig. inguinale altından geçer; trigonum femorale içinde nabzı palpe edilir."
+        }
+      ]
+    },
+    {
+      "id": "nervous_system",
+      "title": "Sinir Sistemi",
+      "latin": "Systema Nervosum",
+      "system": "Nöroloji",
+      "icon": "🧠",
+      "model": "models/system_nervous_sys.glb",
+      "accent": "#7209B7",
+      "scale": 1.8,
+      "description": "Beyin, omurilik, pleksuslar ve periferik sinir ağları.",
+      "clinical": "Refleks arkları, dermatom haritası ve tuzak nöropatileri cerrahi ve dahiliyede temeldir.",
+      "bloodSupply": "A. spinalis anterior ve posterior, serebral arterler.",
+      "conditions": [
+        "MS",
+        "Guillain-Barré",
+        "Siyatik Nöropati"
+      ],
+      "hotspots": [
+        {
+          "id": "ns-cord",
+          "ta": "Medulla spinalis",
+          "title": "Omurilik (Medulla Spinalis)",
+          "position": [
+            0,
+            0.5,
+            -0.1
+          ],
+          "color": "#7209B7",
+          "detail": "Foramen magnum'dan L1-L2 seviyesine (conus medullaris) kadar uzanır. Refleks merkezidir."
+        },
+        {
+          "id": "ns-brachial",
+          "ta": "Plexus brachialis",
+          "title": "Kol Sinir Ağı (Plexus Brachialis)",
+          "position": [
+            0.35,
+            0.9,
+            0
+          ],
+          "color": "#00F0FF",
+          "detail": "C5-T1 köklerinden doğar; N. radialis, medianus, ulnaris, musculocutaneus ve axillaris'i verir."
+        },
+        {
+          "id": "ns-sciatic",
+          "ta": "Nervus ischiadicus",
+          "title": "Siyatik Sinir",
+          "position": [
+            0.2,
+            -0.5,
+            -0.15
+          ],
+          "color": "#FFD166",
+          "detail": "Vücudun en kalın siniridir (L4-S3). Foramen infrapiriforme'den gluteal bölgeye çıkar."
+        }
+      ]
+    },
+    {
+      "id": "digestive_system",
+      "title": "Sindirim Kanalı",
+      "latin": "Systema Digestorium",
+      "system": "Gastrointestinal",
+      "icon": "🍎",
+      "model": "models/system_digestive_sys.glb",
+      "accent": "#F77F00",
+      "scale": 1.8,
+      "description": "Ağızdan anüse kadar sindirim, enzim salgılama ve emilim traktusu.",
+      "clinical": "Truncus coeliacus, AMS ve AMI beslenme sınırları cerrahide çok kritiktir.",
+      "bloodSupply": "Çölyak arter, AMS, AMI.",
+      "conditions": [
+        "GÖRH",
+        "İleus",
+        "Safra Taşları"
+      ],
+      "hotspots": [
+        {
+          "id": "dig-esoph",
+          "ta": "Esophagus",
+          "title": "Yemek Borusu (Özofagus)",
+          "position": [
+            0,
+            1.0,
+            0
+          ],
+          "color": "#F77F00",
+          "detail": "Farenksten mideye uzanan 25 cm kaslı borudur; krikoid, arkus aorta/bronş ve diyafram darlıkları vardır."
+        },
+        {
+          "id": "dig-stomach",
+          "ta": "Gaster",
+          "title": "Mide Bölgesi",
+          "position": [
+            0.15,
+            0.45,
+            0.15
+          ],
+          "color": "#00FF87",
+          "detail": "Sol hipokondriyumda yer alır; HCl ve pepsin ile kimyasal sindirimi başlatır."
+        },
+        {
+          "id": "dig-colon",
+          "ta": "Intestinum crassum",
+          "title": "Kalın Bağırsak",
+          "position": [
+            0,
+            0,
+            0.15
+          ],
+          "color": "#00C6FF",
+          "detail": "Çekum, kolonlar ve rektumdan oluşur; su ve elektrolit emilimini tamamlar."
+        }
+      ]
+    },
+    {
+      "id": "respiratory_system",
+      "title": "Solunum Sistemi",
+      "latin": "Systema Respiratorium",
+      "system": "Pnömoloji",
+      "icon": "🫁",
+      "model": "models/system_respiratory_sys.glb",
+      "accent": "#4CC9F0",
+      "scale": 1.8,
+      "description": "Larenks, trakea, bronşiyal ağaç ve akciğerler.",
+      "clinical": "N. laryngeus recurrens larenks kaslarını innerve eder; hasarında ses kısıklığı gelişir.",
+      "bloodSupply": "A. pulmonalis ve Aa. bronchiales.",
+      "conditions": [
+        "KOAH",
+        "Bronşektazi",
+        "Larenjit"
+      ],
+      "hotspots": [
+        {
+          "id": "resp-larynx",
+          "ta": "Larynx",
+          "title": "Gırtlak (Larenks)",
+          "position": [
+            0,
+            1.35,
+            0.15
+          ],
+          "color": "#4CC9F0",
+          "detail": "Tiroid, krikoid ve epiglottis kıkırdaklarını ve ses tellerini (plica vocalis) barındırır."
+        },
+        {
+          "id": "resp-trachea",
+          "ta": "Trachea",
+          "title": "Trakea (Soluk Borusu)",
+          "position": [
+            0,
+            1.0,
+            0.1
+          ],
+          "color": "#FFD166",
+          "detail": "At nalı kıkırdak halkalardan oluşur; bifurcatio tracheae (T4-T5) ile ana bronşlara ayrılır."
+        },
+        {
+          "id": "resp-lungs",
+          "ta": "Pulmones",
+          "title": "Akciğer Parankimi",
+          "position": [
+            0.4,
+            0.6,
+            0.15
+          ],
+          "color": "#00FF87",
+          "detail": "Alveollerde sürfaktan varlığı kollapsı engeller ve gaz difüzyonunu sağlar."
+        }
+      ]
+    },
+    {
+      "id": "urinary_system",
+      "title": "Boşaltım Sistemi",
+      "latin": "Systema Urinarium",
+      "system": "Üroloji",
+      "icon": "💧",
+      "model": "models/system_urinary_sys.glb",
+      "accent": "#06D6A0",
+      "scale": 1.8,
+      "description": "Böbrekler, üreterler, mesane ve üretra.",
+      "clinical": "Mesane trigonu embriyolojik mezoderm kökenlidir ve düz mukozalıdır.",
+      "bloodSupply": "A. renalis, Aa. vesicales.",
+      "conditions": [
+        "İdrar Yolu Enfeksiyonu",
+        "Mesane Tümörü",
+        "Üreter Taşı"
+      ],
+      "hotspots": [
+        {
+          "id": "uri-kidney",
+          "ta": "Ren",
+          "title": "Böbrek",
+          "position": [
+            -0.3,
+            0.5,
+            0
+          ],
+          "color": "#06D6A0",
+          "detail": "Retroperitoneal fasulye şekilli organdır; nefronlar aracılığıyla idrarı oluşturur."
+        },
+        {
+          "id": "uri-ureter",
+          "ta": "Ureter",
+          "title": "Üreter",
+          "position": [
+            -0.2,
+            0.1,
+            0.05
+          ],
+          "color": "#FFD166",
+          "detail": "Pelvis renalis ile mesane arasındaki 25-30 cm kanaldır; peristaltizmle idrarı iletir."
+        },
+        {
+          "id": "uri-bladder",
+          "ta": "Vesica urinaria",
+          "title": "Mesane (İdrar Kesesi)",
+          "position": [
+            0,
+            -0.35,
+            0.1
+          ],
+          "color": "#00F0FF",
+          "detail": "Symphysis pubica arkasında yer alır; detrusor kası parasempatik uyarıyla kasılarak miksiyonu sağlar."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Van Gölü",
+    "description": "Volkanik set ve tektonik oluşumlu karma bir göldür. Türkiye'nin en büyük gölüdür ve suları sodalıdır.",
+    "type": "Volkanik Set / Tektonik",
+    "provinces": ["65", "13"]
+  },
+  {
+    "name": "Tuz Gölü",
+    "description": "Tektonik oluşumludur. Türkiye'nin ikinci büyük gölüdür, sığdır ve yazın büyük oranda kuruyarak tuz tabakası bırakır.",
+    "type": "Tektonik",
+    "provinces": ["06", "42", "68"]
+  },
+  {
+    "name": "Beyşehir Gölü",
+    "description": "Tektonik ve karstik oluşumludur. Türkiye'nin en büyük tatlı su gölüdür. Sularını Çarşamba Suyu ile denize ulaştırır (gideğeni vardır).",
+    "type": "Tektonik / Karstik",
+    "provinces": ["42", "32"]
+  },
+  {
+    "name": "Eğirdir Gölü",
+    "description": "Tektonik ve karstik oluşumludur. Tatlı suludur, gideğeni vardır (Kovada Kanalı).",
+    "type": "Tektonik / Karstik",
+    "provinces": ["32"]
+  },
+  {
+    "name": "İznik Gölü",
+    "description": "Marmara Bölgesi'ndeki en büyük tektonik göldür.",
+    "type": "Tektonik",
+    "provinces": ["16"]
+  },
+  {
+    "name": "Burdur Gölü",
+    "description": "Tektonik oluşumludur. Suları acıdır, kapalı havza özelliğindedir.",
+    "type": "Tektonik",
+    "provinces": ["15", "32"]
+  },
+  {
+    "name": "Manyas (Kuş) Gölü",
+    "description": "Tektonik göldür. Önemli bir kuş cenneti milli parkıdır.",
+    "type": "Tektonik",
+    "provinces": ["10"]
+  },
+  {
+    "name": "Acıgöl",
+    "description": "Tektonik göldür. Suları acıdır ve sodyum sülfat (acı tuz) elde edilir.",
+    "type": "Tektonik",
+    "provinces": ["20", "03"]
+  },
+  {
+    "name": "Uluabat (Apolyont) Gölü",
+    "description": "Tektonik göldür. Marmara Bölgesi'nde yer alır, sığ ve bulanıktır.",
+    "type": "Tektonik",
+    "provinces": ["16"]
+  },
+  {
+    "name": "Sapanca Gölü",
+    "description": "Tektonik göldür. Marmara'da yer alır, suyu tatlıdır ve içme suyu kaynağı olarak kullanılır.",
+    "type": "Tektonik",
+    "provinces": ["54", "41"]
+  },
+  {
+    "name": "Akşehir Gölü",
+    "description": "Tektonik göldür. Konya kapalı havzasında yer alır, suları acıdır.",
+    "type": "Tektonik",
+    "provinces": ["42", "03"]
+  },
+  {
+    "name": "Eber Gölü",
+    "description": "Tektonik göldür. Suları tatlıdır ve kamışlıklarla kaplıdır.",
+    "type": "Tektonik",
+    "provinces": ["03"]
+  },
+  {
+    "name": "Erçek Gölü",
+    "description": "Volkanik set gölüdür. Van Gölü'nün doğusunda yer alır, suları sodalıdır.",
+    "type": "Volkanik Set",
+    "provinces": ["65"]
+  },
+  {
+    "name": "Nazik Gölü",
+    "description": "Volkanik set gölüdür. Nemrut volkanının etkisiyle oluşmuştur, tatlı suludur.",
+    "type": "Volkanik Set",
+    "provinces": ["13"]
+  },
+  {
+    "name": "Haçlı (Bulanık) Gölü",
+    "description": "Volkanik set gölüdür.",
+    "type": "Volkanik Set",
+    "provinces": ["49"]
+  },
+  {
+    "name": "Çıldır Gölü",
+    "description": "Volkanik set ve tektonik oluşumludur. Kışın donar, üzerinde atlı kızakla gezilir.",
+    "type": "Volkanik Set / Tektonik",
+    "provinces": ["75", "36"]
+  },
+  {
+    "name": "Balık Gölü",
+    "description": "Volkanik set gölüdür. Türkiye'nin en yüksek rakımlı göllerinden biridir.",
+    "type": "Volkanik Set",
+    "provinces": ["04"]
+  },
+  {
+    "name": "Nemrut Gölü",
+    "description": "Volkanik (Kaldera) gölüdür. Nemrut Dağı'nın kraterinde yer alır.",
+    "type": "Volkanik (Kaldera)",
+    "provinces": ["13"]
+  },
+  {
+    "name": "Meke Tuzlası",
+    "description": "Volkanik (Maar) gölüdür. 'Dünyanın Nazar Boncuğu' olarak bilinir, günümüzde büyük oranda kurumuştur.",
+    "type": "Volkanik (Maar)",
+    "provinces": ["42"]
+  },
+  {
+    "name": "Acıgöl (Nevşehir)",
+    "description": "Volkanik (Maar) gölüdür.",
+    "type": "Volkanik (Maar)",
+    "provinces": ["50"]
+  },
+  {
+    "name": "Gölcük Gölü (Isparta)",
+    "description": "Volkanik (Maar) gölüdür.",
+    "type": "Volkanik (Maar)",
+    "provinces": ["32"]
+  },
+  {
+    "name": "Salda Gölü",
+    "description": "Karstik göldür. Türkiye'nin en derin göllerindendir ve 'Türkiye'nin Maldivleri' olarak bilinir.",
+    "type": "Karstik",
+    "provinces": ["15"]
+  },
+  {
+    "name": "Kestel Gölü",
+    "description": "Karstik göldür.",
+    "type": "Karstik",
+    "provinces": ["15"]
+  },
+  {
+    "name": "Avlan Gölü",
+    "description": "Karstik göldür. Antalya Elmalı ovasında yer alır.",
+    "type": "Karstik",
+    "provinces": ["07"]
+  },
+  {
+    "name": "Suğla Gölü",
+    "description": "Karstik göldür. Konya'da bulunur.",
+    "type": "Karstik",
+    "provinces": ["42"]
+  },
+  {
+    "name": "Büyükçekmece Gölü",
+    "description": "Kıyı set gölüdür (Lagün/Denizkulağı).",
+    "type": "Kıyı Set",
+    "provinces": ["34"]
+  },
+  {
+    "name": "Küçükçekmece Gölü",
+    "description": "Kıyı set gölüdür (Lagün/Denizkulağı).",
+    "type": "Kıyı Set",
+    "provinces": ["34"]
+  },
+  {
+    "name": "Terkos (Durusu) Gölü",
+    "description": "Kıyı set gölüdür (Lagün/Denizkulağı). İstanbul'un önemli içme suyu kaynaklarındandır.",
+    "type": "Kıyı Set",
+    "provinces": ["34"]
+  },
+  {
+    "name": "Akyatan Gölü",
+    "description": "Kıyı set gölüdür (Lagün). Çukurova deltasında yer alır.",
+    "type": "Kıyı Set",
+    "provinces": ["01"]
+  },
+  {
+    "name": "Tortum Gölü",
+    "description": "Heyelan set gölüdür. Erzurum'da bulunur.",
+    "type": "Heyelan Set",
+    "provinces": ["25"]
+  },
+  {
+    "name": "Sera Gölü",
+    "description": "Heyelan set gölüdür. Trabzon'da yer alır.",
+    "type": "Heyelan Set",
+    "provinces": ["61"]
+  },
+  {
+    "name": "Abant Gölü",
+    "description": "Heyelan set gölüdür. Bolu'da bulunur, turistik açıdan önemlidir.",
+    "type": "Heyelan Set",
+    "provinces": ["14"]
+  },
+  {
+    "name": "Yedigöller",
+    "description": "Heyelan set gölleridir. Bolu'da yer alırlar.",
+    "type": "Heyelan Set",
+    "provinces": ["14"]
+  },
+  {
+    "name": "Zinav Gölü",
+    "description": "Heyelan set gölüdür. Tokat'ta bulunur.",
+    "type": "Heyelan Set",
+    "provinces": ["60"]
+  },
+  {
+    "name": "Bafa (Çamiçi) Gölü",
+    "description": "Alüvyal set gölüdür. Büyük Menderes nehrinin taşıdığı alüvyonlarla oluşmuştur.",
+    "type": "Alüvyal Set",
+    "provinces": ["09", "48"]
+  },
+  {
+    "name": "Köyceğiz Gölü",
+    "description": "Alüvyal set gölüdür.",
+    "type": "Alüvyal Set",
+    "provinces": ["48"]
+  },
+  {
+    "name": "Mogan Gölü",
+    "description": "Alüvyal set gölüdür. Ankara'da bulunur.",
+    "type": "Alüvyal Set",
+    "provinces": ["06"]
+  },
+  {
+    "name": "Eymir Gölü",
+    "description": "Alüvyal set gölüdür. Ankara'da bulunur, Mogan'a yakındır.",
+    "type": "Alüvyal Set",
+    "provinces": ["06"]
+  },
+  {
+    "name": "Uzungöl",
+    "description": "Alüvyal set / Heyelan set gölüdür. Trabzon'da bulunur.",
+    "type": "Alüvyal Set",
+    "provinces": ["61"]
+  },
+  {
+    "name": "Marmara Gölü",
+    "description": "Alüvyal set gölüdür. Manisa'da bulunur.",
+    "type": "Alüvyal Set",
+    "provinces": ["45"]
+  }
+]

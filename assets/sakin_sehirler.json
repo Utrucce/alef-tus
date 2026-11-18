@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Seferihisar",
+    "description": "Türkiye'nin ilk sakin şehridir. Mandalina bahçeleri, güneş enerjisi kullanımı ve yerel tohum projeleriyle dikkat çeker. Teos Antik Kenti ve Sığacık kalesi gibi tarihi zenginliklere sahiptir.",
+    "type": "Sakin Şehir",
+    "provinces": ["35"]
+  },
+  {
+    "name": "Akyaka",
+    "description": "Ula ilçesine bağlı bir mahalledir. Azmak Nehri, ahşap oymacılığıyla süslü Muğla evleri ve doğal güzellikleriyle ünlüdür.",
+    "type": "Sakin Şehir",
+    "provinces": ["48"]
+  },
+  {
+    "name": "Gökçeada",
+    "description": "Türkiye'nin en büyük adasıdır. Organik tarım uygulamaları, rüzgar sörfü imkanları, tarihi Rum köyleri ve temiz koylarıyla öne çıkar.",
+    "type": "Sakin Şehir",
+    "provinces": ["17"]
+  },
+  {
+    "name": "Taraklı",
+    "description": "Osmanlı mimarisinin izlerini taşıyan tarihi ahşap evleri, dar sokakları ve bozulmamış doğasıyla bilinir. Karagöl Yaylası önemli bir doğal alandır.",
+    "type": "Sakin Şehir",
+    "provinces": ["54"]
+  },
+  {
+    "name": "Yenipazar",
+    "description": "Yörük Ali Efe Müzesi'ne ev sahipliği yapar. Geleneksel pideleri, tarım alanları ve sakin yaşam tarzıyla öne çıkan bir ege kasabasıdır.",
+    "type": "Sakin Şehir",
+    "provinces": ["09"]
+  },
+  {
+    "name": "Yalvaç",
+    "description": "Pisidia Antiokheia Antik Kenti'ni barındırır. Geleneksel el sanatları, tarihi mahalle fırınları ve kültürel mirasını korumadaki başarısıyla bilinir.",
+    "type": "Sakin Şehir",
+    "provinces": ["32"]
+  },
+  {
+    "name": "Vize",
+    "description": "Tarihi Traklar'a dayanan ilçe, Küçük Ayasofya (Gazi Süleyman Paşa Camii) ve amfi tiyatrosu ile zengin bir tarihi dokuya sahiptir.",
+    "type": "Sakin Şehir",
+    "provinces": ["39"]
+  },
+  {
+    "name": "Perşembe",
+    "description": "Karadeniz'in hırçın yapısına inat, Vona Yarımadası'ndaki sakin koyları, Yason Burnu ve doğal limanlarıyla huzurlu bir balıkçı kasabasıdır.",
+    "type": "Sakin Şehir",
+    "provinces": ["52"]
+  },
+  {
+    "name": "Şavşat",
+    "description": "Karagöl, Sahara Milli Parkı, ahşap mimarili evleri ve yemyeşil ormanlarıyla Doğu Karadeniz'in el değmemiş doğal güzelliklerinden biridir.",
+    "type": "Sakin Şehir",
+    "provinces": ["08"]
+  },
+  {
+    "name": "Halfeti",
+    "description": "Birecik Barajı'nın suları altında kalan eski yerleşimi, siyah gülü (Karagül), taş evleri ve Fırat Nehri kıyısındaki mistik atmosferiyle ünlüdür.",
+    "type": "Sakin Şehir",
+    "provinces": ["63"]
+  },
+  {
+    "name": "Uzundere",
+    "description": "Tortum Şelalesi, Tortum Gölü ve Yedigöller gibi doğal harikalara ev sahipliği yapar. Biyoçeşitlilik açısından oldukça zengin bir vadide yer alır.",
+    "type": "Sakin Şehir",
+    "provinces": ["25"]
+  },
+  {
+    "name": "Göynük",
+    "description": "Akşemseddin Türbesi'ne ev sahipliği yapan ilçe, restore edilmiş tarihi konakları, geleneksel el sanatları ve inanç turizmiyle öne çıkar.",
+    "type": "Sakin Şehir",
+    "provinces": ["14"]
+  },
+  {
+    "name": "Eğirdir",
+    "description": "Eğirdir Gölü, Yeşil Ada ve Can Ada gibi doğal güzellikleri, elma bahçeleri ve tarihi kalesiyle öne çıkan bir göl kasabasıdır.",
+    "type": "Sakin Şehir",
+    "provinces": ["32"]
+  },
+  {
+    "name": "Mudurnu",
+    "description": "Ahilik geleneğinin hala yaşatıldığı (Esnaf Duası), tarihi Osmanlı evleri ve iğne oyası gibi geleneksel el sanatlarıyla bilinen bir merkezdir.",
+    "type": "Sakin Şehir",
+    "provinces": ["14"]
+  },
+  {
+    "name": "Gerze",
+    "description": "Karadeniz kıyısında, yemyeşil doğası, sakin yaşamı, Hacıkadı Tavuğu ve denizle ormanın iç içe geçtiği koylarıyla huzurlu bir ilçedir.",
+    "type": "Sakin Şehir",
+    "provinces": ["57"]
+  },
+  {
+    "name": "Köyceğiz",
+    "description": "Köyceğiz Gölü, Kaunos Antik Kenti, sığla ormanları ve kaplıcalarıyla doğal ve tarihi zenginliklerin bir arada bulunduğu eşsiz bir yerdir.",
+    "type": "Sakin Şehir",
+    "provinces": ["48"]
+  },
+  {
+    "name": "Ahlat",
+    "description": "Van Gölü kıyısındaki ilçe, dünyanın en büyük Türk-İslam mezarlığı olan Selçuklu Meydan Mezarlığı ve tarihi kümbetleriyle büyük bir kültürel mirastır.",
+    "type": "Sakin Şehir",
+    "provinces": ["13"]
+  },
+  {
+    "name": "Güdül",
+    "description": "İç Anadolu'nun ilk sakin şehri olan ilçe, Kirmir Çayı Vadisi, tarihi Ankara evleri mimarisi ve Sorgun Göleti ile doğal bir sığınaktır.",
+    "type": "Sakin Şehir",
+    "provinces": ["06"]
+  },
+  {
+    "name": "Kemaliye",
+    "description": "Karanlık Kanyonu, tarihi taş evleri, Lökhane'si ve kendine has mimarisiyle Fırat Nehri kıyısında yer alan etkileyici bir yerleşimdir.",
+    "type": "Sakin Şehir",
+    "provinces": ["24"]
+  },
+  {
+    "name": "Arapgir",
+    "description": "Köklü tarihi, mor reyhanı, tarihi konakları, köprüleri ve üzüm bağlarıyla kültürel zenginliğini korumayı başarmış bir ilçedir.",
+    "type": "Sakin Şehir",
+    "provinces": ["44"]
+  },
+  {
+    "name": "İznik",
+    "description": "Dört imparatorluğa başkentlik yapmış, İznik çinisi, gölü ve antik kent kalıntılarıyla açık hava müzesi niteliğindeki tarihi bir şehirdir.",
+    "type": "Sakin Şehir",
+    "provinces": ["16"]
+  },
+  {
+    "name": "Finike",
+    "description": "Portakal bahçeleri, Arykanda Antik Kenti, Suluin Mağarası ve bakir koylarıyla Akdeniz'in huzurlu ve tarımsal kimliğini koruyan bir köşesidir.",
+    "type": "Sakin Şehir",
+    "provinces": ["07"]
+  },
+  {
+    "name": "Safranbolu",
+    "description": "UNESCO Dünya Mirası Listesi'nde yer alan ilçe, bozulmamış Osmanlı sivil mimarisi örnekleri olan evleri ve safranı ile dünya çapında tanınır.",
+    "type": "Sakin Şehir",
+    "provinces": ["78"]
+  },
+  {
+    "name": "Daday",
+    "description": "Kastamonu'nun çam ormanlarıyla kaplı, atlı turizmi, etli ekmeği ve tarihi konaklarıyla öne çıkan, doğayla iç içe huzurlu bir ilçesidir.",
+    "type": "Sakin Şehir",
+    "provinces": ["37"]
+  },
+  {
+    "name": "Şarköy",
+    "description": "Marmara Denizi kıyısında, üzüm bağları, zeytin ağaçları, rüzgar sörfü imkanları ve yamaç paraşütü alanlarıyla öne çıkan bir yerleşimdir.",
+    "type": "Sakin Şehir",
+    "provinces": ["59"]
+  }
+]

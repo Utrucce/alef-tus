@@ -1,0 +1,62 @@
+[
+  {
+    "unitName": "Karbonhidrat Metabolizması ve Enerji",
+    "unitIndex": 1,
+    "sections": [
+      {
+        "title": "Glikoliz ve Düzenleyici Enzimler",
+        "content": "Glikoliz sitoplazmada gerçekleşir ve 1 mol glukozdan 2 mol pirüvat üretir.\n\n- **3 Geri Dönüşümsüz Basamak**:\n  1. **Heksokinaz / Glukokinaz**: Glukoz -> Glukoz-6-fosfat. Glukokinaz sadece karaciğer ve pankreas beta hücrelerindedir; Km'si yüksektir (düşük afinite), Vmax'ı yüksektir.\n  2. **Fosfofruktokinaz-1 (PFK-1)**: Hız kısıtlayıcı basamaktır. Fruktoz-6-P -> Fruktoz-1,6-bisfosfat. En güçlü aktivatörü **Fruktoz-2,6-bisfosfat**tır.\n  3. **Pirüvat Kinaz**: Fosfoenolpirüvat -> Pirüvat. Fruktoz-1,6-bisfosfat ile feed-forward aktive olur; ATP ve Alanin ile inhibe olur.\n- **Net Enerji**: Substrat düzeyinde fosforilasyonla 2 ATP ve 2 NADH kazanılır.",
+        "summary": "PFK-1 hız kısıtlayıcıdır (F-2,6-BP aktive eder). Glukokinaz karaciğer/pankreastadır. 2 ATP ve 2 NADH net kazanç.",
+        "keyPoints": [
+          "Hız kısıtlayıcı enzim: PFK-1.",
+          "Fruktoz-2,6-bisfosfat PFK-1'i aktive eder, FBPaz-1'i inhibe eder.",
+          "Glukokinaz yüksek Km ve yüksek Vmax'a sahiptir."
+        ],
+        "model3d": "liver",
+        "image2d": "gorsel_hafiza/krebs_cycle.png"
+      },
+      {
+        "title": "Krebs (TCA) Döngüsü ve Oksidatif Fosforilasyon",
+        "content": "Krebs döngüsü mitokondri matriksinde döner.\n\n- **Hız Kısıtlayıcı Enzim**: **İzositrat Dehidrogenaz**. ADP ile uyarılır, ATP ve NADH ile inhibe olur.\n- **Süksinat Dehidrogenaz**: Krebs döngüsünün hem bir parçası hem de ETZ Kompleks II elemanıdır. Koenzimi FAD'dir.\n- **Substrat Düzeyinde Fosforilasyon**: **Süksinil-CoA Sentetaz (Süksinat tiyokinaz)** GTP sentezler.\n- **ETZ İnhibitörleri**:\n  - Kompleks I: Rotenon, Barbitüratlar.\n  - Kompleks II: Malonat.\n  - Kompleks III: Antimisin A.\n  - Kompleks IV: Siyanür (CN), Karbonmonoksit (CO), Azid.\n  - Kompleks V (ATP Sentaz): Oligomisin.\n  - Ayırıcılar (Uncoupler): 2,4-Dinitrofenol (DNP), Termogenin (kahverengi yağ dokusu).",
+        "summary": "İzositrat dehidrogenaz kontrol enzimidir. Süksinat dehidrogenaz Kompleks II'dir. Siyanür ve CO Kompleks IV'ü bloke eder.",
+        "keyPoints": [
+          "Kompleks IV inhibitörleri: CN ve CO.",
+          "Ayırıcılar (DNP, termogenin) proton gradiyentini bozar, ATP sentezini durdurup ısı üretir.",
+          "FAD bağımlı Krebs enzimi: Süksinat dehidrogenaz."
+        ],
+        "model3d": "liver",
+        "image2d": "gorsel_hafiza/krebs_cycle.png"
+      }
+    ]
+  },
+  {
+    "unitName": "Lipid ve Protein Metabolizması",
+    "unitIndex": 2,
+    "sections": [
+      {
+        "title": "Lipoproteinler ve Kolesterol Metabolizması",
+        "content": "Kolesterol ve yağ asidi metabolizması hücresel membranların ve hormonların kaynağıdır:\n\n- **Kolesterol Sentezi Hız Kısıtlayıcı Enzim**: **HMG-CoA Redüktaz**. Statinlerin hedefidir.\n- **Karnitin Mekiği**: Yağ asitlerinin beta-oksidasyon için sitoplazmadan mitokondriye girmesini sağlar. Malonil-CoA CPT-1'i inhibe eder.\n- **Apoproteinler**:\n  - **Apo A-I**: HDL'dedir, LCAT'ı aktive eder.\n  - **Apo B-48**: Şilomikronda bağırsak kökenlidir.\n  - **Apo B-100**: VLDL, IDL ve LDL'de bulunur; LDL reseptör ligandıdır.\n  - **Apo C-II**: Lipoprotein lipazı (LPL) aktive eder; eksikliğinde masif hipertrigliseridemi görülür.\n  - **Apo E**: Şilomikron ve IDL kalıntılarının karaciğere geri alınmasını sağlar.",
+        "summary": "HMG-CoA redüktaz statin hedefidir. Karnitin CPT-1 beta-oksidasyon mekiğidir. Apo B-48 şilomikron, Apo B-100 LDL/VLDL, Apo A-1 HDL.",
+        "keyPoints": [
+          "Apo C-II eksikliği: Tip 1 hiperlipoproteinemi (şiddetli hipertrigliseridemi ve akut pankreatit riski).",
+          "Apo E eksikliği: Tip 3 disbetalipoproteinemi.",
+          "Apo B-100 LDL reseptörüne bağlanan apoproteindir."
+        ],
+        "model3d": "liver",
+        "image2d": "gorsel_hafiza/inborn_metabolism.png"
+      },
+      {
+        "title": "Aminoasit Yıkımı ve Üre Döngüsü",
+        "content": "Aminoasit azotunun atılım yolu karaciğerdeki üre döngüsüdür:\n\n- **Hız Kısıtlayıcı Basamak**: **Karbamoil Fosfat Sentetaz I (CPS-I)**. Mitokondride yer alır. Allosterik aktivatörü **N-Asetilglutamat (NAG)**'tır.\n- **En Sık Görülen Üre Döngüsü Defekti**: **Ornitin Transkarbamoilaz (OTC) Eksikliği**. X'e bağlı resesif kalıtılan TEK üre döngüsü defektidir. Kanda amonyak ve idrarda orotik asit yükselir!\n- **Fenilketonüri (PKU)**: **Fenilalanin Hidroksilaz** eksikliğidir. Tirozin esansiyel hale gelir. Fenilalanin birikir; zeka geriliği, sarışın-mavi gözlü fenotip ve küflü fare idrarı kokusu görülür.\n- **Alkaptonüri**: **Homogentisat Oksidaz** eksikliği. İdrar bekletilince havayla temasla kararır, kıkırdaklarda siyah pigment birikir (okronozis).",
+        "summary": "Üre döngüsü CPS-I mitokondriyaldir. En sık OTC eksikliği (X'e bağlı, orotik asit artışı). PKU Fenilalanin hidroksilaz eksikliğidir.",
+        "keyPoints": [
+          "X'e bağlı geçen tek üre döngüsü enzimi: Ornitin transkarbamoilaz (OTC).",
+          "PKU'da tirozin esansiyel aminoasit olur; diyetten fenilalanin kısıtlanır.",
+          "Homogentisat oksidaz defekti: Alkaptonüri (idrarda kararma, okronozis)."
+        ],
+        "model3d": "liver",
+        "image2d": "gorsel_hafiza/inborn_metabolism.png"
+      }
+    ]
+  }
+]

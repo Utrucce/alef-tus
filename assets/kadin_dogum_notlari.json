@@ -1,0 +1,32 @@
+[
+  {
+    "unitName": "Üreme Fizyolojisi ve Gebelik Komplikasyonları",
+    "unitIndex": 1,
+    "sections": [
+      {
+        "title": "Menstrüel Siklus ve Ovülasyon Mekanizması",
+        "content": "Menstrüel siklusta hormonal eksen:\n\n- **FSH**: Granüloza hücrelerinde aromatazı uyararak östradiol sentezletir.\n- **Östrojen Eşiği**: >200 pg/mL düzeyinde 36-48 saat kalınca hipofizden LH dalgası patlar.\n- **LH Piki**: Ovülasyondan 36 saat önce başlar, 10-12 saat önce tepeye çıkar. Oosit Mayoz II Metafaz evresinde atılır.\n- **Progesteron**: Korpus luteumdan salınır, sekretuvar fazı yönetir ve bazal vücut sıcaklığını artırır.",
+        "summary": "Östrojen pozitif feedback ile LH dalgası yapar. Ovülasyon oositi Mayoz II metafazda bırakır. Progesteron ateşi yükseltir.",
+        "keyPoints": [
+          "Ovülasyonda atılan oosit Mayoz II Metafaz evresindedir.",
+          "LH piki ovülasyondan 36 saat önce başlar.",
+          "Termojenik hormon: Progesteron."
+        ],
+        "model3d": "system_urinary_sys",
+        "image2d": "gorsel_hafiza/menstrual_cycle.png"
+      },
+      {
+        "title": "Preeklampsi, Eklampsi ve HELLP Sendromu",
+        "content": "Gebelikte hipertansif aciller maternal ve fetal mortalitenin başlıca nedenidir:\n\n- **Preeklampsi**: 20. gebelik haftasından sonra ortaya çıkan yeni başlangıçlı hipertansiyon (>=140/90 mmHg) + Proteinüri (>=300 mg/gün) VEYA uç organ hasarı (trombositopeni, KC enzim yüksekliği, pulmoner ödem, kreatinin artışı).\n- **Ağır Preeklampsi Kriterleri**: Kan basıncı >=160/110 mmHg, trombosit <100.000, KC enzimleri 2 kat artış, inatçı baş ağrısı/görme bozuklukları, pulmoner ödem.\n- **Eklampsi**: Preeklampsi zemininde tonik-klonik konvülsiyonların eklenmesidir. Nöbet profilaksisi ve tedavisinde ilk tercih **Magnezyum Sülfat (MgSO4)**'tır!\n- **MgSO4 Toksisitesi**: İlk kaybolan bulgu **Patella Derin Tendon Refleksi (DTR)**'dir. Solunum depresyonu ve kardiyak arreste ilerleyebilir. Antidotu: **Kalsiyum Glukonat**tır.\n- **HELLP Sendromu**: Hemoliz (H), Karaciğer enzim yüksekliği (EL), Düşük trombosit (LP).",
+        "summary": "20. haftadan sonra HT + Proteinüri/uç organ hasarı = Preeklampsi. Nöbette MgSO4 verilir, antidotu Kalsiyum glukonattır.",
+        "keyPoints": [
+          "Eklampsi nöbet tedavisinde ilk tercih: Magnezyum sülfat.",
+          "MgSO4 toksisitesinde ilk bulgu: Patella refleksinin kaybı; antidot: Kalsiyum glukonat.",
+          "Preeklampsinin kesin ve nihai tedavisi bebeğin ve plasentanın doğurtulmasıdır."
+        ],
+        "model3d": "system_cardiovascular_sys",
+        "image2d": "gorsel_hafiza/obstetric_pelvis.png"
+      }
+    ]
+  }
+]

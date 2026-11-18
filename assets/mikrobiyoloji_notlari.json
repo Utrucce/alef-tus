@@ -1,0 +1,50 @@
+[
+  {
+    "unitName": "Bakteriyoloji ve Klinik İnfeksiyonlar",
+    "unitIndex": 1,
+    "sections": [
+      {
+        "title": "Gram Pozitif Koklar ve Streptokoklar",
+        "content": "Katalaz ve koagülaz testleri tanı algoritmasının başlangıcıdır:\n\n- **Staphylococcus aureus**: Katalaz (+), Koagülaz (+). Protein A üretir (IgG Fc parçasına bağlanarak opsonizasyonu ve fagositozu önler). Toksinleri: TSST-1 (Toksik Şok Sendromu), Eksfoliyatif toksin (Haşlanmış Deri Sendromu - SSSS).\n- **Staphylococcus epidermidis**: Koagülaz (-), Novobiosine duyarlı. Biyofilm (slime faktörü) oluşturur; protez kapak, kateter ve şant infeksiyonlarının 1 numaralı etkenidir.\n- **Streptococcus pyogenes (GAS)**: Basitrasine duyarlı, PYR (+). Post-streptokoksik sekeller: ARA (Akut Romatizmal Ateş - sadece farenjit sonrası) ve APSGN (Akut Poststreptokoksik Glomerülonefrit - hem boğaz hem cilt sonrası).\n- **Streptococcus pneumoniae**: Alfa hemolitik, Optokine duyarlı, safrada erir. Toplum kökenli pnömoni ve erişkin menenjitinin en sık etkenidir.",
+        "summary": "S. aureus Protein A ve TSST-1. S. epidermidis biyofilm (kateter). GAS basitrasin duyarlı, ARA farenjit sonrası gelişir. Pnömokok optokin duyarlıdır.",
+        "keyPoints": [
+          "ARA sadece boğaz enfeksiyonu sonrası gelişir.",
+          "APSGN hem boğaz hem cilt (impetigo) enfeksiyonu sonrası gelişebilir.",
+          "Protez kapak endokarditi erken dönemde: S. epidermidis."
+        ],
+        "model3d": "heart",
+        "image2d": "gorsel_hafiza/gram_staining.png"
+      },
+      {
+        "title": "Gram Negatif Çomaklar ve Zoonozlar",
+        "content": "Hastane enfeksiyonları ve zoonotik tablolar:\n\n- **Pseudomonas aeruginosa**: Oksidaz (+), piyosiyanin yeşil pigmenti, tatlı meyvemsi koku. Kistik fibrozis pnömonisi, yanık yarası sepsisi, ektima gangrenozum etkenidir.\n- **Brucella**: Gram negatif kokobasil, fakültatif hücre içi. Pastörize edilmemiş süt ürünleri ile bulaşır. Dalgalı ateş, hepatosplenomegali ve sakroileit yapar.\n- **Legionella pneumophila**: Gümüşleme ve BCYE besiyerinde ürer. Klima, su sistemleri kaynaklı atipik pnömoni, hiponatremi ve ishal ile birliktedir.",
+        "summary": "Pseudomonas oksidaz (+), kistik fibrozis ve yanık etkeni. Brucella dalgalı ateş ve sakroileit yapar. Legionella klima kaynaklıdır, hiponatremi yapar.",
+        "keyPoints": [
+          "Pseudomonas ektima gangrenozum ve malign otitis eksterna yapar.",
+          "Brucella tanısında Wright aglütinasyonu, tedavide Doksisiklin + Rifampisin.",
+          "Legionella tanısında İdrar Antijen Testi altın standarttır."
+        ],
+        "model3d": "lungs",
+        "image2d": "gorsel_hafiza/bacterial_shapes.png"
+      }
+    ]
+  },
+  {
+    "unitName": "Viroloji ve İmmünoloji",
+    "unitIndex": 2,
+    "sections": [
+      {
+        "title": "Viral Hepatitler Serolojisi ve Yorumu",
+        "content": "Hepatit B serolojik göstergeleri TUS'ta klinisyenliğin temelidir:\n\n- **HBsAg**: Enfeksiyonun varlığını gösteren ilk antijendir. 6 aydan uzun kalırsa kronikleşme demektir.\n- **Anti-HBs**: İmmünite (bağışıklık) göstergesidir. Aşılananlarda sadece Anti-HBs (+) olur!\n- **Anti-HBc IgM**: Akut enfeksiyonun ve **Pencere Dönemi (Window Period)**'nin en güvenilir belirtecidir!\n- **Anti-HBc IgG**: Geçirilmiş doğal enfeksiyonu gösterir. Aşılananlarda Anti-HBc ASLA pozitif olmaz!\n- **HBeAg ve HBV-DNA**: Yüksek viral replikasyon ve yüksek bulaşıcılık göstergesidir.",
+        "summary": "HBsAg enfeksiyon, Anti-HBs bağışıklık, Anti-HBc IgM pencere dönemi/akut enfeksiyon, HBeAg replikasyonu gösterir.",
+        "keyPoints": [
+          "Aşılanan kişide: Sadece Anti-HBs (+), diğer tüm antikor ve antijenler negatiftir.",
+          "Doğal bağışıkta: Anti-HBs (+) ve Anti-HBc IgG (+) birliktedir.",
+          "Pencere döneminde saptanabilen tek antikor: Anti-HBc IgM."
+        ],
+        "model3d": "liver",
+        "image2d": "gorsel_hafiza/inborn_metabolism.png"
+      }
+    ]
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Yozgat Çamlığı Milli Parkı",
+    "description": "Türkiye'nin ilk milli parkıdır. Yozgat il merkezine çok yakın konumda yer alan, eşsiz çam ormanlarına sahip dinlenme yeridir.",
+    "type": "Milli Park",
+    "provinces": ["66"]
+  },
+  {
+    "name": "Munzur Vadisi Milli Parkı",
+    "description": "Tunceli'de yer alan ve Türkiye'nin en büyük milli parklarından biridir. Akarsuları, yaban hayatı ve bitki örtüsüyle muhteşem bir doğa harikasıdır.",
+    "type": "Milli Park",
+    "provinces": ["62"]
+  },
+  {
+    "name": "Kaçkar Dağları Milli Parkı",
+    "description": "Rize ve Artvin sınırlarında yer alır. Buzul gölleri, yaylaları ve yüksek zirveleriyle doğa sporları için ideal bir merkezdir.",
+    "type": "Milli Park",
+    "provinces": ["53", "08"]
+  },
+  {
+    "name": "Ölüdeniz",
+    "description": "Muğla'nın Fethiye ilçesinde yer alan, kumsalı ve durgun turkuaz rengi deniziyle dünyanın en ünlü plajlarından biridir. Babadağ'da yamaç paraşütü de çok popülerdir.",
+    "type": "Plaj/Koy",
+    "provinces": ["48"]
+  },
+  {
+    "name": "Salda Gölü",
+    "description": "Burdur'un Yeşilova ilçesinde bulunur. Beyaz kumsalları ve turkuaz rengi suyuyla 'Türkiye'nin Maldivleri' olarak bilinir.",
+    "type": "Doğal Güzellik",
+    "provinces": ["15"]
+  },
+  {
+    "name": "Uzungöl",
+    "description": "Trabzon'un Çaykara ilçesinde yer alan heyelan set gölüdür. Etrafı çam ormanlarıyla kaplı eşsiz bir turizm merkezidir.",
+    "type": "Doğal Güzellik",
+    "provinces": ["61"]
+  },
+  {
+    "name": "Ayder Yaylası",
+    "description": "Rize'nin Çamlıhemşin ilçesinde bulunan, kaplıcaları ve doğal güzelliği ile ünlü turistik yayladır.",
+    "type": "Turizm Merkezi",
+    "provinces": ["53"]
+  },
+  {
+    "name": "Ilıca Şelalesi",
+    "description": "Kastamonu'nun Pınarbaşı ilçesinde bulunur. Suyun döküldüğü yerde oluşan doğal havuz ve çevresindeki yeşilliklerle dikkat çeker.",
+    "type": "Doğal Güzellik",
+    "provinces": ["37"]
+  },
+  {
+    "name": "Kapuzbaşı Şelalesi",
+    "description": "Kayseri'nin Yahyalı ilçesinde yer alır. Dünyanın en yüksek debili şelalelerinden biri olup, sular doğrudan dağın yamacından fışkırır.",
+    "type": "Doğal Güzellik",
+    "provinces": ["38"]
+  },
+  {
+    "name": "Manavgat Şelalesi",
+    "description": "Antalya'nın Manavgat ilçesinde yer alır. Geniş bir alandan gür bir şekilde akan sular görsel bir şölen sunar.",
+    "type": "Doğal Güzellik",
+    "provinces": ["07"]
+  },
+  {
+    "name": "Ihlara Vadisi",
+    "description": "Aksaray'da Melendiz Çayı'nın aşındırmasıyla oluşmuş kanyondur. Vadi boyunca kayalara oyulmuş çok sayıda tarihi kilise bulunur.",
+    "type": "Milli Park",
+    "provinces": ["68"]
+  },
+  {
+    "name": "Karagöl-Sahara Milli Parkı",
+    "description": "Artvin'in Şavşat ilçesinde bulunur. Karagöl'ün muhteşem manzarası ve Sahara yaylasıyla doğa turizmi için idealdir.",
+    "type": "Milli Park",
+    "provinces": ["08"]
+  },
+  {
+    "name": "Kazdağları Milli Parkı",
+    "description": "Balıkesir ve Çanakkale sınırlarında yer alan oksijen deposu dağlardır. Mitolojide İda Dağı olarak geçer.",
+    "type": "Milli Park",
+    "provinces": ["10", "17"]
+  },
+  {
+    "name": "Yedigöller Milli Parkı",
+    "description": "Bolu'da yer alan, heyelanlar sonucu oluşmuş 7 adet gölden meydana gelen, sonbahar manzarasıyla ünlü milli parktır.",
+    "type": "Milli Park",
+    "provinces": ["14"]
+  },
+  {
+    "name": "Abant Gölü",
+    "description": "Bolu'da yer alan krater gölüdür. Çevresi çam ormanlarıyla kaplı olup kış aylarında harika manzaralar sunar.",
+    "type": "Doğal Güzellik",
+    "provinces": ["14"]
+  },
+  {
+    "name": "Kelebekler Vadisi",
+    "description": "Muğla'nın Fethiye ilçesinde yer alan, sadece teknelerle veya sarp yollardan ulaşılabilen, barındırdığı endemik kelebek türleriyle meşhur doğa harikası koy.",
+    "type": "Plaj/Koy",
+    "provinces": ["48"]
+  },
+  {
+    "name": "Gölcük Tabiat Parkı",
+    "description": "Bolu'da bulunan, göl çevresindeki ormanlık alan ve karakteristik misafirhanesiyle ünlü mesire ve doğa alanıdır.",
+    "type": "Doğal Güzellik",
+    "provinces": ["14"]
+  },
+  {
+    "name": "Tortum Şelalesi",
+    "description": "Erzurum'un Uzundere ilçesinde yer alan ve 48 metre yükseklikten dökülen heybetli şelaledir.",
+    "type": "Doğal Güzellik",
+    "provinces": ["25"]
+  },
+  {
+    "name": "Pamukkale Travertenleri",
+    "description": "Denizli'de yer alan, sıcak su kaynaklarının oluşturduğu beyaz kalsiyum karbonat teraslarıdır. Aynı zamanda UNESCO mirasındadır.",
+    "type": "Doğal Güzellik",
+    "provinces": ["20"]
+  },
+  {
+    "name": "Damlataş Mağarası",
+    "description": "Antalya'nın Alanya ilçesinde bulunur. Astım hastalarına iyi geldiği düşünülen havası ve sarkıt-dikitleriyle meşhurdur.",
+    "type": "Turizm Merkezi",
+    "provinces": ["07"]
+  },
+  {
+    "name": "Karaca Mağarası",
+    "description": "Gümüşhane'de yer alan ve dünyanın en güzel damlataşı mağaralarından biri olarak kabul edilen turistik bir mağaradır.",
+    "type": "Doğal Güzellik",
+    "provinces": ["29"]
+  },
+  {
+    "name": "Cennet ve Cehennem Obrukları",
+    "description": "Mersin'in Silifke ilçesinde yer alan, yeraltı sularının kireçtaşını eritmesi sonucu çöken iki büyük çukurdur.",
+    "type": "Doğal Güzellik",
+    "provinces": ["33"]
+  },
+  {
+    "name": "Meke Gölü (Meke Maarı)",
+    "description": "Konya'nın Karapınar ilçesinde sönmüş bir volkan kraterinin suyla dolmasıyla oluşmuş, 'Dünyanın Nazar Boncuğu' olarak anılan krater gölüdür.",
+    "type": "Doğal Güzellik",
+    "provinces": ["42"]
+  },
+  {
+    "name": "Kuşcenneti Milli Parkı",
+    "description": "Balıkesir'in Bandırma ilçesindeki Manyas Gölü çevresinde yer alır. Göçmen kuşların önemli bir uğrak yeridir.",
+    "type": "Milli Park",
+    "provinces": ["10"]
+  },
+  {
+    "name": "Nemrut Krater Gölü",
+    "description": "Bitlis'in Tatvan ilçesindeki Nemrut Dağı'nda bulunan, Türkiye'nin en büyük, dünyanın ise en büyük ikinci krater gölüdür.",
+    "type": "Doğal Güzellik",
+    "provinces": ["13"]
+  },
+  {
+    "name": "Saklıkent Kanyonu",
+    "description": "Muğla'nın Seydikemer ilçesi ile Antalya sınırı arasında yer alan sarp ve derin bir kanyondur. Yaz aylarında buz gibi sularıyla ilgi çeker.",
+    "type": "Milli Park",
+    "provinces": ["48", "07"]
+  },
+  {
+    "name": "Şirince Köyü",
+    "description": "İzmir'in Selçuk ilçesinde yer alan, tarihi evleri, şarapçılığı ve nostaljik atmosferiyle bilinen ünlü köydür.",
+    "type": "Turizm Merkezi",
+    "provinces": ["35"]
+  },
+  {
+    "name": "Uludağ Milli Parkı",
+    "description": "Bursa'da yer alan, kış aylarında kayak sporunun, yaz aylarında ise doğa yürüyüşlerinin merkezi olan milli park.",
+    "type": "Milli Park",
+    "provinces": ["16"]
+  },
+  {
+    "name": "Sarıkamış Kayak Merkezi",
+    "description": "Kars'ta bulunan, Alp Dağları'na özgü 'kristal kar' özelliği ile tanınan, çam ağaçları arasındaki popüler kış turizm merkezi.",
+    "type": "Turizm Merkezi",
+    "provinces": ["36"]
+  },
+  {
+    "name": "Palandöken Kayak Merkezi",
+    "description": "Erzurum'da yer alan, uzun ve dik pistleriyle profesyonel kayakçılar tarafından tercih edilen kış sporları merkezidir.",
+    "type": "Turizm Merkezi",
+    "provinces": ["25"]
+  }
+]

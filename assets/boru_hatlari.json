@@ -1,0 +1,122 @@
+[
+  {
+    "name": "BTC (Bakü-Tiflis-Ceyhan) Petrol Boru Hattı",
+    "description": "Hazar Denizi'nden çıkarılan Azerbaycan (ve bir miktar Kazak) petrolünün Gürcistan üzerinden Türkiye'ye ve oradan Ceyhan Limanı (Adana) vasıtasıyla dünya pazarlarına ulaştırılmasını sağlayan stratejik petrol boru hattıdır. 2006'da işletmeye açılmıştır. Türkiye'nin enerji koridoru rolünü büyük ölçüde pekiştirmiştir.",
+    "type": "Petrol Boru Hattı",
+    "provinces": ["75", "36", "25", "24", "58", "38", "46", "01"]
+  },
+  {
+    "name": "BTE (Bakü-Tiflis-Erzurum) Doğalgaz Boru Hattı",
+    "description": "Azerbaycan'ın Şahdeniz sahasında üretilen doğalgazı Gürcistan üzerinden Türkiye'ye (Erzurum) taşıyan hattır. 2007'de faaliyete geçmiştir. Şahdeniz-1 projesinin gazını taşır.",
+    "type": "Doğalgaz Boru Hattı",
+    "provinces": ["75", "36", "25"]
+  },
+  {
+    "name": "TANAP (Trans Anadolu Doğalgaz Boru Hattı)",
+    "description": "Azerbaycan'ın Şahdeniz-2 sahasından çıkarılan doğalgazın Türkiye üzerinden Avrupa'ya taşınmasını sağlayan tarihi projedir. Ardahan'dan girip Edirne'den çıkarak TAP'a bağlanır. Türkiye'nin enerji hub'ı olma hedefinin en büyük adımlarından biridir. 2018'de Türkiye'ye, 2019'da Avrupa'ya gaz akışı başlamıştır.",
+    "type": "Doğalgaz Boru Hattı",
+    "provinces": ["75", "36", "25", "69", "29", "24", "58", "66", "40", "71", "06", "26", "11", "43", "16", "10", "17", "59", "22"]
+  },
+  {
+    "name": "TürkAkım (Turkish Stream)",
+    "description": "Rus doğalgazını Karadeniz altından geçerek doğrudan Türkiye'ye ve oradan Avrupa'ya taşıyan hattır. Kıyıköy (Kırklareli) üzerinden karaya çıkar. İki hattan oluşur: Biri Türkiye'nin iç talebini karşılar, diğeri Avrupa'ya uzanır. 2020'de açılmıştır.",
+    "type": "Doğalgaz Boru Hattı",
+    "provinces": ["39", "59"]
+  },
+  {
+    "name": "Mavi Akım (Blue Stream)",
+    "description": "Rusya'dan Karadeniz altından geçerek Samsun'dan Türkiye'ye giren, Ordu, Amasya, Çorum, Kırıkkale üzerinden Ankara'ya ulaşan doğalgaz boru hattıdır. 2003 yılında devreye girmiştir.",
+    "type": "Doğalgaz Boru Hattı",
+    "provinces": ["55", "52", "05", "19", "71", "06"]
+  },
+  {
+    "name": "Irak-Türkiye (Kerkük-Yumurtalık) Petrol Boru Hattı",
+    "description": "Irak'ın Kerkük bölgesinde üretilen petrolü Adana Ceyhan'daki Yumurtalık terminaline taşıyan en eski ve önemli petrol boru hatlarından biridir. 1976'da faaliyete geçmiştir.",
+    "type": "Petrol Boru Hattı",
+    "provinces": ["73", "47", "63", "27", "80", "01"]
+  },
+  {
+    "name": "Batman-Dörtyol Petrol Boru Hattı",
+    "description": "Türkiye'nin ilk yerli petrol boru hattıdır. Batman'da üretilen ham petrolü İskenderun Körfezi'ndeki Dörtyol (Hatay) terminaline ulaştırır. 1967 yılında devreye alınmıştır.",
+    "type": "Petrol Boru Hattı",
+    "provinces": ["72", "21", "63", "27", "31"]
+  },
+  {
+    "name": "İran-Türkiye Doğalgaz Boru Hattı",
+    "description": "İran doğalgazını Doğubayazıt (Ağrı) üzerinden Türkiye'ye ulaştıran hattır. Erzurum, Sivas, Kayseri üzerinden Ankara'ya ulaşır. 2001 yılından itibaren gaz akışı başlamıştır.",
+    "type": "Doğalgaz Boru Hattı",
+    "provinces": ["04", "25", "24", "58", "38", "71", "06"]
+  },
+  {
+    "name": "Rusya-Türkiye Doğalgaz Boru Hattı (Batı Hattı)",
+    "description": "Türkiye'ye Bulgaristan üzerinden giren, Rus doğalgazını Marmara Bölgesi'ne ulaştıran ilk doğalgaz hattıdır. Malkoçlar (Kırklareli) girişlidir. TürkAkım'ın devreye girmesiyle işlevi azalmıştır.",
+    "type": "Doğalgaz Boru Hattı",
+    "provinces": ["39", "59", "34", "41"]
+  },
+  {
+    "name": "Türkiye-Yunanistan Doğalgaz Enterkoneksiyonu (ITG)",
+    "description": "Türkiye üzerinden Yunanistan'a Hazar bölgesi gazının taşınmasını sağlayan hattır. Edirne sınırından Yunanistan'a geçer. 2007'de devreye girmiştir.",
+    "type": "Doğalgaz Boru Hattı",
+    "provinces": ["22"]
+  },
+  {
+    "name": "BOTAŞ Dörtyol FSRU",
+    "description": "Hatay Dörtyol'da bulunan, Türkiye'nin enerji arz güvenliğine katkı sağlayan Yüzer LNG Depolama ve Gazlaştırma Ünitesidir (FSRU). Gemi vasıtasıyla sıvılaştırılmış doğalgazı sisteme basar.",
+    "type": "LNG Terminali",
+    "provinces": ["31"]
+  },
+  {
+    "name": "Etki Limanı FSRU (İzmir)",
+    "description": "İzmir Aliağa'da bulunan Türkiye'nin ilk özel sektör FSRU (Yüzer LNG Terminali) projesidir. Sistemdeki doğalgaz arzını dengelemek ve pik tüketim zamanlarında destek sağlamak için kullanılır.",
+    "type": "LNG Terminali",
+    "provinces": ["35"]
+  },
+  {
+    "name": "Saros FSRU Terminali",
+    "description": "Edirne'nin Saros Körfezi'nde BOTAŞ tarafından kurulan yüzer LNG terminalidir. Marmara ve Balkanlar'ın enerji arz güvenliğini artırmak amacıyla 2023 yılında faaliyete geçmiştir.",
+    "type": "LNG Terminali",
+    "provinces": ["22"]
+  },
+  {
+    "name": "Egegaz Aliağa LNG Terminali",
+    "description": "İzmir Aliağa'da kurulan, yurtdışından gemilerle gelen sıvılaştırılmış doğalgazı (LNG) depolayan ve gazlaştıran kara terminalidir.",
+    "type": "LNG Terminali",
+    "provinces": ["35"]
+  },
+  {
+    "name": "Marmara Ereğlisi LNG Terminali",
+    "description": "Tekirdağ Marmara Ereğlisi'nde BOTAŞ'a ait olan Türkiye'nin ilk LNG terminalidir. Arz güvenliğinin kilit noktalarından biridir.",
+    "type": "LNG Terminali",
+    "provinces": ["59"]
+  },
+  {
+    "name": "TAP (Trans Adriyatik Boru Hattı)",
+    "description": "TANAP'ın devamı niteliğinde olup, Yunanistan, Arnavutluk üzerinden Adriyatik Denizi'ni geçerek İtalya'ya ulaşan doğalgaz hattıdır. Türkiye sınırlarından geçmemekle birlikte Güney Gaz Koridoru'nun Avrupa ayağıdır.",
+    "type": "Enerji Koridoru",
+    "provinces": []
+  },
+  {
+    "name": "Nabucco Doğalgaz Boru Hattı (İptal/Planlanan)",
+    "description": "Hazar ve Ortadoğu gazını Türkiye üzerinden Avrupa'ya taşımayı hedeflemiş devasa bir projeydi. Ancak yerini TANAP ve TAP projelerine bırakarak rafa kaldırılmıştır.",
+    "type": "Enerji Koridoru",
+    "provinces": []
+  },
+  {
+    "name": "Zengezur Koridoru (Enerji Yönü)",
+    "description": "Azerbaycan ile Nahçıvan'ı Ermenistan üzerinden birbirine bağlaması hedeflenen koridordur. Sadece ulaşım değil, Orta Asya ve Hazar enerji kaynaklarının Türkiye'ye doğrudan ulaşması için stratejik bir enerji koridoru potansiyeli taşır.",
+    "type": "Enerji Koridoru",
+    "provinces": ["76"]
+  },
+  {
+    "name": "BOTAŞ Doğalgaz Ana İletim Hattı",
+    "description": "Türkiye'nin dört bir yanına doğalgaz ulaştıran ulusal çelik boru şebekesidir. Ülke içindeki tüm yerel dağıtım hatlarının beslendiği ana arterdir.",
+    "type": "Doğalgaz Boru Hattı",
+    "provinces": ["06", "34", "35", "01"]
+  },
+  {
+    "name": "Güney Gaz Koridoru",
+    "description": "Azerbaycan'daki Şahdeniz-2 sahasından çıkarılan doğalgazın, SCP (Güney Kafkasya Boru Hattı), TANAP ve TAP üzerinden Avrupa'ya ulaştırılmasını sağlayan entegre koridorun genel adıdır.",
+    "type": "Enerji Koridoru",
+    "provinces": []
+  }
+]

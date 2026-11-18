@@ -1,0 +1,197 @@
+[
+  {
+    "name": "Buğday",
+    "description": "Büyüme döneminde yağış, olgunlaşma döneminde sıcaklık ve kuraklık ister. En çok İç Anadolu'da yetişir. Karadeniz kıyılarında yaz yağışlarından dolayı yetişmez.",
+    "provinces": ["42", "06", "26"]
+  },
+  {
+    "name": "Arpa",
+    "description": "Buğdaya göre soğuğa ve sıcağa daha dayanıklıdır. Daha kısa sürede olgunlaşır. Yem sanayisinde ve bira yapımında kullanılır.",
+    "provinces": ["42", "06", "38"]
+  },
+  {
+    "name": "Yulaf",
+    "description": "Sıcağa ve kuraklığa daha az dayanıklıdır. Serin iklimleri sever. Yem ve bisküvi sanayisinde kullanılır.",
+    "provinces": ["06", "58", "54"]
+  },
+  {
+    "name": "Çavdar",
+    "description": "Tahıllar içinde soğuğa en dayanıklı olanıdır. Yüksek ve serin yerlerde, verimsiz topraklarda bile yetişebilir.",
+    "provinces": ["51", "38", "50"]
+  },
+  {
+    "name": "Mısır",
+    "description": "Yaz yağışı isteyen bir bitkidir. Doğal yetişme alanı Karadeniz kıyılarıdır ancak sulama ile Akdeniz'de üretimi birinci sıradadır.",
+    "provinces": ["01", "54", "80"]
+  },
+  {
+    "name": "Pirinç (Çeltik)",
+    "description": "Bol su ister, akarsu boylarında yetişir. Sıtma hastalığı riskinden dolayı devlet kontrolündedir.",
+    "provinces": ["22", "55", "10", "19"]
+  },
+  {
+    "name": "Pamuk",
+    "description": "Büyüme döneminde su, hasat döneminde kuraklık ister. Çukurova, Ege ve GAP ile birlikte en çok Güneydoğu Anadolu'da yetişir.",
+    "provinces": ["63", "09", "31"]
+  },
+  {
+    "name": "Tütün",
+    "description": "Kıraç toprakları sever, iklim seçiciliği azdır. Kaliteyi korumak amacıyla devlet kontrolünde üretilir. En çok Ege Bölgesinde yetişir.",
+    "provinces": ["45", "20", "55"]
+  },
+  {
+    "name": "Şeker Pancarı",
+    "description": "Sulama ile yetişir, hasattan sonra çabuk işlenmesi gerektiği için fabrikalar üretim alanlarına yakındır. Küspesi hayvan yemi olur.",
+    "provinces": ["42", "66", "26"]
+  },
+  {
+    "name": "Çay",
+    "description": "Bol yağış ve yıkanmış kireçsiz toprak ister. Sadece Doğu Karadeniz kıyılarında yetişir. Mikroklima ürünüdür.",
+    "provinces": ["53", "61", "08"]
+  },
+  {
+    "name": "Haşhaş",
+    "description": "Uyuşturucu elde edildiği için devlet kontrolündedir. En çok Ege Bölgesinde, İç Batı Anadolu bölümünde yetişir.",
+    "provinces": ["03", "42", "20"]
+  },
+  {
+    "name": "Keten",
+    "description": "Lifleri dokuma sanayisinde, tohumundan ise bezir yağı üretiminde yararlanılır. Serin ve nemli iklim ister.",
+    "provinces": ["03", "41"]
+  },
+  {
+    "name": "Kenevir",
+    "description": "Uyuşturucu yapımında kullanılabildiği için devlet kontrolündedir. Halat, urgan, çuval yapımında kullanılır.",
+    "provinces": ["55", "37"]
+  },
+  {
+    "name": "Ayçiçeği",
+    "description": "Büyüme döneminde yağış, olgunlaşma döneminde güneş ister. En çok Marmara Bölgesi'nde, Ergene Bölümü'nde yetişir.",
+    "provinces": ["59", "22", "39", "42"]
+  },
+  {
+    "name": "Zeytin",
+    "description": "Akdeniz ikliminin karakteristik ağacıdır. Kış ılıklığı ister, dona karşı hassastır. Ege ve Marmara (Güney) ilk sıradadır.",
+    "provinces": ["09", "35", "48", "10"]
+  },
+  {
+    "name": "Soya Fasulyesi",
+    "description": "Yağ ve protein oranı yüksektir. Daha çok Çukurova'da sulama ile ikinci ürün olarak yetiştirilir.",
+    "provinces": ["01", "80", "33"]
+  },
+  {
+    "name": "Susam",
+    "description": "Sıcaklık isteği yüksektir. Daha çok Ege ve Akdeniz bölgelerinde, Güney Marmara'da yetişir.",
+    "provinces": ["07", "48", "45"]
+  },
+  {
+    "name": "Yer Fıstığı",
+    "description": "Gevşek kumlu toprakları ve sıcak iklimi sever. En çok Akdeniz Bölgesinde yetiştirilir.",
+    "provinces": ["80", "01"]
+  },
+  {
+    "name": "Fındık",
+    "description": "Bol yağış ve ılıman iklim ister. Karadeniz kıyı kuşağında, özellikle Ordu ve Giresun'da çok yaygındır.",
+    "provinces": ["52", "28", "54", "81"]
+  },
+  {
+    "name": "İncir",
+    "description": "Kış ılıklığı ister, Akdeniz iklimine uyumludur ancak en kaliteli üretim Ege Bölgesi'ndedir (Büyük Menderes Havzası).",
+    "provinces": ["09", "35", "16"]
+  },
+  {
+    "name": "Üzüm",
+    "description": "Soğuğa çok dayanıklıdır, Türkiye'de elma ile birlikte yetişme alanı en geniş olan meyvelerden biridir.",
+    "provinces": ["45", "20", "35"]
+  },
+  {
+    "name": "Elma",
+    "description": "Soğuğa dayanıklı olduğu için Türkiye'nin hemen her yerinde yetişebilir. İç Anadolu ve Akdeniz'in iç kesimlerinde yaygındır.",
+    "provinces": ["32", "70", "51"]
+  },
+  {
+    "name": "Turunçgiller (Narenciye)",
+    "description": "Kış ılıklığı ister, dona karşı çok hassastır. Mandalina, portakal, limon ve greyfurttan oluşur. En çok Akdeniz ve Ege'de yetişir.",
+    "provinces": ["01", "33", "07", "31"]
+  },
+  {
+    "name": "Muz",
+    "description": "Türkiye'de sadece Akdeniz kıyılarında (Alanya, Anamur, Gazipaşa) dar bir alanda, mikroklima özelliği ile yetişir.",
+    "provinces": ["33", "07"]
+  },
+  {
+    "name": "Kayısı",
+    "description": "Karasal iklime uyum sağlamıştır ancak çiçeklenme döneminde don olaylarından etkilenir. Dünyada birinci sıradayız.",
+    "provinces": ["44", "23", "33"]
+  },
+  {
+    "name": "Antep Fıstığı",
+    "description": "Yaz kuraklığına ve yüksek sıcaklığa dayanıklıdır. Güneydoğu Anadolu'nun karakteristik ürünüdür.",
+    "provinces": ["63", "27", "56"]
+  },
+  {
+    "name": "Kırmızı Mercimek",
+    "description": "Yaz kuraklığına en dayanıklı baklagildir. Güneydoğu Anadolu'da üretimi ilk sıradadır.",
+    "provinces": ["63", "21", "47"]
+  },
+  {
+    "name": "Yeşil Mercimek",
+    "description": "İç Anadolu iklim şartlarına uyum sağlamıştır. En çok Yozgat ve Çorum çevresinde yetiştirilir.",
+    "provinces": ["66", "19", "40"]
+  },
+  {
+    "name": "Nohut",
+    "description": "Karasal iklime ve kuraklığa dayanıklı bir baklagildir. İç Anadolu başta olmak üzere yaygın olarak yetiştirilir.",
+    "provinces": ["40", "66", "06", "42"]
+  },
+  {
+    "name": "Fasulye",
+    "description": "Yazın sulama ister. Karadeniz kıyıları hariç diğer bölgelerde sulama ile yetiştirilir.",
+    "provinces": ["42", "51", "46"]
+  },
+  {
+    "name": "Patates",
+    "description": "Kumlu toprakları sever, hemen her bölgemizde yetiştirilir. Yumrulu bir bitki olduğu için hastalık riski taşır.",
+    "provinces": ["51", "50", "35", "42"]
+  },
+  {
+    "name": "Koyun",
+    "description": "Bozkır bitki örtüsünün yaygın olduğu düzlük alanlarda çok yetiştirilir. Türkiye'de en çok yetiştirilen küçükbaş hayvandır.",
+    "provinces": ["65", "42", "63", "21"]
+  },
+  {
+    "name": "Kıl Keçisi",
+    "description": "Makilik alanlarda ve engebeli arazilerde (Toroslar) yaşar. Ormanlara zarar verdiği için devlet kontrolünde sınırlandırılmıştır.",
+    "provinces": ["33", "07", "42"]
+  },
+  {
+    "name": "Tiftik Keçisi",
+    "description": "Tüyü için (moher) beslenir. Ankara ve çevresinin bozkırlarında yaygındır.",
+    "provinces": ["06", "26", "42"]
+  },
+  {
+    "name": "Sığır (Büyükbaş)",
+    "description": "Gür otlakların, çayırların bulunduğu Erzurum-Kars ve Doğu Karadeniz'de mera hayvancılığı, batıda besi hayvancılığı yapılır.",
+    "provinces": ["42", "25", "35", "10"]
+  },
+  {
+    "name": "Manda",
+    "description": "Bataklık ve sulak alanları sever. Sütü çok yağlı olduğu için kaymak ve yoğurt yapımında kıymetlidir.",
+    "provinces": ["55", "34", "21"]
+  },
+  {
+    "name": "Arıcılık",
+    "description": "Bitki örtüsü çeşidinin fazla olduğu dağlık ve ormanlık alanlarda gelişmiştir. İklimden en çok etkilenen hayvancılık türüdür.",
+    "provinces": ["52", "48", "01", "53"]
+  },
+  {
+    "name": "İpekböcekçiliği",
+    "description": "Dut yaprağı ile beslenen bir tırtıl türüdür. Suni ipeğin gelişmesiyle doğal ipek üretimi önemini kaybetmiştir.",
+    "provinces": ["21", "07", "16", "54"]
+  },
+  {
+    "name": "Kümes Hayvancılığı",
+    "description": "İklimden etkilenmez (kapalı alan). Tüketim fazla olduğu için büyük şehirlerin çevresinde toplanmıştır.",
+    "provinces": ["45", "10", "54", "14"]
+  }
+]

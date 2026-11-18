@@ -1,0 +1,182 @@
+[
+  {
+    "name": "İstanbul Havalimanı",
+    "description": "Türkiye'nin en büyük ve dünyanın en yoğun havalimanlarından biridir. Küresel bir aktarma merkezi (hub) konumundadır. Kuzey Marmara Otoyolu ile entegredir.",
+    "type": "Havalimanı",
+    "provinces": ["34"]
+  },
+  {
+    "name": "Sabiha Gökçen Havalimanı",
+    "description": "İstanbul'un Anadolu Yakası'nda yer alır. Türkiye'nin en yoğun ikinci havalimanıdır. Gelişen sanayi ve ticaret bölgelerine yakınlığıyla önemlidir.",
+    "type": "Havalimanı",
+    "provinces": ["34"]
+  },
+  {
+    "name": "Ordu-Giresun Havalimanı",
+    "description": "Türkiye'nin ve Avrupa'nın deniz doldurularak inşa edilen ilk havalimanıdır (OR-Gİ). Doğu Karadeniz'in ulaşımını kolaylaştırmıştır.",
+    "type": "Havalimanı",
+    "provinces": ["28", "52"]
+  },
+  {
+    "name": "Rize-Artvin Havalimanı",
+    "description": "Ordu-Giresun Havalimanı'ndan sonra Türkiye'de deniz doldurularak yapılan ikinci havalimanıdır. Bölge turizmi ve ticareti için kritik bir adımdır.",
+    "type": "Havalimanı",
+    "provinces": ["08", "53"]
+  },
+  {
+    "name": "Ankara-İstanbul YHT",
+    "description": "Türkiye'nin en önemli Yüksek Hızlı Tren hattıdır. Ankara-Eskişehir etabı Türkiye'nin ilk YHT hattı olma özelliğini taşır.",
+    "type": "YHT",
+    "provinces": ["06", "26", "11", "54", "41", "34"]
+  },
+  {
+    "name": "Ankara-Konya YHT",
+    "description": "İç Anadolu Bölgesi'nin iki büyük şehrini birbirine bağlayan, düz bir topoğrafyada yapıldığı için maliyeti nispeten düşük olan önemli bir hattır.",
+    "type": "YHT",
+    "provinces": ["06", "42"]
+  },
+  {
+    "name": "Ankara-Sivas YHT",
+    "description": "Doğu-Batı eksenli YHT ağının önemli bir parçasıdır. Kırıkkale ve Yozgat üzerinden Sivas'a ulaşarak bölgenin ulaşım süresini kısaltmıştır.",
+    "type": "YHT",
+    "provinces": ["06", "71", "66", "58"]
+  },
+  {
+    "name": "Konya-Karaman YHT",
+    "description": "İç Anadolu'yu güneye bağlama hedefiyle açılan, yük ve yolcu taşımacılığında kullanılan hızlı tren hattıdır. Mersin'e kadar uzatılması planlanmaktadır.",
+    "type": "YHT",
+    "provinces": ["42", "70"]
+  },
+  {
+    "name": "Marmaray",
+    "description": "İstanbul Boğazı'nın altından geçen, Asya ile Avrupa yakalarını demiryolu ile birbirine bağlayan tüp geçit projesidir. Aynı zamanda yük trenleri de kullanmaktadır.",
+    "type": "Köprü/Tünel",
+    "provinces": ["34"]
+  },
+  {
+    "name": "Avrasya Tüneli",
+    "description": "İstanbul Boğazı'nın altından geçen, tekerlekli (lastik tekerlekli) araçların kullandığı, Kazlıçeşme-Göztepe arasını bağlayan iki katlı karayolu tünelidir.",
+    "type": "Köprü/Tünel",
+    "provinces": ["34"]
+  },
+  {
+    "name": "Osmangazi Köprüsü",
+    "description": "İzmit Körfezi'ni geçerek (Dilovası-Hersek Burnu arası) İstanbul-İzmir otoyolunun en önemli geçiş noktasını oluşturur. Körfez geçiş süresini çok kısaltmıştır.",
+    "type": "Köprü/Tünel",
+    "provinces": ["41", "77"]
+  },
+  {
+    "name": "Yavuz Sultan Selim Köprüsü",
+    "description": "İstanbul Boğazı'nın Karadeniz'e bakan kuzey tarafında yer alır. Üzerinden hem otoyol hem de demiryolu geçecek şekilde tasarlanmış olmasıyla dünyada nadir örneklerdendir.",
+    "type": "Köprü/Tünel",
+    "provinces": ["34"]
+  },
+  {
+    "name": "1915 Çanakkale Köprüsü",
+    "description": "Çanakkale Boğazı (Gelibolu-Lapseki arası) üzerinde yer alan, 2023 metre orta açıklığıyla dünyanın en uzun orta açıklıklı asma köprüsüdür. Marmara'yı Ege'ye bağlar.",
+    "type": "Köprü/Tünel",
+    "provinces": ["17"]
+  },
+  {
+    "name": "Yeni Zigana Tüneli",
+    "description": "Trabzon ile Gümüşhane'yi bağlayan, Doğu Karadeniz'i Ortadoğu, Kafkaslar ve İran'a bağlayan tarihi İpek Yolu güzergahındaki dünyanın en uzun 3. çift tüplü karayolu tünelidir.",
+    "type": "Köprü/Tünel",
+    "provinces": ["29", "61"]
+  },
+  {
+    "name": "Ovit Tüneli",
+    "description": "Rize ile Erzurum'u (İkizdere-İspir arası) birbirine bağlayan, kış aylarında kapanan ulaşımı kesintisiz hale getiren stratejik ve çok uzun bir karayolu tünelidir.",
+    "type": "Köprü/Tünel",
+    "provinces": ["25", "53"]
+  },
+  {
+    "name": "Ilgaz 15 Temmuz İstiklal Tüneli",
+    "description": "Kastamonu ile Çankırı'yı birbirine bağlayan tünel, İç Anadolu'yu Batı Karadeniz'e bağlayan önemli bir geçit ve ulaşım koridorudur.",
+    "type": "Köprü/Tünel",
+    "provinces": ["18", "37"]
+  },
+  {
+    "name": "Mersin Limanı",
+    "description": "Türkiye'nin en büyük konteyner limanlarından biridir. Geniş bir hinterlanda sahiptir. Serbest bölge (Türkiye'nin ilk serbest bölgesi) uygulamasının merkezidir.",
+    "type": "Liman",
+    "provinces": ["33"]
+  },
+  {
+    "name": "İskenderun Limanı",
+    "description": "Ortadoğu transit ticareti ve bölgedeki ağır sanayi (demir-çelik) ürünlerinin sevkiyatı için hayati öneme sahip olan, hinterlandı geniş bir limandır.",
+    "type": "Liman",
+    "provinces": ["31"]
+  },
+  {
+    "name": "Ambarlı Limanı",
+    "description": "İstanbul Beylikdüzü'nde bulunan, Marmara Bölgesi'nin yükünü çeken, dökme yük ve konteyner hacmi bakımından Türkiye'nin en büyük liman komplekslerinden biridir.",
+    "type": "Liman",
+    "provinces": ["34"]
+  },
+  {
+    "name": "Trabzon Limanı",
+    "description": "Tarihi İpek Yolu üzerinde yer alması sebebiyle özellikle İran'ın transit ticaretinde büyük öneme sahip olan, Doğu Karadeniz'in en büyük limanıdır.",
+    "type": "Liman",
+    "provinces": ["61"]
+  },
+  {
+    "name": "Samsun Limanı",
+    "description": "Karadeniz Bölgesi'nin en büyük ve en gelişmiş limanıdır. Karadeniz'deki diğer limanlara göre hinterlandı iç kesimlerle bağlantı (demiryolu) sayesinde çok geniştir.",
+    "type": "Liman",
+    "provinces": ["55"]
+  },
+  {
+    "name": "İzmir Alsancak Limanı",
+    "description": "Ege Bölgesi'nin en önemli ihraç (özellikle tarım ve tekstil) kapısıdır. Hinterlandı oldukça geniş ve ulaşım ağlarıyla (demiryolu) iyi bağlantılıdır.",
+    "type": "Liman",
+    "provinces": ["35"]
+  },
+  {
+    "name": "Sinop Limanı",
+    "description": "Karadeniz'deki en iyi doğal liman olmasına rağmen, gerisindeki Küre dağlarının ulaşımı zorlaştırması (hinterlandın dar olması) nedeniyle yeterince gelişememiştir (KPSS favorisi).",
+    "type": "Liman",
+    "provinces": ["57"]
+  },
+  {
+    "name": "Bandırma Limanı",
+    "description": "Marmara Bölgesi'nin önemli limanlarından biridir. Özellikle bor ve diğer madenlerin ihracatında kullanılır. Demiryolu bağlantısı hinterlandını güçlendirir.",
+    "type": "Liman",
+    "provinces": ["10"]
+  },
+  {
+    "name": "İstanbul-İzmir Otoyolu (O-5)",
+    "description": "Marmara Bölgesi ile Ege Bölgesi'ni bağlayan dev otoyol projesidir. Gebze'den başlayıp Osmangazi Köprüsü'nü geçerek İzmir'e ulaşır ve sanayi bölgelerini entegre eder.",
+    "type": "Otoyol",
+    "provinces": ["34", "41", "77", "16", "10", "45", "35"]
+  },
+  {
+    "name": "Kuzey Marmara Otoyolu",
+    "description": "İstanbul'un transit trafiğini şehir içinden kuzeye kaydıran otoyoldur. Yavuz Sultan Selim Köprüsü ve İstanbul Havalimanı bağlantıları ile stratejiktir.",
+    "type": "Otoyol",
+    "provinces": ["34", "41", "54"]
+  },
+  {
+    "name": "Ankara-Niğde Otoyolu",
+    "description": "Edirne'den Şanlıurfa'ya kadar kesintisiz uzanan otoyol ağının (O-21) son ve kilit parçasıdır. Yerli ve milli 'akıllı otoyol' sistemleri ile donatılmıştır.",
+    "type": "Otoyol",
+    "provinces": ["06", "68", "51", "50"]
+  },
+  {
+    "name": "Bakü-Tiflis-Kars (BTK) Demiryolu",
+    "description": "Demir İpek Yolu olarak da bilinir. Çin'den Avrupa'ya kesintisiz demiryolu taşımacılığını sağlayan stratejik koridordur.",
+    "type": "Demiryolu",
+    "provinces": ["36"]
+  },
+  {
+    "name": "Divriği-İskenderun Demiryolu",
+    "description": "Sivas Divriği'de çıkarılan demir cevherinin, işlenmek üzere İskenderun Demir Çelik Fabrikası'na (İSDEMİR) taşındığı kritik sanayi demiryolu hattıdır.",
+    "type": "Demiryolu",
+    "provinces": ["58", "44", "46", "27", "31"]
+  },
+  {
+    "name": "Kınalı-Tekirdağ-Çanakkale-Savaştepe Otoyolu",
+    "description": "Marmara'nın etrafında otoyol ringini tamamlayan projenin bir parçasıdır. 1915 Çanakkale Köprüsü bu otoyol bünyesinde bulunur.",
+    "type": "Otoyol",
+    "provinces": ["34", "59", "17", "10"]
+  }
+]

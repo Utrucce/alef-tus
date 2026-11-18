@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Divriği Ulu Camii ve Darüşşifası",
+    "description": "1985 yılında UNESCO Dünya Mirası Listesi'ne alınmıştır. Mengücekoğulları döneminde inşa edilen bu şaheser, mimari özellikleri ve taş işçiliği ile ünlüdür.",
+    "type": "Kültürel Miras",
+    "provinces": ["58"]
+  },
+  {
+    "name": "İstanbul'un Tarihi Alanları",
+    "description": "1985 yılında listeye eklenmiştir. Roma, Bizans ve Osmanlı'ya başkentlik yapmış şehrin tarihi silueti, Ayasofya, Topkapı Sarayı gibi eserleri barındırır.",
+    "type": "Kültürel Miras",
+    "provinces": ["34"]
+  },
+  {
+    "name": "Göreme Milli Parkı ve Kapadokya",
+    "description": "1985 yılında listeye alınmıştır. Peri bacaları, yeraltı şehirleri ve kayalara oyulmuş kiliseleriyle eşsiz bir doğa ve tarih alanıdır.",
+    "type": "Karma Miras",
+    "provinces": ["50"]
+  },
+  {
+    "name": "Hattuşaş",
+    "description": "1986 yılında listeye giren Hattuşaş, Hitit İmparatorluğu'nun başkenti olarak Anadolu'nun en önemli arkeolojik alanlarından biridir.",
+    "type": "Kültürel Miras",
+    "provinces": ["19"]
+  },
+  {
+    "name": "Nemrut Dağı",
+    "description": "1987 yılında listeye dahil edilmiştir. Kommagene Kralı I. Antiochos'un yaptırdığı dev heykeller ve anıt mezar, dağın zirvesinde bulunur.",
+    "type": "Kültürel Miras",
+    "provinces": ["02"]
+  },
+  {
+    "name": "Xanthos-Letoon",
+    "description": "1988 yılında listeye eklenen bu antik kentler, Likya uygarlığının en önemli merkezlerinden olup, Likya dilindeki yazıtları ile büyük önem taşır.",
+    "type": "Kültürel Miras",
+    "provinces": ["07", "48"]
+  },
+  {
+    "name": "Hierapolis-Pamukkale",
+    "description": "1988 yılında listeye alınmıştır. Beyaz traverten terasları ve yanı başındaki Hierapolis antik kenti ile doğal ve kültürel bir bütündür.",
+    "type": "Karma Miras",
+    "provinces": ["20"]
+  },
+  {
+    "name": "Safranbolu Şehri",
+    "description": "1994 yılında listeye dahil olan Safranbolu, ahşap ve kerpiçten yapılmış Osmanlı sivil mimarisinin en güzel örneklerini barındırır.",
+    "type": "Kültürel Miras",
+    "provinces": ["78"]
+  },
+  {
+    "name": "Truva Antik Kenti",
+    "description": "1998 yılında listeye giren Truva, Homeros'un İlyada destanına konu olan Truva Savaşı'nın geçtiği, birçok katmandan oluşan antik kenttir.",
+    "type": "Kültürel Miras",
+    "provinces": ["17"]
+  },
+  {
+    "name": "Selimiye Camii ve Külliyesi",
+    "description": "2011 yılında listeye eklenmiştir. Mimar Sinan'ın 'ustalık eserim' dediği yapı, Osmanlı mimarisinin zirve noktalarından biridir.",
+    "type": "Kültürel Miras",
+    "provinces": ["22"]
+  },
+  {
+    "name": "Çatalhöyük Neolitik Kenti",
+    "description": "2012 yılında listeye giren Çatalhöyük, insanlığın ilk yerleşim yerlerinden biri olup tarıma geçiş ve kentleşme süreçlerine dair kanıtlar sunar.",
+    "type": "Kültürel Miras",
+    "provinces": ["42"]
+  },
+  {
+    "name": "Bursa ve Cumalıkızık",
+    "description": "2014 yılında listeye dahil edilmiştir. Osmanlı'nın ilk başkenti Bursa ve dönemin dokusunu günümüze taşıyan Cumalıkızık tarihi bir bütündür.",
+    "type": "Kültürel Miras",
+    "provinces": ["16"]
+  },
+  {
+    "name": "Bergama Çok Katmanlı Kültürel Peyzaj Alanı",
+    "description": "2014 yılında listeye eklenmiştir. Hellenistik, Roma, Bizans ve Osmanlı dönemlerine ait kültürel katmanları barındıran antik merkezdir.",
+    "type": "Kültürel Miras",
+    "provinces": ["35"]
+  },
+  {
+    "name": "Diyarbakır Surları ve Hevsel Bahçeleri",
+    "description": "2015 yılında listeye giren alan, tarihi devasa surlar ve Dicle Nehri kıyısındaki binlerce yıllık tarım alanı olan Hevsel Bahçeleri'nden oluşur.",
+    "type": "Kültürel Miras",
+    "provinces": ["21"]
+  },
+  {
+    "name": "Efes",
+    "description": "2015 yılında listeye dahil olan Efes, antik dönemin en önemli ticaret ve kültür merkezlerinden biridir. Artemis Tapınağı ile ünlüdür.",
+    "type": "Kültürel Miras",
+    "provinces": ["35"]
+  },
+  {
+    "name": "Ani Arkeolojik Alanı",
+    "description": "2016 yılında listeye eklenmiştir. Farklı medeniyetlerin kesişim noktasında bulunan Orta Çağ kenti, eşsiz mimari kalıntılara ev sahipliği yapar.",
+    "type": "Kültürel Miras",
+    "provinces": ["36"]
+  },
+  {
+    "name": "Aphrodisias",
+    "description": "2017 yılında listeye giren antik kent, adını Afrodit'ten alır ve özellikle Roma dönemi eşsiz heykeltıraşlık okulu eserleri ile ünlüdür.",
+    "type": "Kültürel Miras",
+    "provinces": ["09"]
+  },
+  {
+    "name": "Göbeklitepe",
+    "description": "2018 yılında listeye eklenmiştir. İnsanlık tarihinin bilinen en eski kült (tapınak) merkezi olarak avcı-toplayıcı yaşama dair ezberleri bozmuştur.",
+    "type": "Kültürel Miras",
+    "provinces": ["63"]
+  },
+  {
+    "name": "Arslantepe Höyüğü",
+    "description": "2021 yılında listeye dahil edilmiştir. Devlet sisteminin doğuşu ve bürokrasinin temellerinin atıldığı, Anadolu'nun en eski saray yapısını barındırır.",
+    "type": "Kültürel Miras",
+    "provinces": ["44"]
+  },
+  {
+    "name": "Gordion",
+    "description": "2023 yılında listeye giren Gordion, Frigya'nın siyasi ve kültürel başkenti olarak Midas Tümülüsü gibi anıtsal yapılara ev sahipliği yapar.",
+    "type": "Kültürel Miras",
+    "provinces": ["06"]
+  },
+  {
+    "name": "Anadolu'nun Ortaçağ Dönemi Ahşap Hipostil Camileri",
+    "description": "2023 yılında listeye eklenmiştir. Farklı şehirlerde bulunan, ahşap direkli ve ahşap çatılı Anadolu Selçuklu ve Beylikler dönemi şaheserleridir.",
+    "type": "Kültürel Miras",
+    "provinces": ["06", "42", "64", "37"]
+  }
+]

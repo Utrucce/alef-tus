@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Karadeniz İklimi",
+    "description": "Her mevsim yağışlıdır. En fazla yağışı sonbaharda, en az yağışı ilkbaharda alır. Yazlar serin, kışlar ılık geçer. Yıllık sıcaklık farkı en az olan iklimdir. Doğal bitki örtüsü geniş yapraklı ormanlardır. Yamaç yağışları (Orografik) yaygındır.",
+    "type": "İklim Tipi",
+    "provinces": ["08", "53", "61", "28", "52", "55", "57", "37", "74", "67", "81", "14", "54"]
+  },
+  {
+    "name": "Akdeniz İklimi",
+    "description": "Yazları sıcak ve kurak, kışları ılık ve yağışlıdır. En fazla yağışı kışın, en az yağışı yazın alır. Kış aylarında cephe yağışları görülür. Yıllık ortalama sıcaklık 18-20°C civarındadır. Güneşlenme süresi uzundur. Doğal bitki örtüsü makidir.",
+    "type": "İklim Tipi",
+    "provinces": ["07", "33", "01", "31", "48", "09", "35", "10", "17", "80", "46", "32", "15"]
+  },
+  {
+    "name": "Ilıman Karasal İklim",
+    "description": "Yazlar sıcak ve kurak, kışlar soğuk ve kar yağışlıdır. En fazla yağışı ilkbaharda, en az yağışı yaz aylarında alır. İlkbahar yağışlarına Kırkikindi denir (Konveksiyonel yağış). Doğal bitki örtüsü steptir (bozkır). Yıllık sıcaklık farkı fazladır.",
+    "type": "İklim Tipi",
+    "provinces": ["06", "42", "38", "58", "51", "68", "71", "70", "40", "66", "19", "03", "43", "64", "26"]
+  },
+  {
+    "name": "Sert Karasal İklim",
+    "description": "Yazlar serin ve yağışlı, kışlar çok soğuk, uzun ve kar yağışlıdır. En fazla yağışı yazın alır. Yıllık sıcaklık farkının en fazla olduğu iklimdir. Doğal bitki örtüsü yaz yağışlarıyla yeşeren çayırlardır (Alpin çayırlar). Büyükbaş hayvancılığa elverişlidir.",
+    "type": "İklim Tipi",
+    "provinces": ["25", "36", "75", "04", "13", "65", "49", "12", "24"]
+  },
+  {
+    "name": "Güneydoğu Anadolu Karasal İklimi",
+    "description": "Yazları çok sıcak ve kurak, kışları soğuk geçer. Kışın Akdeniz iklimi etkisiyle cephe yağışları görülebilir. Türkiye'de yaz sıcaklığının ve buharlaşmanın en fazla olduğu bölgedir. Şiddetli yaz kuraklığı tarımı olumsuz etkiler.",
+    "type": "İklim Tipi",
+    "provinces": ["63", "21", "72", "47", "02", "56", "73", "27", "79"]
+  },
+  {
+    "name": "Marmara (Geçiş) İklimi",
+    "description": "Karadeniz, Akdeniz ve Karasal iklimlerin geçiş alanıdır. Ne tam Karadeniz kadar yağışlı ne de Akdeniz kadar sıcaktır. İklim çeşitliliği sayesinde bitki çeşitliliği de fazladır. Toprak tipi ve tarım ürünü çeşitliliği bu nedenle yüksektir.",
+    "type": "İklim Tipi",
+    "provinces": ["34", "16", "41", "77", "22", "59", "11"]
+  },
+  {
+    "name": "Trakya (Ergene) Karasal İklimi",
+    "description": "Balkanlardan gelen soğuk hava kütlelerine açıktır. Kışları sert karasal özellikler gösterebilir. Yıllık yağış miktarı Marmara geneline göre daha düşüktür. Step (bozkır) bitki örtüsü yaygındır.",
+    "type": "İklim Tipi",
+    "provinces": ["22", "59", "39"]
+  },
+  {
+    "name": "Maki",
+    "description": "Akdeniz iklim bölgesinde kızılçam ormanlarının tahrip edilmesiyle ortaya çıkan kısa boylu, sert yapraklı, kuraklığa dayanıklı ağaççıklardır. Zeytin, zakkum, defne, keçiboynuzu, koca yemiş başlıca türleridir. Her mevsim yeşildir.",
+    "type": "Bitki Örtüsü",
+    "provinces": ["07", "33", "01", "31", "48", "09", "35", "10", "17", "32"]
+  },
+  {
+    "name": "Garig (Frigana)",
+    "description": "Makilerin tahrip edilmesi sonucunda ortaya çıkan diz boyu, cılız ve seyrek çalılıklardır. Lavanta, kekik, funda, süpürge otu, abdestbozan otu bu gruptadır. Toprak erozyonuna açık alanlarda sık rastlanır.",
+    "type": "Bitki Örtüsü",
+    "provinces": ["07", "33", "48", "35", "09"]
+  },
+  {
+    "name": "Psödomaki (Yalancı Maki)",
+    "description": "Karadeniz bölgesinde ormanların tahrip edildiği kıyı kesimlerinde, makiye benzer çalı topluluklarıdır. Fındık, koca yemiş, yabani elma, kızılcık, muşmula bu grupta yer alır. Akdeniz'in maki örtüsünden farklı olarak kışın yaprak dökebilirler.",
+    "type": "Bitki Örtüsü",
+    "provinces": ["53", "61", "28", "52", "55", "81", "67"]
+  },
+  {
+    "name": "Step (Bozkır)",
+    "description": "İlkbahar yağışlarıyla yeşeren, yaz kuraklığıyla sararıp kuruyan kısa boylu otluluklardır. Geven, yavşan otu, çoban yastığı, üzerlik, gelincik, sığırkuyruğu başlıca step türleridir. Küçükbaş hayvancılığın (koyun) temelidir.",
+    "type": "Bitki Örtüsü",
+    "provinces": ["06", "42", "38", "58", "51", "68", "71", "40", "66", "19", "26"]
+  },
+  {
+    "name": "Antropojen Step",
+    "description": "İç, Doğu ve Güneydoğu Anadolu'da eskiden var olan ormanların (özellikle karaçam, meşe) insanlar tarafından tahrip edilmesi sonucu oluşan bozkırlardır. Yer yer orman kalıntılarına rastlanması bu alanların eskiden orman olduğunu kanıtlar.",
+    "type": "Bitki Örtüsü",
+    "provinces": ["06", "42", "66", "19", "26", "43", "03", "64", "68"]
+  },
+  {
+    "name": "Alpin Çayırlar",
+    "description": "Orman üst sınırından sonra başlayan (yüksek dağlık kesimlerde), yaz boyu yeşil kalan, uzun boylu otluluklardır. Sert karasal iklimin bitki örtüsüdür. Erzurum-Kars bölümü, Doğu Karadeniz ve Torosların yükseklerinde görülür. Büyükbaş mera hayvancılığı yapılır.",
+    "type": "Bitki Örtüsü",
+    "provinces": ["25", "36", "75", "04", "53", "61"]
+  },
+  {
+    "name": "Karadeniz Ormanları",
+    "description": "Kıyıdan itibaren geniş yapraklı (kayın, gürgen, kestane), yükseldikçe karma, daha yüksekte iğne yapraklı (sarıkamış, göknar, ladin) ormanlar görülür. Türkiye'de orman varlığının ve ormanların kendini yenileme hızının en yüksek olduğu yerdir.",
+    "type": "Bitki Örtüsü",
+    "provinces": ["08", "53", "61", "28", "52", "37", "74", "67", "81"]
+  },
+  {
+    "name": "Sığla (Günlük) Ağacı",
+    "description": "Kozmetik ve eczacılıkta (sığla yağı) kullanılan, Türkiye'ye özgü relikt-endemik bir bitkidir. Esas olarak Köyceğiz (Muğla) ve Fethiye çevrelerinde sulak alanlarda yetişir. Tersiyer döneminden kalmıştır.",
+    "type": "Doğal Bitki",
+    "provinces": ["48"]
+  },
+  {
+    "name": "Kasnak Meşesi",
+    "description": "Göller Yöresi'nde (özellikle Eğirdir-Isparta çevresi, Kovada Milli Parkı) yetişen, ahşap işlemeciliğinde kıymetli, Türkiye'ye özgü endemik bir türdür. Kasnak yapımında kullanıldığı için bu ismi almıştır.",
+    "type": "Doğal Bitki",
+    "provinces": ["32", "15"]
+  },
+  {
+    "name": "Datça Hurması",
+    "description": "Muğla Datça ve Teke Yarımadası'nda yetişen endemik bir bitki türüdür. Soğuğa dayanıklı olan bir hurma türüdür. Akdeniz florasında bulunur.",
+    "type": "Doğal Bitki",
+    "provinces": ["48", "07"]
+  },
+  {
+    "name": "Kazdağı Göknarı",
+    "description": "Balıkesir ve Çanakkale arasındaki Kaz Dağları'nda yetişen, Türkiye'ye özgü endemik iğne yapraklı bir ağaç türüdür. Mitolojide Truva atının yapımında kullanıldığı rivayet edilir.",
+    "type": "Doğal Bitki",
+    "provinces": ["10", "17"]
+  },
+  {
+    "name": "Ters Lale (Ağlayan Gelin)",
+    "description": "Özellikle Hakkari ve Van çevrelerinde yüksek dağ eteklerinde yetişen, çiçeği yere doğru sarkık duran endemik ve değerli bir süs bitkisidir. Karasal iklim koşullarına uyum sağlamıştır.",
+    "type": "Doğal Bitki",
+    "provinces": ["30", "65"]
+  },
+  {
+    "name": "Kızılçam",
+    "description": "Akdeniz iklimine özgü, kuraklığa dayanıklı çam türüdür. Türkiye, dünyada kızılçam ormanlarının en geniş yer kapladığı ülkedir. Maki oluşumunun asıl kaynağı kızılçam ormanlarının tahribidir.",
+    "type": "Doğal Bitki",
+    "provinces": ["07", "33", "01", "31", "48", "09", "35", "10", "17", "46"]
+  },
+  {
+    "name": "Karaçam",
+    "description": "Karasal iklime ve soğuğa en dayanıklı çam türüdür. İç Anadolu'nun yüksek kesimlerinde, Batı Anadolu'da, İç Ege ve Karadeniz'in iç yamaçlarında geniş ormanlar oluşturur. Antropojen steplerin asıl kaynağı karaçam/meşe tahribidir.",
+    "type": "Doğal Bitki",
+    "provinces": ["06", "43", "03", "64", "19", "66", "26"]
+  },
+  {
+    "name": "Kayın Ağacı (Amanos Dağları - Relikt)",
+    "description": "Asıl yetişme alanı Karadeniz olan geniş yapraklı nemcil kayın ağacının, dördüncü jeolojik zaman buzul çağlarından kalma bir relikt (kalıntı) bitki olarak Nur (Amanos) dağlarının serin ve nemli yamaçlarında bulunması durumudur.",
+    "type": "Doğal Bitki",
+    "provinces": ["31"]
+  },
+  {
+    "name": "Geofit Bitkiler",
+    "description": "Soğanlı veya yumrulu gövdeleri olan, yaşam döngülerini yeraltında zor şartlara dayanarak geçiren, baharda çiçek açan bitkilerdir (orkide, lale, çiğdem, kardelen). Salep yapımında kullanılan orkideler (Toroslar) bu gruptandır.",
+    "type": "Bitki Örtüsü",
+    "provinces": ["07", "33", "46", "32", "01", "38"]
+  },
+  {
+    "name": "Tuzcul (Halofit) Bitkiler",
+    "description": "Tuzlu ve çorak topraklarda (Tuz Gölü ve çevresi, kapalı havzalar) yaşamaya adapte olmuş, kurakçıl bitkilerdir. Yaprakları genellikle etli olup su depolar. Kurak bölgelerde erozyonu önlemede önemlidir.",
+    "type": "Bitki Örtüsü",
+    "provinces": ["68", "42", "06", "51"]
+  },
+  {
+    "name": "İspir Meşesi",
+    "description": "Yozgat ve Kastamonu yöresine özgü, karasal iklim şartlarına dayanıklı, tahribiyle antropojen steplerin ortaya çıktığı meşe türünün yerel, endemik bir çeşididir. Türkiye'de meşe, en geniş yayılış alanına sahip ağaçtır.",
+    "type": "Doğal Bitki",
+    "provinces": ["66", "37"]
+  },
+  {
+    "name": "Istranca Meşesi",
+    "description": "Kırklareli-Yıldız Dağları (Istrancalar) bölgesinde sık ormanlar oluşturan meşe türüdür. Orman altı florası zengin olan bu alanlar Karadeniz ve Marmara geçiş özellikleri gösterir.",
+    "type": "Doğal Bitki",
+    "provinces": ["39"]
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "unitName": "Nöroanatomi ve Kranial Sinirler",
+    "unitIndex": 1,
+    "sections": [
+      {
+        "title": "Kranial Sinirler ve Çıkış Delikleri",
+        "content": "Kranial sinirler, TUS Anatomi'nin en yüksek soru potansiyeline sahip konusudur.\n\n- **N. Olfactorius (CN I)**: Lamina cribrosa'dan geçer. Talamus'a uğramadan primer koku korteksine (piriform korteks) giden tek duyusal yoldur.\n- **N. Opticus (CN II)**: Canalis opticus'tan A. ophthalmica ile birlikte geçer. Meninks kılıflarıyla sarılıdır; kafa içi basınç artışında (KİBA) papilödem gelişir.\n- **Fissura Orbitalis Superior'dan geçenler**: N. oculomotorius (CN III), N. trochlearis (CN IV), N. abducens (CN VI), N. ophthalmicus (CN V1) ve V. ophthalmica superior.\n- **N. Maxillaris (CN V2)**: Foramen rotundum'dan geçer. Fossa pterygopalatina'ya açılır.\n- **N. Mandibularis (CN V3)**: Foramen ovale'den geçer. Çiğneme kaslarını (m. masseter, m. temporalis, m. pterygoideus medialis ve lateralis) inerve eder. Çeneyi açan tek çiğneme kası **M. pterygoideus lateralis**tir.\n- **Foramen Spinosum**: A. meningea media geçer; travmada epidural hematom (bikonveks/lens kanama) kaynağıdır.\n- **Porus Acusticus Internus**: N. facialis (CN VII) ve N. vestibulocochlearis (CN VIII) geçer.\n- **Foramen Jugulare**: N. glossopharyngeus (CN IX), N. vagus (CN X), N. accessorius (CN XI) ve V. jugularis interna geçer.\n- **Canalis Hypoglossi**: N. hypoglossus (CN XII) geçer. Dilin tüm iç ve dış kaslarını (m. palatoglossus hariç; onu CN X inerve eder) inerve eder.",
+        "summary": "CN I Lamina cribrosa, CN II Canalis opticus, CN III, IV, V1, VI FOS, CN V2 Foramen rotundum, CN V3 Foramen ovale, A. meningea media Foramen spinosum, CN VII-VIII PAI, CN IX-X-XI Foramen jugulare, CN XII Canalis hypoglossi.",
+        "keyPoints": [
+          "Epidural hematom: A. meningea media (Foramen spinosum) laserasyonu.",
+          "Çeneyi açan tek çiğneme kası: M. pterygoideus lateralis.",
+          "Talamusa uğramayan tek duyu: Koku (CN I)."
+        ],
+        "model3d": "skull",
+        "image2d": "gorsel_hafiza/cranial_nerves.png"
+      },
+      {
+        "title": "Ventriküler Sistem ve BOS Dolaşımı",
+        "content": "Beyin omurilik sıvısı (BOS), plexus choroideus'larda üretilir ve subaraknoid aralıkta dolaşır.\n\n- **BOS Akış Yolu**: Ventriculus lateralis -> **Foramen interventriculare (Monro)** -> Ventriculus tertius (3. ventrikül) -> **Aqueductus cerebri (Sylvius)** -> Ventriculus quartus (4. ventrikül) -> **Apertura mediana (Magendie)** ve **Aperturae laterales (Luschka)** -> Cisterna magna ve subaraknoid boşluk -> Granulationes arachnoideales (Pacchioni granülasyonları) -> Sinus sagittalis superior.\n- **En dar geçit**: Aqueductus cerebri (Sylvius). Tıkanmasında non-komünikan hidrosefali gelişir.\n- **BOS Emilimi**: Pacchioni granülasyonları aracılığıyla venöz sinüslere tek yönlü valf mekanizmasıyla boşalır.\n- **Lumbal Ponksiyon (LP)**: Erişkinde L3-L4 veya L4-L5 aralığından yapılır. Medulla spinalis erişkinde L1-L2 vertebra alt kenarında (Conus medullaris) sonlanır.",
+        "summary": "BOS akışı Monro -> 3. ventrikül -> Sylvius -> 4. ventrikül -> Luschka-Magendie -> Subaraknoid aralık. LP seviyesi L3-L4 aralığıdır.",
+        "keyPoints": [
+          "Aqueductus Sylvius en dar geçittir, tıkanması obstrüktif hidrosefali yapar.",
+          "Erişkinde conus medullaris L1-L2 seviyesindedir.",
+          "LP iğnesi sırasıyla: Cilt, cilt altı, lig. supraspinale, lig. interspinale, lig. flavum, dura mater, araknoid mater geçer."
+        ],
+        "model3d": "brain",
+        "image2d": "gorsel_hafiza/cranial_nerves.png"
+      },
+      {
+        "title": "Medulla Spinalis Yolları ve Lezyonları",
+        "content": "Medulla spinalis'te yükselen (afferent) ve inen (efferent) yollar duyu ve motor fonksiyonları yönetir.\n\n- **Tractus Corticospinalis Lateralis**: İstemli motor hareketlerin ana yoludur. Medulla oblongata'da (decussatio pyramidum) çaprazlaşır (%85-90). Üst motor nöron lezyonunda spastik felç, hiperrefleksi ve Babinski pozitifliği görülür.\n- **Fasciculus Gracilis ve Cuneatus (Arka Kordon)**: Epikritik duyu, vibrasyon, iki nokta ayrımı ve şuurlu propriosepsiyon taşır. Medulla oblongata'da nuc. gracilis ve cuneatus'ta nöron değiştirip çapraz yapar (fibrae arcuatae internae -> lemniscus medialis). Lezyonunda duyusal ataksi (Romberg +) görülür.\n- **Tractus Spinothalamicus Lateralis**: Ağrı ve sıcaklık duyusunu taşır. Medulla spinalis'e girdiği segmentte commissura alba anterior'da çapraz yapar. Siringomiyelide ilk etkilenen yoldur; pelerin tarzı bilateral ağrı-ısı kaybı yapar.\n- **Brown-Séquard Sendromu (Yarım Kesi)**: Lezyon tarafında spastik motor kayıp ve arka kordon duyusu kaybı; karşı tarafta 1-2 segment alttan itibaren ağrı-ısı duyusu kaybı.",
+        "summary": "Kortikospinal piramislerde çaprazlaşır. Arka kordon bulbus seviyesinde çaprazlaşır (vibrasyon, pozisyon). Spinotalamik yol segment düzeyinde çaprazlaşır (ağrı, sıcaklık).",
+        "keyPoints": [
+          "Siringomiyeli: Commissura alba anterior harabiyeti -> pelerin tarzı dissosiye duyu kaybı.",
+          "Brown-Séquard: İpsilateral motor ve derin duyu kaybı, kontralateral ağrı-ısı kaybı.",
+          "Tabes dorsalis: Sifiliste arka kordon dejenerasyonu ve ataksi."
+        ],
+        "model3d": "BrainStem",
+        "image2d": "gorsel_hafiza/dermatome_map.png"
+      }
+    ]
+  },
+  {
+    "unitName": "Dolaşım ve Solunum Anatomisi",
+    "unitIndex": 2,
+    "sections": [
+      {
+        "title": "Kalbin Anatomisi ve Koroner Dolaşım",
+        "content": "Kalp, orta mediastinumda yer alır ve perikard torbası içindedir.\n\n- **Atrium Dextrum**: V. cava superior, V. cava inferior ve Sinus coronarius buraya açılır. Fossa ovalis (septum interatriale üzerinde) fetal dolaşımdaki foramen ovale kalıntısıdır. Crista terminalis, sinüs düğümünün yerleşim yerini belirler.\n- **İletim Sistemi**: Nodus sinuatrialis (SA düğüm) sulcus terminalis'in üst ucunda yer alır. Beslenmesini %60 vakada A. coronaria dextra (RCA), %40 vakada A. circumflexa (Cx) sağlar. Nodus atrioventricularis (AV düğüm) Koch üçgeni içindedir. Koch üçgeni sınırları: Todaro tendonu, triküspit kapak anulusu ve sinus coronarius ağzıdır.\n- **A. Coronaria Dextra (RCA)**: Sağ ventrikül, sağ atrium, diafragmatik yüzün büyük kısmı ve posterior septum 1/3'ünü sular. İnferior MI'larda (DII, DIII, aVF) sorumludur.\n- **A. Coronaria Sinistra (LCA)**: A. interventricularis anterior (LAD - anterior descending) ve A. circumflexa (Cx) dallarına ayrılır. LAD, apeksi, anterior ventrikül duvarını ve septum anterior 2/3'ünü sular; en sık tıkanan koroner arterdir.\n- **Sinus Coronarius**: Kalbin venöz kanının %60-70'ini toplar ve sağ atriuma dökülür.",
+        "summary": "SA düğüm crista terminalis tepesinde, AV düğüm Koch üçgenindedir. LAD septum anterior 2/3'ü, RCA septum posterior 1/3'ü sular. Inferior MI sorumlusu %85-90 RCA'dır.",
+        "keyPoints": [
+          "Koch Üçgeni: Todaro tendonu, triküspit kapak septal yaprağı, ostium sinus coronarii.",
+          "En sık tıkanan koroner arter: LAD (A. interventricularis anterior).",
+          "SA düğüm beslenmesi: %60 RCA, %40 LCA."
+        ],
+        "model3d": "heart",
+        "image2d": "gorsel_hafiza/heart_murmurs.png"
+      },
+      {
+        "title": "Mediastinum ve Akciğer Anatomisi",
+        "content": "Mediastinum, sternal açı (Angulus Ludovici - T4/T5 düzeyi) ile superior ve inferior olarak ikiye ayrılır.\n\n- **Mediastinum Superius**: Arcus aortae ve 3 ana dalı (Truncus brachiocephalicus, A. carotis communis sinistra, A. subclavia sinistra), Vv. brachiocephalicae, N. vagus, N. phrenicus, Trachea ve Oesophagus yer alır.\n- **Mediastinum Posterius**: Oesophagus, Aorta thoracica, Ductus thoracicus, V. azygos, V. hemiazygos ve Nn. splanchnici yer alır.\n- **Ductus Thoracicus**: Cisterna chyli'den (L1-L2) başlar. T12 hiatus aorticus'tan geçer ve sol angulus venosus'a (Pirogoff açısı) açılır. Vücudun sağ üst kadranı hariç tüm lenf sıvısını drene eder.\n- **Akciğer Hilumu (Radix Pulmonis)**: Sağ akciğer hilumunda bronş en üstte (eparteriyel bronş), sol akciğer hilumunda A. pulmonalis en üsttedir (Sol Aortik / Pulmoner üstte kuralı).\n- **Aspirasyon Pnömonisi**: Sağ ana bronş daha geniş, daha kısa ve daha dik seyirli olduğu için yabancı cisimler ve aspirat en sık sağ akciğere (özellikle sağ alt lob superior segmente) kaçar.",
+        "summary": "Sternal açı T4-T5 hizasıdır. Mediastinum posterius'ta ductus thoracicus, oesophagus, aorta thoracica bulunur. Yabancı cisim sağ ana bronşa kaçar.",
+        "keyPoints": [
+          "Sağ ana bronş: Daha kalın, daha kısa ve daha dik.",
+          "Sağ hilum: Bronchus principalis dexter en üsttedir (Eparterial).",
+          "Sol hilum: A. pulmonalis sinistra en üsttedir."
+        ],
+        "model3d": "lungs",
+        "image2d": "gorsel_hafiza/chest_xray_pneumonia.png"
+      }
+    ]
+  },
+  {
+    "unitName": "Sindirim ve Boşaltım Anatomisi",
+    "unitIndex": 3,
+    "sections": [
+      {
+        "title": "Mide, Karaciğer ve Biliyer Ağaç",
+        "content": "Karın içi organların damar ve lenfatik komşulukları cerrahi anatomide esastır.\n\n- **Truncus Coeliacus (T12)**: 3 ana dala ayrılır: A. gastrica sinistra, A. splenica (lienalis) ve A. hepatica communis. Midenin küçük kurvaturunu a. gastrica sinistra ve dextra; büyük kurvaturunu a. gastroomentalis dextra ve sinistra besler.\n- **Foramen Omentale (Winslow Deliği)**: Bursa omentalis'in büyük periton boşluğuna açılan tek doğal ağzıdır. Sınırları: Önde Lig. hepatoduodenale (içinde V. portae hepatis, A. hepatica propria, Ductus choledochus - Portal triad); Arkada V. cava inferior; Üstte Karaciğer lobus caudatus; Altta Duodenum 1. parçası.\n- **Calot Üçgeni (Trigonum Cystohepaticum)**: Kolesistektomide A. cystica'yı bulmak için kullanılır. Sınırları: Ductus cysticus, Ductus hepaticus communis ve Karaciğerin alt kenarı (viseral yüzü). İçinden **A. cystica** geçer.\n- **Karaciğer Segmentasyonu (Couinaud)**: Karaciğer 8 fonksiyonel segmente ayrılır. Lobus caudatus = Segment 1; bağımsız olarak doğrudan vena cava inferior'a drene olur.",
+        "summary": "Truncus coeliacus T12 seviyesindedir. Winslow deliği önünde portal triad bulunur. Calot üçgeninde A. cystica bağlanır.",
+        "keyPoints": [
+          "Portal Triad: Ductus choledochus (sağ ön), A. hepatica propria (sol ön), V. portae hepatis (arka).",
+          "Calot üçgeni sınırları: Ductus cysticus, Ductus hepaticus communis, karaciğer alt yüzü.",
+          "Lobus caudatus (Segment 1) bağımsız portal/venöz drenaja sahiptir."
+        ],
+        "model3d": "liver",
+        "image2d": "gorsel_hafiza/acute_appendicitis.png"
+      },
+      {
+        "title": "Böbrek ve Üriner Sistem Topografisi",
+        "content": "Böbrekler retroperitoneal organlardır (T12-L3 düzeyinde). Sağ böbrek karaciğer baskısı nedeniyle soldakinden 1-2 cm daha aşağıdadır.\n\n- **Fascia Renalis (Gerota Fasyası)**: Böbrek ve böbrek üstü bezini sarar ancak alt ucu açıktır; perinefritik apseler pelvise doğru yayılabilir.\n- **Hilum Renale (Önden arkaya sıralama - V.A.U.)**: Vena renalis, Arteria renalis, Ureter (Pelvis renalis).\n- **Vena Renalis Sinistra**: Aorta abdominalis ile A. mesenterica superior (SMA) arasından geçer. SMA sendromunda (Nutcracker sendromu) sol renal ven sıkışır; sol varikosel ve hematüri gelişir.\n- **Üreterin Darlıkları**: 1. Pelviüreteral bileşke (UPJ), 2. İliak damarları çaprazladığı yer (Linea terminalis), 3. Mesane duvarına girdiği yer (Üreterovezikal bileşke - en dar yer). Böbrek taşları en sık UV bileşkede takılır.",
+        "summary": "Hilum önden arkaya V.A.U. (Ven, Arter, Ureter). Nutcracker sendromunda sol renal ven aort ve SMA arasında sıkışır.",
+        "keyPoints": [
+          "Hilum renale: Vena renalis (en önde), Arteria renalis (ortada), Pelvis renalis/Ureter (en arkada).",
+          "Üreterin en dar yeri: İntramural / Üreterovezikal bileşke.",
+          "Nutcracker sendromu: Sol renal venin SMA ile aorta arasında basıya uğraması."
+        ],
+        "model3d": "kidneys",
+        "image2d": "gorsel_hafiza/glomerulonephritis.png"
+      }
+    ]
+  }
+]

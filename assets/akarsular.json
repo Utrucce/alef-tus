@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Kızılırmak",
+    "description": "Türkiye sınırları içinde doğup denize dökülen en uzun akarsudur. Sivas Kızıldağ'dan doğar, Karadeniz'e dökülür (Bafra Deltası).",
+    "provinces": ["58", "38", "50", "71", "06", "18", "19", "55"]
+  },
+  {
+    "name": "Yeşilırmak",
+    "description": "Sivas Köse Dağları'ndan doğar, Karadeniz'e dökülür (Çarşamba Deltası).",
+    "provinces": ["58", "60", "05", "55"]
+  },
+  {
+    "name": "Fırat",
+    "description": "Türkiye'nin en uzun, en büyük havzalı ve en fazla su taşıyan akarsuyudur. Doğu Anadolu'dan doğup Basra Körfezi'ne dökülür.",
+    "provinces": ["24", "62", "23", "44", "02", "63", "27"]
+  },
+  {
+    "name": "Dicle",
+    "description": "Güneydoğu Anadolu'dan kaynağını alır, Fırat ile birleşip (Şatt'ül Arap) Basra Körfezi'ne dökülür.",
+    "provinces": ["23", "21", "72", "56", "73"]
+  },
+  {
+    "name": "Çoruh",
+    "description": "Mescit Dağları'ndan doğar, Gürcistan üzerinden Karadeniz'e dökülür. Akış hızı ve hidroelektrik potansiyeli çok yüksektir.",
+    "provinces": ["69", "08"]
+  },
+  {
+    "name": "Sakarya",
+    "description": "Eskişehir Çifteler'den doğar, Karadeniz'e dökülür. Kirlilik oranı yüksek nehirlerden biridir.",
+    "provinces": ["26", "06", "11", "54"]
+  },
+  {
+    "name": "Büyük Menderes",
+    "description": "Afyonkarahisar'dan doğar, Ege Denizi'ne dökülür. Graben ovası içinde menderesler çizerek akar.",
+    "provinces": ["03", "64", "20", "09"]
+  },
+  {
+    "name": "Küçük Menderes",
+    "description": "Bozdağlar'dan doğar, Ege Denizi'ne dökülür.",
+    "provinces": ["35"]
+  },
+  {
+    "name": "Gediz",
+    "description": "İç Batı Anadolu'dan doğar, İzmir Körfezi (Foça yakını) Ege Denizi'ne dökülür.",
+    "provinces": ["43", "45", "35"]
+  },
+  {
+    "name": "Bakırçay",
+    "description": "Ömerdağ ve Madra dağlarından doğar, Ege Denizi'ne dökülür (Çandarlı Körfezi).",
+    "provinces": ["45", "35"]
+  },
+  {
+    "name": "Meriç",
+    "description": "Bulgaristan'dan doğar, Türkiye-Yunanistan sınırını çizerek Ege (Saros Körfezi) Denizi'ne dökülür.",
+    "provinces": ["22"]
+  },
+  {
+    "name": "Ergene",
+    "description": "Istranca Dağları'ndan doğar, Meriç nehrine karışır. Kirlilik oranı çok yüksektir.",
+    "provinces": ["39", "59", "22"]
+  },
+  {
+    "name": "Susurluk",
+    "description": "Simav Dağları'ndan doğar, Marmara Denizi'ne dökülür.",
+    "provinces": ["43", "10", "16"]
+  },
+  {
+    "name": "Seyhan",
+    "description": "Orta Toroslardan doğar, Akdeniz'e dökülür. Çukurova'nın oluşumunda etkilidir.",
+    "provinces": ["38", "01"]
+  },
+  {
+    "name": "Ceyhan",
+    "description": "Nurhak Dağları'ndan doğar, İskenderun Körfezi (Akdeniz) yakınlarında denize dökülür. Çukurova deltasına katılır.",
+    "provinces": ["46", "80", "01"]
+  },
+  {
+    "name": "Göksu",
+    "description": "Orta Toroslardan doğar, Akdeniz'e dökülür (Silifke Deltası). Mavi Tünel projesi ile suları Konya Ovası'na aktarılmaktadır.",
+    "provinces": ["70", "33"]
+  },
+  {
+    "name": "Manavgat",
+    "description": "Batı Toroslardan doğar, Akdeniz'e dökülür. Üzerinde Oymapınar Barajı yer alır, akımı düzenlidir.",
+    "provinces": ["07"]
+  },
+  {
+    "name": "Köprüçay",
+    "description": "Toroslardan doğar, Akdeniz'e dökülür. Rafting sporu için çok uygundur.",
+    "provinces": ["32", "07"]
+  },
+  {
+    "name": "Dalaman",
+    "description": "Gölgeli Dağları'ndan doğar, Ege ve Akdeniz sınırı yakınlarında denize dökülür. Rafting yapılır.",
+    "provinces": ["20", "48"]
+  },
+  {
+    "name": "Aras",
+    "description": "Bingöl Dağları'ndan doğar, Ermenistan sınırını çizer ve Hazar Denizi'ne dökülür (Kapalı Havza).",
+    "provinces": ["25", "36", "76"]
+  },
+  {
+    "name": "Kura",
+    "description": "Allahuekber Dağları'ndan doğar, Gürcistan ve Azerbaycan üzerinden Hazar Denizi'ne dökülür (Kapalı Havza).",
+    "provinces": ["75"]
+  },
+  {
+    "name": "Bartın",
+    "description": "Karadeniz'e dökülür. Türkiye'de üzerinde taşımacılık yapılabilen tek akarsudur (sınırlı).",
+    "provinces": ["74"]
+  },
+  {
+    "name": "Asi",
+    "description": "Lübnan'dan doğar, Suriye'den geçer ve Hatay'dan Akdeniz'e dökülür.",
+    "provinces": ["31"]
+  }
+]

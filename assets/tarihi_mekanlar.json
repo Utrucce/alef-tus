@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Zeugma Mozaik Müzesi",
+    "description": "Gaziantep'te bulunan, dünyanın en büyük mozaik müzelerinden biridir. Roma dönemine ait eşsiz mozaikler sergilenmektedir. En ünlü eseri 'Çingene Kızı' mozaiğidir.",
+    "type": "Müze",
+    "provinces": ["27"]
+  },
+  {
+    "name": "Sümela Manastırı",
+    "description": "Trabzon'un Maçka ilçesinde, Altındere Vadisi'ne hakim Karadağ'ın eteklerinde sarp bir kayalık üzerine kurulmuş bir Rum Ortodoks manastırıdır. Bizans döneminden kalmadır.",
+    "type": "Müze",
+    "provinces": ["61"]
+  },
+  {
+    "name": "İshak Paşa Sarayı",
+    "description": "Ağrı'nın Doğubayazıt ilçesinde bulunan, Osmanlı İmparatorluğu'nun Lale Devri'ndeki en önemli eserlerinden biridir. Selçuklu, Osmanlı ve Fars mimarisinin izlerini taşır.",
+    "type": "Saray",
+    "provinces": ["04"]
+  },
+  {
+    "name": "Topkapı Sarayı",
+    "description": "İstanbul'da bulunan, Osmanlı İmparatorluğu'nun 400 yıl boyunca idare merkezi ve padişahların ikametgahı olarak kullanılmış görkemli saraydır.",
+    "type": "Saray",
+    "provinces": ["34"]
+  },
+  {
+    "name": "Dolmabahçe Sarayı",
+    "description": "19. yüzyılda Sultan Abdülmecid tarafından yaptırılmış, Osmanlı İmparatorluğu'nun son dönemlerine tanıklık etmiş, Batı mimarisi etkileri taşıyan görkemli saraydır.",
+    "type": "Saray",
+    "provinces": ["34"]
+  },
+  {
+    "name": "Sagalassos Antik Kenti",
+    "description": "Burdur'un Ağlasun ilçesinde yer alan, Pisidya bölgesinin en önemli antik kentlerinden biridir. Roma İmparatorluk dönemine ait çok iyi korunmuş yapılar barındırır.",
+    "type": "Antik Kent",
+    "provinces": ["15"]
+  },
+  {
+    "name": "Patara Antik Kenti",
+    "description": "Antalya'nın Kaş ilçesinde yer alan Likya Birliği'nin başkenti. Aynı zamanda Noel Baba olarak bilinen Saint Nicholas'ın doğum yeridir ve dünyanın bilinen en eski meclis binasına ev sahipliği yapar.",
+    "type": "Antik Kent",
+    "provinces": ["07"]
+  },
+  {
+    "name": "Myra Antik Kenti",
+    "description": "Antalya'nın Demre ilçesinde yer alan antik Likya kentidir. Kaya mezarları, antik tiyatrosu ve Aziz Nikolaos (Noel Baba) Kilisesi ile ünlüdür.",
+    "type": "Antik Kent",
+    "provinces": ["07"]
+  },
+  {
+    "name": "Alacahöyük",
+    "description": "Çorum'un Alaca ilçesinde yer alan, Hititler döneminin önemli bir kült ve sanat merkezi. Sfenksli kapısı ve kral mezarları ile tanınır.",
+    "type": "Antik Kent",
+    "provinces": ["19"]
+  },
+  {
+    "name": "Çavuştepe Kalesi",
+    "description": "Van'ın Gürpınar ilçesinde, Urartu Kralı II. Sarduri tarafından inşa edilmiş tarihi bir kaledir.",
+    "type": "Kale",
+    "provinces": ["65"]
+  },
+  {
+    "name": "Hoşap Kalesi",
+    "description": "Van'ın Gürpınar ilçesinde, 17. yüzyılda Mahmudi Süleyman Bey tarafından yaptırılmış sarp kayalıklar üzerine kurulu görkemli kaledir.",
+    "type": "Kale",
+    "provinces": ["65"]
+  },
+  {
+    "name": "Karatay Medresesi",
+    "description": "Konya'da Selçuklu Sultanı II. İzzeddin Keykavus zamanında Emir Celaleddin Karatay tarafından yaptırılmış, çini eserleri ile ünlü medresedir.",
+    "type": "Müze",
+    "provinces": ["42"]
+  },
+  {
+    "name": "Çifte Minareli Medrese",
+    "description": "Erzurum'un sembolü haline gelmiş Selçuklu dönemi eseridir. Anadolu Selçuklu döneminin en önemli eğitim kurumlarından biri olup taç kapısındaki süslemeleriyle ünlüdür.",
+    "type": "Müze",
+    "provinces": ["25"]
+  },
+  {
+    "name": "Gök Medrese",
+    "description": "Sivas'ta Anadolu Selçuklu dönemine ait, çinileriyle meşhur, taç kapısı ve minareleri ile göz dolduran tarihi eğitim yapısıdır.",
+    "type": "Müze",
+    "provinces": ["58"]
+  },
+  {
+    "name": "Gordion Antik Kenti",
+    "description": "Ankara'nın Polatlı ilçesinde yer alan Frigya'nın siyasi ve kültürel başkenti. Ünlü Kral Midas'ın tümülüsü (mezarı) burada bulunur.",
+    "type": "Antik Kent",
+    "provinces": ["06"]
+  },
+  {
+    "name": "Göbeklitepe",
+    "description": "Şanlıurfa'da yer alan, dünyanın bilinen en eski kült yapılar topluluğu. Neolitik döneme tarihlenen bu yapılar, insanlık tarihine dair bilinenleri değiştirmiştir.",
+    "type": "Antik Kent",
+    "provinces": ["63"]
+  },
+  {
+    "name": "Harran Evleri",
+    "description": "Şanlıurfa'nın Harran ilçesinde bulunan, külah biçimindeki konik kubbeli tarihi kerpiç evlerdir. Ayrıca dünyanın ilk üniversitelerinden birinin kalıntılarına ev sahipliği yapar.",
+    "type": "Müze",
+    "provinces": ["63"]
+  },
+  {
+    "name": "Ani Harabeleri",
+    "description": "Kars'ta Türkiye-Ermenistan sınırında bulunan, Orta Çağ'ın en büyük şehirlerinden biridir. Çeşitli medeniyetlere ev sahipliği yapmıştır ve '1001 Kilise Şehri' olarak da anılır.",
+    "type": "Antik Kent",
+    "provinces": ["36"]
+  },
+  {
+    "name": "Hattuşa Antik Kenti",
+    "description": "Çorum'un Boğazkale ilçesinde bulunan Hitit İmparatorluğu'nun başkentidir. Yazılıkaya Açıkhava Tapınağı, Aslanlı Kapı ve Sfenksli Kapı en bilinen kalıntılarıdır.",
+    "type": "Antik Kent",
+    "provinces": ["19"]
+  },
+  {
+    "name": "Aspendos Antik Tiyatrosu",
+    "description": "Antalya'nın Serik ilçesinde yer alan ve antik dünyanın en iyi korunmuş tiyatrolarından biridir. Roma dönemi mimarisinin eşsiz bir örneğidir.",
+    "type": "Antik Kent",
+    "provinces": ["07"]
+  },
+  {
+    "name": "Phaselis Antik Kenti",
+    "description": "Antalya'nın Kemer ilçesinde yer alan eski bir Likya ve Pamfilya liman kentidir. Su kemerleri ve üç farklı limanıyla dikkat çeker.",
+    "type": "Antik Kent",
+    "provinces": ["07"]
+  },
+  {
+    "name": "Olympos Antik Kenti",
+    "description": "Antalya'nın Kumluca ilçesinde bulunan, Likya Birliği'nin en önemli şehirlerinden biridir. Doğayla iç içe kalıntıları ve sönmeyen ateşi Yanartaş (Chimaera) ile ünlüdür.",
+    "type": "Antik Kent",
+    "provinces": ["07"]
+  },
+  {
+    "name": "Alanya Kalesi",
+    "description": "Antalya'nın Alanya ilçesinde, Helenistik dönemde kurulan ve Selçuklu döneminde en parlak çağını yaşayan, yarımada üzerinde kurulu surlarla çevrili kaledir.",
+    "type": "Kale",
+    "provinces": ["07"]
+  },
+  {
+    "name": "Bodrum Sualtı Arkeoloji Müzesi",
+    "description": "Muğla'nın Bodrum ilçesinde, tarihi Bodrum Kalesi içinde yer alan ve dünyanın en önemli sualtı arkeoloji müzelerinden biridir.",
+    "type": "Müze",
+    "provinces": ["48"]
+  },
+  {
+    "name": "Beylerbeyi Sarayı",
+    "description": "İstanbul Boğazı'nın Anadolu yakasında, Sultan Abdülaziz tarafından yaptırılmış Osmanlı dönemi yazlık sarayıdır.",
+    "type": "Saray",
+    "provinces": ["34"]
+  },
+  {
+    "name": "Çırağan Sarayı",
+    "description": "İstanbul'da Boğaziçi'nin Avrupa yakasında yer alan, Sultan Abdülaziz döneminde inşa edilmiş görkemli saray.",
+    "type": "Saray",
+    "provinces": ["34"]
+  },
+  {
+    "name": "Rumeli Hisarı",
+    "description": "İstanbul'un fethinden önce Fatih Sultan Mehmet tarafından Boğaz'ın en dar noktasına, geçişleri kontrol etmek amacıyla yaptırılmış devasa kaledir.",
+    "type": "Kale",
+    "provinces": ["34"]
+  },
+  {
+    "name": "Kilitbahir Kalesi",
+    "description": "Çanakkale Boğazı'nın en dar yerinde, Fatih Sultan Mehmet tarafından yaptırılmış, boğaz geçişini kontrol amacı taşıyan kaledir.",
+    "type": "Kale",
+    "provinces": ["17"]
+  },
+  {
+    "name": "Mamure Kalesi",
+    "description": "Mersin'in Anamur ilçesinde bulunan, Romalılar, Bizanslılar, Karamanogulları ve Osmanlılar tarafından kullanılmış, deniz kenarında yer alan tarihi kaledir.",
+    "type": "Kale",
+    "provinces": ["33"]
+  },
+  {
+    "name": "Kızkalesi",
+    "description": "Mersin'in Erdemli ilçesinde, denizin ortasındaki küçük bir adacık üzerine inşa edilmiş tarihi kaledir.",
+    "type": "Kale",
+    "provinces": ["33"]
+  },
+  {
+    "name": "Divriği Ulu Cami ve Darüşşifası",
+    "description": "Sivas'ın Divriği ilçesinde, Mengücekoğulları döneminde inşa edilmiş, taş işçiliğinin şaheseri sayılan eşsiz mimari yapıdır.",
+    "type": "Cami/Külliye",
+    "provinces": ["58"]
+  }
+]

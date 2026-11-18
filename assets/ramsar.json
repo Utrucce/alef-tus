@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Göksu Deltası",
+    "description": "Akdeniz kıyısında yer alan, su kuşlarının önemli üreme ve kışlama alanlarından biridir. Akdeniz foku ve deniz kaplumbağalarına da ev sahipliği yapar.",
+    "type": "Ramsar Alanı",
+    "provinces": [
+      "33"
+    ]
+  },
+  {
+    "name": "Burdur Gölü",
+    "description": "Dünya çapında tehlike altındaki dikkuyruk ördeğinin (Oxyura leucocephala) en önemli kışlama alanlarından biridir.",
+    "type": "Ramsar Alanı",
+    "provinces": [
+      "15"
+    ]
+  },
+  {
+    "name": "Seyfe Gölü",
+    "description": "Kırşehir'de bulunan, binlerce flamingo ve diğer su kuşları için önemli bir üreme ve konaklama alanı olan kapalı havza gölüdür.",
+    "type": "Ramsar Alanı",
+    "provinces": [
+      "40"
+    ]
+  },
+  {
+    "name": "Manyas (Kuş) Gölü",
+    "description": "Ünlü Kuş Cenneti Milli Parkı'nı barındıran, tepeli pelikan ve küçük karabatak gibi türlerin önemli üreme alanıdır.",
+    "type": "Ramsar Alanı",
+    "provinces": [
+      "10"
+    ]
+  },
+  {
+    "name": "Sultan Sazlığı",
+    "description": "Tatlı ve tuzlu su ekosistemlerinin bir arada bulunduğu, yüzlerce kuş türünün kuluçkaya yattığı ve konakladığı önemli bir sulak alandır.",
+    "type": "Ramsar Alanı",
+    "provinces": [
+      "38"
+    ]
+  },
+  {
+    "name": "Kızılırmak Deltası",
+    "description": "Karadeniz kıyısındaki en büyük ve ekolojik olarak en zengin deltadır. Yaban hayatı ve su kuşları açısından kritik öneme sahiptir.",
+    "type": "Ramsar Alanı",
+    "provinces": [
+      "55"
+    ]
+  },
+  {
+    "name": "Akyatan Lagünü",
+    "description": "Adana'da yeşil deniz kaplumbağalarının (Chelonia mydas) Akdeniz'deki en önemli üreme alanlarından biri ve büyük bir kuş kışlama merkezidir.",
+    "type": "Ramsar Alanı",
+    "provinces": [
+      "01"
+    ]
+  },
+  {
+    "name": "Uluabat Gölü",
+    "description": "Bursa'da sığ yapısı ve zengin biyolojik çeşitliliğiyle öne çıkan, göçmen kuşların önemli beslenme ve üreme alanlarındandır.",
+    "type": "Ramsar Alanı",
+    "provinces": [
+      "16"
+    ]
+  },
+  {
+    "name": "Gediz Deltası",
+    "description": "İzmir Körfezi'nde yer alan, Türkiye'nin en büyük flamingo üreme kolonilerinden birine ve zengin tuzcul bitki örtüsüne sahip sulak alandır.",
+    "type": "Ramsar Alanı",
+    "provinces": [
+      "35"
+    ]
+  },
+  {
+    "name": "Meke Maarı",
+    "description": "Konya Karapınar'da bulunan ve 'Dünyanın Nazar Boncuğu' olarak adlandırılan, sönmüş bir volkan kraterinin suyla dolmasıyla oluşan göldür.",
+    "type": "Ramsar Alanı",
+    "provinces": [
+      "42"
+    ]
+  },
+  {
+    "name": "Yumurtalık Lagünü",
+    "description": "Adana'da Seyhan ve Ceyhan nehirlerinin oluşturduğu, göçmen kuşların geçiş güzergahında bulunan zengin bir lagün sistemidir.",
+    "type": "Ramsar Alanı",
+    "provinces": [
+      "01"
+    ]
+  },
+  {
+    "name": "Kızören Obruğu",
+    "description": "Konya Havzası'ndaki karstik erimeler sonucu oluşan ve yeraltı sularının durumunu yansıtan önemli bir obruk gölüdür.",
+    "type": "Ramsar Alanı",
+    "provinces": [
+      "42"
+    ]
+  },
+  {
+    "name": "Kuyucuk Gölü",
+    "description": "Kars'ta bulunan, Doğu Anadolu'nun kuş çeşitliliği açısından en zengin göllerinden biridir; angıt ve uzunbacak gibi türleri barındırır.",
+    "type": "Ramsar Alanı",
+    "provinces": [
+      "36"
+    ]
+  },
+  {
+    "name": "Nemrut Kalderası",
+    "description": "Bitlis'te yer alan dünyanın en büyük ikinci kaldera gölüdür. Eşsiz volkanik oluşumu ve biyolojik çeşitliliği ile öne çıkar.",
+    "type": "Ramsar Alanı",
+    "provinces": [
+      "13"
+    ]
+  }
+]

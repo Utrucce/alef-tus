@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Kapıkule Sınır Kapısı",
+    "description": "Türkiye'nin Bulgaristan'a ve Avrupa'ya açılan en büyük ve en işlek sınır kapısıdır. Edirne ilinde bulunur. İhracat ve ithalatta karayolu taşımacılığının en önemli noktalarındandır. Ayrıca demiryolu bağlantısı da mevcuttur.",
+    "type": "Bulgaristan",
+    "provinces": ["22"]
+  },
+  {
+    "name": "Hamzabeyli Sınır Kapısı",
+    "description": "Edirne'nin Lalapaşa ilçesinde, Bulgaristan'a açılan sınır kapısıdır. Kapıkule'nin yoğunluğunu azaltmak amacıyla açılmıştır.",
+    "type": "Bulgaristan",
+    "provinces": ["22"]
+  },
+  {
+    "name": "Dereköy (Aziziye) Sınır Kapısı",
+    "description": "Kırklareli üzerinden Bulgaristan'a açılan sınır kapısıdır. Daha çok yolcu geçişleri ve küçük çaplı ticaret için kullanılır.",
+    "type": "Bulgaristan",
+    "provinces": ["39"]
+  },
+  {
+    "name": "İpsala Sınır Kapısı",
+    "description": "Edirne ilinde, Meriç Nehri üzerinde yer alan ve Yunanistan'a açılan en önemli karayolu sınır kapısıdır. Avrupa ile olan ticarette önemli bir köprü konumundadır.",
+    "type": "Yunanistan",
+    "provinces": ["22"]
+  },
+  {
+    "name": "Pazarkule Sınır Kapısı",
+    "description": "Edirne merkezine çok yakın konumda olup Yunanistan'a açılan diğer bir sınır kapısıdır. Genellikle yolcu ve küçük araç trafiğine hizmet verir.",
+    "type": "Yunanistan",
+    "provinces": ["22"]
+  },
+  {
+    "name": "Uzunköprü Sınır Kapısı",
+    "description": "Edirne'nin Uzunköprü ilçesinde yer alan, Türkiye'yi Yunanistan'a bağlayan demiryolu sınır kapısıdır.",
+    "type": "Yunanistan",
+    "provinces": ["22"]
+  },
+  {
+    "name": "Sarp Sınır Kapısı",
+    "description": "Artvin'in Hopa ilçesinde (Kemalpaşa) bulunan ve Gürcistan'a açılan, Karadeniz sahil yolu üzerindeki çok işlek sınır kapısıdır. Kafkaslara ve Orta Asya'ya geçişte kritik öneme sahiptir.",
+    "type": "Gürcistan",
+    "provinces": ["08"]
+  },
+  {
+    "name": "Türkgözü Sınır Kapısı",
+    "description": "Ardahan'ın Posof ilçesinde yer alır. Gürcistan'a açılan bu kapı, özellikle enerji hatlarının (örneğin TANAP) güzergahına yakınlığıyla da bilinir.",
+    "type": "Gürcistan",
+    "provinces": ["75"]
+  },
+  {
+    "name": "Çıldır / Aktaş Sınır Kapısı",
+    "description": "Ardahan'ın Çıldır ilçesinde bulunan ve Gürcistan'a açılan sınır kapısıdır. Türkiye ile Gürcistan arasındaki ticari hacmi artırmak amacıyla yakın zamanda modernize edilmiştir.",
+    "type": "Gürcistan",
+    "provinces": ["75"]
+  },
+  {
+    "name": "Akyaka Sınır Kapısı",
+    "description": "Kars ilinde bulunur ve Ermenistan'a açılır. 1993 yılından bu yana siyasi nedenlerle her iki ülkenin karşılıklı kararı sonucu kapalı durumdadır.",
+    "type": "Ermenistan",
+    "provinces": ["36"]
+  },
+  {
+    "name": "Alican Sınır Kapısı",
+    "description": "Iğdır ilinde bulunan Ermenistan sınır kapısıdır. 1993'ten beri siyasi nedenlerle (Karabağ Sorunu) kapalıdır. KPSS'de kapalı olan sınır kapıları arasında sıkça sorulur.",
+    "type": "Ermenistan",
+    "provinces": ["76"]
+  },
+  {
+    "name": "Dilucu Sınır Kapısı",
+    "description": "Iğdır ilimizde yer alan ve Aras Nehri üzerindeki 'Umut Köprüsü' ile Türkiye'yi Nahçıvan'a (Azerbaycan) bağlayan tek sınır kapımızdır. Stratejik ve tarihi önemi büyüktür.",
+    "type": "Nahçıvan",
+    "provinces": ["76"]
+  },
+  {
+    "name": "Gürbulak Sınır Kapısı",
+    "description": "Ağrı'nın Doğubayazıt ilçesinde bulunan ve İran'a açılan en önemli karayolu sınır kapısıdır. Tarihi İpek Yolu güzergahındadır ve Transit Ticaret açısından çok işlektir.",
+    "type": "İran",
+    "provinces": ["04"]
+  },
+  {
+    "name": "Kapıköy Sınır Kapısı",
+    "description": "Van ilinin Saray ilçesinde yer alır ve İran'a açılır. Aynı zamanda Türkiye-İran arasındaki demiryolu bağlantısını sağlayan gümrük kapısıdır.",
+    "type": "İran",
+    "provinces": ["65"]
+  },
+  {
+    "name": "Esendere Sınır Kapısı",
+    "description": "Hakkâri'nin Yüksekova ilçesinde İran'a açılan sınır kapısıdır. Bölge ticareti ve yolcu geçişleri açısından önemlidir.",
+    "type": "İran",
+    "provinces": ["30"]
+  },
+  {
+    "name": "Borualan Sınır Kapısı",
+    "description": "Iğdır ilinde bulunan ve İran'a açılan ancak günümüzde faal olmayan sınır kapısıdır.",
+    "type": "İran",
+    "provinces": ["76"]
+  },
+  {
+    "name": "Habur Sınır Kapısı",
+    "description": "Şırnak'ın Silopi ilçesinde Irak'a açılan sınır kapısıdır. Ortadoğu ile olan ticaretimizde can damarıdır ve Türkiye'nin en işlek sınır kapılarından biridir.",
+    "type": "Irak",
+    "provinces": ["73"]
+  },
+  {
+    "name": "Üzümlü Sınır Kapısı",
+    "description": "Hakkâri'nin Çukurca ilçesinde yer alan, Irak'a açılan gümrük kapısıdır. Sınır ticaretini geliştirmek amacıyla hizmet vermektedir.",
+    "type": "Irak",
+    "provinces": ["30"]
+  },
+  {
+    "name": "Derecik Sınır Kapısı",
+    "description": "Hakkâri'nin Derecik ilçesinde bulunan, Kuzey Irak (Irak) tarafına açılan görece yeni sınır kapılarımızdandır.",
+    "type": "Irak",
+    "provinces": ["30"]
+  },
+  {
+    "name": "Cilvegözü Sınır Kapısı",
+    "description": "Hatay'ın Reyhanlı ilçesinde yer alır. Suriye'ye açılan en büyük ve tarihi önemi olan kapılardan biridir. Ortadoğu transit ticaretinde önemli rol oynamıştır.",
+    "type": "Suriye",
+    "provinces": ["31"]
+  },
+  {
+    "name": "Yayladağı Sınır Kapısı",
+    "description": "Hatay'ın Yayladağı ilçesinden Suriye'ye açılan gümrük kapısıdır. Suriye iç savaşı sonrası faaliyetleri büyük ölçüde kısıtlanmıştır.",
+    "type": "Suriye",
+    "provinces": ["31"]
+  },
+  {
+    "name": "Zeytin Dalı Sınır Kapısı",
+    "description": "Hatay'ın Kumlu ilçesinde Afrin (Suriye) bölgesine açılan gümrük kapısıdır. Bölgeye insani yardım ve ticaret amaçlı olarak yeni açılan kapılardandır.",
+    "type": "Suriye",
+    "provinces": ["31"]
+  },
+  {
+    "name": "Öncüpınar Sınır Kapısı",
+    "description": "Kilis ilimizde bulunan ve Suriye'ye açılan önemli sınır kapısıdır. İnsani yardımlar ve transit ticaret geçişleri için yoğun şekilde kullanılmaktadır.",
+    "type": "Suriye",
+    "provinces": ["79"]
+  },
+  {
+    "name": "Çobanbey Sınır Kapısı",
+    "description": "Kilis'in Elbeyli ilçesinde yer alır. Suriye'ye açılan ve aynı zamanda demiryolu bağlantısı da bulunan sınır kapılarımızdandır.",
+    "type": "Suriye",
+    "provinces": ["79"]
+  },
+  {
+    "name": "Karkamış Sınır Kapısı",
+    "description": "Gaziantep ilinin Karkamış ilçesinde Suriye sınırında yer alan gümrük kapısıdır.",
+    "type": "Suriye",
+    "provinces": ["27"]
+  },
+  {
+    "name": "Akçakale Sınır Kapısı",
+    "description": "Şanlıurfa ilinden Suriye'ye açılan sınır kapısıdır. Tarihi Hicaz Demiryolu hattının geçtiği bölgelere yakın konumdadır.",
+    "type": "Suriye",
+    "provinces": ["63"]
+  },
+  {
+    "name": "Ceylanpınar Sınır Kapısı",
+    "description": "Şanlıurfa'nın Ceylanpınar ilçesinde Suriye (Resulayn) sınırında yer alan gümrük kapısıdır.",
+    "type": "Suriye",
+    "provinces": ["63"]
+  },
+  {
+    "name": "Mürşitpınar Sınır Kapısı",
+    "description": "Şanlıurfa'nın Suruç ilçesinde yer alan, Suriye'ye açılan sınır kapısıdır. Demiryolu bağlantısı olan kapılarımızdandır.",
+    "type": "Suriye",
+    "provinces": ["63"]
+  },
+  {
+    "name": "Nusaybin Sınır Kapısı",
+    "description": "Mardin ilinden Suriye'ye açılan, İpek Yolu güzergâhında bulunan önemli bir sınır kapısıdır. Suriye ile olan karayolu ve demiryolu geçiş noktalarından biridir.",
+    "type": "Suriye",
+    "provinces": ["47"]
+  },
+  {
+    "name": "Şenyurt Sınır Kapısı",
+    "description": "Mardin'in Kızıltepe ilçesinde Suriye sınırında yer alan kapıdır.",
+    "type": "Suriye",
+    "provinces": ["47"]
+  }
+]

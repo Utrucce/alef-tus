@@ -1,0 +1,702 @@
+{
+  "gorsel_hafiza/Anatomi/willis_poligonu.jpg": {
+    "title": "Willis Poligonu ve İntrakraniyal Anevrizmalar",
+    "latin": "Circulus arteriosus cerebri",
+    "category": "Anatomi",
+    "spot": "• En sık intrakraniyal saküler (berry) anevrizma A. communicans anterior'da (%40) görülür.\n• İkinci sıklıkta A. cerebri media bifürkasyonunda yer alır.\n• Rüptürü Subaraknoid Kanama (SAK) yapar ('hayatımın en şiddetli baş ağrısı').\n• Willis poligonu A. carotis interna ve A. vertebralis (basiler) sistemlerini bağlar.",
+    "source": "Wikimedia Commons / OpenStax (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Anatomi/kranial_sinirler.jpg": {
+    "title": "12 Kranial Sinir ve Çıkış Delikleri",
+    "latin": "Nervi craniales I-XII",
+    "category": "Anatomi",
+    "spot": "• Kafa çiftleri: CN I (Lamina cribrosa), CN II (Canalis opticus).\n• Fissura orbitalis superior: CN III, IV, V1, VI.\n• Foramen rotundum: CN V2 (Maksiller) | Foramen ovale: CN V3 (Mandibuler).\n• Foramen jugulare: CN IX, X, XI geçer.\n• CN VII ve VIII Porus acusticus internus'tan girer.",
+    "source": "Wikimedia Commons / OpenStax (CC BY 4.0)"
+  },
+  "gorsel_hafiza/Anatomi/brakiyal_pleksus.jpg": {
+    "title": "Pleksus Brakialis ve Dalları",
+    "latin": "Plexus brachialis (C5-T1)",
+    "category": "Anatomi",
+    "spot": "• Kökler: C5-T1 spinal sinir ventral dalları.\n• Üst kök lezyonu (C5-C6): Erb-Duchenne felci ('Bahşiş tutan el' pozisyonu).\n• Alt kök lezyonu (C8-T1): Klumpke felci ('Pençe el' deformitesi).\n• N. radialis sulcus nervi radialis'te (humerus şaft kırığı) zedelenirse düşük el gelişir.",
+    "source": "Wikimedia Commons / OpenStax (CC BY 4.0)"
+  },
+  "gorsel_hafiza/Anatomi/dermatom_haritasi.jpg": {
+    "title": "Klinik Dermatom Haritası (C4-S1)",
+    "latin": "Dermatoma cutanea",
+    "category": "Anatomi",
+    "spot": "• C4: Omuz tepe noktası | C6: Başparmak | C7: Orta parmak | C8: Küçük parmak.\n• T4: Meme başı çizgisi | T10: Göbek çevresi (Umbilicus).\n• L4: Medial malleol ve diz kapağı | L5: Ayak sırtı ve başparmak.\n• S1: Lateral malleol ve aşil tendonu.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Anatomi/femoral_ucgen.jpg": {
+    "title": "Femoral Üçgen ve Kanallar",
+    "latin": "Trigonum femorale (Scarpa)",
+    "category": "Anatomi",
+    "spot": "• Sınırlar: Üstte Lig. inguinale, lateralde M. sartorius, medialde M. adductor longus.\n• İçindekiler lateralden mediale: NAVEL (N. femoralis, A. femoralis, V. femoralis, Boşluk, Lenf nodları).\n• Femoral herni V. femoralis medialindeki canalis femoralis'ten çıkar ve kadınlarda boğulma riski en yüksektir.",
+    "source": "Wikimedia Commons / OpenStax (CC BY 4.0)"
+  },
+  "gorsel_hafiza/Anatomi/kalp_kapak_odaklari.jpg": {
+    "title": "Kalp Kapak Dinleme Odakları",
+    "latin": "Foci auscultationis cordis",
+    "category": "Anatomi",
+    "spot": "• Aort Odağı: Sağ 2. interkostal aralık (İKA) sternum kenarı.\n• Pulmoner Odak: Sol 2. İKA sternum kenarı.\n• Triküspit Odak: Sol 4-5. İKA sternum sol alt kenarı.\n• Mitral Odak (Apeks): Sol 5. İKA midklaviküler hat (Mitte kalp tepe atımı).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Anatomi/larenks_kikirdaklari.jpg": {
+    "title": "Larenks Kıkırdakları ve Kasları",
+    "latin": "Cartilagines laryngis",
+    "category": "Anatomi",
+    "spot": "• Tek kıkırdaklar: Cartilago thyroidea, cricoidea, epiglottica.\n• Çift kıkırdaklar: Arytenoidea, corniculata, cuneiformis.\n• Ses tellerini açan tek kas: M. cricoarytenoideus posterior (postikus) — paralizisi asfiksi yapar!\n• Ses tellerini geren tek kas: M. cricothyroideus (N. laryngeus superior externus dalı besler).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Anatomi/medulla_spinalis.jpg": {
+    "title": "Medulla Spinalis İnen ve Çıkan Yollar",
+    "latin": "Tractus medullae spinalis",
+    "category": "Anatomi",
+    "spot": "• Tr. corticospinalis lateralis: İstemli motor yol (medulla oblongata'da çaprazlaşır).\n• Tr. spinothalamicus: Ağrı ve sıcaklık duyusu (girdiği segmentte ön komissürde çaprazlaşır).\n• Fasciculus gracilis ve cuneatus: Propriosepsiyon, 2 nokta ayrımı, vibrasyon duyusu.",
+    "source": "Wikimedia Commons / OpenStax (CC BY 4.0)"
+  },
+  "gorsel_hafiza/Anatomi/inguinal_kanal.jpg": {
+    "title": "İnguinal Kanal ve Hesselbach Üçgeni",
+    "latin": "Canalis inguinalis",
+    "category": "Anatomi",
+    "spot": "• Hesselbach üçgeni: İnferiorunda lig. inguinale, lateralinde A. epigastrica inferior, medialinde M. rectus abdominis.\n• Direkt fıtık: Hesselbach üçgeninden (fascia transversalis defektinden) çıkar.\n• İndirekt fıtık: Anulus inguinalis profundus'tan girer (A. epigastrica inferior'un lateralindedir).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Anatomi/karotid_ucgen.jpg": {
+    "title": "Karotis Üçgeni ve Boyun Fasyaları",
+    "latin": "Trigonum caroticum",
+    "category": "Anatomi",
+    "spot": "• Sınırları: M. sternocleidomastoideus, M. omohyoideus venter superior, M. digastricus venter posterior.\n• Vagina carotica içindekiler: A. carotis communis/interna (medialde), V. jugularis interna (lateralde), N. vagus (arkada ortada).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Fizyoloji/aksiyon_potansiyeli_kalp.jpg": {
+    "title": "Ventriküler Miyosit Aksiyon Potansiyeli",
+    "latin": "Potentia actionis myocardii",
+    "category": "Fizyoloji",
+    "spot": "• Faz 0: Hızlı depolarizasyon (Hızlı Na+ kanallarının açılması).\n• Faz 1: Erken repolarizasyon (Geçici dışa K+ akımı - Ito).\n• Faz 2: Plato fazı (L-tipi Ca2+ kanalları içeri girerken K+ dışarı çıkar).\n• Faz 3: Hızlı repolarizasyon (Gecikmiş doğrultucu K+ kanalları açılır).\n• Faz 4: İstirahat zar potansiyeli (-90 mV, Na+/K+ ATPaz ve Ik1).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Fizyoloji/nefron_iyon_tasinmasi.jpg": {
+    "title": "Nefron Boyunca İyon ve Su Taşınması",
+    "latin": "Transportus tubularis nephroni",
+    "category": "Fizyoloji",
+    "spot": "• Proksimal tübül: Geri emilimin %65-70'i gerçekleşir (SGLT2 ile glikoz, Na+/H+ antiport).\n• Henle inen kolu: Suya geçirgen, tuzlara geçirimsizdir.\n• Henle çıkan kalın kolu: NKCC2 (Na-K-2Cl kotransportörü) etkilidir (Furosemid hedefi).\n• Distal kıvrımlı tübül: NCCT (Na-Cl kotransportörü) (Tiyazid hedefi).\n• Toplayıcı kanallar: Aldosteron ile Na+ tutulumu, K+/H+ atılımı (ENaC kanalı).",
+    "source": "Wikimedia Commons / OpenStax (CC BY 4.0)"
+  },
+  "gorsel_hafiza/Fizyoloji/oksihemoglobin_disosiasyon.jpg": {
+    "title": "Oksihemoglobin Disosiasyon Eğrisi",
+    "latin": "Curva dissociationis oxyhaemoglobini",
+    "category": "Fizyoloji",
+    "spot": "• Eğriyi SAĞA kaydıranlar (O2 afinitesini azaltır, dokuya O2 bırakır): Artmış 2,3-BPG, asidoz (düşük pH), artmış CO2, artmış sıcaklık (Egzersiz durumu).\n• Eğriyi SOLA kaydıranlar: Alkaloz, düşük sıcaklık, azalmış 2,3-BPG, Fetal Hemoglobin (HbF), Karbonmonoksit zehirlenmesi (HbCO).\n• P50: Hemoglobinin %50 doymuş olduğu oksijen parsiyel basıncıdır (Normalde ~27 mmHg).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Fizyoloji/spirometri_akciger.jpg": {
+    "title": "Spirometri ve Akciğer Hacimleri",
+    "latin": "Volumina et capacitates pulmonales",
+    "category": "Fizyoloji",
+    "spot": "• Tidal Volüm (TV): Sakin solunum hacmi (~500 mL).\n• Rezidüel Volüm (RV): Maksimal ekspirasyon sonrası akciğerde kalan hava (Spirometriyle ölçülemez!).\n• Fonksiyonel Rezidüel Kapasite (FRC) ve Total Akciğer Kapasitesi (TLC) spirometriyle ÖLÇÜLEMEZ!\n• Obstrüktif patern: FEV1/FVC < %70 (Astım, KOAH).\n• Restriktif patern: FEV1/FVC normal veya artmış, ancak TLC < %80'dir.",
+    "source": "Wikimedia Commons / OpenStax (CC BY 4.0)"
+  },
+  "gorsel_hafiza/Fizyoloji/sinir_aksiyon_potansiyeli.jpg": {
+    "title": "Sinir Hücresi Aksiyon Potansiyeli",
+    "latin": "Potentia actionis neuronale",
+    "category": "Fizyoloji",
+    "spot": "• Eşik değer: ~ -55 mV (Voltaj kapılı Na+ kanallarının eşik aktivasyonu).\n• Depolarizasyon: Voltaj kapılı Na+ kanallarından hızlı Na+ girişi.\n• Repolarizasyon: Voltaj kapılı Na+ kanallarının inaktive olması ve K+ çıkışı.\n• Hiperpolarizasyon: K+ kanallarının yavaş kapanması sonucu zarın -70 mV altına inmesi.\n• Mutlak refrakter periyot: Na+ kanallarının inaktif olduğu evre (ikinci bir uyarı asla yanıt oluşturmaz).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Fizyoloji/frank_starling.jpg": {
+    "title": "Frank-Starling Eğrisi ve Kalp Debisi",
+    "latin": "Lex Frank-Starling cordis",
+    "category": "Fizyoloji",
+    "spot": "• End-diastolik volüm (önyük - preload) arttıkça ventriküler miyositler gerilir ve kasılma gücü (atım hacmi) artar.\n• Pozitif inotrop ajanlar (Digoksin, Beta-1 agonistler) eğriyi YUKARI ve SOLA kaydırır.\n• Kalp yetmezliği eğriyi AŞAĞI ve SAĞA kaydırır.\n• Afterload (artyük) artışı da ejeksiyon fraksiyonunu ve atım hacmini düşürür.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Fizyoloji/renin_anjiyotensin.jpg": {
+    "title": "Renin-Anjiyotensin-Aldosteron Sistemi (RAAS)",
+    "latin": "Systema reninum-angiotensinum-aldosteronum",
+    "category": "Fizyoloji",
+    "spot": "• Böbrek jukstaglomerüler hücreleri renal perfüzyon düşünce Renin salgılar.\n• Renin: Anjiyotensinojeni Anjiyotensin I'e çevirir.\n• ACE (Akciğer endoteli): Anjiyotensin I'i güçlü vazokonstriktör olan Anjiyotensin II'ye çevirir.\n• Anjiyotensin II: Eferent arteriyolü sıkar, susama merkezini uyarır ve aldosteron salgılatır.",
+    "source": "Wikimedia Commons / OpenStax (CC BY 4.0)"
+  },
+  "gorsel_hafiza/Fizyoloji/hemostaz_ve_koagulasyon.jpg": {
+    "title": "Hemostaz ve Koagülasyon Kaskadı",
+    "latin": "Coagulatio sanguinis",
+    "category": "Fizyoloji",
+    "spot": "• Ekstrinsek yol: Doku faktörü (Faktör III) + Faktör VII (PT ile izlenir, Warfarin duyarlıdır).\n• İntrinsek yol: Faktör XII -> XI -> IX + VIII (aPTT ile izlenir, Heparin duyarlıdır).\n• Ortak yol: Faktör Xa, Faktör V, Protrombin (II) -> Trombin -> Fibrinojen (I) -> Fibrin.\n• K vitaminine bağımlı pıhtılaşma faktörleri: 1972 (Faktör 10, 9, 7, 2, Protein C ve S).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Fizyoloji/gastrointestinal_hormonlar.jpg": {
+    "title": "Gastrointestinal Sistem Hormonları",
+    "latin": "Hormona gastrointestinalia",
+    "category": "Fizyoloji",
+    "spot": "• Gastrin: Mide antrumundaki G hücrelerinden salgılanır, paryetal hücreden HCl salgısını uyarır.\n• Kolesistokinin (CCK): Duodenum/jejunum I hücrelerinden salgılanır; safra kesesini kasar, Oddi sfinkterini gevşetir.\n• Sekretin: Duodenum S hücrelerinden salgılanır, pankreastan bikarbonatça zengin sıvı salgılatır.\n• Somatostatin: D hücrelerinden salgılanır, tüm GI salgı ve motilitesini inhibe eder.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Fizyoloji/kas_kasilmasi.jpg": {
+    "title": "İskelet Kası Kayıcı Filamentler Mekanizması",
+    "latin": "Contractio muscularis",
+    "category": "Fizyoloji",
+    "spot": "• Sarkomer: İki Z çizgisi arasındaki fonksiyonel kasılma birimidir.\n• Kasılmada: A bandı boyu DEĞİŞMEZ, I bandı ve H bandı DARALIR.\n• Ca2+ troponin C'ye bağlanarak tropomiyozinin aktin üzerindeki miyozin bağlanma bölgelerini açmasını sağlar.\n• ATP bağlanması: Miyozin başının aktinden ayrılmasını sağlar (Rigor mortis mekanizması).",
+    "source": "Wikimedia Commons / OpenStax (CC BY 4.0)"
+  },
+  "gorsel_hafiza/Biyokimya/glikoliz_yolagi.jpg": {
+    "title": "Glikoliz Yolakları ve Hız Kısıtlayıcı Enzimler",
+    "latin": "Glycolysis",
+    "category": "Biyokimya",
+    "spot": "• Hız kısıtlayıcı basamak: Fosfofruktokinaz-1 (PFK-1).\n• PFK-1'in en güçlü allosterik aktivatörü: Fruktoz-2,6-bisfosfattır.\n• Geri dönüşsüz 3 enzim: Heksokinaz/Glukokinaz, PFK-1, Piruvat Kinaz.\n• Substrat düzeyinde fosforilasyon yapılan basamaklar: Fosfogliserat kinaz ve Piruvat kinaz.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Biyokimya/krebs_dongusu.jpg": {
+    "title": "Krebs (TCA / Sitrik Asit) Döngüsü",
+    "latin": "Cyclus acidi citrici",
+    "category": "Biyokimya",
+    "spot": "• Mitokondri matriksinde gerçekleşir.\n• Hız kısıtlayıcı enzim: İzositrat Dehidrogenaz (NADH ve ATP ile inhibe olur).\n• Substrat düzeyinde fosforilasyon (GTP üretimi): Süksinil-KoA Sentetaz basamağında gerçekleşir.\n• Süksinat dehidrogenaz aynı zamanda Elektron Transport Zinciri Kompleks II'dir (mitokondri iç zarına gömülü tek TCA enzimi).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Biyokimya/ure_dongusu.jpg": {
+    "title": "Üre Döngüsü ve Hiperamonyemi",
+    "latin": "Cyclus ureae",
+    "category": "Biyokimya",
+    "spot": "• İlk 2 basamak mitokondride, son 3 basamak sitoplazmada gerçekleşir.\n• Hız kısıtlayıcı enzim: Karbamoil Fosfat Sentetaz I (CPS-I). Aktivatörü N-asetilglutamattır (NAG).\n• En sık üre döngüsü enzim eksikliği: Ornitin Transkarbamoilaz (OTC) eksikliğidir (X'e bağlı resesif).\n• Üre molekülündeki azotların biri amonyaktan, diğeri aspartattan gelir.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Biyokimya/lipoprotein_metabolizmasi.jpg": {
+    "title": "Lipoprotein Metabolizması (Şilomikron, VLDL, LDL, HDL)",
+    "latin": "Metabolismus lipoproteini",
+    "category": "Biyokimya",
+    "spot": "• Şilomikron: Diyet lipidlerini taşır, ana apoproteini Apo B-48'dir.\n• VLDL: Karaciğerde sentezlenen trigliseridleri taşır, ana apoproteini Apo B-100'dür.\n• LDL: Kolesterolü periferik dokulara taşır, Apo B-100 içerir.\n• HDL: Ters kolesterol taşınımı yapar, Apo A-1 içerir, LCAT enzimini aktive eder.\n• Lipoprotein Lipaz (LPL) aktivatörü Apo C-II'dir.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Biyokimya/kolesterol_steroid_sentezi.jpg": {
+    "title": "Kolesterol ve Steroid Hormon Sentezi",
+    "latin": "Biosynthesis cholesteroli et steroidi",
+    "category": "Biyokimya",
+    "spot": "• Kolesterol sentezinde hız kısıtlayıcı basamak: HMG-KoA Redüktaz (Statinlerin hedefi).\n• Konjenital Adrenal Hiperplazi (KAH) en sık nedeni: 21-Hidroksilaz eksikliği (%95).\n• 21-hidroksilaz eksikliğinde kortizol ve aldosteron düşer, 17-OH progesteron birikir, virilizasyon ve tuz kaybı görülür.\n• 11-Beta-hidroksilaz eksikliğinde 11-deoksikortikosteron birikir, hipertansiyon ve virilizasyon yapar.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Biyokimya/glikojen_metabolizmasi.jpg": {
+    "title": "Glikojen Sentez ve Yıkım Yolakları",
+    "latin": "Metabolismus glycogeni",
+    "category": "Biyokimya",
+    "spot": "• Glikojen sentezinde hız kısıtlayıcı enzim: Glikojen Sentaz.\n• Glikojen yıkımında hız kısıtlayıcı enzim: Glikojen Fosforilaz.\n• Von Gierke Hastalığı (Tip I): Glukoz-6-Fosfataz eksikliği (Şiddetli açlık hipoglisemisi, laktik asidoz, hepatomegali).\n• Pompe Hastalığı (Tip II): Lizozomal alfa-1,4-glukozidaz (asit maltaz) eksikliği (Kardiyomegali ve erken ölüm).\n• McArdle Hastalığı (Tip V): Çizgili kas glikojen fosforilaz eksikliği (Egzersizle miyalji ve miyoglobinüri).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Biyokimya/pentoz_fosfat_yolagi.jpg": {
+    "title": "Pentoz Fosfat Yolağı (HMY) ve G6PD",
+    "latin": "Via pentosi phosphatis",
+    "category": "Biyokimya",
+    "spot": "• Hız kısıtlayıcı enzim: Glukoz-6-Fosfat Dehidrogenaz (G6PD).\n• Ana ürünler: NADPH ve Riboz-5-fosfat (nükleotid sentezi için).\n• NADPH: İndirgenmiş glutatyon üretimini sağlar ve eritrositleri oksidatif stresten korur.\n• G6PD eksikliği: Bakla (favizm), primakin veya enfeksiyonla tetiklenen akut hemolitik anemi ve Heinz cisimcikleri yapar.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Biyokimya/hem_sentezi.jpg": {
+    "title": "Hem Sentezi ve Porfiriyalar",
+    "latin": "Biosynthesis haemis",
+    "category": "Biyokimya",
+    "spot": "• Hız kısıtlayıcı basamak: ALA Sentaz (B6 vitamini bağımlıdır, hem ile negatif feedback alır).\n• Kurşun zehirlenmesi: ALA Dehidrataz ve Ferroşelataz enzimlerini inhibe eder.\n• Akut İntermitant Porfiriya (AİP): Porfobilinojen Deaminaz eksikliği (Karın ağrısı, nöropsikiyatrik ataklar, fotosensitivite YOK!).\n• Porfiriya Kutanea Tarda (PKT): Üroporfirinogen Dekarboksilaz eksikliği (Şiddetli kutanöz fotosensitivite ve bül oluşumu).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Biyokimya/purin_pirimidin_yikimi.jpg": {
+    "title": "Pürin ve Pirimidin Yıkımı (Ürik Asit)",
+    "latin": "Catabolismus purini et pyrimidini",
+    "category": "Biyokimya",
+    "spot": "• Pürin yıkımının son ürünü: Ürik asittir (Ksantin Oksidaz enzimi katalizler; Allopurinol ve Febuksostat hedefidir).\n• Lesch-Nyhan Sendromu: HGPRT enzim eksikliği (X'e bağlı, hiperürisemi, gut, kendine zarar verme davranışı).\n• ADA eksikliği (Adenozin Deaminaz): Şiddetli Kombine İmmün Yetmezlik (SCID) yapar.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Biyokimya/glukoneogenez.jpg": {
+    "title": "Glukoneogenez ve Geri Dönüşsüz Basamaklar",
+    "latin": "Gluconeogenesis",
+    "category": "Biyokimya",
+    "spot": "• Karaciğer ve böbrek korteksinde gerçekleşir.\n• Piruvat -> Oksaloasetat basamağını katalizleyen: Piruvat Karboksilaz (Biyotini kofaktör olarak kullanır, mitokondridedir).\n• Fruktoz-1,6-Bisfosfataz: Glukoneogenezin hız kısıtlayıcı basamağıdır.\n• Glukoz-6-Fosfataz: Glukozu kana veren tek enzimdir (kas dokusunda bulunmaz!).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Mikrobiyoloji/bakteri_hucre_duvari.jpg": {
+    "title": "Gram Pozitif ve Gram Negatif Hücre Duvarı",
+    "latin": "Paries cellularis bacterialis",
+    "category": "Mikrobiyoloji",
+    "spot": "• Gram pozitif: Kalın peptidoglikan tabaka, teikoik ve lipoteikoik asit içerir.\n• Gram negatif: İnce peptidoglikan tabaka, dış membran, periplazmik aralık ve Lipopolisakkarit (LPS - Endotoksin) içerir.\n• LPS'nin toksik parçası: Lipid A'dır (Septik şokta TNF-alfa ve IL-1 salınımını tetikler).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Mikrobiyoloji/gram_pozitif_koklar.jpg": {
+    "title": "Gram Pozitif Kokların Ayırıcı Algoritması",
+    "latin": "Cocci gram-positivi",
+    "category": "Mikrobiyoloji",
+    "spot": "• Katalaz testi: Pozitif -> Stafilokoklar | Negatif -> Streptokoklar.\n• Koagülaz testi: Pozitif -> Staphylococcus aureus | Negatif -> S. epidermidis (Novobiyosin duyarlı), S. saprophyticus (Novobiyosin dirençli).\n• Hemoliz: Beta-hemolitik -> GAS (S. pyogenes, Basitrasin duyarlı) ve GBS (S. agalactiae, CAMP pozitif).\n• Alfa-hemolitik: S. pneumoniae (Optokin duyarlı, safrada erir) ve Viridans streptokoklar (Optokin dirençli).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Mikrobiyoloji/gram_negatif_basiller.jpg": {
+    "title": "Gram Negatif Basiller ve Enterobacteriaceae",
+    "latin": "Bacilli gram-negativi",
+    "category": "Mikrobiyoloji",
+    "spot": "• Laktoz fermente edenler (MacConkey'de pembe): E. coli, Klebsiella, Enterobacter.\n• Laktoz fermente etmeyenler: Salmonella, Shigella, Pseudomonas, Proteus.\n• Oksidaz pozitif: Pseudomonas aeruginosa (yeşil-mavi piyosiyanin pigmenti, üzüm kokusu).\n• H2S oluşturanlar (TSI'da siyah): Salmonella ve Proteus (Proteus aşırı hareketlidir - swarming yapar).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Mikrobiyoloji/tüberküloz_ziehl_neelsen.jpg": {
+    "title": "Mycobacterium tuberculosis ve Asidorezistan Boyanma",
+    "latin": "Mycobacterium tuberculosis",
+    "category": "Mikrobiyoloji",
+    "spot": "• Hücre duvarındaki mikolik asit nedeniyle Gram boyanmaz; Ziehl-Neelsen (ARB) ile pembe-kırmızı çomaklar şeklinde görülür.\n• Löwenstein-Jensen ve Middlebrook besiyerinde 2-6 haftada karnabahar görünümünde koloniler yapar.\n• Kord faktörü (trehaloz dimikolat): Virülans faktörüdür, basillerin yan yana kordon oluşturmasını sağlar.\n• Niasin ve nitrat testleri pozitiftir.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Mikrobiyoloji/hepatit_serolojisi.jpg": {
+    "title": "Hepatit B Serolojik Belirteçleri Grafiği",
+    "latin": "Serologia hepatitidis B",
+    "category": "Mikrobiyoloji",
+    "spot": "• HBsAg: Kanda ilk beliren antijen, akut enfeksiyon veya taşıyıcılığı gösterir (6 aydan uzun sürerse kronik).\n• Anti-HBs: Bağışıklık göstergesidir (Aşılananlarda SADECE Anti-HBs pozitiftir!).\n• Anti-HBc IgM: Akut pencere döneminde tek pozitif olan belirteçtir.\n• HBeAg: Aktif viral replikasyon ve yüksek bulaşıcılığı gösterir.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Mikrobiyoloji/dna_rna_virusleri.jpg": {
+    "title": "DNA ve RNA Virüslerinin Sınıflandırılması",
+    "latin": "Taxonomia virorum",
+    "category": "Mikrobiyoloji",
+    "spot": "• DNA virüsleri: Çoğu çift iplikli ve ikozahedraldir (İstisnalar: Parvovirus B19 TEK ipliklidir; Poxvirus kompleks simetrilidir).\n• Çekirdekte replike olmayan tek DNA virüsü: Poxvirus (sitoplazmada replike olur).\n• Sitoplazmada replike olmayan tek RNA virüsü: Influenza ve Retrovirüsler (çekirdekte replike olurlar).\n• Çift iplikli tek RNA virüsü: Reoviridae (Rotavirüs).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Mikrobiyoloji/mantar_morfolojileri.jpg": {
+    "title": "Tıbbi Önemi Olan Mantarlar ve Dimorfizm",
+    "latin": "Fungi dimorphici",
+    "category": "Mikrobiyoloji",
+    "spot": "• Termal dimorfik mantarlar: 'Vücutta maya (37°C), doğada küf (25°C)' (Histoplasma, Blastomyces, Coccidioides, Sporothrix).\n• Histoplasma capsulatum: Makrofajlar içinde küçük mayalar şeklinde görülür (Kuş ve yarasa dışkısı).\n• Candida albicans: Psödohif ve gerçek germ tüpü oluşturan tek mayadır.\n• Cryptococcus neoformans: Kalın polisakkarit kapsüllüdür, Çini mürekkebi ile boyanır.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Mikrobiyoloji/parazitoloji_protozoonlar.jpg": {
+    "title": "Gastrointestinal Protozoonlar (Giardia, Entamoeba)",
+    "latin": "Protozoa intestinalia",
+    "category": "Mikrobiyoloji",
+    "spot": "• Giardia duodenalis (lamblia): Armut biçimli, 2 çekirdekli, gözlük takmış insan yüzü görünümünde trofozoit; yağlı malabsorptif ishal yapar.\n• Entamoeba histolytica: Eritrosit fagositozu yapan trofozoitler patognomoniktir; amebik karaciğer apsesi ('hamsi ezmesi' kıvamında irin) yapar.\n• Cryptosporidium parvum: Modifiye aside dirençli (Kinyoun) boyanır, AIDS hastalarında inatçı sulu ishal yapar.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Mikrobiyoloji/bakteri_toksinleri.jpg": {
+    "title": "Ekzotoksinler ve Endotoksinler Mekanizması",
+    "latin": "Toxinae bacteriales",
+    "category": "Mikrobiyoloji",
+    "spot": "• A-B Toksinleri: B alt birimi hücreye bağlanır, A alt birimi toksik etkiyi gösterir.\n• Difteri ve Pseudomonas toksini: EF-2'yi ADP-ribozilleyerek protein sentezini durdurur.\n• Kolera toksini: Gs proteinini sürekli aktif tutar -> artmış cAMP -> lümene Na+ ve su kaybı ('pirinç suyu' ishal).\n• Boğmaca toksini: Gi proteinini inaktive eder -> artmış cAMP ve lenfositoz.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Mikrobiyoloji/staphylococcus_aureus.jpg": {
+    "title": "Staphylococcus aureus Virülans Faktörleri",
+    "latin": "Staphylococcus aureus",
+    "category": "Mikrobiyoloji",
+    "spot": "• Protein A: İmmünoglobulin G'nin (IgG) Fc parçasına bağlanarak opsonizasyon ve fagositozu önler.\n• Toksik Şok Sendromu Toksini-1 (TSST-1): Süperantijendir, MHC-II ve TCR beta zincirine bağlanarak masif IL-1, IL-2 ve TNF-alfa fırtınası yapar.\n• Eksfolyatif toksin A ve B: Desmoglein-1'i parçalar (Haşlanmış deri sendromu - SSSS).\n• Enterotoksinler: Isıya dirençlidir, 1-6 saat içinde ani bulantı ve kusma yapar.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Patoloji/reed_sternberg.jpg": {
+    "title": "Hodgkin Lenfoma Reed-Sternberg Hücreleri",
+    "latin": "Cellulae Reed-Sternberg",
+    "category": "Patoloji",
+    "spot": "• Baykuş gözü görünümünde dev çift çekirdekli, belirgin eozinofilik nükleollü hücreler.\n• İmmünohistokimya: CD15 (+) ve CD30 (+) pozitiftir.\n• En sık Hodgkin lenfoma alt tipi: Nodüler Sklerozan tip (kadınlarda sık, mediastinal kitle ve laküner hücreler).\n• En iyi prognozlu tip: Lenfositten zengin tip | En kötü prognozlu tip: Lenfosit azalmış tip.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Patoloji/glioblastoma_multiforme.jpg": {
+    "title": "Glioblastoma Multiforme ve Psödopalisadlaşma",
+    "latin": "Glioblastoma multiforme (WHO Grade IV)",
+    "category": "Patoloji",
+    "spot": "• Erişkinde en sık görülen primer malign beyin tümörüdür.\n• Karakteristik histopatoloji: Serpiginöz nekroz alanları etrafında tümör hücrelerinin psödopalisadlaşması ve endotelyal mikrovasküler proliferasyon.\n• İmmünohistokimya: GFAP kuvvetli pozitiftir.\n• Korpus kallozumu geçerek karşı hemisfere uzanması 'Kelebek glioma' görünümü verir.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Patoloji/granulom_kazeifikasyon.jpg": {
+    "title": "Kazeifiye Granülomatöz İltihap (Tüberküloz)",
+    "latin": "Granuloma caseosum",
+    "category": "Patoloji",
+    "spot": "• Merkezde asellüler, pembe, homojen kazeöz nekroz alanı.\n• Çevresinde epiteloid histiositler, lenfositler ve Langhans tipi çok çekirdekli dev hücreler (at nalı şeklinde dizilmiş periferik çekirdekler).\n• Tip IV gecikmiş tip aşırı duyarlılık reaksiyonudur (CD4+ Th1 hücreleri ve IFN-gama).\n• Sarkoidoz granülomları ise KAZEİFİYE OLMAYAN çıplak granülomlardır.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Patoloji/tasli_yuzuk_karsinom.jpg": {
+    "title": "Taşlı Yüzük Hücreli Karsinom (Mide)",
+    "latin": "Carcinoma cellulis anularibus",
+    "category": "Patoloji",
+    "spot": "• Sitoplazmayı dolduran intrasellüler müsin vakuolü çekirdeği kenara iterek taşlı yüzük görünümü oluşturur.\n• Mide diffüz tip adenokarsinomu ile ilişkilidir (E-kaderin / CDH1 mutasyonu).\n• Mide duvarını yaygın infiltre ederek 'Linitis Plastica' (deri matara) görünümü yapar.\n• Overe bilateral metastazı: Krukenberg tümörüdür.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Patoloji/glomerulonefrit_biyopsi.jpg": {
+    "title": "Glomerülonefrit Tipleri ve İmmünofloresan Paternleri",
+    "latin": "Glomerulonephritis",
+    "category": "Patoloji",
+    "spot": "• Lineer immünofloresan: Goodpasture Sendromu (anti-GBM antikorları).\n• Granüler 'yıldızlı gökyüzü' deseni: Poststreptokokkal GN (PSGN) (Subepitelyal hörgüç / humps).\n• Subepitelyal 'spike and dome': Membranöz Nefropati (Erişkinde nefrotik sendromun sık nedeni).\n• Mezangiyal IgA depolanması: Berger Hastalığı (IgA Nefropatisi - en sık primer GN).\n• Kresent (yarım ay) oluşumu: Hızlı İlerleyen Glomerülonefrit (RPGN - parietal hücre proliferasyonu).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Patoloji/nekroz_tipleri.jpg": {
+    "title": "Nekroz Tipleri (Koagülasyon, Likefaksiyon, Yağ, Kazeöz)",
+    "latin": "Necrosis cellularis",
+    "category": "Patoloji",
+    "spot": "• Koagülasyon nekrozu: Beyin hariç tüm organların iskemik enfarktlarında görülür (hücre çatısı korunur, 'hayalet hücreler').\n• Likefaksiyon (Sıvılaşma) nekrozu: Beyin iskemisi ve bakteriyel/mantar apselerinde görülür.\n• Yağ nekrozu: Akut pankreatitte (lipaz enzimleri serbest yağ asitlerini sabunlaştırır - kalsiyum sabunlaşması) ve meme travmasında görülür.\n• Fibrinoid nekroz: Malign hipertansiyon ve immün vaskülitlerde (PAN) damar duvarında amorf pembe birikim.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Patoloji/malign_melanom.jpg": {
+    "title": "Malign Melanom ve Breslow Derinliği",
+    "latin": "Melanoma malignum",
+    "category": "Patoloji",
+    "spot": "• Prognozda EN ÖNEMLİ parametre: Breslow mikrometrik tümör kalınlığıdır (Granüler tabakadan en derin tümör hücresine kadar ölçülür).\n• İmmünohistokimya: S100 (+), HMB-45 (+), Melan-A (+) pozitiftir.\n• Genetik mutasyon: BRAF V600E mutasyonu sık görülür (Vemurafenib hedefi).\n• ABCDE kriterleri: Asimetri, Border (düzensiz sınır), Color (alacalı renk), Diameter (>6 mm), Evolution (değişim).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Patoloji/cervical_dysplasia_cin.jpg": {
+    "title": "Servikal İntraepitelyal Neoplazi (CIN ve HPV)",
+    "latin": "Neoplasia intraepithelialis cervicalis",
+    "category": "Patoloji",
+    "spot": "• Koilositoz: HPV enfeksiyonunun patognomonik hücresel bulgusudur (perinükleer vakuol, hiperkromatik kırışık çekirdek).\n• CIN I (Hafif displazi): Epitelin alt 1/3'ü tutulur.\n• CIN II (Orta displazi): Epitelin alt 2/3'ü tutulur.\n• CIN III (Şiddetli displazi / Karsinoma in situ): Epitelin tüm katları tutulur ancak bazal membran salimdir.\n• Yüksek riskli onkojenik HPV tipleri: 16 (E6 proteini p53'ü yıkar) ve 18 (E7 proteini Rb'yi bağlar).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Patoloji/ateroskleroz_patolojisi.jpg": {
+    "title": "Aterosklerotik Plak Oluşum Evreleri",
+    "latin": "Atherosclerosis vascularis",
+    "category": "Patoloji",
+    "spot": "• İlk evre: Endotel hasarı -> Monosit adezyonu ve intimat göçü.\n• Yağlı çizgi (Fatty streak): Okside LDL'yi yiyen makrofajların köpük hücrelerine (foam cells) dönüşmesi (Geri dönüşümlüdür!).\n• Fibroateromatöz plak: Düz kas hücre proliferasyonu, kollajen sentezi ve nekrotik lipit çekirdeği oluşumu.\n• Komplike plak: Fibröz şapkanın incelmesi, rüptür ve tromboz (AKS patogenezi).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Patoloji/kronik_hepatit_siroz.jpg": {
+    "title": "Kronik Hepatit ve Siroz Rejenerasyon Nodülleri",
+    "latin": "Cirrhosis hepatis",
+    "category": "Patoloji",
+    "spot": "• Sirozun 3 temel patolojik kriteri: 1) Parankimal nekroz, 2) Yaygın kollajenöz fibröz septalar, 3) Rejenerasyon nodülleri.\n• Fibrogenezden sorumlu temel hücre: Disse mesafesinde yerleşik İto (yıldız / stellat) hücreleridir (A vitamini depolar).\n• Alkolik hepatitte: Mallory-Denk cisimcikleri (sitokeratin filament agregatları) ve nötrofilik infiltrasyon görülür.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Farmakoloji/antibiyotik_etki_mekanizmalari.jpg": {
+    "title": "Antibiyotiklerin Hücresel Etki Mekanizmaları",
+    "latin": "Mechanismus actionis antibioticorum",
+    "category": "Farmakoloji",
+    "spot": "• Hücre duvarı sentez inhibitörleri: Beta-laktamlar (Penisilin, Sefalosporin, Karbapenem), Vankomisin, Daptomisin.\n• 30S ribozom inhibitörleri: Aminoglikozidler (Gentamisin - bakterisidal!) ve Tetrasiklinler (Bakteriyostatik).\n• 50S ribozom inhibitörleri: Makrolidler (Eritromisin), Klindamisin, Kloramfenikol, Linezolid.\n• DNA Giraz (Topoizomeraz) inhibitörleri: Florokinolonlar (Siprofloksasin).\n• Folat sentez inhibitörleri: Sülfonamidler (Dihidropteroat sentetaz) ve Trimetoprim (Dihidrofolat redüktaz).",
+    "source": "Wikimedia Commons / OpenStax (CC BY 4.0)"
+  },
+  "gorsel_hafiza/Farmakoloji/diuretik_etki_yerleri.jpg": {
+    "title": "Diüretiklerin Nefronda Etki Gösterdiği Bölgeler",
+    "latin": "Diuretica renalia",
+    "category": "Farmakoloji",
+    "spot": "• Karbonik Anhidraz İnhibitörleri (Asetazolamid): Proksimal tübülde etkilidir, bikarbonatüri ve metabolik asidoz yapar.\n• Kıvrım (Loop) Diüretikleri (Furosemid): Henle çıkan kalın kolunda NKCC2 kotransportörünü bloke eder (Kalsiüri ve hipopotasemi yapar).\n• Tiyazid Diüretikler (HCTZ): Distal kıvrımlı tübülde NCCT'yi bloke eder; kalsiyumu tutar (Hiperkalsemi yapar, osteoporozda faydalı!).\n• Potasyum Tutucular (Spironolakton, Eplerenon): Aldosteron reseptör antagonisti; Amilorid/Triamteren ENaC blokeridir.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Farmakoloji/otonom_sinir_sistemi.jpg": {
+    "title": "Otonom Sinir Sistemi ve Reseptör Dağılımı",
+    "latin": "Systema nervosum autonomicum",
+    "category": "Farmakoloji",
+    "spot": "• Alfa-1: Damar düz kası kasılması (Gq - IP3/DAG).\n• Alfa-2: Presinaptik nöronda yer alır, nörotransmitter salınımını inhibe eder (Gi - cAMP azalır).\n• Beta-1: Kalpte yer alır, kalp hızı ve kasılmasını artırır; JG hücrelerden renin salgılatır (Gs - cAMP artar).\n• Beta-2: Bronkodilatasyon, vazodilatasyon ve glikojenoliz yapar (Gs).\n• Muskarinik M2 (Kalp - bradikardi), M3 (Ekzokrin salgılar, bronkokonstriksiyon, Gq).",
+    "source": "Wikimedia Commons / OpenStax (CC BY 4.0)"
+  },
+  "gorsel_hafiza/Farmakoloji/antihipertansifler.jpg": {
+    "title": "Antihipertansif İlaçların Etki Noktaları",
+    "latin": "Pharmaca antihypertensiva",
+    "category": "Farmakoloji",
+    "spot": "• ACE İnhibitörleri (Kaptopril, Enalapril): Bradikinin birikimine bağlı kuru öksürük ve anjioödem yapabilir; teratojendir.\n• ARB'ler (Losartan, Valsartan): AT1 reseptör blokeridir, öksürük yapmaz.\n• Kalsiyum Kanal Blokerleri: Dihidropiridinler (Amlodipin - periferik vazodilatasyon) ve Non-dihidropiridinler (Verapamil, Diltiazem - kardiyoselektif).\n• Beta Blokerler: İskemik kalp hastalığı ve kalp yetmezliğinde mortaliteyi azaltır.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Farmakoloji/analjezikler_cox.jpg": {
+    "title": "COX İnhibitörleri ve Araşidonik Asit Yolağı",
+    "latin": "Inhibitores cyclooxygenasis",
+    "category": "Farmakoloji",
+    "spot": "• Aspirin: COX-1 ve COX-2'yi GERİ DÖNÜŞSÜZ (kovalent asetilasyon ile) inhibe eden tek NSAİİ'dir.\n• Trombositte TXA2 sentezini baskılayarak antiagregan etki gösterir (trombosit ömrü boyunca ~7-10 gün sürer).\n• Selektif COX-2 İnhibitörleri (Selekoksib): Mide koruyucudur ancak endotelyal PGI2'yi düşürdüğü için kardiyovasküler tromboz riskini artırır.\n• Parasetamol: Santral etkili analjezik-antipiretiktir, periferik antiinflamatuar etkisi yoktur; intoksikasyonunda N-asetilsistein (NAC) verilir.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Farmakoloji/antidiyabetik_ilaclar.jpg": {
+    "title": "Oral Antidiyabetikler ve İnsülin Salgılama",
+    "latin": "Antidiabetica oralis",
+    "category": "Farmakoloji",
+    "spot": "• Metformin (Biguanid): AMPK aktivasyonu ile hepatik glukoneogenezi baskılar; hipoglisemi yapmaz; laktik asidoz yapabilir.\n• Sülfonilüreler (Glimepirid, Gliklazid): Beta hücrelerinde ATP bağımlı K+ kanallarını kapatarak insülin salgılatır (Hipoglisemi ve kilo alımı riski).\n• SGLT2 İnhibitörleri (Dapagliflozin, Empagliflozin): Proksimal tübülden glukoz atılımını artırır (Kilo kaybı, kalp yetmezliğinde mortalite faydası; fungal enfeksiyon riski).\n• GLP-1 Analogları (Semaglutid): İnkretin mimetiktir, tokluk hissi ve kilo kaybı sağlar.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Farmakoloji/antikanser_ilaclar.jpg": {
+    "title": "Kemoterapi ve Antineoplastik İlaçların Hücre Döngüsü",
+    "latin": "Antineoplastica",
+    "category": "Farmakoloji",
+    "spot": "• M fazı spesifik: Vinka alkaloidleri (Vinkristin, Vinblastin - mikrotübül polimerizasyonunu bozar) ve Taksanlar (Paklitaksel - mikrotübülü dondurur).\n• S fazı spesifik: Metotreksat (Dihidrofolat redüktaz blokeridir, Lökovorin ile kurtarılır), 5-Florourasil (Timidilat sentaz blokeridir).\n• Hücre döngüsü non-spesifik: Alkilleyici ajanlar (Siklofosfamid - hemorajik sistit yapar, antidotu Mesna'dır).\n• Antrasiklinler (Doksorubisin): Kardiyotoksisite yapar (Antidotu Deksrazoksan).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Farmakoloji/psikofarmakoloji.jpg": {
+    "title": "Antidepresanlar ve Nörotransmitter Geri Alımı",
+    "latin": "Pharmaca psychotropica",
+    "category": "Farmakoloji",
+    "spot": "• SSRI (Fluoksetin, Sertralin, Essitalopram): Serotonin geri alımını seçici bloke eder (İlk tercih; cinsel disfonksiyon yapabilir).\n• SNRI (Venlafaksin, Duloksetin): Serotonin ve Noradrenalin geri alımını bloke eder.\n• Trisiklik Antidepresanlar (Amitriptilin): Antikolinerjik yan etkiler, sedasyon ve fatal ventriküler aritmi yapabilir (Antidotu Sodyum Bikarbonat).\n• Lityum: Bipolar bozuklukta duygu durum düzenleyici (Dar terapötik aralık, nefrojenik diabetes insipidus ve Ebstein anomalisi riski).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Farmakoloji/genel_anestezikler.jpg": {
+    "title": "Genel Anestezikler ve GABA-A Reseptörü",
+    "latin": "Anaesthetica generalia",
+    "category": "Farmakoloji",
+    "spot": "• İntravenöz Anestezikler: Propofol (GABA-A agonisti, hızlı derlenme), Ketamin (NMDA antagonisti, disosiyatif anestezi ve bronkodilatasyon yapar).\n• İnhalasyon Anestezikleri: Halotan (Fulminan hepatit riski), Malign Hipertermi yapabilir (Rianodin reseptör mutasyonu; tedavide Dantrolen verilir).\n• MAC (Minimal Alveoler Konsantrasyon): Anesteziğin potensini gösterir (MAC azaldıkça potens artar!).\n• Kan/Gaz partisyon katsayısı düşük olan gazlar (Azot protoksit, Desfluran) en hızlı indüksiyon ve derlenmeyi sağlar.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Farmakoloji/lipid_dusurucu_ilaclar.jpg": {
+    "title": "Statinler ve Lipid Düşürücü İlaç Mekanizmaları",
+    "latin": "Hypolipidaemica",
+    "category": "Farmakoloji",
+    "spot": "• Statinler (Atorvastatin, Rosuvastatin): HMG-KoA Redüktazı inhibe eder; LDL reseptörlerini artırarak LDL'yi en güçlü düşüren gruptur (Miyopati ve hepatotoksisite riski).\n• Ezetimib: İnce bağırsakta NPC1L1 kolesterol taşıyıcısını bloke eder.\n• Fibratlar (Gemfibrozil, Fenofibrat): PPAR-alfa aktivasyonu ile Trigliseridi en güçlü düşüren ilaçlardır.\n• PCSK9 İnhibitörleri (Evolokumab): LDL reseptör yıkımını önler, LDL'yi dramatik düşürür.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Dahiliye/ekg_stemi_anterior.jpg": {
+    "title": "12 Derivasyonlu EKG Anterior ve İnferior STEMI",
+    "latin": "Infarctus myocardii acutus in ECG",
+    "category": "Dahiliye",
+    "spot": "• Anterior MI: V1, V2, V3, V4 derivasyonlarında ST elevasyonu (Sorumlu damar: LAD - Sol ön inen arter).\n• İnferior MI: DII, DIII, aVF derivasyonlarında ST elevasyonu (Sorumlu damar: RCA - Sağ koroner arter).\n• Lateral MI: DI, aVL, V5, V6 derivasyonlarında ST elevasyonu (Sorumlu damar: Cx - Sirkumfleks arter).\n• Posterior MI: V1-V3'te resiprokal ST depresyonu ve uzun R dalgası (V7-V9 ile teyit edilir).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Dahiliye/asit_baz_bozukluklari.jpg": {
+    "title": "Klinik Asit-Baz Bozuklukları ve Nomogram",
+    "latin": "Disordines acidi-basis",
+    "category": "Dahiliye",
+    "spot": "• Anyon Açığı (Anion Gap) Formülü: Na - (Cl + HCO3). Normali 8-12 mEq/L.\n• Artmış Anyon Açıklı Metabolik Asidoz (GOLDMARK / MUDPILES): Metanol, Üremi, DKA, Paraldehit, İzoniyazid, Laktik asidoz, Etilen glikol, Salisilat.\n• Normal Anyon Açıklı (Hiperkloremik) Asidoz: İshal, Renal Tübüler Asidoz (RTA), Asetazolamid.\n• Metabolik Alkaloza hipopotasemi eşlik eder (Kusma, nazogastrik drenaj, diüretik kullanımı).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Dahiliye/periferik_yayma_anemi.jpg": {
+    "title": "Demir Eksikliği, Megaloblastik ve Hemolitik Anemi",
+    "latin": "Morfologia erythrocytorum in anaemiis",
+    "category": "Dahiliye",
+    "spot": "• Demir Eksikliği Anemisi: Mikrositer hipokrom, Ferritin düşük, SDBK artmış, RDW artmıştır.\n• Megaloblastik Anemi (B12 ve Folat): Makrositer (MCV > 100 fL), hipersegmente nötrofiller (>= 5 loblu).\n• Hemolitik Anemi: Retikülositoz, artmış İndirekt Bilirubin ve LDH, Haptoglobin düşüktür.\n• Orak Hücreli Anemi: HbS mutasyonu (Glutamik asit -> Valin), oraklaşmış eritrositler.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Dahiliye/kalp_yetersizligi_nyha.jpg": {
+    "title": "Kalp Yetersizliği Patofizyolojisi ve NYHA Evreleri",
+    "latin": "Insufficientia cordis",
+    "category": "Dahiliye",
+    "spot": "• HFrEF: Ejeksiyon Fraksiyonu <= %40 (Sistolik fonksiyon bozukluğu).\n• Mortaliteyi AZALTAN ilaçlar: ACEi/ARB, ARNI (Sakubitril/Valsartan), Beta blokerler (Bisoprolol, Karvedilol, Metoprolol süksinat), MRA (Spironolakton), SGLT2i.\n• Mortaliteye etkisi OLMAYAN, sadece semptom gideren ilaçlar: Furosemid ve Digoksin.\n• En duyarlı klinik belirteç: BNP ve NT-proBNP yüksekliğidir.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Dahiliye/diyabetik_ketoasidoz.jpg": {
+    "title": "Diyabetik Ketoasidoz (DKA) Patogenezi",
+    "latin": "Ketoacidosis diabetica",
+    "category": "Dahiliye",
+    "spot": "• Tip 1 DM'de insülin eksikliği -> lipoliz artışı -> serbest yağ asitlerinden keton cisimleri (Beta-hidroksibütirat, Asetoasetat).\n• Triad: Glukoz > 250 mg/dL, Ketonemi/Ketonüri, Metabolik Asidoz (pH < 7.3, HCO3 < 18 mEq/L).\n• Kussmaul solunumu ve nefeste aseton kokusu.\n• Tedavi: 1) Agresif IV Serum Fizyolojik, 2) IV Regüler İnsülin (ancak K+ > 3.3 mEq/L ise başlanır!), 3) Potasyum replasmanı.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Dahiliye/karaciger_siroz_komplikasyon.jpg": {
+    "title": "Portal Hipertansiyon ve Siroz Komplikasyonları",
+    "latin": "Hypertensio portalis et cirrhosis",
+    "category": "Dahiliye",
+    "spot": "• Portal ven basıncının > 10-12 mmHg olmasıyla komplikasyonlar başlar.\n• Özofagus varis kanaması: Acil endoskopik bant ligasyonu ve IV Oktreotid/Terlipressin; profilakside Propranolol.\n• Asit: SAAG (Serum-Asit Albumin Gradyenti) >= 1.1 g/dL portal hipertansiyonu gösterir.\n• Spontan Bakteriyel Peritonit (SBP): Parasentezde asit sıvısında PNL > 250/mm3 (Tedavi: IV Seftriakson).\n• Hepatik Ensefalopati: Hiperamonyemi ve sahte nörotransmitterler (Tedavi: Laktüloz ve Rifaximin).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Dahiliye/kronik_bobrek_yetmezligi.jpg": {
+    "title": "Kronik Böbrek Hastalığı Evreleri ve Mineral Bozuklukları",
+    "latin": "Morbus renalis chronicus",
+    "category": "Dahiliye",
+    "spot": "• Evre 1: GFR >= 90 (böbrek hasarı ile), Evre 3: GFR 30-59, Evre 5: GFR < 15 mL/dk (Son dönem böbrek yetmezliği).\n• Mineral kemik bozukluğu (Sekonder Hiperparatiroidizm): 1-alfa hidroksilaz azlığı -> Kalsitriol düşer -> Hipokalsemi ve Hiperfosfatemi -> PTH yükselir (Osteitis fibroza sistika).\n• Normositer normokrom anemi (Eritropoetin eksikliği).\n• Akut hemodiyaliz endikasyonları (AEIOU): Asidoz, Elektrolit (refrakter hiperpotasemi), İntoksikasyon, Overload (akciğer ödemi), Üremik semptomlar (perikardit/ensefalopati).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Dahiliye/tiroid_fonksiyon_testleri.jpg": {
+    "title": "Tiroid Fonksiyon Testleri ve Guatr Algoritması",
+    "latin": "Functiones glandulae thyroideae",
+    "category": "Dahiliye",
+    "spot": "• Primer Hipertiroidi (Graves): TSH baskılı (<0.01), sT3 ve sT4 yüksek; TSH reseptör antikoru (TRAB) pozitiftir.\n• Primer Hipotiroidi (Hashimoto): TSH yüksek, sT4 düşük; Anti-TPO ve Anti-Tiroglobulin kuvvetli pozitiftir.\n• Santral (Sekonder) Hipotiroidi: TSH düşük veya uygunsuz normal, sT4 düşüktür.\n• Subklinik Hipotiroidi: TSH yüksek, serbest T3 ve T4 normaldir.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Dahiliye/artrit_ayirici_tani.jpg": {
+    "title": "Romatoid Artrit ve Osteoartrit Ayırıcı Tanısı",
+    "latin": "Arthritis rheumatoidea vs osteoarthrosis",
+    "category": "Dahiliye",
+    "spot": "• Romatoid Artrit: Simetrik, inflamatuar poliartrit; MKF ve PİF tutulur, DİF TUTULMAZ! Sabah tutukluğu > 1 saat sürer; Anti-CCP en spesifiktir.\n• Osteoartrit: Non-inflamatuar, yük binen eklemlerde aşınma; DİF eklemde Heberden, PİF eklemde Bouchard nodülleri görülür; sabah tutukluğu < 30 dk.\n• Ankilozan Spondilit: HLA-B27 pozitif, sakroiliit, bambu kamışı omurga.\n• Gut Artriti: Negatif çift kırınımlı iğne şeklinde ürat kristalleri; en sık 1. MTP eklem (Podagra).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Dahiliye/toraks_radyoloji_pnomoni.jpg": {
+    "title": "Pnömoni ve Plevral Efüzyon PA Akciğer Grafisi",
+    "latin": "Radiologia thoracis in pneumonia",
+    "category": "Dahiliye",
+    "spot": "• Lober pnömoni: Homojen konsolidasyon ve hava bronkogramları (En sık etken Streptococcus pneumoniae).\n• Plevral efüzyon: Sinüs kapalılığı, menisküs belirtisi (kostofrenik sinüsün küntleşmesi için en az 150-200 mL sıvı gerekir).\n• Pnömotoraks: Akciğer parankim çizgisinin plevradan ayrılması ve periferde damarsal gölgelerin kaybolması.\n• Aort diseksiyonu: Mediasten genişlemesi (>8 cm) ve trakeal deviasyon.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Pediatri/apgar_skorlamasi.jpg": {
+    "title": "Yenidoğan Apgar Skorlama Tablosu",
+    "latin": "Index Apgar neonati",
+    "category": "Pediatri",
+    "spot": "• 1. ve 5. dakikalarda değerlendirilir (0, 1, 2 puan): 5 parametre.\n• A (Appearance - Cilt Rengi): Mavi/soluk (0), Gövde pembe ekstremite mor - Akrosiyanoz (1), Tam pembe (2).\n• P (Pulse - Kalp Hızı): Yok (0), <100/dk (1), >=100/dk (2).\n• G (Grimace - Refleks Cevap): Yok (0), Yüz buruşturma (1), Ağlama/öksürme (2).\n• A (Activity - Kas Tonusu): Flask (0), Ekstremitelerde hafif fleksiyon (1), Aktif hareket (2).\n• R (Respiration - Solunum): Yok (0), Zayıf/düzensiz (1), Güçlü ağlama (2).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Pediatri/fallot_tetralojisi.jpg": {
+    "title": "Fallot Tetralojisi 4 Kardinal Komponenti",
+    "latin": "Tetralogia Fallot",
+    "category": "Pediatri",
+    "spot": "• En sık siyanotik konjenital kalp hastalığıdır (1 yaş sonrası).\n• 4 Komponent: 1) VSD (Geniş ventriküler septal defekt), 2) Pulmoner infundibuler stenoz (prognozu belirler!), 3) Aort dekstropozisyonu (ata binen aort), 4) Sağ ventrikül hipertrofisi.\n• Telekardiyografide: Tahta pabuç (boot-shaped / Coeur en sabot) kalp görünümü.\n• Hipoksik hipersiyanotik (tet) büyü nöbetlerinde: Çömelme (squatting) pozisyonu sistemik vasküler rezistansı artırarak şantı azaltır.",
+    "source": "Wikimedia Commons / OpenStax (CC BY 4.0)"
+  },
+  "gorsel_hafiza/Pediatri/dokuntulu_cocukluk_hastaliklari.jpg": {
+    "title": "Kızamık, Kızamıkçık ve 6. Hastalık Döküntüleri",
+    "latin": "Exanthemata pediatrica",
+    "category": "Pediatri",
+    "spot": "• Kızamık (Rubeola): Prodromda Koplik lekeleri (bukkal mukozada tuz tanesi); döküntü kulak arkasından başlar, birleşme eğilimindedir (konfluan) ve soyularak solar.\n• Kızamıkçık (Rubella): Suboksipital ve retroauriküler LAP belirgindir, Forchheimer lekeleri (yumuşak damakta).\n• 6. Hastalık (Roseola infantum / Exanthema subitum): HHV-6 etkendir; 3-4 gün süren yüksek ateş aniden düşer ve ardından gövdeden başlayan döküntü çıkar (Ateş düşünce çıkan döküntü!).\n• Kızıl (Streptococcus pyogenes): Zımpara kağıdı döküntü, Pastia çizgileri, çilek dili.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Pediatri/yenidogan_refleksleri.jpg": {
+    "title": "Primitif Yenidoğan Refleksleri (Moro, Yakalama)",
+    "latin": "Reflexus neonati primitivi",
+    "category": "Pediatri",
+    "spot": "• Moro Refleksi: Ani baş düşmesinde kolların abduksiyon ve ekstansiyonu, ardından adduksiyon ve ağlama (Doğumda vardır, 3-6. aylarda kaybolur; asimetrisi klavikula kırığı veya brakiyal pleksus hasarını gösterir).\n• Yakalama (Palmar grasp) refleksi: 3-4. ayda kaybolur.\n• Asimetrik Tonik Boyun (Eskrimci) refleksi: Başın çevrildiği taraftaki kol ve bacak ekstansiyona, karşı taraf fleksiyona gelir.\n• Babinski refleksi: 12-24 aya kadar pozitif olması normal kabul edilir.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Pediatri/asi_takvimi.jpg": {
+    "title": "Çocukluk Çağı Aşı Takvimi ve Aşı Tipleri",
+    "latin": "Schedula vaccinationis pediatrica",
+    "category": "Pediatri",
+    "spot": "• Doğumda yapılan ilk aşı: Hepatit B (ilk 72 saat içinde).\n• Canlı virüs aşıları: KKK (Kızamık-Kızamıkçık-Kabakulak), Varisella (Suçiçeği), Rotavirüs, Oral Polio (Sabin), Sarı Humma.\n• Canlı bakteri aşısı: BCG (Tüberküloz - intradermal sol omuza yapılır).\n• Gebelikte ve immünsüpresif hastalarda CANLI aşılar kontrendikedir!",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Pediatri/yenidogan_sariligi.jpg": {
+    "title": "Yenidoğan Sarılığı ve Bhutani Nomogramı",
+    "latin": "Icterus neonatorum",
+    "category": "Pediatri",
+    "spot": "• İlk 24 saatte ortaya çıkan sarılık DAİMA PATOLOJİKTİR (En sık Rh veya ABO uyuşmazlığına bağlı hemoliz).\n• Fizyolojik sarılık: 2. günden sonra başlar, term bebekte 7-10 günde, pretermde 2 haftada geriler; Direkt bilirubin artmaz!\n• Anne sütü sarılığı: Pregnandiol ve glukuronidaz içeriğine bağlı; geç başlangıçlı olup haftalarca sürebilir.\n• Kernikterus: İndirekt bilirubinin kan-beyin bariyerini geçerek bazal ganglionlarda (globus pallidus) birikmesi.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Pediatri/krup_laringotrakeobronsit.jpg": {
+    "title": "Krup ve Çan Kulesi (Steeple) Belirtisi",
+    "latin": "Laryngotracheobronchitis acuta",
+    "category": "Pediatri",
+    "spot": "• En sık etken: Parainfluenza virüsü (Tip 1 ve 2).\n• Klinik: Havlar tarzda kaba öksürük, inspiratuar stridor, ses kısıklığı.\n• Ön-arka boyun grafisinde: Subglottik daralma sonucu 'Çan kulesi' (Steeple sign) belirtisi.\n• Tedavi: Oral veya nebulize Deksametazon; orta-ağır vakalarda nebulize Rasemik Adrenalin.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Pediatri/pediatrik_dehidratasyon.jpg": {
+    "title": "Pediatrik Dehidratasyon Evreleri ve Sıvı Tedavisi",
+    "latin": "Dehydratatio pediatrica",
+    "category": "Pediatri",
+    "spot": "• Hafif (%3-5 kayıp): Mukozalar nemli, kapiller dolum normal, idrar çıkışı normal.\n• Orta (%6-9 kayıp): Mukozalar kuru, göz küreleri çökmüş, ön fontanel çökük, taşikardi, oligüri.\n• Ağır (%10+ kayıp): Şok tablosu, bilinç bulanık, zayıf nabız, anüri, kapiller dolum > 3 saniye.\n• Ağır dehidratasyonda İLK ADIM: 20 mL/kg SF veya Ringer Laktat IV bolus yüklemedir.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Pediatri/konjenital_kalp_anomalileri.jpg": {
+    "title": "Asiyanotik ve Siyanotik Kalp Hastalıkları",
+    "latin": "Vitium cordis congenitum",
+    "category": "Pediatri",
+    "spot": "• En sık konjenital kalp anomalisi: VSD (Ventriküler Septal Defekt - pansistolik üfürüm).\n• En sık siyanotik konjenital anomali (doğum anında): Büyük Arter Transpozisyonu (TGA - yumurta kalp).\n• ASD (Atriyal Septal Defekt): S2'de sabit çiftleşme (Fixed splitting) patognomoniktir.\n• PDA (Patent Duktus Arteriyozus): Devamlı makine üfürümü (Gibson üfürümü); prematürelerde kapatmak için İndometazin veya İbuprofen verilir.",
+    "source": "Wikimedia Commons / OpenStax (CC BY 4.0)"
+  },
+  "gorsel_hafiza/Pediatri/pediatrik_buyume_persentil.jpg": {
+    "title": "Persentil Büyüme Eğrileri ve Boy Kısalığı",
+    "latin": "Curva incrementi corporis",
+    "category": "Pediatri",
+    "spot": "• Doğum ağırlığı: 5. ayda 2 katına, 1 yaşında 3 katına çıkar.\n• Doğum boyu: 1 yaşında %50 artar (~75 cm), 4 yaşında 2 katına (~100 cm) ulaşır.\n• Ailesel boy kısalığı: Kemik yaşı takvim yaşına EŞİTTİR, nihai boy hedefine ulaşır.\n• Yapısal (Konstitüsyonel) büyüme gecikmesi: Kemik yaşı takvim yaşından GERİDİR, ergenlik gecikir ancak erişkin boyu normal hedefine ulaşır.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Genel_Cerrahi/akut_karin_kadranlari.jpg": {
+    "title": "Akut Batın Kadranları ve Cerrahi Nedenler",
+    "latin": "Abdomen acutum",
+    "category": "Genel_Cerrahi",
+    "spot": "• Sağ Üst Kadran: Akut kolesistit (Murphy belirtisi pozitif), kolanjit (Charcot triadı), hepatit.\n• Sağ Alt Kadran: Akut apandisit (McBurney noktası hassasiyeti), Meckel divertiküliti, ektopik gebelik, over torsiyonu.\n• Sol Alt Kadran: Akut divertikülit ('sol taraf apandisiti').\n• Epigastrik: Peptik ülser perforasyonu (akut tahta karın), akut pankreatit (kuşak tarzı sırta yayılan ağrı).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Genel_Cerrahi/yanik_dokuzlar_kurali.jpg": {
+    "title": "Yanıkta Wallace Dokuzlar Kuralı ve Parkland",
+    "latin": "Regula novem in ambustione",
+    "category": "Genel_Cerrahi",
+    "spot": "• Baş ve boyun: %9 | Her bir üst ekstremite: %9 | Göğüs ve karın ön yüzü: %18 | Sırt ve bel: %18 | Her bir alt ekstremite: %18 | Perine/Genital: %1.\n• Parkland Formülü: İlk 24 saatte verilecek Ringer Laktat = 4 mL x Vücut Ağırlığı (kg) x % Yanık Alanı.\n• Hesaplanmış toplam sıvının İLK YARISI ilk 8 saatte, kalan yarısı sonraki 16 saatte verilir.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Genel_Cerrahi/inguinal_femoral_herni.jpg": {
+    "title": "Direkt, İndirekt ve Femoral Herni Anatomisi",
+    "latin": "Hernia inguinalis et femoralis",
+    "category": "Genel_Cerrahi",
+    "spot": "• İndirekt fıtık: Procesus vaginalis'in açık kalması sonucu anulus profundus'tan çıkar; skrotuma iner; her iki cinste de EN SIK görülen fıtıktır.\n• Direkt fıtık: Karın ön duvarı zayıflığıyla Hesselbach üçgeninden çıkar; fıtık parmak ucuyla değil parmak pulpasında hissedilir.\n• Femoral fıtık: Ligamentum inguinale altındaki femoral kanaldan çıkar; kadınlarda sıktır ve boğulma riski en yüksektir.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Genel_Cerrahi/barsak_obstruksiyonu.jpg": {
+    "title": "Mekanik Bağırsak Obstrüksiyonu Ayakta Direkt Grafi",
+    "latin": "Ileus mechanicus",
+    "category": "Genel_Cerrahi",
+    "spot": "• İnce bağırsak obstrüksiyonunun EN SIK nedeni: Geçirilmiş ameliyatlara bağlı intraabdominal adezyonlardır (ikinci sırada fıtıklar boğulması).\n• Kalın bağırsak obstrüksiyonunun EN SIK nedeni: Kolorektal kanserdir (ikinci sırada volvulus).\n• Ayakta direkt batın grafisinde (ADBG): Basamak şeklinde multipl hava-sıvı seviyeleri ve plica circularis'ler (valvulae conniventes).\n• Sigmoid volvulusta: 'Kahve çekirdeği' (Omega) belirtisi.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Genel_Cerrahi/meme_anatomisi_ve_karsinom.jpg": {
+    "title": "Meme Kuadranları ve Sentinel Lenf Nodu",
+    "latin": "Anatomia mammae et carcinoma",
+    "category": "Genel_Cerrahi",
+    "spot": "• Meme kanseri en sık ÜST DIŞ kadranda (%50) yerleşir.\n• Memenin lenfatik drenajının %75'i aksiller lenf nodlarına gider.\n• Sentinel Lenf Nodu: Tümörün ilk drene olduğu lenf nodudur; negatifse aksiller diseksiyona gerek kalmaz.\n• En sık invaziv meme kanseri tipi: İnvaziv Duktal Karsinomdur (%70-80).\n• Ciltte portakal kabuğu (Peau d'orange) görünümü subdermal lenfatik obstrüksiyonu gösterir (İnflamatuar meme kanseri - T4d).",
+    "source": "Wikimedia Commons / OpenStax (CC BY 4.0)"
+  },
+  "gorsel_hafiza/Genel_Cerrahi/akut_pankreatit_ranson.jpg": {
+    "title": "Akut Pankreatit Ranson Kriterleri ve Patogenez",
+    "latin": "Pancreatitis acuta",
+    "category": "Genel_Cerrahi",
+    "spot": "• En sık 2 neden: Safra taşları (%45) ve Alkol (%35).\n• En duyarlı ve spesifik serum belirteci: Lipaz yüksekliğidir (Amilazdan daha uzun süre kanda yüksek kalır).\n• Başvuru anındaki Ranson kriterleri (GAWAL): Glukoz > 200, Age (Yaş) > 55, WBC (Lökosit) > 16.000, AST > 250, LDH > 350.\n• Fizik muayenede retroperitoneal kanama bulguları: Cullen belirtisi (periumbilikal ekimoz) ve Grey-Turner belirtisi (flank/yan ekimoz).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Genel_Cerrahi/tiroid_nodulu_tirads.jpg": {
+    "title": "Tiroid Nodülü ve Bethesda / TIRADS Sınıflaması",
+    "latin": "Nodulus glandulae thyroideae",
+    "category": "Genel_Cerrahi",
+    "spot": "• En sık tiroid kanseri: Papiller Karsinomdur (%80-85; mükemmel prognoz, lenfatik yayılım, Orphan Annie gözü çekirdekler, Psammom cisimcikleri).\n• Folliküler Karsinom: Hematojen yayılır (kemik ve akciğer); İİAB ile adenom-karsinom ayrımı YAPILAMAZ (kapsül veya damar invazyonu gerekir).\n• Medüller Karsinom: Parafolliküler C hücrelerinden kaynaklanır, Kalsitonin salgılar, MEN 2A ve MEN 2B (RET mutasyonu) ile birliktedir; amiloid stromaya sahiptir.\n• Anaplastik Karsinom: Yaşlılarda hızla büyüyen, en ölümcül tiptir.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Genel_Cerrahi/kolorektal_polip_kanser.jpg": {
+    "title": "Adenom-Karsinom Sekansı ve Kolon Polipleri",
+    "latin": "Adenoma et carcinoma colorectale",
+    "category": "Genel_Cerrahi",
+    "spot": "• Adenom-karsinom sekansı basamakları: APC gen inaktivasyonu (risk artışı) -> K-RAS mutasyonu (adenom oluşumu) -> p53 ve DCC kaybı (malign transformasyon).\n• En yüksek malignite potansiyeline sahip polip: Villöz adenomdur (Tübüler adenom en sıktır ancak malignleşme riski düşüktür).\n• FAP (Familyal Adenomatöz Polipozis): 5q21 kromozomundaki APC mutasyonu; kolonda binlerce polip (100+) ve %100 kanserleşme riski (profilaktik kolektomi şarttır).\n• Lynch Sendromu (HNPCC): DNA mismatch repair (MSH2, MLH1) gen defekti; mikrosatellit instabilite (MSI).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Genel_Cerrahi/safra_kesesi_hastaliklari.jpg": {
+    "title": "Kolelityazis, Kolesistit ve Calot Üçgeni",
+    "latin": "Cholecystitis et trigonum cystohepaticum",
+    "category": "Genel_Cerrahi",
+    "spot": "• Calot Üçgeni sınırları: Medialde Ductus hepaticus communis, lateralde Ductus cysticus, üstte Karaciğer alt yüzü.\n• Calot üçgeninin içinden A. cystica geçer (laparoskopik kolesistektomide bağlanması gereken arter).\n• Akut kolesistit: USG'de taş, safra kesesi duvar kalınlığı > 4 mm, perikolesistik sıvı ve sonografik Murphy pozitifliği.\n• Charcot Triadı (Akut Kolanjit): Ateş + Sarılık + Sağ üst kadran ağrısı (Reynolds pentadında hipotansiyon ve şuur değişikliği eklenir).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Genel_Cerrahi/apandisit_mcburney.jpg": {
+    "title": "Akut Apandisit Tanı Testleri ve McBurney Noktası",
+    "latin": "Appendicitis acuta",
+    "category": "Genel_Cerrahi",
+    "spot": "• McBurney noktası: Spina iliaca anterior superior (SİAS) ile göbek arasındaki hattın 1/3 dış ve 2/3 iç birleşim noktası.\n• Rovsing belirtisi: Sol alt kadrana palpasyon yapıldığında sağ alt kadranda ağrı duyulması.\n• Psoas belirtisi: Sağ uyluğun retrofleksiyona getirilmesiyle ağrı (retroçekal apandisit).\n• Obturator belirtisi: Sağ uyluğun fleksiyonda iç rotasyonuyla ağrı (pelvik apandisit).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Kadin_Dogum/menstruel_siklus.jpg": {
+    "title": "Menstrüel Siklus Hormon, Ovaryum ve Endometrium Eğrisi",
+    "latin": "Cyclus menstrualis",
+    "category": "Kadin_Dogum",
+    "spot": "• Folliküler Faz: FSH hakimiyetinde östrojen yükselir, endometrium prolifere olur.\n• Ovulasyon: Yüksek östrojen pozitif feedback yaparak LH pikini tetikler (Pikten 24-36 saat sonra ovulasyon gerçekleşir).\n• Luteal Faz: Korpus luteumdan progesteron salgılanır, endometrium sekretuar faza geçer; bazal vücut ısısı 0.5°C yükselir.\n• Gebelik olmazsa: Korpus luteum geriler (korpus albikans), hormonlar çekilir ve kanama (menstrüasyon) başlar.",
+    "source": "Wikimedia Commons / OpenStax (CC BY 4.0)"
+  },
+  "gorsel_hafiza/Kadin_Dogum/obstetrik_pelvis.jpg": {
+    "title": "Obstetrik Pelvis Tipleri (Jinekoit, Androit, Antropoit)",
+    "latin": "Typi pelvis muliebris",
+    "category": "Kadin_Dogum",
+    "spot": "• Jinekoit Pelvis: Kadınların %50'sinde bulunur; giriş yuvarlak veya hafif ovaldir; vajinal doğuma EN UYGUN pelvis tipidir.\n• Androit Pelvis: Erkek tipi pelvis; girişi kalp/üçgen şeklindedir; derin transvers duruş ve doğum distozisi riski en yüksektir.\n• Antropoit Pelvis: Ön-arka çapı transvers çaptan geniştir; oksiput posterior doğumlar sıktır.\n• Platipelloid Pelvis: En nadir tip; böbrek şeklinde yassı giriş; ön-arka çap belirgin dardır.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Kadin_Dogum/ektopik_gebelik.jpg": {
+    "title": "Ektopik Gebelik Lokalizasyonları ve Tubal Rüptür",
+    "latin": "Graviditas ectopica",
+    "category": "Kadin_Dogum",
+    "spot": "• Ektopik gebeliğin EN SIK yerleştiği yer: Tuba uterina (%97) ve tuba içinde en sık AMPULLA (%70-80).\n• Rüptürün en geç olduğu ve en masif ölümcül kanama yapan yer: İnterstisyel (kornual) bölgedir.\n• Triad: Amenore (adet gecikmesi), vajinal kanama ve tek taraflı pelvik ağrı.\n• Medikal tedavi kriteri (Metotreksat): Hemodinamik stabil, kese < 3.5-4 cm, fetal kalp atımı yok ve beta-hCG < 5000 IU/L.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Kadin_Dogum/fetal_prezentasyon.jpg": {
+    "title": "Fetal Prezentasyon, Pozisyon ve Baş Fleksiyonu",
+    "latin": "Praesentatio et situs foetus",
+    "category": "Kadin_Dogum",
+    "spot": "• En sık ve en ideal prezentasyon: Verteks (tepe) prezentasyonudur (önde gelen kısım oksiputtur, baş tam fleksiyondadır).\n• Fleksiyondaki başın doğum kanalından geçen en küçük çapı: Suboksipitobregmatik çaptır (~9.5 cm).\n• Baş defleksiyona girdikçe: Asker başı (frontooksipital çap, 12 cm), alın prezentasyonu (oksipitomental çap, 13.5 cm - vajinal doğum imkansız!), yüz prezentasyonu (submentobregmatik çap, 9.5 cm).\n• En sık fetal pozisyon: Oksiput Anterior (LOA).",
+    "source": "Wikimedia Commons / OpenStax (CC BY 4.0)"
+  },
+  "gorsel_hafiza/Kadin_Dogum/plasenta_previa_dekolman.jpg": {
+    "title": "Plasenta Previa ve Plasenta Dekolmanı Ayırıcı Tanısı",
+    "latin": "Placenta praevia et abruptio placentae",
+    "category": "Kadin_Dogum",
+    "spot": "• Plasenta Previa: Ağrısız, parlak kırmızı vajinal kanama; uterus yumuşak ve gevşektir; TUŞE İLE MUAYENE KESİNLİKLE KONTRENDİKEDİR! (Tanı USG ile konur).\n• Ablasio Placentae (Plasenta Dekolmanı): Ağrılı, koyu renkli vajinal kanama; tahta gibi sert uterus (tetanik kontraksiyon), fetal distres; preeklampsi ve travma en önemli risk faktörleridir; DİK riski yüksektir.",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Kadin_Dogum/preeklampsi_patogenez.jpg": {
+    "title": "Preeklampsi ve HELLP Sendromu Patogenezi",
+    "latin": "Preeclampsia et syndroma HELLP",
+    "category": "Kadin_Dogum",
+    "spot": "• Patogenez: Trofoblastik invazyon yetersizliği sonucu spiral arterlerin genişleyememesi -> plasental iskemi ve yaygın sistemik endotel disfonksiyonu.\n• Tanı: 20. gebelik haftasından sonra ortaya çıkan Hipertansiyon (>=140/90) + Proteinüri (>=300 mg/gün).\n• Eklampsi: Preeklampsi tablosuna jeneralize tonik-klonik konvülsiyonların eklenmesi (Nöbet profilaksisi ve tedavisinde İLK TERCİH: Magnezyum Sülfattır; antidotu Kalsiyum Glukonat).\n• HELLP Sendromu: Hemoliz (H), Karaciğer enzim yüksekliği (EL - Elevated Liver enzymes), Düşük trombosit (LP - Low Platelets).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Kadin_Dogum/servikal_smear_bethesda.jpg": {
+    "title": "Pap-Smear Bethesda Sınıflaması ve HPV",
+    "latin": "Cytologia cervicis uterinae",
+    "category": "Kadin_Dogum",
+    "spot": "• Transformasyon Zonu (Skuamokolumnar bileşke - SCJ): Serviks kanserinin ve prekanseröz lezyonların EN SIK başladığı bölgedir.\n• ASC-US: Önemi belirlenemeyen atipik skuamöz hücreler (Yönetim: HPV DNA testi veya 1 yıl sonra sitoloji tekrarı).\n• LSIL (Düşük dereceli SIL): CIN I ile koreledir.\n• HSIL (Yüksek dereceli SIL): CIN II ve CIN III ile koreledir (Doğrudan Kolposkopi ve biyopsi endikasyonudur).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Kadin_Dogum/polikistik_over.jpg": {
+    "title": "Polikistik Over Sendromu (PKOS) ve İnci Gerdanlık",
+    "latin": "Syndroma ovarii polycystici",
+    "category": "Kadin_Dogum",
+    "spot": "• Rotterdam Kriterleri (En az 2'si gerekir): 1) Oligo- veya anovulasyon, 2) Hiperandrojenizm bulguları (klinik hirsutizm veya biyokimyasal), 3) USG'de polikistik over görünümü.\n• USG bulgusu: Over periferinde dizilmiş 2-9 mm çapında 12 veya daha fazla follikül ('İnci gerdanlık' görünümü) ve artmış over hacmi (>10 mL).\n• Biyokimya: LH/FSH oranı > 2-3 kat artmıştır; İnsülin direnci sıktır; endometrium kanseri riski artmıştır (karşılanmamış östrojen).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Kadin_Dogum/endometriozis_adenomiyozis.jpg": {
+    "title": "Endometriozis Çikolata Kisti ve Odakları",
+    "latin": "Endometriosis et adenomyosis",
+    "category": "Kadin_Dogum",
+    "spot": "• Endometriozis: Fonksiyonel endometriyal bez ve stromanın uterus kavitesi DIŞINDA yerleşmesi.\n• En sık yerleşim yeri: Overlerdir (Burada içi eski hemoraji sıvısıyla dolu 'Çikolata kisti' - Endometrioma oluşturur).\n• Klinik Triad: Dismenore (ağrılı adet), Disparoni (ağrılı cinsel ilişki) ve İnfertilite.\n• Adenomiyozis: Endometriyal bez ve stromanın miyometriyum içine invaze olması (Uterus simetrik, globüler büyümüş ve yumuşaktır).",
+    "source": "Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  "gorsel_hafiza/Kadin_Dogum/dogum_eylemi_evreleri.jpg": {
+    "title": "Doğum Eyleminin 4 Evresi ve Friedman Eğrisi",
+    "latin": "Stadia partus",
+    "category": "Kadin_Dogum",
+    "spot": "• 1. Evre: Düzenli uterin kontraksiyonlardan tam servikal dilatasyona (10 cm) kadar geçen süre (Latent faz ve Aktif faz).\n• Aktif faz: Serviks dilatasyonunun hızlandığı fazdır (Serviks >= 5-6 cm olduğunda başlar).\n• 2. Evre: Tam dilatasyondan bebeğin doğumuna kadar geçen süre (ıkınma evresi).\n• 3. Evre: Bebeğin doğumundan plasentanın ayrılıp atılmasına kadar geçen süre (30 dakikadan uzun sürerse retansiyon kabul edilir).\n• 4. Evre: Doğumdan sonraki ilk 1-2 saatlik postpartum hemodinamik takip evresi (Postpartum kanama riski en yüksektir).",
+    "source": "Wikimedia Commons / OpenStax (CC BY 4.0)"
+  }
+}

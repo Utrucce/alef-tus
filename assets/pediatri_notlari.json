@@ -1,0 +1,50 @@
+[
+  {
+    "unitName": "Yenidoğan ve Yenidoğan Acilleri",
+    "unitIndex": 1,
+    "sections": [
+      {
+        "title": "APGAR Skoru ve Yenidoğan Canlandırması (NRP)",
+        "content": "APGAR: Görünüm, Nabız, Refleks, Tonus, Solunum (0, 1, 2 puan).\n\n- Kalp hızı <100/dk veya apne varsa -> Hemen Pozitif Basınçlı Ventilasyon (PBV).\n- 30 saniye etkin PBV'ye rağmen Kalp hızı <60/dk ise -> Göğüs kompresyonu (3 masaj : 1 soluk).\n- Yanıt yoksa IV Adrenalin uygulanır.",
+        "summary": "KTA <100 PBV, KTA <60 kalp masajı (3:1). Akrosiyanoz fizyolojiktir.",
+        "keyPoints": [
+          "APGAR canlandırmayı geciktirmek için beklenmez.",
+          "Yenidoğanda kalp masajı oranı 3:1'dir.",
+          "Akrosiyanoz doğumdan sonra 24-48 saat normaldir."
+        ],
+        "model3d": "CesiumMan",
+        "image2d": "gorsel_hafiza/apgar_score.png"
+      },
+      {
+        "title": "Respiratuar Distres Sendromu ve Yenidoğan Sarılıkları",
+        "content": "Prematüre bebeklerin akciğer matürasyonu Tip 2 pnömositlerin ürettiği surfaktan ile sağlanır:\n\n- **RDS (Hiyalen Membran Hastalığı)**: Surfaktan eksikliğidir. Akciğer grafisinde 'Buzlu cam' ve 'Hava bronkogramları' görülür. Tedavide endotrakeal surfaktan verilir.\n- **Fizyolojik Sarılık**: İlk 24 saatten SONRA başlar. Term bebekte 1. haftada pik yapar ve 2. haftada geriler. İndirekt bilirubin yükselir.\n- **Patolojik Sarılık Kriterleri**: İlk 24 saatte başlaması, bilirubin artış hızının >5 mg/dL/gün olması, direkt bilirubinin >2 mg/dL olması veya sarılığın term bebekte 2 haftayı aşması.",
+        "summary": "RDS surfaktan eksikliğidir (buzlu cam). Fizyolojik sarılık 24 saatten sonra başlar; ilk 24 saatteki sarılık daima patolojiktir.",
+        "keyPoints": [
+          "İlk 24 saat içinde ortaya çıkan sarılık DAİMA patolojiktir (en sık Rh veya ABO uyuşmazlığına bağlı hemoliz).",
+          "RDS önlenmesinde preterm doğum riski olan gebeye antenatal Betametazon/Deksametazon verilir.",
+          "Kernikterus indirekt bilirubinin bazal ganglionlara çökmesidir."
+        ],
+        "model3d": "lungs",
+        "image2d": "gorsel_hafiza/chest_xray_pneumonia.png"
+      }
+    ]
+  },
+  {
+    "unitName": "Çocukluk Çağı Döküntüleri ve Enfeksiyonları",
+    "unitIndex": 2,
+    "sections": [
+      {
+        "title": "Döküntülü Hastalıklar ve Kawasaki",
+        "content": "Pediatride döküntü özellikleri patognomonik ipuçları taşır:\n\n- **Kızamık (Rubeola)**: Kulak arkasından başlayıp gövdeye yayılan makülopapüler döküntü, yüksek ateş, 3C (Cough-Öksürük, Coryza-Nezle, Conjunctivitis-Konjonktivit). Bukkal mukozada **Koplik Lekeleri** patognomoniktir.\n- **Kızamıkçık (Rubella)**: Postauriküler ve suboksipital lenfadenopati (LAP), Forchheimer lekeleri. Teratojendir (PDA, katarakt, sensörinöral işitme kaybı).\n- **Kawasaki Hastalığı**: En az 5 gün süren yüksek ateş + Çilek dili, bilateral non-pürülan konjonktivit, polimorfik döküntü, el-ayak ödemi ve soyulması, tek taraflı servikal LAP. En korkulan komplikasyon **Koroner Arter Anevrizması**dır! Tedavide yüksek doz IVIG ve Aspirin verilir.",
+        "summary": "Kızamık Koplik lekeleri ve 3C. Kızamıkçık postauriküler LAP. Kawasaki koroner anevrizma riski taşır, IVIG + Aspirin verilir.",
+        "keyPoints": [
+          "Kawasaki hastalığı pediatride aspirin verilen nadir endikasyonlardan biridir.",
+          "Konjenital Rubella triadı: Katarakt, PDA, sensörinöral sağırlık.",
+          "Eritema infeksiyozum (5. hastalık - Parvovirüs B19): Tokatlanmış yanak görüntüsü."
+        ],
+        "model3d": "heart",
+        "image2d": "gorsel_hafiza/pediatric_milestones.png"
+      }
+    ]
+  }
+]

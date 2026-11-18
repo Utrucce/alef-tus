@@ -1,0 +1,51 @@
+[
+  {
+    "unitName": "Kardiyovasküler Fizyoloji",
+    "unitIndex": 1,
+    "sections": [
+      {
+        "title": "Kalp Kası Aksiyon Potansiyeli ve Fazları",
+        "content": "Ventrikül ve atriyum kontraktil hücrelerinde aksiyon potansiyeli 5 fazdan oluşur:\n\n- **Faz 0 (Hızlı Depolarizasyon)**: Voltaj kapılı hızlı Na+ kanallarının açılması ile hücre içine yoğun Na+ girişi (INa).\n- **Faz 1 (Erken Hızlı Repolarizasyon)**: Hızlı Na+ kanallarının inaktivasyonu ve geçici K+ çıkışı (Ito).\n- **Faz 2 (Plato Fazı)**: L-tipi Ca2+ kanallarının (dihidropiridin reseptörleri) açılmasıyla içeri yavaş Ca2+ girişi (ICa-L) ile gecikmiş doğrultucu K+ kanallarından (IK) dışarı K+ çıkışının dengelenmesi. Bu faz ventrikül kasılma süresini uzatır ve tetanize olmayı önler!\n- **Faz 3 (Hızlı Repolarizasyon)**: Ca2+ kanallarının kapanması ve voltaj kapılı K+ kanallarının (IKr, IKs) tam açılmasıyla dışarı yoğun K+ çıkışı.\n- **Faz 4 (Dinlenim Membran Potansiyeli)**: Yaklaşık -90 mV. Na+/K+ ATPaz ve içeri doğrultucu K+ kanalları (IK1) ile korunur.\n\n**Pacemaker (SA ve AV Düğüm) Hücreleri Farkı**:\n- Faz 1 ve Faz 2 YOKTUR.\n- Faz 4 stabil değildir; **If (Funny akım - hiperpolarizasyonla açılan Na+ kanalları)** ve T-tipi Ca2+ kanalları sayesinde kendiliğinden spontan depolarizasyon gösterir (Otomasite).",
+        "summary": "Ventrikül Faz 0 Na+, Faz 2 L-tipi Ca2+ (plato, tetaniyi önler), Faz 3 K+ çıkışı. SA düğümde Faz 4'ü başlatan Funny (If) akımıdır.",
+        "keyPoints": [
+          "Kalp kası tetaniye girmez; refrakter periyot kasılma süresi kadar uzundur (Faz 2 Ca2+ girişi sayesinde).",
+          "SA düğümde spontan Faz 4 depolarizasyonundan Funny (Na+) akımı ve T-tipi Ca2+ kanalları sorumludur.",
+          "İvabradin ilacı If kanallarını bloke ederek kalp hızını düşürür."
+        ],
+        "model3d": "heart",
+        "image2d": "gorsel_hafiza/ecg_st_elevation.png"
+      },
+      {
+        "title": "Frank-Starling Yasası ve Kardiyak Döngü",
+        "content": "Kardiyak mekanik ve debinin düzenlenmesi hemodinaminin temelidir.\n\n- **Frank-Starling Mekanizması**: Kalbin diyastol sonu hacmi (Önyük / Preload) arttıkça, ventrikül kas lifleri gerilir, miyofilamentlerin kalsiyuma duyarlılığı ve aktin-miyozin örtüşmesi artar; böylece atım hacmi (Stroke volume) kuvvetlenir.\n- **Kardiyak Çıktı (Debi)**: Kalp Debisi (CO) = Kalp Hızı (HR) x Atım Hacmi (SV). Normalde dinlenimde ~5 L/dk'dır.\n- **Kardiyak Döngü Evreleri**:\n  1. **İzovolemik Kasılma**: Mitral ve aort kapakları kapalıdır. Ventrikül içi basınç hızla yükselir, hacim değişmez. 1. Kalp sesi (S1 - AV kapakların kapanması) bu evrenin başında duyulur.\n  2. **Hızlı ve Yavaş Fırlatma**: Ventrikül basıncı aort basıncını aşınca aort kapağı açılır ve kan fırlatılır.\n  3. **İzovolemik Gevşeme**: Aort kapağı kapanır (S2 sesi). Tüm kapaklar kapalıdır; ventrikül gevşer, hacim sabittir, basınç hızla düşer.\n  4. **Hızlı Doluş**: Ventrikül basıncı atriyum basıncının altına inince mitral kapak açılır. Hızlı doluş evresinde patolojik S3 duyulabilir.",
+        "summary": "Önyük artışı Frank-Starling ile atım hacmini artırır. İzovolemik evrelerde kapaklar kapalı, hacim sabit, basınç değişir. S1 AV kapaklar kapanınca, S2 semilunar kapaklar kapanınca oluşur.",
+        "keyPoints": [
+          "En yüksek miyokardiyal O2 tüketimi izovolemik kasılma evresinde gerçekleşir.",
+          "S1 = Triküspit ve Mitral kapak kapanması.",
+          "S2 = Aort ve Pulmoner kapak kapanması.",
+          "S3 = Hızlı ventriküler doluş sesi (Kalp yetmezliğinde hacim yüklenmesi belirtisi)."
+        ],
+        "model3d": "heart",
+        "image2d": "gorsel_hafiza/heart_murmurs.png"
+      }
+    ]
+  },
+  {
+    "unitName": "Renal ve Asit-Baz Fizyolojisi",
+    "unitIndex": 2,
+    "sections": [
+      {
+        "title": "Glomerüler Filtrasyon ve Nefron Taşınma Sistemleri",
+        "content": "Glomerüler Filtrasyon Hızı (GFR) normalde 125 mL/dk veya 180 L/gündür.\n\n- **Proksimal Tübül**: Süzülen su, Na+, K+ ve Cl-'un %65'i, glikoz ve aminoasitlerin %100'ü, HCO3-'ın %85-90'ı burada geri emilir. Glikoz ve aminoasitler SGLT-2 gibi Na+ kotransportörleri ile sekonder aktif taşınır.\n- **Henle Kulpu İnen Kolu**: Suya oldukça geçirgendir, çözünen maddelere geçirimsizdir; tübül sıvısı medullaya indikçe hipertonikleşir.\n- **Henle Kulpu Çıkan Kalın Kolu**: Suya tamamen geçirimsizdir. **Na+-K+-2Cl- kotransportörü (NKCC2)** çalışır. Burası meduller hipertonisiteyi ve zıt akımlar çoğaltıcı mekanizmasını oluşturur. Kıvrım diüretikleri (Furosemid) NKCC2'yi inhibe eder!\n- **Distal Kıvrımlı Tübül**: Suya geçirimsizdir (kortikal seyreltici segment). **Na+-Cl- kotransportörü (NCC)** bulunur. Tiyazid diüretikleri burayı inhibe eder.\n- **Toplayıcı Kanallar**: İki ana hücre tipi içerir:\n  - **Esas (Principal) Hücreler**: ENaC kanalları ile Na+ emer, K+ atar. Aldosteron ENaC ve Na+/K+ ATPazı artırır. ADH (V2 reseptörü) Aquaporin-2 kanallarını apikal zara takarak su emilimini sağlar.\n  - **Ara (İnterkale) Hücreler**: H+-ATPaz ile idrara asit salgılar, bikarbonat üretir.",
+        "summary": "Proksimal tübül glukoz/aminoasit %100 emer. Henle çıkan kol NKCC2 (Furosemid hedefi). Distal tübül NCC (Tiyazid hedefi). Toplayıcı kanal ENaC ve Aquaporin-2 (Aldosteron ve ADH).",
+        "keyPoints": [
+          "Furosemid: Henle çıkan kalın kolda NKCC2 kotransportörünü inhibe eder.",
+          "Tiyazid: Distal tübülde Na+-Cl- kotransportörünü inhibe eder; kalsiyum atılımını azaltır.",
+          "Spironolakton: Esas hücrelerde aldosteron reseptör antagonistidir."
+        ],
+        "model3d": "kidneys",
+        "image2d": "gorsel_hafiza/urinary_sediment.png"
+      }
+    ]
+  }
+]

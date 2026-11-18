@@ -1,0 +1,2983 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>ALΣF TUS • Tıpta Uzmanlık Sınavı Hazırlık & Anatomi Laboratuvarı</title>
+  
+  <meta name="description" content="ALΣF TUS: 6.388 Soru, Tıbbi Notlar, 3D ve 2D Anatomi Laboratuvarı, Bilgi Kartları ve Sevimli Dost Pıtrak.">
+  <meta name="theme-color" content="#0F0C29">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" type="image/webp" href="./assets/ic_launcher.webp">
+
+  <!-- Google Fonts: Cinzel & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    /* ============================================================ */
+    /* 1. RESET & CYBERPUNK FANTASY COLOR PALETTE                   */
+    /* ============================================================ */
+    :root {
+      --bg-main: #0F0C29;
+      --bg-surface: #190733;
+      --bg-card: rgba(25, 7, 51, 0.88);
+      --bg-card-alt: rgba(32, 7, 46, 0.92);
+      
+      --cyan: #00F0FF;
+      --cyan-glow: rgba(0, 240, 255, 0.45);
+      --magenta: #FF007F;
+      --magenta-glow: rgba(255, 0, 127, 0.45);
+      --gold: #FFD700;
+      --gold-glow: rgba(255, 215, 0, 0.4);
+      --amber: #FFE082;
+      --green: #00FF87;
+      --orange: #FF5722;
+      
+      --text-main: #FFFFFF;
+      --text-muted: rgba(255, 255, 255, 0.65);
+      --border-cyber: rgba(0, 240, 255, 0.35);
+      --border-gold: rgba(255, 215, 0, 0.4);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      background: radial-gradient(circle at 50% 10%, #20072E 0%, #0F0C29 55%, #08051A 100%);
+      color: var(--text-main);
+      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* Ambient Cosmic Canvas */
+    #ambientBgCanvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.55;
+    }
+
+    /* App Shell Container */
+    #app-viewport {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 90px; /* For bottom navigation */
+    }
+
+    /* ============================================================ */
+    /* 2. TOP HEADER BAR                                            */
+    /* ============================================================ */
+    .top-header-bar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      width: 100%;
+      padding: 12px 16px;
+      background: rgba(15, 12, 41, 0.92);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1.5px solid rgba(0, 240, 255, 0.25);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header-btn {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      background: rgba(0, 240, 255, 0.12);
+      border: 1.5px solid var(--border-cyber);
+      color: var(--cyan);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 0 14px rgba(0, 240, 255, 0.2);
+    }
+    .header-btn:active {
+      transform: scale(0.92);
+    }
+
+    .header-branding {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+    }
+
+    .brand-crest {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #FF007F, #00F0FF);
+      padding: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 16px var(--cyan-glow);
+    }
+    .brand-crest-inner {
+      width: 100%;
+      height: 100%;
+      background: #0F0C29;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Cinzel', serif;
+      font-weight: 900;
+      font-size: 17px;
+      color: #FFFFFF;
+      animation: crestRotate 20s linear infinite;
+    }
+    @keyframes crestRotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+    .brand-title {
+      font-family: 'Cinzel', serif;
+      font-size: 17px;
+      font-weight: 900;
+      letter-spacing: 1.5px;
+      background: linear-gradient(135deg, #00F0FF 0%, #FFFFFF 50%, #FF007F 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .brand-sub {
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: 0.8px;
+    }
+
+    .hologram-findik {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      background: rgba(19, 4, 36, 0.9);
+      border: 1.5px solid var(--gold);
+      border-radius: 999px;
+      box-shadow: 0 0 16px var(--gold-glow);
+    }
+    .findik-icon {
+      font-size: 17px;
+      display: inline-block;
+      transform: rotate(15deg);
+    }
+    .findik-count {
+      color: var(--gold);
+      font-weight: 900;
+      font-size: 15px;
+      font-family: 'Cinzel', serif;
+    }
+
+    /* ============================================================ */
+    /* 3. BOTTOM NAVIGATION BAR (5 TABS)                            */
+    /* ============================================================ */
+    .bottom-nav-bar {
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      max-width: 600px;
+      height: 72px;
+      background: rgba(15, 12, 41, 0.94);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border-top: 1.5px solid rgba(0, 240, 255, 0.25);
+      box-shadow: 0 -8px 28px rgba(0, 0, 0, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      z-index: 100;
+      padding: 0 4px;
+    }
+
+    .nav-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255, 255, 255, 0.55);
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+      padding: 6px 10px;
+      border-radius: 12px;
+      transition: all 0.22s cubic-bezier(0.2, 0.8, 0.2, 1);
+      position: relative;
+      flex: 1;
+    }
+    .nav-item .nav-icon {
+      font-size: 22px;
+      margin-bottom: 3px;
+      transition: transform 0.25s ease;
+    }
+    .nav-item.active {
+      color: var(--cyan);
+    }
+    .nav-item.active .nav-icon {
+      transform: scale(1.15) translateY(-2px);
+      filter: drop-shadow(0 0 10px var(--cyan-glow));
+    }
+    .nav-item.active::after {
+      content: '';
+      position: absolute;
+      bottom: 2px;
+      width: 20px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--cyan), var(--magenta));
+      border-radius: 999px;
+      box-shadow: 0 0 8px var(--cyan);
+    }
+
+    /* ============================================================ */
+    /* 4. MAIN VIEWS & CONTAINERS                                   */
+    /* ============================================================ */
+    .tab-content-view {
+      display: none;
+      width: 100%;
+      padding: 14px 16px;
+      animation: fadeIn 0.28s ease;
+    }
+    .tab-content-view.active {
+      display: block;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Cyber Card Base */
+    .cyber-card {
+      background: var(--bg-card);
+      border: 1.5px solid var(--border-cyber);
+      border-radius: 20px;
+      padding: 16px 18px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.5);
+      margin-bottom: 12px;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.24s ease;
+    }
+    .cyber-card:hover {
+      border-color: var(--cyan);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 240, 255, 0.2);
+    }
+
+    /* Cut Corner Cyber Shape */
+    .cut-cyber-card {
+      clip-path: polygon(18px 0, 100% 0, 100% calc(100% - 18px), calc(100% - 18px) 100%, 0 100%, 0 18px);
+    }
+
+    /* ============================================================ */
+    /* 5. TAB 0: HOME SCREEN WIDGETS & ROADMAP                      */
+    /* ============================================================ */
+    
+    /* 1. Global Search Bar */
+    .search-trigger-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 13px 16px;
+      background: rgba(25, 7, 51, 0.95);
+      border: 1.5px solid transparent;
+      border-image: linear-gradient(90deg, #00F0FF, #FF00FF) 1;
+      border-radius: 18px;
+      cursor: pointer;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+      margin-bottom: 12px;
+    }
+    .search-icon-box {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: rgba(0, 240, 255, 0.15);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      color: var(--cyan);
+    }
+    .search-info {
+      flex: 1;
+    }
+    .search-info-title {
+      font-size: 13.5px;
+      font-weight: 800;
+      color: #FFFFFF;
+    }
+    .search-info-sub {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+    .search-pill-btn {
+      padding: 5px 12px;
+      border-radius: 8px;
+      background: rgba(0, 240, 255, 0.2);
+      color: var(--cyan);
+      font-size: 11.5px;
+      font-weight: 800;
+    }
+
+    /* 2. Doctor Rank & Streak Card */
+    .doctor-rank-card {
+      background: rgba(19, 4, 36, 0.92);
+      border: 1.5px solid rgba(255, 215, 0, 0.45);
+      border-radius: 22px;
+      padding: 16px;
+      margin-bottom: 12px;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.5);
+    }
+    .rank-top-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+    .rank-badge-wrap {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .rank-icon-bubble {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(100, 181, 246, 0.2);
+      border: 1.5px solid #64B5F6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+    }
+    .rank-texts {
+      display: flex;
+      flex-direction: column;
+    }
+    .rank-name {
+      font-size: 16px;
+      font-weight: 900;
+      color: #64B5F6;
+    }
+    .rank-solved-count {
+      font-size: 11.5px;
+      color: var(--text-muted);
+    }
+    .streak-badge {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 6px 12px;
+      border-radius: 12px;
+      background: linear-gradient(90deg, #FF5722, #FF9800);
+      color: #FFFFFF;
+      font-size: 12px;
+      font-weight: 900;
+      box-shadow: 0 4px 14px rgba(255, 87, 34, 0.4);
+    }
+
+    .daily-target-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12px;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+    .progress-bar-track {
+      width: 100%;
+      height: 10px;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 999px;
+      overflow: hidden;
+      position: relative;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #FF9800, #FFD700);
+      border-radius: 999px;
+      transition: width 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+    .progress-bar-fill.target-reached {
+      background: linear-gradient(90deg, #00FF87, #60EFFF);
+    }
+
+    /* 3. Overall Progress Card */
+    .overall-card {
+      background: rgba(19, 4, 36, 0.85);
+      border: 1.5px solid var(--border-cyber);
+      border-radius: 22px;
+      padding: 16px;
+      text-align: center;
+      margin-bottom: 12px;
+    }
+    .overall-title {
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      color: #FFFFFF;
+      margin-bottom: 8px;
+    }
+    .overall-count {
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--gold);
+      margin-top: 8px;
+    }
+
+    /* 4. Hata Defteri Banner */
+    .mistake-card {
+      background: var(--bg-card-alt);
+      border: 1.5px solid rgba(255, 0, 127, 0.5);
+      border-radius: 20px;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      cursor: pointer;
+      margin-bottom: 12px;
+      box-shadow: 0 8px 24px rgba(255, 0, 127, 0.2);
+    }
+    .mistake-icon-box {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      background: rgba(255, 0, 127, 0.2);
+      border: 2px solid var(--magenta);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      flex-shrink: 0;
+    }
+    .mistake-info {
+      flex: 1;
+    }
+    .mistake-title {
+      font-size: 16px;
+      font-weight: 900;
+      color: #FFFFFF;
+    }
+    .mistake-sub {
+      font-size: 11.5px;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.7);
+    }
+    .mistake-cta {
+      padding: 6px 14px;
+      border-radius: 10px;
+      background: linear-gradient(90deg, #FF007F, #FF5252);
+      color: #FFFFFF;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    /* 5. Pıtrak Banner */
+    .pitrak-banner-card {
+      background: rgba(22, 9, 46, 0.95);
+      border: 1.5px solid transparent;
+      border-image: linear-gradient(90deg, #00F0FF, #FF00FF, #FFD700) 1;
+      border-radius: 20px;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      cursor: pointer;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 28px rgba(0, 240, 255, 0.25);
+    }
+    .pitrak-avatar-box {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 2px solid #FFFFFF;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #000000;
+      flex-shrink: 0;
+    }
+    .pitrak-avatar-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .pitrak-banner-title {
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--cyan);
+    }
+    .pitrak-banner-sub {
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    /* ============================================================ */
+    /* 6. DUOLINGO STYLE CURVED COURSE ROADMAP                      */
+    /* ============================================================ */
+    .course-roadmap-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 28px;
+      padding: 10px 0 40px 0;
+      position: relative;
+    }
+
+    .course-node-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+      position: relative;
+      transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .course-node-item:active {
+      transform: scale(0.94);
+    }
+
+    .course-ring-wrap {
+      width: 90px;
+      height: 90px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .course-node-circle {
+      width: 76px;
+      height: 76px;
+      border-radius: 22px;
+      background: radial-gradient(circle at 35% 35%, #2A104E, #140529);
+      border: 2px solid var(--border-cyber);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 34px;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 240, 255, 0.25);
+      transition: all 0.25s ease;
+    }
+    .course-node-item:hover .course-node-circle {
+      border-color: var(--cyan);
+      box-shadow: 0 12px 30px rgba(0, 240, 255, 0.5);
+      transform: scale(1.08);
+    }
+
+    .course-node-label {
+      margin-top: 8px;
+      font-size: 14px;
+      font-weight: 800;
+      color: #FFFFFF;
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+      max-width: 140px;
+    }
+    .course-node-badge {
+      font-size: 10.5px;
+      color: var(--gold);
+      font-weight: 700;
+      margin-top: 2px;
+    }
+
+    /* SVG Progress Ring */
+    .progress-svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 90px;
+      height: 90px;
+      transform: rotate(-90deg);
+      pointer-events: none;
+    }
+    .progress-ring-bg {
+      fill: none;
+      stroke: rgba(255, 255, 255, 0.1);
+      stroke-width: 4;
+    }
+    .progress-ring-val {
+      fill: none;
+      stroke: var(--cyan);
+      stroke-width: 4;
+      stroke-linecap: round;
+      transition: stroke-dashoffset 0.8s ease;
+    }
+
+    /* ============================================================ */
+    /* 7. COURSE PATH VIEW (Üniteler & Testler & Notlar)            */
+    /* ============================================================ */
+    #course-path-screen {
+      display: none;
+    }
+    .return-nav-bar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 0 18px 0;
+    }
+    .btn-return {
+      padding: 8px 16px;
+      border-radius: 12px;
+      background: rgba(0, 240, 255, 0.15);
+      border: 1.5px solid var(--border-cyber);
+      color: var(--cyan);
+      font-size: 13px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .unit-block-card {
+      background: var(--bg-card);
+      border: 1.5px solid rgba(255, 215, 0, 0.35);
+      border-radius: 20px;
+      padding: 18px;
+      margin-bottom: 16px;
+    }
+    .unit-title-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .unit-name {
+      font-size: 16px;
+      font-weight: 900;
+      color: var(--gold);
+    }
+    .unit-note-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      border-radius: 10px;
+      background: rgba(0, 240, 255, 0.2);
+      border: 1px solid var(--cyan);
+      color: var(--cyan);
+      font-size: 12px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .test-grid-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 12px;
+    }
+    .test-node-btn {
+      padding: 12px 10px;
+      border-radius: 14px;
+      background: rgba(19, 4, 36, 0.8);
+      border: 1.5px solid rgba(255, 255, 255, 0.15);
+      color: #FFFFFF;
+      text-align: center;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.2s ease;
+    }
+    .test-node-btn:hover {
+      border-color: var(--cyan);
+      transform: translateY(-2px);
+    }
+    .test-node-btn.completed {
+      border-color: var(--green);
+      background: rgba(0, 255, 135, 0.12);
+    }
+    .test-node-name {
+      font-size: 13px;
+      font-weight: 800;
+    }
+    .test-node-info {
+      font-size: 10px;
+      color: var(--text-muted);
+    }
+
+    /* ============================================================ */
+    /* 8. QUIZ SCREEN (Etkileşimli Soru Çözüm Motoru)              */
+    /* ============================================================ */
+    #quiz-active-screen {
+      display: none;
+    }
+    .quiz-hud-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+    .q-count-pill {
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--cyan);
+    }
+
+    .question-box-card {
+      background: var(--bg-card);
+      border: 1.5px solid var(--border-cyber);
+      border-radius: 22px;
+      padding: 22px;
+      margin-bottom: 16px;
+      font-size: 16px;
+      line-height: 1.6;
+      font-weight: 600;
+      color: #FFFFFF;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .options-list-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .option-card {
+      background: rgba(25, 7, 51, 0.9);
+      border: 1.5px solid rgba(255, 255, 255, 0.18);
+      border-radius: 16px;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      cursor: pointer;
+      font-size: 14.5px;
+      font-weight: 600;
+      color: #FFFFFF;
+      transition: all 0.2s ease;
+    }
+    .option-card:hover {
+      border-color: var(--cyan);
+      transform: translateX(4px);
+    }
+    .option-letter {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 13px;
+      flex-shrink: 0;
+    }
+    .option-card.correct {
+      border-color: var(--green) !important;
+      background: rgba(0, 255, 135, 0.22) !important;
+      box-shadow: 0 0 20px rgba(0, 255, 135, 0.4);
+    }
+    .option-card.wrong {
+      border-color: var(--magenta) !important;
+      background: rgba(255, 0, 127, 0.22) !important;
+      box-shadow: 0 0 20px rgba(255, 0, 127, 0.4);
+    }
+
+    .explanation-drawer {
+      display: none;
+      background: rgba(19, 4, 36, 0.95);
+      border: 1.5px solid var(--gold);
+      border-radius: 18px;
+      padding: 16px;
+      margin-bottom: 16px;
+      font-size: 13.5px;
+      line-height: 1.6;
+      color: #FFF8E1;
+    }
+
+    .quiz-next-btn {
+      width: 100%;
+      padding: 15px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, #00F0FF, #00C6FF);
+      color: #000000;
+      font-size: 15px;
+      font-weight: 900;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 6px 20px rgba(0, 240, 255, 0.4);
+      display: none;
+    }
+
+    /* ============================================================ */
+    /* 9. NOTE READING SCREEN                                       */
+    /* ============================================================ */
+    #note-reading-screen {
+      display: none;
+    }
+    .note-content-box {
+      background: var(--bg-card);
+      border: 1.5px solid var(--border-gold);
+      border-radius: 22px;
+      padding: 22px;
+      font-size: 15px;
+      line-height: 1.7;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+    .note-content-box h2 {
+      font-family: 'Cinzel', serif;
+      font-size: 20px;
+      color: var(--gold);
+      margin-bottom: 12px;
+    }
+    .note-content-box ul {
+      margin-left: 20px;
+      margin-bottom: 14px;
+    }
+    .note-content-box li {
+      margin-bottom: 8px;
+    }
+
+    /* ============================================================ */
+    /* 10. 3D & 2D ANATOMY LABORATORIES                             */
+    /* ============================================================ */
+    #anatomy-3d-screen, #anatomy-2d-screen {
+      display: none;
+    }
+    .organ-catalog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 14px;
+      margin-top: 14px;
+    }
+    .organ-card-btn {
+      background: var(--bg-card);
+      border: 1.5px solid var(--border-cyber);
+      border-radius: 18px;
+      padding: 16px 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.22s ease;
+    }
+    .organ-card-btn:hover {
+      border-color: var(--cyan);
+      transform: translateY(-4px);
+      box-shadow: 0 10px 24px rgba(0, 240, 255, 0.35);
+    }
+    .organ-card-icon {
+      font-size: 38px;
+      margin-bottom: 8px;
+    }
+    .organ-card-title {
+      font-size: 14px;
+      font-weight: 800;
+      color: #FFFFFF;
+    }
+    .organ-card-latin {
+      font-size: 11px;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* 3D Viewer Fullscreen Modal */
+    #modal-3d-viewer {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: #070D18;
+      z-index: 2000;
+    }
+    #modal-3d-iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    .btn-close-3d {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      z-index: 2010;
+      padding: 8px 16px;
+      border-radius: 12px;
+      background: rgba(255, 0, 127, 0.85);
+      color: #FFFFFF;
+      font-weight: 800;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+    }
+
+    /* 2D Interactive Viewer */
+    .anatomy-2d-canvas-wrap {
+      position: relative;
+      width: 100%;
+      border-radius: 18px;
+      overflow: hidden;
+      border: 1.5px solid var(--border-cyber);
+      margin: 12px 0;
+      background: #000000;
+    }
+    .anatomy-2d-canvas-wrap img {
+      width: 100%;
+      display: block;
+      cursor: crosshair;
+    }
+
+    /* ============================================================ */
+    /* 11. TAB 1: OYUNLAR (Kelime Avı & Hafıza)                    */
+    /* ============================================================ */
+    .game-mode-card {
+      background: var(--bg-card);
+      border: 2px solid var(--cyan);
+      border-radius: 20px;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      cursor: pointer;
+      margin-bottom: 14px;
+      transition: all 0.22s ease;
+    }
+    .game-mode-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 28px rgba(0, 240, 255, 0.35);
+    }
+
+    /* Memory Match Grid */
+    .memory-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin: 14px 0;
+    }
+    .memory-card {
+      height: 80px;
+      border-radius: 12px;
+      background: #1B0B33;
+      border: 1.5px solid var(--border-cyber);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      color: #FFFFFF;
+    }
+    .memory-card.flipped {
+      background: rgba(0, 240, 255, 0.25);
+      border-color: var(--cyan);
+    }
+    .memory-card.matched {
+      background: rgba(0, 255, 135, 0.3);
+      border-color: var(--green);
+      pointer-events: none;
+    }
+
+    /* ============================================================ */
+    /* 12. TAB 2: FLASHCARDS (3D Dönen Kartlar)                    */
+    /* ============================================================ */
+    .flashcard-3d-scene {
+      perspective: 1000px;
+      width: 100%;
+      height: 320px;
+      margin: 20px 0;
+    }
+    .flashcard-object {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+      cursor: pointer;
+    }
+    .flashcard-object.is-flipped {
+      transform: rotateY(180deg);
+    }
+    .flashcard-face {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 24px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      box-shadow: 0 16px 36px rgba(0,0,0,0.6);
+    }
+    .flashcard-front {
+      background: radial-gradient(circle at 50% 10%, #2A104E, #140529);
+      border: 2px solid var(--cyan);
+    }
+    .flashcard-back {
+      background: radial-gradient(circle at 50% 10%, #1A2E3B, #0F1E29);
+      border: 2px solid var(--gold);
+      transform: rotateY(180deg);
+    }
+
+    /* ============================================================ */
+    /* 13. TAB 3: GÖRSEL HAFIZA ATLASI                             */
+    /* ============================================================ */
+    .branch-filter-chips {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 8px;
+      margin-bottom: 12px;
+    }
+    .branch-chip {
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #FFFFFF;
+      font-size: 12px;
+      font-weight: 700;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    .branch-chip.active {
+      background: var(--cyan);
+      color: #000000;
+      border-color: var(--cyan);
+      box-shadow: 0 0 12px var(--cyan-glow);
+    }
+
+    .visual-gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+    .visual-item-card {
+      border-radius: 16px;
+      overflow: hidden;
+      background: var(--bg-card);
+      border: 1.5px solid var(--border-cyber);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .visual-item-card:hover {
+      border-color: var(--cyan);
+      transform: translateY(-3px);
+    }
+    .visual-item-card img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      display: block;
+    }
+    .visual-item-caption {
+      padding: 8px 10px;
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #FFFFFF;
+    }
+
+    /* ============================================================ */
+    /* 14. TAB 4: SEVİMLİ DOST PITRAK SOHBETİ                      */
+    /* ============================================================ */
+    .pitrak-chat-container {
+      display: flex;
+      flex-direction: column;
+      height: calc(100vh - 180px);
+    }
+    .chat-messages-scroll {
+      flex: 1;
+      overflow-y: auto;
+      padding-right: 4px;
+      margin-bottom: 12px;
+    }
+    .chat-bubble {
+      margin-bottom: 12px;
+      max-width: 85%;
+      padding: 12px 16px;
+      border-radius: 18px;
+      font-size: 14px;
+      line-height: 1.55;
+    }
+    .chat-bubble.bot {
+      background: rgba(22, 9, 46, 0.95);
+      border: 1px solid var(--cyan);
+      color: #FFFFFF;
+      border-bottom-left-radius: 4px;
+    }
+    .chat-bubble.user {
+      background: linear-gradient(135deg, #FF007F, #7928CA);
+      color: #FFFFFF;
+      margin-left: auto;
+      border-bottom-right-radius: 4px;
+    }
+
+    .chat-input-bar {
+      display: flex;
+      gap: 8px;
+    }
+    .chat-input-field {
+      flex: 1;
+      padding: 12px 16px;
+      border-radius: 14px;
+      background: rgba(19, 4, 36, 0.9);
+      border: 1.5px solid var(--border-cyber);
+      color: #FFFFFF;
+      font-size: 14px;
+      outline: none;
+    }
+    .chat-input-field:focus {
+      border-color: var(--cyan);
+      box-shadow: 0 0 12px var(--cyan-glow);
+    }
+    .chat-send-btn {
+      padding: 0 20px;
+      border-radius: 14px;
+      background: var(--cyan);
+      color: #000000;
+      font-weight: 800;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* ============================================================ */
+    /* 15. SOL YAN PANEL: ZAMAN-I ŞAHANE (Pomodoro)                 */
+    /* ============================================================ */
+    .side-drawer-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 1000;
+      backdrop-filter: blur(4px);
+    }
+    .side-drawer-panel {
+      position: fixed;
+      top: 0;
+      left: -320px;
+      width: 300px;
+      height: 100vh;
+      background: #140529;
+      border-right: 2px solid var(--cyan);
+      z-index: 1010;
+      padding: 24px 20px;
+      display: flex;
+      flex-direction: column;
+      transition: left 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+      box-shadow: 10px 0 40px rgba(0, 0, 0, 0.8);
+    }
+    .side-drawer-panel.open {
+      left: 0;
+    }
+
+    .pomodoro-dial {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 35% 35%, #2A104E, #0F041A);
+      border: 3px solid var(--gold);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 20px auto;
+      box-shadow: 0 0 24px var(--gold-glow);
+    }
+    .timer-digits {
+      font-family: 'Cinzel', serif;
+      font-size: 38px;
+      font-weight: 900;
+      color: var(--gold);
+    }
+
+    /* ============================================================ */
+    /* 16. MODALS: ARAMA, HATA DEFTERİ, RESİM BÜYÜTME               */
+    /* ============================================================ */
+    .app-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(8, 4, 18, 0.88);
+      z-index: 1500;
+      backdrop-filter: blur(8px);
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+    .app-modal.active {
+      display: flex;
+    }
+    .modal-box {
+      width: 100%;
+      max-width: 520px;
+      max-height: 85vh;
+      background: #16092E;
+      border: 2px solid var(--cyan);
+      border-radius: 24px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    }
+  </style>
+</head>
+<body>
+
+  <canvas id="ambientBgCanvas"></canvas>
+
+  <div id="app-viewport">
+    
+    <!-- TOP HEADER -->
+    <header class="top-header-bar">
+      <div class="header-btn" onclick="toggleSideDrawer()" title="Zaman-ı Şahane (Odak Saati)">
+        ⏳
+      </div>
+
+      <div class="header-branding" onclick="switchNavTab(0)">
+        <div class="brand-crest">
+          <div class="brand-crest-inner">Σ</div>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">ALΣF TUS</span>
+          <span class="brand-sub">Tıpta Uzmanlık Eğitimi</span>
+        </div>
+      </div>
+
+      <div class="hologram-findik" title="Kazanılan Fındık Ödülü">
+        <span class="findik-icon">🌰</span>
+        <span class="findik-count" id="topFindikCount">0</span>
+      </div>
+    </header>
+
+    <!-- ============================================================ -->
+    <!-- TAB 0: DERSLER & ANA EKRAN                                  -->
+    <!-- ============================================================ -->
+    <main id="tab-courses-view" class="tab-content-view active">
+      
+      <!-- 1. Akıllı TUS Arama Çubuğu -->
+      <div class="search-trigger-card" onclick="openGlobalSearch()">
+        <div class="search-icon-box">🔍</div>
+        <div class="search-info">
+          <div class="search-info-title">Akıllı TUS Arama Çubuğu</div>
+          <div class="search-info-sub">Not, ilaç, soru, organ veya vaka ara...</div>
+        </div>
+        <div class="search-pill-btn">Ara 🔍</div>
+      </div>
+
+      <!-- 2. Doktorluk Kariyeri & Günlük Hedef Kartı -->
+      <div class="doctor-rank-card">
+        <div class="rank-top-row">
+          <div class="rank-badge-wrap">
+            <div class="rank-icon-bubble" id="doctorRankIcon">🩺</div>
+            <div class="rank-texts">
+              <span class="rank-name" id="doctorRankTitle">Pratisyen Hekim</span>
+              <span class="rank-solved-count" id="doctorRankSolved">Toplam: 0 Soru Çözüldü</span>
+            </div>
+          </div>
+          <div class="streak-badge">
+            <span>🔥</span>
+            <span id="streakDaysCount">1 Gün</span>
+          </div>
+        </div>
+
+        <div class="daily-target-row">
+          <span id="dailyTargetStatus">🎯 Günlük Hedef</span>
+          <span style="color:var(--gold)" id="dailyTargetNumbers">0 / 20 Soru</span>
+        </div>
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" id="dailyProgressFill" style="width: 0%;"></div>
+        </div>
+      </div>
+
+      <!-- 3. Genel İlerleme Kartı -->
+      <div class="overall-card">
+        <div class="overall-title">GENEL İLERLEME</div>
+        <div class="progress-bar-track" style="height: 14px;">
+          <div class="progress-bar-fill" id="overallProgressFill" style="width: 0%;"></div>
+        </div>
+        <div class="overall-count" id="overallSolvedText">Çözülen Soru: 0 / 6.388</div>
+      </div>
+
+      <!-- 4. Hata Defteri Kartı -->
+      <div class="mistake-card" onclick="openHataDefteri()">
+        <div class="mistake-icon-box">📓</div>
+        <div class="mistake-info">
+          <div class="mistake-title">Hata Defteri</div>
+          <div class="mistake-sub" id="mistakeCountText">Yanlış yapılan sorular tekrar için burada</div>
+        </div>
+        <div class="mistake-cta" id="mistakeCtaBtn">İncele ➔</div>
+      </div>
+
+      <!-- 5. Sevimli Dost Banner -->
+      <div class="pitrak-banner-card" onclick="switchNavTab(4)">
+        <div class="pitrak-avatar-box">
+          <img src="./assets/pitrak.jpg" alt="Pıtrak" onerror="this.src='./assets/ic_launcher.webp'">
+        </div>
+        <div style="flex:1">
+          <div class="pitrak-banner-title">Sevimli Dost Pıtrak</div>
+          <div class="pitrak-banner-sub">6.913 Tıbbi Konuda Canlı Asistan & Soru-Cevap</div>
+        </div>
+        <div style="font-size:24px">💬</div>
+      </div>
+
+      <!-- 6. Duolingo Tarzı Kıvrımlı Ders Yol Haritası -->
+      <div class="course-roadmap-container" id="courseRoadmapList">
+        <!-- JavaScript renders all 12 courses with zigzag offsets -->
+      </div>
+    </main>
+
+    <!-- ============================================================ -->
+    <!-- DERS DETAYI / ÜNİTELER EKRANI (CoursePathScreen)             -->
+    <!-- ============================================================ */
+    <section id="course-path-screen" class="tab-content-view">
+      <div class="return-nav-bar">
+        <button class="btn-return" onclick="closeCoursePath()">← Derslere Dön</button>
+        <span style="font-family:'Cinzel',serif; font-size:18px; font-weight:800;" id="pathCourseTitle">Ders Adı</span>
+      </div>
+      <div id="courseUnitsContainer">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- TEST ÇÖZÜM MOTORU (QuizScreen)                              -->
+    <!-- ============================================================ -->
+    <section id="quiz-active-screen" class="tab-content-view">
+      <div class="return-nav-bar">
+        <button class="btn-return" onclick="exitQuiz()">← Testten Çık</button>
+        <span style="font-size:13px; font-weight:700; color:var(--gold);" id="activeTestName">Test Adı</span>
+      </div>
+
+      <div class="quiz-hud-bar">
+        <span class="q-count-pill" id="quizProgressPill">Soru 1 / 15</span>
+        <div style="display:flex; align-items:center; gap:8px;">
+          <span style="color:#00FF87; font-weight:800; font-size:13px;" id="quizCorrectCount">✓ 0</span>
+          <span style="color:#FF007F; font-weight:800; font-size:13px;" id="quizWrongCount">✗ 0</span>
+        </div>
+      </div>
+
+      <div class="progress-bar-track" style="margin-bottom:14px; height:6px;">
+        <div class="progress-bar-fill" id="quizProgressFill" style="width:0%;"></div>
+      </div>
+
+      <!-- Question Card -->
+      <div class="question-box-card" id="questionText">
+        Soru yükleniyor...
+      </div>
+
+      <!-- Options List -->
+      <div class="options-list-wrap" id="optionsContainer">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <!-- Clinical Explanation Drawer -->
+      <div class="explanation-drawer" id="explanationBox">
+        <strong style="color:var(--gold)">Klinik Açıklama:</strong>
+        <div id="explanationText" style="margin-top:6px;"></div>
+      </div>
+
+      <!-- Next Button -->
+      <button class="quiz-next-btn" id="btnNextQuestion" onclick="advanceNextQuestion()">
+        Sonraki Soru ➔
+      </button>
+
+      <!-- Completion View -->
+      <div id="quizCompletionCard" style="display:none; text-align:center; padding:30px 10px;">
+        <div style="font-size:72px; margin-bottom:12px;">🏆</div>
+        <h2 style="font-family:'Cinzel',serif; color:var(--gold); font-size:28px; margin-bottom:8px;">TEST TAMAMLANDI!</h2>
+        <p style="font-size:16px; margin-bottom:16px;" id="completionScoreText">Tebrikler! Testi başarıyla bitirdiniz.</p>
+        <div style="font-size:18px; color:#00FF87; font-weight:800; margin-bottom:24px;">+10 🌰 Fındık Kazanıldı!</div>
+        <button class="btn-return" style="padding:12px 28px; font-size:15px;" onclick="exitQuiz()">Ders Yoluna Dön</button>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- NOT OKUMA MODÜLÜ (NoteReadingScreen)                        -->
+    <!-- ============================================================ -->
+    <section id="note-reading-screen" class="tab-content-view">
+      <div class="return-nav-bar">
+        <button class="btn-return" onclick="closeNoteReading()">← Geri Dön</button>
+        <span style="font-size:14px; font-weight:700; color:var(--cyan);" id="noteHeaderTitle">Not Başlığı</span>
+      </div>
+      <div class="note-content-box" id="noteContentArea">
+        <!-- Rendered dynamically -->
+      </div>
+      <button class="quiz-next-btn" style="display:block; margin-bottom:40px;" onclick="markNoteCompleted()">
+        ✓ Okundu Olarak İşaretle (+5 🌰)
+      </button>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- 3D ANATOMİ LABORATUVARI                                      -->
+    <!-- ============================================================ -->
+    <section id="anatomy-3d-screen" class="tab-content-view">
+      <div class="return-nav-bar">
+        <button class="btn-return" onclick="closeAnatomy3D()">← Ana Sayfaya Dön</button>
+        <span style="font-family:'Cinzel',serif; font-size:17px; font-weight:800; color:var(--magenta);">3 Boyutlu Anatomi Laboratuvarı</span>
+      </div>
+      <p style="font-size:13px; color:var(--text-muted); margin-bottom:12px;">
+        Dokunarak 360° döndürebileceğiniz, yakınlaştırabileceğiniz ve katmanlarını inceleyebileceğiniz 3D TUS organ atlası.
+      </p>
+      <div class="organ-catalog-grid" id="organCatalogGrid">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- 2D ANATOMİ ATLASI VE TESTİ                                   -->
+    <!-- ============================================================ -->
+    <section id="anatomy-2d-screen" class="tab-content-view">
+      <div class="return-nav-bar">
+        <button class="btn-return" onclick="closeAnatomy2D()">← Ana Sayfaya Dön</button>
+        <span style="font-family:'Cinzel',serif; font-size:17px; font-weight:800; color:var(--cyan);">2 Boyutlu Anatomi Laboratuvarı</span>
+      </div>
+      
+      <div class="branch-filter-chips" id="anatomy2dChips">
+        <!-- System chips -->
+      </div>
+
+      <div class="cyber-card" style="padding:14px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <span style="font-weight:800; color:var(--gold);" id="anatomy2dModeTitle">Görsel Test Modu</span>
+          <span style="font-size:11px; color:var(--cyan);" id="anatomy2dScore">Skor: 0</span>
+        </div>
+        <p style="font-size:13px; font-weight:700; color:#FFFFFF; margin-bottom:8px;" id="anatomy2dPrompt">
+          Görsel üzerinde hedef bölgeye dokunun.
+        </p>
+        <div class="anatomy-2d-canvas-wrap">
+          <img id="anatomy2dImg" src="./assets/drawables/anatomy_skeletal.jpg" alt="Anatomi Şeması" onclick="handleAnatomy2dClick(event)">
+        </div>
+        <div id="anatomy2dFeedback" style="font-size:12.5px; margin-top:8px; line-height:1.5;"></div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- TAB 1: OYUNLAR (Kelime Avı & Hafıza Eşleştirme)             -->
+    <!-- ============================================================ -->
+    <main id="tab-games-view" class="tab-content-view">
+      <h2 style="font-family:'Cinzel',serif; font-size:22px; color:var(--cyan); margin-bottom:6px;">TUS OYUN MODLARI</h2>
+      <p style="font-size:13px; color:var(--text-muted); margin-bottom:16px;">
+        3.261 Tıbbi Terim ve İpucuyla hafızanızı tazeleyin, kombo yaparak zirveye çıkın!
+      </p>
+
+      <div class="game-mode-card" onclick="startWordHunterGame()">
+        <div style="font-size:42px;">🧩</div>
+        <div>
+          <div style="font-size:18px; font-weight:900; color:#FF5252;">Kelime Avı</div>
+          <div style="font-size:12px; color:var(--text-muted);">Tıbbi ipucundan terimi harf harf tahmin edin</div>
+        </div>
+      </div>
+
+      <div class="game-mode-card" style="border-color:#4CAF50;" onclick="startMemoryMatchGame()">
+        <div style="font-size:42px;">🎴</div>
+        <div>
+          <div style="font-size:18px; font-weight:900; color:#4CAF50;">Hafıza Kartları</div>
+          <div style="font-size:12px; color:var(--text-muted);">Klinik vaka ve teşhis çiftlerini en az hamlede eşleştirin</div>
+        </div>
+      </div>
+
+      <!-- Active Game Container -->
+      <div id="activeGameArea" style="display:none; margin-top:20px;">
+        <!-- Injected dynamically -->
+      </div>
+    </main>
+
+    <!-- ============================================================ -->
+    <!-- TAB 2: KARTLAR (3D Dönen Bilgi Kartları)                     -->
+    <!-- ============================================================ -->
+    <main id="tab-cards-view" class="tab-content-view">
+      <h2 style="font-family:'Cinzel',serif; font-size:22px; color:var(--gold); margin-bottom:6px;">TIBBİ BİLGİ KARTLARI</h2>
+      <p style="font-size:13px; color:var(--text-muted); margin-bottom:16px;">
+        Kartın arkasını çevirmek için dokunun. Öğrendiğiniz kartları işaretleyerek zihninize depolayın.
+      </p>
+
+      <div class="branch-filter-chips" id="flashcardBranchChips">
+        <!-- Dynamic branch chips -->
+      </div>
+
+      <div class="flashcard-3d-scene">
+        <div class="flashcard-object" id="activeFlashcard" onclick="flipFlashcard()">
+          <!-- Front -->
+          <div class="flashcard-face flashcard-front">
+            <span style="font-size:11px; font-weight:800; color:var(--cyan); letter-spacing:1px; margin-bottom:12px;" id="fcCategory">ANATOMİ</span>
+            <div style="font-size:18px; font-weight:800; line-height:1.5; color:#FFFFFF;" id="fcFrontText">
+              Bilgi Kartı Yükleniyor...
+            </div>
+            <span style="font-size:11px; color:var(--text-muted); margin-top:16px;">(Cevabı Görmek İçin Dokun 🔄)</span>
+          </div>
+          <!-- Back -->
+          <div class="flashcard-face flashcard-back">
+            <span style="font-size:11px; font-weight:800; color:var(--gold); letter-spacing:1px; margin-bottom:12px;">DOĞRU CEVAP / TEŞHİS</span>
+            <div style="font-size:22px; font-weight:900; color:var(--gold); line-height:1.4;" id="fcBackText">
+              -
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:12px; margin-top:16px;">
+        <button class="quiz-next-btn" style="display:block; flex:1; background:rgba(255,255,255,0.1); border:1px solid #FFFFFF; color:#FFFFFF;" onclick="nextFlashcard(false)">
+          ↺ Tekrar Et
+        </button>
+        <button class="quiz-next-btn" style="display:block; flex:1; background:linear-gradient(135deg, #00FF87, #00C6FF);" onclick="nextFlashcard(true)">
+          ✓ Öğrendim (+2 🌰)
+        </button>
+      </div>
+    </main>
+
+    <!-- ============================================================ -->
+    <!-- TAB 3: GÖRSEL HAFIZA ATLASI                                 -->
+    <!-- ============================================================ -->
+    <main id="tab-visual-view" class="tab-content-view">
+      <h2 style="font-family:'Cinzel',serif; font-size:22px; color:var(--cyan); margin-bottom:6px;">GÖRSEL HAFIZA ATLASI</h2>
+      <p style="font-size:13px; color:var(--text-muted); margin-bottom:14px;">
+        100+ yüksek çözünürlüklü tıbbi infografik ve spot klinik özetler.
+      </p>
+
+      <div class="branch-filter-chips" id="visualBranchChips">
+        <!-- Chips injected dynamically -->
+      </div>
+
+      <div class="visual-gallery-grid" id="visualGalleryGrid">
+        <!-- Visual cards injected dynamically -->
+      </div>
+    </main>
+
+    <!-- ============================================================ -->
+    <!-- TAB 4: SEVİMLİ DOST PITRAK SOHBETİ                          -->
+    <!-- ============================================================ -->
+    <main id="tab-pitrak-view" class="tab-content-view">
+      <div class="pitrak-chat-container">
+        
+        <div style="display:flex; align-items:center; gap:12px; padding-bottom:12px; border-bottom:1px solid rgba(255,255,255,0.1); margin-bottom:10px;">
+          <div class="pitrak-avatar-box" style="width:42px; height:42px;">
+            <img src="./assets/pitrak.jpg" alt="Pıtrak" onerror="this.src='./assets/ic_launcher.webp'">
+          </div>
+          <div>
+            <div style="font-weight:900; color:var(--cyan); font-size:16px;">Pıtrak Bilge TUS Asistanı</div>
+            <div style="font-size:11px; color:#00FF87;">● Canlı ve Hazır (6.913 Tıbbi Madde)</div>
+          </div>
+        </div>
+
+        <!-- Chat history -->
+        <div class="chat-messages-scroll" id="chatMessagesScroll">
+          <div class="chat-bubble bot">
+            Merhaba Sevgili Doktorum! 🩺 Ben Sevimli Dost Pıtrak. TUS'ta aklına takılan her türlü kranial siniri, enzim yolağını, antibiyotiği veya klinik vakayı bana sorabilirsin!
+          </div>
+        </div>
+
+        <!-- Chat input -->
+        <div class="chat-input-bar">
+          <input type="text" class="chat-input-field" id="pitrakInput" placeholder="Tıbbi bir konu, ilaç veya soru yazın..." onkeydown="if(event.key==='Enter') sendPitrakMessage()">
+          <button class="chat-send-btn" onclick="sendPitrakMessage()">Gönder</button>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- ============================================================ -->
+    <!-- BOTTOM NAVIGATION                                           -->
+    <!-- ============================================================ -->
+    <nav class="bottom-nav-bar">
+      <div class="nav-item active" onclick="switchNavTab(0)">
+        <span class="nav-icon">🏛️</span>
+        <span>Dersler</span>
+      </div>
+      <div class="nav-item" onclick="switchNavTab(1)">
+        <span class="nav-icon">🎮</span>
+        <span>Oyunlar</span>
+      </div>
+      <div class="nav-item" onclick="switchNavTab(2)">
+        <span class="nav-icon">🎴</span>
+        <span>Kartlar</span>
+      </div>
+      <div class="nav-item" onclick="switchNavTab(3)">
+        <span class="nav-icon">🖼️</span>
+        <span>Görsel</span>
+      </div>
+      <div class="nav-item" onclick="switchNavTab(4)">
+        <span class="nav-icon">🤖</span>
+        <span>Pıtrak</span>
+      </div>
+    </nav>
+
+  </div> <!-- /app-viewport -->
+
+  <!-- ============================================================ -->
+  <!-- SOL YAN DRAWER: ZAMAN-I ŞAHANE (POMODORO ODAK SAATİ)        -->
+  <!-- ============================================================ -->
+  <div class="side-drawer-overlay" id="drawerOverlay" onclick="toggleSideDrawer()"></div>
+  <aside class="side-drawer-panel" id="sideDrawer">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+      <h3 style="font-family:'Cinzel',serif; color:var(--gold); font-size:18px;">⏳ ZAMAN-I ŞAHANE</h3>
+      <button style="background:none; border:none; color:#FFFFFF; font-size:20px; cursor:pointer;" onclick="toggleSideDrawer()">✕</button>
+    </div>
+    
+    <p style="font-size:12px; color:var(--text-muted); line-height:1.5;">
+      25 dakika aralıksız çalışma ve 5 dakika mola ile zihninizi en üst TUS performansında tutun.
+    </p>
+
+    <div class="pomodoro-dial">
+      <span style="font-size:11px; font-weight:800; color:var(--cyan); letter-spacing:1px;" id="pomodoroModeText">ODAKLANMA</span>
+      <div class="timer-digits" id="pomodoroDigits">25:00</div>
+    </div>
+
+    <div style="display:flex; gap:10px; margin-bottom:20px;">
+      <button class="quiz-next-btn" style="display:block; flex:1; padding:10px;" id="btnPomodoroToggle" onclick="togglePomodoroTimer()">Başlat</button>
+      <button class="quiz-next-btn" style="display:block; flex:1; padding:10px; background:rgba(255,255,255,0.1); color:#FFF;" onclick="resetPomodoroTimer()">Sıfırla</button>
+    </div>
+
+    <div style="margin-top:auto;">
+      <span style="font-size:12px; font-weight:800; color:var(--cyan);">Dinlendirici Arka Plan Sesi:</span>
+      <div style="display:flex; gap:6px; margin-top:8px;">
+        <button class="branch-chip active" id="btnSoundNone" onclick="setAmbientSound('none')">Sessiz</button>
+        <button class="branch-chip" id="btnSoundRain" onclick="setAmbientSound('rain')">🌧️ Yağmur</button>
+        <button class="branch-chip" id="btnSoundNoise" onclick="setAmbientSound('white')">📻 Odak</button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ============================================================ -->
+  <!-- 3D MODEL GÖRÜNTÜLEYİCİ MODAL                                 -->
+  <!-- ============================================================ -->
+  <div id="modal-3d-viewer">
+    <button class="btn-close-3d" onclick="close3DModal()">✕ Kapat</button>
+    <iframe id="modal-3d-iframe" src="" title="3D Görüntüleyici"></iframe>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- AKILLI ARAMA MODALİ                                          -->
+  <!-- ============================================================ -->
+  <div class="app-modal" id="searchModal">
+    <div class="modal-box">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+        <h3 style="font-family:'Cinzel',serif; color:var(--cyan); font-size:17px;">Akıllı TUS Arama Motoru</h3>
+        <button style="background:none; border:none; color:#FFFFFF; font-size:20px; cursor:pointer;" onclick="closeGlobalSearch()">✕</button>
+      </div>
+      <input type="text" class="chat-input-field" id="globalSearchInput" placeholder="Aramak istediğiniz terimi yazın..." oninput="doGlobalSearch(this.value)">
+      <div id="globalSearchResults" style="flex:1; overflow-y:auto; margin-top:12px; max-height:55vh;">
+        <!-- Results injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- GÖRSEL HAFIZA BÜYÜTME MODALİ                                 -->
+  <!-- ============================================================ -->
+  <div class="app-modal" id="visualZoomModal">
+    <div class="modal-box" style="max-width:650px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+        <h3 style="font-family:'Cinzel',serif; color:var(--gold); font-size:17px;" id="zoomModalTitle">İnfografik Detayı</h3>
+        <button style="background:none; border:none; color:#FFFFFF; font-size:20px; cursor:pointer;" onclick="closeVisualZoom()">✕</button>
+      </div>
+      <div style="max-height:55vh; overflow-y:auto; text-align:center;">
+        <img id="zoomModalImg" src="" alt="Detay Görseli" style="max-width:100%; border-radius:12px; margin-bottom:12px;">
+      </div>
+      <div id="zoomModalSpot" style="font-size:13px; line-height:1.6; color:#E2E8F0; padding:8px 0; border-top:1px solid rgba(255,255,255,0.1);"></div>
+    </div>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- JAVASCRIPT: SES SENTEZLEYİCİ & UYGULAMA MOTORU             -->
+  <!-- ============================================================ -->
+  <script>
+    /* 1. Web Audio Synthesizer */
+    const SoundFx = (() => {
+      let ctx = null;
+      let activeNoiseNode = null;
+
+      function getCtx() {
+        if (!ctx) {
+          const AC = window.AudioContext || window.webkitAudioContext;
+          if (AC) ctx = new AC();
+        }
+        if (ctx && ctx.state === 'suspended') ctx.resume();
+        return ctx;
+      }
+
+      return {
+        click: () => {
+          try {
+            const c = getCtx(); if (!c) return;
+            const now = c.currentTime;
+            const osc = c.createOscillator(); const gain = c.createGain();
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(600, now);
+            osc.frequency.exponentialRampToValueAtTime(850, now + 0.05);
+            gain.gain.setValueAtTime(0.05, now);
+            gain.gain.exponentialRampToValueAtTime(0.001, now + 0.06);
+            osc.connect(gain); gain.connect(c.destination);
+            osc.start(now); osc.stop(now + 0.07);
+          } catch(e) {}
+        },
+        correct: () => {
+          try {
+            const c = getCtx(); if (!c) return;
+            const now = c.currentTime;
+            [523.25, 659.25, 783.99, 1046.50].forEach((freq, i) => {
+              const osc = c.createOscillator(); const gain = c.createGain();
+              osc.type = 'triangle';
+              osc.frequency.setValueAtTime(freq, now + i * 0.07);
+              gain.gain.setValueAtTime(0.07, now + i * 0.07);
+              gain.gain.exponentialRampToValueAtTime(0.001, now + i * 0.07 + 0.18);
+              osc.connect(gain); gain.connect(c.destination);
+              osc.start(now + i * 0.07); osc.stop(now + i * 0.07 + 0.2);
+            });
+          } catch(e) {}
+        },
+        wrong: () => {
+          try {
+            const c = getCtx(); if (!c) return;
+            const now = c.currentTime;
+            const osc = c.createOscillator(); const gain = c.createGain();
+            osc.type = 'sawtooth';
+            osc.frequency.setValueAtTime(220, now);
+            osc.frequency.exponentialRampToValueAtTime(140, now + 0.2);
+            gain.gain.setValueAtTime(0.08, now);
+            gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25);
+            osc.connect(gain); gain.connect(c.destination);
+            osc.start(now); osc.stop(now + 0.28);
+          } catch(e) {}
+        },
+        fanfare: () => {
+          try {
+            const c = getCtx(); if (!c) return;
+            const now = c.currentTime;
+            [440, 554.37, 659.25, 880].forEach((f, i) => {
+              const osc = c.createOscillator(); const gain = c.createGain();
+              osc.type = 'triangle';
+              osc.frequency.setValueAtTime(f, now + i * 0.1);
+              gain.gain.setValueAtTime(0.09, now + i * 0.1);
+              gain.gain.exponentialRampToValueAtTime(0.001, now + i * 0.1 + 0.4);
+              osc.connect(gain); gain.connect(c.destination);
+              osc.start(now + i * 0.1); osc.stop(now + i * 0.1 + 0.45);
+            });
+          } catch(e) {}
+        },
+        startNoise: (type) => {
+          try {
+            const c = getCtx(); if (!c) return;
+            if (activeNoiseNode) { activeNoiseNode.stop(); activeNoiseNode = null; }
+            if (type === 'none') return;
+
+            const bufferSize = c.sampleRate * 2;
+            const buffer = c.createBuffer(1, bufferSize, c.sampleRate);
+            const data = buffer.getChannelData(0);
+            for (let i = 0; i < bufferSize; i++) {
+              data[i] = Math.random() * 2 - 1;
+            }
+
+            const noise = c.createBufferSource();
+            noise.buffer = buffer;
+            noise.loop = true;
+
+            const filter = c.createBiquadFilter();
+            filter.type = type === 'rain' ? 'lowpass' : 'bandpass';
+            filter.frequency.value = type === 'rain' ? 800 : 1200;
+
+            const gain = c.createGain();
+            gain.gain.value = 0.035;
+
+            noise.connect(filter);
+            filter.connect(gain);
+            gain.connect(c.destination);
+
+            noise.start();
+            activeNoiseNode = noise;
+          } catch(e) {}
+        },
+        stopNoise: () => {
+          if (activeNoiseNode) {
+            try { activeNoiseNode.stop(); } catch(e) {}
+            activeNoiseNode = null;
+          }
+        }
+      };
+    })();
+
+    /* 2. Global Game State (localStorage) */
+    const GameState = {
+      data: {
+        totalSolvedCount: 0,
+        totalFindik: 0,
+        completedTests: [],
+        completedNotes: [],
+        mistakeQuestions: [],
+        dailyQuestionsSolved: 0,
+        dailyTarget: 20,
+        dailyStreak: 1,
+        lastActiveDate: new Date().toISOString().split('T')[0],
+        learnedCards: []
+      },
+      load: function() {
+        try {
+          const s = localStorage.getItem('alef_tus_state');
+          if (s) {
+            this.data = Object.assign(this.data, JSON.parse(s));
+            // Check daily reset
+            const today = new Date().toISOString().split('T')[0];
+            if (this.data.lastActiveDate !== today) {
+              const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+              if (this.data.lastActiveDate === yesterday && this.data.dailyQuestionsSolved >= this.data.dailyTarget) {
+                this.data.dailyStreak++;
+              } else if (this.data.lastActiveDate !== yesterday) {
+                this.data.dailyStreak = 1;
+              }
+              this.data.dailyQuestionsSolved = 0;
+              this.data.lastActiveDate = today;
+              this.save();
+            }
+          }
+        } catch(e) {}
+        this.updateHUD();
+      },
+      save: function() {
+        try {
+          localStorage.setItem('alef_tus_state', JSON.stringify(this.data));
+        } catch(e) {}
+        this.updateHUD();
+      },
+      addFindik: function(n) {
+        this.data.totalFindik += n;
+        this.save();
+      },
+      recordSolvedQuestion: function(isCorrect, questionObj) {
+        this.data.totalSolvedCount++;
+        this.data.dailyQuestionsSolved++;
+        if (isCorrect) {
+          this.data.totalFindik += 1;
+          // remove from mistake if present
+          this.removeMistake(questionObj);
+        } else {
+          this.addMistake(questionObj);
+        }
+        this.save();
+      },
+      addMistake: function(q) {
+        const text = (q.soru || q.question || '').trim();
+        if (!text) return;
+        if (!this.data.mistakeQuestions.some(m => (m.soru || m.question || '').trim() === text)) {
+          this.data.mistakeQuestions.unshift(q);
+        }
+      },
+      removeMistake: function(q) {
+        const text = (q.soru || q.question || '').trim();
+        this.data.mistakeQuestions = this.data.mistakeQuestions.filter(m => (m.soru || m.question || '').trim() !== text);
+      },
+      updateHUD: function() {
+        document.getElementById('topFindikCount').textContent = this.data.totalFindik;
+        document.getElementById('doctorRankSolved').textContent = `Toplam: ${this.data.totalSolvedCount} Soru Çözüldü`;
+        document.getElementById('streakDaysCount').textContent = `${this.data.dailyStreak} Gün`;
+        
+        // Doctor Rank
+        const rank = getDoctorRank(this.data.totalSolvedCount);
+        document.getElementById('doctorRankTitle').textContent = rank.title;
+        document.getElementById('doctorRankIcon').textContent = rank.icon;
+        document.getElementById('doctorRankTitle').style.color = rank.color;
+
+        // Daily Progress
+        const dSolved = this.data.dailyQuestionsSolved;
+        const dTarget = this.data.dailyTarget;
+        const dPct = Math.min(100, Math.round((dSolved / dTarget) * 100));
+        document.getElementById('dailyTargetNumbers').textContent = `${dSolved} / ${dTarget} Soru`;
+        const dFill = document.getElementById('dailyProgressFill');
+        dFill.style.width = `${dPct}%`;
+        if (dSolved >= dTarget) {
+          dFill.classList.add('target-reached');
+          document.getElementById('dailyTargetStatus').textContent = '🎯 Günlük Hedef Tamamlandı! 🎉';
+          document.getElementById('dailyTargetStatus').style.color = '#00FF87';
+        } else {
+          dFill.classList.remove('target-reached');
+          document.getElementById('dailyTargetStatus').textContent = '🎯 Günlük Hedef';
+          document.getElementById('dailyTargetStatus').style.color = '#FFFFFF';
+        }
+
+        // Mistake text
+        const mCount = this.data.mistakeQuestions.length;
+        if (mCount > 0) {
+          document.getElementById('mistakeCountText').textContent = `${mCount} Yanlış Soru Tekrar Bekliyor`;
+          document.getElementById('mistakeCountText').style.color = '#FF5252';
+          document.getElementById('mistakeCtaBtn').textContent = 'Çöz ➔';
+        } else {
+          document.getElementById('mistakeCountText').textContent = 'Mükemmel! Yanlış sorunuz yok 🎯';
+          document.getElementById('mistakeCountText').style.color = '#00FF87';
+          document.getElementById('mistakeCtaBtn').textContent = 'İncele ➔';
+        }
+      }
+    };
+
+    function getDoctorRank(count) {
+      if (count < 50) return { title: "Stajyer Doktor", icon: "🩺", color: "#64B5F6" };
+      if (count < 150) return { title: "İntörn Hekim", icon: "🥼", color: "#4DD0E1" };
+      if (count < 350) return { title: "Pratisyen Hekim", icon: "💉", color: "#81C784" };
+      if (count < 750) return { title: "Asistan Hekim", icon: "🏥", color: "#FFB74D" };
+      if (count < 1500) return { title: "Başasistan", icon: "📋", color: "#FF8A65" };
+      if (count < 3000) return { title: "Uzman Doktor", icon: "⭐", color: "#BA68C8" };
+      if (count < 6000) return { title: "Doçent Doktor", icon: "👑", color: "#FFD54F" };
+      return { title: "Profesör Doktor", icon: "🏆", color: "#FF4081" };
+    }
+
+    /* 3. The 12 Courses Configuration */
+    const COURSES = [
+      { name: "Anatomi", icon: "🦴", notlarFile: "anatomi_notlari.json" },
+      { name: "Fizyoloji", icon: "🫀", notlarFile: "fizyoloji_notlari.json" },
+      { name: "Biyokimya", icon: "🧬", notlarFile: "biyokimya_notlari.json" },
+      { name: "Mikrobiyoloji", icon: "🦠", notlarFile: "mikrobiyoloji_notlari.json" },
+      { name: "Patoloji", icon: "🔬", notlarFile: "patoloji_notlari.json" },
+      { name: "Farmakoloji", icon: "💊", notlarFile: "farmakoloji_notlari.json" },
+      { name: "Dahiliye", icon: "🩺", notlarFile: "dahiliye_notlari.json" },
+      { name: "Pediatri", icon: "👶", notlarFile: "pediatri_notlari.json" },
+      { name: "Genel Cerrahi", icon: "💉", notlarFile: "genel_cerrahi_notlari.json" },
+      { name: "Kadın Doğum", icon: "🤰", notlarFile: "kadin_dogum_notlari.json" },
+      { name: "3 Boyutlu Anatomi Laboratuvarı", icon: "🫀", isSpecial: "3d" },
+      { name: "2 Boyutlu Anatomi Laboratuvarı", icon: "💀", isSpecial: "2d" }
+    ];
+
+    let DATABASE_ROOT = null;
+    let DOKTORLAR_DATA = [];
+    let PITRAK_KNOWLEDGE = [];
+    let ANATOMY_3D_CATALOG = null;
+    let ANATOMY_2D_QUIZ = null;
+    let GORSEL_METADATA = null;
+
+    /* 4. App Initialization */
+    window.addEventListener('DOMContentLoaded', async () => {
+      GameState.load();
+      renderCourseRoadmap();
+      renderVisualBranchChips();
+
+      // Load main database
+      try {
+        const res = await fetch('./assets/sorular.json');
+        if (res.ok) {
+          DATABASE_ROOT = await res.json();
+          renderCourseRoadmap();
+          updateOverallProgress();
+        }
+      } catch(e) {
+        console.warn('Could not load sorular.json', e);
+      }
+
+      // Load doctor terms
+      try {
+        const res = await fetch('./assets/doktorlar.json');
+        if (res.ok) {
+          DOKTORLAR_DATA = await res.json();
+          initFlashcards();
+        }
+      } catch(e) {}
+
+      // Load pitrak knowledge
+      try {
+        const res = await fetch('./assets/pitrak_knowledge.json');
+        if (res.ok) {
+          PITRAK_KNOWLEDGE = await res.json();
+        }
+      } catch(e) {}
+
+      // Load 3D and 2D catalogs
+      try {
+        const res3d = await fetch('./assets/anatomy_3d_catalog.json');
+        if (res3d.ok) ANATOMY_3D_CATALOG = await res3d.json();
+        const res2d = await fetch('./assets/anatomy_2d_quiz.json');
+        if (res2d.ok) {
+          ANATOMY_2D_QUIZ = await res2d.json();
+          initAnatomy2D();
+        }
+        const resG = await fetch('./assets/gorsel_hafiza/metadata.json');
+        if (resG.ok) {
+          GORSEL_METADATA = await resG.json();
+          filterVisualGallery('Anatomi');
+        }
+      } catch(e) {}
+    });
+
+    /* Render Roadmap with Duolingo-style zigzag */
+    function renderCourseRoadmap() {
+      const container = document.getElementById('courseRoadmapList');
+      if (!container) return;
+
+      container.innerHTML = COURSES.map((course, idx) => {
+        // Zigzag offset: 0, 48px, 0, -48px
+        const offsets = [0, 48, 0, -48];
+        const offset = offsets[idx % 4];
+
+        // Count tests in course
+        let totalTests = 0;
+        let completedCount = 0;
+        if (DATABASE_ROOT && DATABASE_ROOT.arsiv && DATABASE_ROOT.arsiv[course.name]) {
+          const mainTopics = DATABASE_ROOT.arsiv[course.name];
+          Object.values(mainTopics).forEach(tests => {
+            Object.keys(tests).forEach(tName => {
+              totalTests++;
+              if (GameState.data.completedTests.includes(`${course.name}_${tName}`)) {
+                completedCount++;
+              }
+            });
+          });
+        }
+
+        const pct = totalTests > 0 ? Math.round((completedCount / totalTests) * 100) : 0;
+        const strokeDash = 238; // 2 * PI * 38
+        const strokeOffset = strokeDash - (strokeDash * pct) / 100;
+
+        return `
+          <div class="course-node-item" style="transform: translateX(${offset}px);" onclick="handleCourseNodeClick(${idx})">
+            <div class="course-ring-wrap">
+              <svg class="progress-svg" viewBox="0 0 90 90">
+                <circle class="progress-ring-bg" cx="45" cy="45" r="38"></circle>
+                <circle class="progress-ring-val" cx="45" cy="45" r="38" stroke-dasharray="${strokeDash}" stroke-dashoffset="${strokeOffset}"></circle>
+              </svg>
+              <div class="course-node-circle">
+                ${course.icon}
+              </div>
+            </div>
+            <div class="course-node-label">${course.name}</div>
+            <div class="course-node-badge">${course.isSpecial ? 'ÖZEL ATÖLYE' : (totalTests > 0 ? `${completedCount}/${totalTests} Test` : '10 Ünite')}</div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function updateOverallProgress() {
+      let totalQ = 0;
+      if (DATABASE_ROOT && DATABASE_ROOT.arsiv) {
+        Object.values(DATABASE_ROOT.arsiv).forEach(topics => {
+          Object.values(topics).forEach(tests => {
+            Object.values(tests).forEach(qList => {
+              totalQ += qList.length;
+            });
+          });
+        });
+      }
+      const solved = GameState.data.totalSolvedCount;
+      const pct = totalQ > 0 ? Math.min(100, Math.round((solved / totalQ) * 100)) : 0;
+      document.getElementById('overallProgressFill').style.width = `${pct}%`;
+      document.getElementById('overallSolvedText').textContent = `Çözülen Soru: ${solved} / ${totalQ.toLocaleString() || '6.388'}`;
+    }
+
+    function handleCourseNodeClick(idx) {
+      SoundFx.click();
+      const course = COURSES[idx];
+      if (course.isSpecial === '3d') {
+        openAnatomy3D();
+      } else if (course.isSpecial === '2d') {
+        openAnatomy2D();
+      } else {
+        openCoursePath(course.name);
+      }
+    }
+
+    /* ============================================================ */
+    /* 5. COURSE PATH SCREEN (Üniteler & Testler)                   */
+    /* ============================================================ */
+    let CURRENT_COURSE_NAME = "";
+    async function openCoursePath(courseName) {
+      CURRENT_COURSE_NAME = courseName;
+      document.getElementById('pathCourseTitle').textContent = courseName;
+      
+      const container = document.getElementById('courseUnitsContainer');
+      container.innerHTML = '<div style="text-align:center; padding:30px; color:var(--cyan)">Yükleniyor...</div>';
+
+      showSubView('course-path-screen');
+
+      // Fetch course notes
+      const courseObj = COURSES.find(c => c.name === courseName);
+      let notesData = null;
+      if (courseObj && courseObj.notlarFile) {
+        try {
+          const res = await fetch(`./assets/${courseObj.notlarFile}`);
+          if (res.ok) notesData = await res.json();
+        } catch(e) {}
+      }
+
+      // Group tests
+      const mainTopics = (DATABASE_ROOT && DATABASE_ROOT.arsiv && DATABASE_ROOT.arsiv[courseName]) || {};
+
+      let html = '';
+      const topicKeys = Object.keys(mainTopics);
+      
+      if (topicKeys.length === 0) {
+        html = '<div style="text-align:center; padding:30px; color:var(--text-muted)">Bu branş için soru arşivi hazırlanıyor.</div>';
+      } else {
+        topicKeys.forEach((topicName, uIdx) => {
+          const tests = mainTopics[topicName] || {};
+          const noteUnit = notesData && notesData[uIdx] ? notesData[uIdx] : null;
+
+          html += `
+            <div class="unit-block-card">
+              <div class="unit-title-row">
+                <span class="unit-name">${topicName}</span>
+                ${noteUnit ? `
+                  <button class="unit-note-btn" onclick="openNoteReading('${courseName}', ${uIdx})">
+                    📘 Konu Notu
+                  </button>
+                ` : ''}
+              </div>
+              <div class="test-grid-list">
+                ${Object.entries(tests).map(([tName, qList]) => {
+                  const isDone = GameState.data.completedTests.includes(`${courseName}_${tName}`);
+                  return `
+                    <div class="test-node-btn ${isDone ? 'completed' : ''}" onclick="launchQuiz('${courseName}', '${topicName}', '${tName}')">
+                      <div class="test-node-name">${tName}</div>
+                      <div class="test-node-info">${qList.length} Soru ${isDone ? '✓' : ''}</div>
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+          `;
+        });
+      }
+
+      container.innerHTML = html;
+    }
+
+    function closeCoursePath() {
+      SoundFx.click();
+      renderCourseRoadmap();
+      showSubView('tab-courses-view');
+    }
+
+    /* ============================================================ */
+    /* 6. QUIZ SCREEN CONTROLLER                                    */
+    /* ============================================================ */
+    let CURRENT_QUIZ_DATA = null;
+    let CURRENT_Q_INDEX = 0;
+    let QUIZ_CORRECT = 0;
+    let QUIZ_WRONG = 0;
+    let IS_ANSWERED = false;
+
+    function launchQuiz(courseName, topicName, testName) {
+      SoundFx.click();
+      const qList = (DATABASE_ROOT && DATABASE_ROOT.arsiv[courseName] && DATABASE_ROOT.arsiv[courseName][topicName][testName]) || [];
+      if (qList.length === 0) return alert('Bu testte soru bulunamadı.');
+
+      CURRENT_QUIZ_DATA = {
+        courseName,
+        topicName,
+        testName,
+        questions: qList
+      };
+      CURRENT_Q_INDEX = 0;
+      QUIZ_CORRECT = 0;
+      QUIZ_WRONG = 0;
+
+      document.getElementById('activeTestName').textContent = `${courseName} • ${testName}`;
+      document.getElementById('quizCompletionCard').style.display = 'none';
+      document.getElementById('questionText').style.display = 'block';
+      document.getElementById('optionsContainer').style.display = 'flex';
+      
+      showSubView('quiz-active-screen');
+      renderCurrentQuestion();
+    }
+
+    function renderCurrentQuestion() {
+      IS_ANSWERED = false;
+      document.getElementById('explanationBox').style.display = 'none';
+      document.getElementById('btnNextQuestion').style.display = 'none';
+
+      const total = CURRENT_QUIZ_DATA.questions.length;
+      const q = CURRENT_QUIZ_DATA.questions[CURRENT_Q_INDEX];
+
+      document.getElementById('quizProgressPill').textContent = `Soru ${CURRENT_Q_INDEX + 1} / ${total}`;
+      document.getElementById('quizCorrectCount').textContent = `✓ ${QUIZ_CORRECT}`;
+      document.getElementById('quizWrongCount').textContent = `✗ ${QUIZ_WRONG}`;
+      document.getElementById('quizProgressFill').style.width = `${((CURRENT_Q_INDEX) / total) * 100}%`;
+
+      document.getElementById('questionText').innerHTML = q.soru || q.question || 'Soru metni bulunamadı.';
+
+      const letters = ['A', 'B', 'C', 'D', 'E'];
+      const opts = q.secenekler || q.options || [];
+
+      document.getElementById('optionsContainer').innerHTML = opts.map((optText, idx) => `
+        <div class="option-card" onclick="handleOptionSelect(${idx})">
+          <div class="option-letter">${letters[idx]}</div>
+          <div style="flex:1">${optText}</div>
+        </div>
+      `).join('');
+    }
+
+    function handleOptionSelect(selectedIdx) {
+      if (IS_ANSWERED) return;
+      IS_ANSWERED = true;
+
+      const q = CURRENT_QUIZ_DATA.questions[CURRENT_Q_INDEX];
+      const optCards = document.querySelectorAll('.option-card');
+      const correctIdx = q.dogru_index !== undefined ? q.dogru_index : 
+                         q.secenekler ? q.secenekler.indexOf(q.dogru) : 0;
+
+      const isCorrect = selectedIdx === correctIdx;
+
+      if (isCorrect) {
+        SoundFx.correct();
+        QUIZ_CORRECT++;
+        optCards[selectedIdx].classList.add('correct');
+      } else {
+        SoundFx.wrong();
+        QUIZ_WRONG++;
+        optCards[selectedIdx].classList.add('wrong');
+        if (optCards[correctIdx]) optCards[correctIdx].classList.add('correct');
+      }
+
+      GameState.recordSolvedQuestion(isCorrect, q);
+
+      // Show explanation
+      const expBox = document.getElementById('explanationBox');
+      const expText = document.getElementById('explanationText');
+      if (q.aciklama) {
+        expText.innerHTML = q.aciklama;
+        expBox.style.display = 'block';
+      }
+
+      document.getElementById('btnNextQuestion').style.display = 'block';
+    }
+
+    function advanceNextQuestion() {
+      SoundFx.click();
+      CURRENT_Q_INDEX++;
+      if (CURRENT_Q_INDEX < CURRENT_QUIZ_DATA.questions.length) {
+        renderCurrentQuestion();
+      } else {
+        // Test Completed!
+        SoundFx.fanfare();
+        const testKey = `${CURRENT_QUIZ_DATA.courseName}_${CURRENT_QUIZ_DATA.testName}`;
+        if (!GameState.data.completedTests.includes(testKey)) {
+          GameState.data.completedTests.push(testKey);
+          GameState.addFindik(10);
+        }
+        document.getElementById('questionText').style.display = 'none';
+        document.getElementById('optionsContainer').style.display = 'none';
+        document.getElementById('explanationBox').style.display = 'none';
+        document.getElementById('btnNextQuestion').style.display = 'none';
+
+        document.getElementById('completionScoreText').textContent = 
+          `Skorunuz: ${QUIZ_CORRECT} Doğru, ${QUIZ_WRONG} Yanlış (${Math.round((QUIZ_CORRECT/CURRENT_QUIZ_DATA.questions.length)*100)}%)`;
+        document.getElementById('quizCompletionCard').style.display = 'block';
+      }
+    }
+
+    function exitQuiz() {
+      SoundFx.click();
+      if (CURRENT_QUIZ_DATA && CURRENT_QUIZ_DATA.courseName) {
+        openCoursePath(CURRENT_QUIZ_DATA.courseName);
+      } else {
+        showSubView('tab-courses-view');
+      }
+    }
+
+    /* ============================================================ */
+    /* 7. NOTE READING VIEW                                         */
+    /* ============================================================ */
+    let CURRENT_NOTE_INFO = null;
+    async function openNoteReading(courseName, unitIdx) {
+      SoundFx.click();
+      const courseObj = COURSES.find(c => c.name === courseName);
+      if (!courseObj || !courseObj.notlarFile) return;
+
+      try {
+        const res = await fetch(`./assets/${courseObj.notlarFile}`);
+        if (!res.ok) return;
+        const notes = await res.json();
+        const unit = notes[unitIdx];
+        if (!unit) return;
+
+        CURRENT_NOTE_INFO = { courseName, unitIdx, unitName: unit.unitName };
+        document.getElementById('noteHeaderTitle').textContent = `${courseName} • ${unit.unitName || 'Konu Notu'}`;
+        
+        let html = '';
+        (unit.sections || []).forEach(sec => {
+          html += `
+            <div style="margin-bottom:28px;">
+              <h2>${sec.title}</h2>
+              <div>${(sec.content || '').replace(/\n/g, '<br>')}</div>
+              ${sec.keyPoints ? `
+                <div style="background:rgba(255,215,0,0.1); border-left:3px solid var(--gold); padding:10px 14px; margin-top:14px; border-radius:8px;">
+                  <strong style="color:var(--gold);">Spot Vurgular:</strong>
+                  <ul style="margin-top:6px; margin-left:18px;">
+                    ${sec.keyPoints.map(kp => `<li>${kp}</li>`).join('')}
+                  </ul>
+                </div>
+              ` : ''}
+              ${sec.model3d ? `
+                <button class="unit-note-btn" style="margin-top:12px;" onclick="open3DViewerOrgan('${sec.model3d}')">
+                  🫀 3D Modeli İncele (${sec.title})
+                </button>
+              ` : ''}
+            </div>
+          `;
+        });
+
+        document.getElementById('noteContentArea').innerHTML = html;
+        showSubView('note-reading-screen');
+      } catch(e) {
+        alert('Not yüklenirken bir hata oluştu.');
+      }
+    }
+
+    function markNoteCompleted() {
+      SoundFx.fanfare();
+      GameState.addFindik(5);
+      alert('Tebrikler! Konu notunu tamamladınız (+5 🌰).');
+      closeNoteReading();
+    }
+
+    function closeNoteReading() {
+      SoundFx.click();
+      if (CURRENT_NOTE_INFO) {
+        openCoursePath(CURRENT_NOTE_INFO.courseName);
+      } else {
+        showSubView('tab-courses-view');
+      }
+    }
+
+    /* ============================================================ */
+    /* 8. 3D ANATOMY MODAL & SCREEN                                 */
+    /* ============================================================ */
+    function openAnatomy3D() {
+      showSubView('anatomy-3d-screen');
+      const grid = document.getElementById('organCatalogGrid');
+      if (!ANATOMY_3D_CATALOG || !ANATOMY_3D_CATALOG.organs) {
+        grid.innerHTML = '<div style="color:var(--cyan); padding:20px;">3D Katalog yükleniyor...</div>';
+        return;
+      }
+      grid.innerHTML = ANATOMY_3D_CATALOG.organs.map(org => `
+        <div class="organ-card-btn" onclick="open3DViewerOrgan('${org.id}')">
+          <div class="organ-card-icon">${org.icon || '🫀'}</div>
+          <div class="organ-card-title">${org.title}</div>
+          <div class="organ-card-latin">${org.latin || ''}</div>
+        </div>
+      `).join('');
+    }
+
+    function closeAnatomy3D() {
+      SoundFx.click();
+      showSubView('tab-courses-view');
+    }
+
+    function open3DViewerOrgan(organId) {
+      SoundFx.click();
+      const modal = document.getElementById('modal-3d-viewer');
+      const iframe = document.getElementById('modal-3d-iframe');
+      iframe.src = `./assets/3dviewer.html?organ=${encodeURIComponent(organId)}`;
+      modal.style.display = 'block';
+    }
+
+    function close3DModal() {
+      SoundFx.click();
+      const modal = document.getElementById('modal-3d-viewer');
+      const iframe = document.getElementById('modal-3d-iframe');
+      iframe.src = '';
+      modal.style.display = 'none';
+    }
+
+    /* ============================================================ */
+    /* 9. 2D ANATOMY ATLAS                                          */
+    /* ============================================================ */
+    let CURRENT_2D_SYSTEM = "İskelet Sistemi";
+    let CURRENT_2D_Q_INDEX = 0;
+    let ANATOMY_2D_SCORE = 0;
+
+    function openAnatomy2D() {
+      showSubView('anatomy-2d-screen');
+      initAnatomy2D();
+    }
+
+    function closeAnatomy2D() {
+      SoundFx.click();
+      showSubView('tab-courses-view');
+    }
+
+    function initAnatomy2D() {
+      if (!ANATOMY_2D_QUIZ) return;
+      const chips = document.getElementById('anatomy2dChips');
+      chips.innerHTML = Object.keys(ANATOMY_2D_QUIZ).map(sysName => `
+        <button class="branch-chip ${sysName === CURRENT_2D_SYSTEM ? 'active' : ''}" onclick="selectAnatomy2dSystem('${sysName}')">
+          ${ANATOMY_2D_QUIZ[sysName].icon || '💀'} ${sysName}
+        </button>
+      `).join('');
+      loadAnatomy2dSystem(CURRENT_2D_SYSTEM);
+    }
+
+    function selectAnatomy2dSystem(sysName) {
+      SoundFx.click();
+      CURRENT_2D_SYSTEM = sysName;
+      initAnatomy2D();
+    }
+
+    function loadAnatomy2dSystem(sysName) {
+      const data = ANATOMY_2D_QUIZ[sysName];
+      if (!data) return;
+      CURRENT_2D_Q_INDEX = 0;
+      document.getElementById('anatomy2dImg').src = data.image;
+      document.getElementById('anatomy2dPrompt').textContent = data.questions[0].prompt;
+      document.getElementById('anatomy2dFeedback').textContent = '';
+      document.getElementById('anatomy2dScore').textContent = `Skor: ${ANATOMY_2D_SCORE}`;
+    }
+
+    function handleAnatomy2dClick(e) {
+      const img = e.target;
+      const rect = img.getBoundingClientRect();
+      const clickX = (e.clientX - rect.left) / rect.width;
+      const clickY = (e.clientY - rect.top) / rect.height;
+
+      const data = ANATOMY_2D_QUIZ[CURRENT_2D_SYSTEM];
+      if (!data || !data.questions[CURRENT_2D_Q_INDEX]) return;
+
+      const q = data.questions[CURRENT_2D_Q_INDEX];
+      const target = q.rect;
+
+      const hit = clickX >= target.left && clickX <= target.right &&
+                  clickY >= target.top && clickY <= target.bottom;
+
+      const feedback = document.getElementById('anatomy2dFeedback');
+      if (hit) {
+        SoundFx.correct();
+        ANATOMY_2D_SCORE += 10;
+        GameState.addFindik(2);
+        feedback.innerHTML = `<span style="color:#00FF87; font-weight:800;">✓ TEBRİKLER!</span> ${q.explanation}`;
+        setTimeout(() => {
+          CURRENT_2D_Q_INDEX = (CURRENT_2D_Q_INDEX + 1) % data.questions.length;
+          document.getElementById('anatomy2dPrompt').textContent = data.questions[CURRENT_2D_Q_INDEX].prompt;
+          document.getElementById('anatomy2dScore').textContent = `Skor: ${ANATOMY_2D_SCORE}`;
+        }, 2200);
+      } else {
+        SoundFx.wrong();
+        feedback.innerHTML = `<span style="color:#FF007F; font-weight:800;">✗ TEKRAR DENEYİN!</span> Hedeflenen bölge burası değil.`;
+      }
+    }
+
+    /* ============================================================ */
+    /* 10. TAB 1: OYUNLAR MOTORU                                   */
+    /* ============================================================ */
+    let CURRENT_GAME_TYPE = null;
+    let MEMORY_CARDS = [];
+    let MEMORY_FLIPPED = [];
+    let MEMORY_MATCHED = 0;
+
+    function startMemoryMatchGame() {
+      SoundFx.click();
+      CURRENT_GAME_TYPE = 'memory';
+      const area = document.getElementById('activeGameArea');
+      area.style.display = 'block';
+
+      if (DOKTORLAR_DATA.length === 0) {
+        area.innerHTML = '<div style="color:var(--cyan)">Kelimeler yükleniyor...</div>';
+        return;
+      }
+
+      // Pick 6 random items
+      const sample = [...DOKTORLAR_DATA].sort(() => 0.5 - Math.random()).slice(0, 6);
+      const cards = [];
+      sample.forEach((item, idx) => {
+        cards.push({ id: idx, text: item.clue, pairId: idx });
+        cards.push({ id: idx + 100, text: item.word, pairId: idx });
+      });
+      cards.sort(() => 0.5 - Math.random());
+      MEMORY_CARDS = cards;
+      MEMORY_FLIPPED = [];
+      MEMORY_MATCHED = 0;
+
+      area.innerHTML = `
+        <div class="cyber-card">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <span style="font-weight:900; color:#4CAF50;">Hafıza Kartları</span>
+            <button class="branch-chip" onclick="document.getElementById('activeGameArea').style.display='none'">✕ Kapat</button>
+          </div>
+          <p style="font-size:12px; color:var(--text-muted);">İpucu ve terim çiftlerini açarak eşleştirin:</p>
+          <div class="memory-grid" id="memoryCardsGrid">
+            ${cards.map((c, i) => `
+              <div class="memory-card" id="memCard_${i}" onclick="flipMemoryCard(${i})">
+                ?
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+    function flipMemoryCard(idx) {
+      if (MEMORY_FLIPPED.length >= 2) return;
+      const cardEl = document.getElementById(`memCard_${idx}`);
+      if (cardEl.classList.contains('matched') || cardEl.classList.contains('flipped')) return;
+
+      SoundFx.click();
+      cardEl.classList.add('flipped');
+      cardEl.textContent = MEMORY_CARDS[idx].text;
+      MEMORY_FLIPPED.push(idx);
+
+      if (MEMORY_FLIPPED.length === 2) {
+        const c1 = MEMORY_CARDS[MEMORY_FLIPPED[0]];
+        const c2 = MEMORY_CARDS[MEMORY_FLIPPED[1]];
+        if (c1.pairId === c2.pairId) {
+          SoundFx.correct();
+          MEMORY_MATCHED++;
+          GameState.addFindik(3);
+          document.getElementById(`memCard_${MEMORY_FLIPPED[0]}`).classList.add('matched');
+          document.getElementById(`memCard_${MEMORY_FLIPPED[1]}`).classList.add('matched');
+          MEMORY_FLIPPED = [];
+          if (MEMORY_MATCHED === 6) {
+            SoundFx.fanfare();
+            alert('Tebrikler! Tüm hafıza kartlarını eşleştirdiniz (+18 🌰)!');
+          }
+        } else {
+          SoundFx.wrong();
+          setTimeout(() => {
+            const el1 = document.getElementById(`memCard_${MEMORY_FLIPPED[0]}`);
+            const el2 = document.getElementById(`memCard_${MEMORY_FLIPPED[1]}`);
+            if (el1) { el1.classList.remove('flipped'); el1.textContent = '?'; }
+            if (el2) { el2.classList.remove('flipped'); el2.textContent = '?'; }
+            MEMORY_FLIPPED = [];
+          }, 900);
+        }
+      }
+    }
+
+    function startWordHunterGame() {
+      SoundFx.click();
+      const area = document.getElementById('activeGameArea');
+      area.style.display = 'block';
+
+      if (DOKTORLAR_DATA.length === 0) return;
+      const item = DOKTORLAR_DATA[Math.floor(Math.random() * DOKTORLAR_DATA.length)];
+
+      area.innerHTML = `
+        <div class="cyber-card">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <span style="font-weight:900; color:#FF5252;">Kelime Avı</span>
+            <button class="branch-chip" onclick="document.getElementById('activeGameArea').style.display='none'">✕ Kapat</button>
+          </div>
+          <div style="font-size:12px; color:var(--cyan); margin-bottom:6px;">Kategori: ${item.category || 'Tıp'}</div>
+          <div style="font-size:16px; font-weight:800; line-height:1.5; color:#FFF; margin-bottom:16px;">
+            "${item.clue}"
+          </div>
+          <div id="wordAnswerReveal" style="display:none; font-size:20px; font-weight:900; color:var(--gold); margin-bottom:14px;">
+            ${item.word}
+          </div>
+          <div style="display:flex; gap:10px;">
+            <button class="quiz-next-btn" style="display:block; flex:1;" onclick="document.getElementById('wordAnswerReveal').style.display='block'; SoundFx.fanfare();">
+              Cevabı Göster
+            </button>
+            <button class="quiz-next-btn" style="display:block; flex:1; background:rgba(255,255,255,0.15); color:#FFF;" onclick="startWordHunterGame()">
+              Sonraki Soru ➔
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    /* ============================================================ */
+    /* 11. TAB 2: FLASHCARDS MOTORU                                */
+    /* ============================================================ */
+    let FLASHCARD_INDEX = 0;
+    let FILTERED_FLASHCARDS = [];
+
+    function initFlashcards() {
+      if (DOKTORLAR_DATA.length === 0) return;
+      
+      // Extract branch categories
+      const cats = Array.from(new Set(DOKTORLAR_DATA.map(d => d.category || 'Genel')));
+      const chips = document.getElementById('flashcardBranchChips');
+      chips.innerHTML = `<button class="branch-chip active" onclick="filterFlashcards('all')">Tümü</button>` +
+        cats.map(c => `<button class="branch-chip" onclick="filterFlashcards('${c}')">${c}</button>`).join('');
+
+      filterFlashcards('all');
+    }
+
+    function filterFlashcards(cat) {
+      SoundFx.click();
+      document.querySelectorAll('#flashcardBranchChips .branch-chip').forEach(b => {
+        b.classList.toggle('active', b.textContent.includes(cat) || (cat === 'all' && b.textContent === 'Tümü'));
+      });
+
+      FILTERED_FLASHCARDS = cat === 'all' ? DOKTORLAR_DATA : DOKTORLAR_DATA.filter(d => d.category === cat);
+      FLASHCARD_INDEX = 0;
+      showFlashcardAt(0);
+    }
+
+    function showFlashcardAt(idx) {
+      const card = document.getElementById('activeFlashcard');
+      card.classList.remove('is-flipped');
+      if (FILTERED_FLASHCARDS.length === 0) return;
+
+      const item = FILTERED_FLASHCARDS[idx % FILTERED_FLASHCARDS.length];
+      document.getElementById('fcCategory').textContent = (item.category || 'TIBBİ BİLGİ').toUpperCase();
+      document.getElementById('fcFrontText').textContent = item.clue;
+      document.getElementById('fcBackText').textContent = item.word;
+    }
+
+    function flipFlashcard() {
+      SoundFx.click();
+      document.getElementById('activeFlashcard').classList.toggle('is-flipped');
+    }
+
+    function nextFlashcard(isLearned) {
+      if (isLearned) {
+        SoundFx.correct();
+        GameState.addFindik(2);
+      } else {
+        SoundFx.click();
+      }
+      FLASHCARD_INDEX++;
+      showFlashcardAt(FLASHCARD_INDEX);
+    }
+
+    /* ============================================================ */
+    /* 12. TAB 3: GÖRSEL HAFIZA ATLASI                             */
+    /* ============================================================ */
+    const VISUAL_BRANCHES = [
+      'Anatomi', 'Fizyoloji', 'Biyokimya', 'Mikrobiyoloji', 'Patoloji',
+      'Farmakoloji', 'Dahiliye', 'Pediatri', 'Genel_Cerrahi', 'Kadin_Dogum'
+    ];
+
+    function renderVisualBranchChips() {
+      const chips = document.getElementById('visualBranchChips');
+      chips.innerHTML = VISUAL_BRANCHES.map((b, i) => `
+        <button class="branch-chip ${i===0?'active':''}" onclick="filterVisualGallery('${b}')">
+          ${b.replace('_', ' ')}
+        </button>
+      `).join('');
+    }
+
+    function filterVisualGallery(branchName) {
+      SoundFx.click();
+      document.querySelectorAll('#visualBranchChips .branch-chip').forEach(c => {
+        c.classList.toggle('active', c.textContent.trim() === branchName.replace('_', ' '));
+      });
+
+      const grid = document.getElementById('visualGalleryGrid');
+      if (!GORSEL_METADATA) {
+        grid.innerHTML = '<div style="color:var(--cyan)">Görseller yükleniyor...</div>';
+        return;
+      }
+
+      const items = Object.entries(GORSEL_METADATA).filter(([path]) => path.includes(`/${branchName}/`));
+
+      grid.innerHTML = items.map(([path, info]) => `
+        <div class="visual-item-card" onclick="openVisualZoom('${path}')">
+          <img src="./assets/${path}" alt="${info.title}">
+          <div class="visual-item-caption">${info.title}</div>
+        </div>
+      `).join('');
+    }
+
+    function openVisualZoom(path) {
+      SoundFx.click();
+      const info = GORSEL_METADATA[path];
+      if (!info) return;
+
+      document.getElementById('zoomModalTitle').textContent = info.title;
+      document.getElementById('zoomModalImg').src = `./assets/${path}`;
+      document.getElementById('zoomModalSpot').innerHTML = (info.spot || '').replace(/\n/g, '<br>');
+      document.getElementById('visualZoomModal').classList.add('active');
+    }
+
+    function closeVisualZoom() {
+      SoundFx.click();
+      document.getElementById('visualZoomModal').classList.remove('active');
+    }
+
+    /* ============================================================ */
+    /* 13. TAB 4: SEVİMLİ DOST PITRAK AI CHAT                      */
+    /* ============================================================ */
+    function sendPitrakMessage() {
+      const input = document.getElementById('pitrakInput');
+      const text = input.value.trim();
+      if (!text) return;
+
+      SoundFx.click();
+      input.value = '';
+
+      const scroll = document.getElementById('chatMessagesScroll');
+
+      // User bubble
+      const userBubble = document.createElement('div');
+      userBubble.className = 'chat-bubble user';
+      userBubble.textContent = text;
+      scroll.appendChild(userBubble);
+
+      // Search matching answer in pitrak_knowledge
+      const qLower = text.toLowerCase();
+      let match = null;
+      if (PITRAK_KNOWLEDGE && PITRAK_KNOWLEDGE.length > 0) {
+        match = PITRAK_KNOWLEDGE.find(item => 
+          (item.q && item.q.toLowerCase().includes(qLower)) ||
+          (item.a && item.a.toLowerCase().includes(qLower))
+        );
+      }
+
+      setTimeout(() => {
+        SoundFx.correct();
+        const botBubble = document.createElement('div');
+        botBubble.className = 'chat-bubble bot';
+
+        if (match) {
+          botBubble.innerHTML = `
+            <strong>${match.q}</strong><br><br>
+            ${match.a}<br>
+            ${match.model3d ? `
+              <button class="unit-note-btn" style="margin-top:10px;" onclick="open3DViewerOrgan('${match.model3d}')">
+                🫀 3D Modeli Aç (${match.modelTitle || 'Organ'})
+              </button>
+            ` : ''}
+          `;
+        } else {
+          botBubble.innerHTML = `
+            "<strong>${text}</strong>" konusuyla ilgili tıbbi arşiv taranıyor...<br><br>
+            İpucu: Kranial sinirler, Krebs döngüsü, STEMI bulguları veya vaka adlarını doğrudan arayabilirsiniz!
+          `;
+        }
+        scroll.appendChild(botBubble);
+        scroll.scrollTop = scroll.scrollHeight;
+      }, 400);
+
+      scroll.scrollTop = scroll.scrollHeight;
+    }
+
+    /* ============================================================ */
+    /* 14. ZAMAN-I ŞAHANE POMODORO                                  */
+    /* ============================================================ */
+    let POMO_TIMER = null;
+    let POMO_SECONDS = 25 * 60;
+    let POMO_IS_RUNNING = false;
+    let POMO_IS_WORK = true;
+
+    function toggleSideDrawer() {
+      SoundFx.click();
+      const drawer = document.getElementById('sideDrawer');
+      const overlay = document.getElementById('drawerOverlay');
+      const isOpen = drawer.classList.contains('open');
+      drawer.classList.toggle('open', !isOpen);
+      overlay.style.display = isOpen ? 'none' : 'block';
+    }
+
+    function togglePomodoroTimer() {
+      SoundFx.click();
+      const btn = document.getElementById('btnPomodoroToggle');
+      if (POMO_IS_RUNNING) {
+        clearInterval(POMO_TIMER);
+        POMO_IS_RUNNING = false;
+        btn.textContent = 'Devam Et';
+      } else {
+        POMO_IS_RUNNING = true;
+        btn.textContent = 'Duraklat';
+        POMO_TIMER = setInterval(() => {
+          POMO_SECONDS--;
+          updatePomodoroDigits();
+          if (POMO_SECONDS <= 0) {
+            clearInterval(POMO_TIMER);
+            POMO_IS_RUNNING = false;
+            SoundFx.fanfare();
+            POMO_IS_WORK = !POMO_IS_WORK;
+            POMO_SECONDS = POMO_IS_WORK ? 25 * 60 : 5 * 60;
+            document.getElementById('pomodoroModeText').textContent = POMO_IS_WORK ? 'ODAKLANMA' : 'MOLA VAKTİ';
+            btn.textContent = 'Başlat';
+            updatePomodoroDigits();
+            alert(POMO_IS_WORK ? 'Mola bitti! Odaklanma vakti 🎯' : 'Tebrikler! 25 dk çalışma tamamlandı. 5 dk mola zamanı ☕');
+          }
+        }, 1000);
+      }
+    }
+
+    function resetPomodoroTimer() {
+      SoundFx.click();
+      clearInterval(POMO_TIMER);
+      POMO_IS_RUNNING = false;
+      POMO_IS_WORK = true;
+      POMO_SECONDS = 25 * 60;
+      document.getElementById('pomodoroModeText').textContent = 'ODAKLANMA';
+      document.getElementById('btnPomodoroToggle').textContent = 'Başlat';
+      updatePomodoroDigits();
+    }
+
+    function updatePomodoroDigits() {
+      const m = Math.floor(POMO_SECONDS / 60).toString().padStart(2, '0');
+      const s = (POMO_SECONDS % 60).toString().padStart(2, '0');
+      document.getElementById('pomodoroDigits').textContent = `${m}:${s}`;
+    }
+
+    function setAmbientSound(type) {
+      SoundFx.click();
+      document.querySelectorAll('#sideDrawer .branch-chip').forEach(b => b.classList.remove('active'));
+      if (type === 'none') document.getElementById('btnSoundNone').classList.add('active');
+      if (type === 'rain') document.getElementById('btnSoundRain').classList.add('active');
+      if (type === 'white') document.getElementById('btnSoundNoise').classList.add('active');
+      SoundFx.startNoise(type);
+    }
+
+    /* ============================================================ */
+    /* 15. AKILLI ARAMA & HATA DEFTERİ                              */
+    /* ============================================================ */
+    function openGlobalSearch() {
+      SoundFx.click();
+      document.getElementById('searchModal').classList.add('active');
+      document.getElementById('globalSearchInput').focus();
+    }
+    function closeGlobalSearch() {
+      SoundFx.click();
+      document.getElementById('searchModal').classList.remove('active');
+    }
+
+    function doGlobalSearch(query) {
+      const q = query.trim().toLowerCase();
+      const results = document.getElementById('globalSearchResults');
+      if (q.length < 2) {
+        results.innerHTML = '<div style="color:var(--text-muted); padding:10px;">En az 2 harf yazın...</div>';
+        return;
+      }
+
+      let matches = [];
+      // 1. Search in questions
+      if (DATABASE_ROOT && DATABASE_ROOT.arsiv) {
+        Object.entries(DATABASE_ROOT.arsiv).forEach(([cName, topics]) => {
+          Object.entries(topics).forEach(([tName, tests]) => {
+            Object.entries(tests).forEach(([testName, qList]) => {
+              qList.forEach(qItem => {
+                if ((qItem.soru && qItem.soru.toLowerCase().includes(q)) || (qItem.aciklama && qItem.aciklama.toLowerCase().includes(q))) {
+                  matches.push({ type: 'Soru', title: `${cName} • ${testName}`, desc: qItem.soru, item: qItem, cName, tName, testName });
+                }
+              });
+            });
+          });
+        });
+      }
+
+      // 2. Search in doctor terms
+      if (DOKTORLAR_DATA) {
+        DOKTORLAR_DATA.forEach(d => {
+          if ((d.clue && d.clue.toLowerCase().includes(q)) || (d.word && d.word.toLowerCase().includes(q))) {
+            matches.push({ type: 'Terim', title: d.category || 'Tıp', desc: `${d.word}: ${d.clue}` });
+          }
+        });
+      }
+
+      if (matches.length === 0) {
+        results.innerHTML = '<div style="color:var(--text-muted); padding:10px;">Eşleşen sonuç bulunamadı.</div>';
+        return;
+      }
+
+      results.innerHTML = matches.slice(0, 20).map(m => `
+        <div class="cyber-card" style="margin-bottom:8px; padding:10px;" onclick="handleSearchResultClick('${m.type}', '${m.cName}', '${m.tName}', '${m.testName}')">
+          <div style="font-size:10px; font-weight:800; color:var(--cyan);">${m.type.toUpperCase()} • ${m.title}</div>
+          <div style="font-size:13px; font-weight:600; color:#FFF; margin-top:2px;">${m.desc}</div>
+        </div>
+      `).join('');
+    }
+
+    function handleSearchResultClick(type, cName, tName, testName) {
+      if (type === 'Soru' && cName && testName) {
+        closeGlobalSearch();
+        launchQuiz(cName, tName, testName);
+      }
+    }
+
+    function openHataDefteri() {
+      SoundFx.click();
+      if (GameState.data.mistakeQuestions.length === 0) {
+        alert('Tebrikler! Hata defterinizde yanlış soru bulunmuyor.');
+        return;
+      }
+
+      CURRENT_QUIZ_DATA = {
+        courseName: "Hata Defteri",
+        topicName: "Yanlış Sorular",
+        testName: "Tekrar Testi",
+        questions: [...GameState.data.mistakeQuestions]
+      };
+      CURRENT_Q_INDEX = 0;
+      QUIZ_CORRECT = 0;
+      QUIZ_WRONG = 0;
+
+      document.getElementById('activeTestName').textContent = 'HATA DEFTERİ • TEKRAR TESTİ';
+      document.getElementById('quizCompletionCard').style.display = 'none';
+      document.getElementById('questionText').style.display = 'block';
+      document.getElementById('optionsContainer').style.display = 'flex';
+      
+      showSubView('quiz-active-screen');
+      renderCurrentQuestion();
+    }
+
+    /* ============================================================ */
+    /* 16. TAB NAVIGATION & VIEW SWITCHER                           */
+    /* ============================================================ */
+    function switchNavTab(tabIdx) {
+      SoundFx.click();
+      document.querySelectorAll('.bottom-nav-bar .nav-item').forEach((item, i) => {
+        item.classList.toggle('active', i === tabIdx);
+      });
+
+      // Hide subviews
+      document.querySelectorAll('.tab-content-view').forEach(v => v.classList.remove('active'));
+
+      const viewIds = [
+        'tab-courses-view',
+        'tab-games-view',
+        'tab-cards-view',
+        'tab-visual-view',
+        'tab-pitrak-view'
+      ];
+
+      const target = document.getElementById(viewIds[tabIdx]);
+      if (target) target.classList.add('active');
+      window.scrollTo(0, 0);
+    }
+
+    function showSubView(id) {
+      document.querySelectorAll('.tab-content-view').forEach(v => v.classList.remove('active'));
+      const target = document.getElementById(id);
+      if (target) target.classList.add('active');
+      window.scrollTo(0, 0);
+    }
+
+    /* Register Service Worker */
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').catch(e => console.log('SW error:', e));
+      });
+    }
+  </script>
+</body>
+</html>

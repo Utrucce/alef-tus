@@ -1,0 +1,50 @@
+[
+  {
+    "unitName": "Hücre Hasarı ve İnflamasyon",
+    "unitIndex": 1,
+    "sections": [
+      {
+        "title": "Nekroz Çeşitleri ve İskemik Hasar",
+        "content": "Katı organlarda iskemik infarktüs koagülasyon nekrozu yapar; tek istisna BEYİNDİR (likefaksiyon nekrozu).\n\n- **Koagülasyon Nekrozu**: Temel mekanizma yapısal proteinlerin ve enzimlerin denatürasyonudur. Hücre dış sınırları korunur (hayalet hücreler).\n- **Likefaksiyon Nekrozu**: Beyin iskemik infarktında ve bakteriyel apse odaklarında lizozomal hidrolitik enzimlerle dokunun erimesidir.\n- **Kazeifikasyon Nekrozu**: Tüberkülozun tipik nekrozudur; amorf peynirimsi debris, Langhans dev hücreleri ve granülomatöz iltihap içerir.\n- **Enzimatik Yağ Nekrozu**: Akut pankreatitte lipaz etkisiyle peripankreatik yağların sabunlaşması (saponifikasyon) ve hipokalsemidir.",
+        "summary": "Katı organlar koagülasyon, beyin likefaksiyon, tüberküloz kazeifikasyon, pankreatit yağ nekrozu yapar.",
+        "keyPoints": [
+          "Beyin infarktında likefaksiyon nekrozu görülür.",
+          "Miyokard infarktında ilk ışık mikroskopisi bulgusu dalgalı miyosit lifleridir (4-12 saat).",
+          "Fibrinoid nekroz immün kompleks vaskülitlerinde görülür."
+        ],
+        "model3d": "heart",
+        "image2d": "gorsel_hafiza/glomerulonephritis.png"
+      },
+      {
+        "title": "Apoptozis Yolları ve Kaspaz Ailesi",
+        "content": "Apoptozis hücre zar bütünlüğünü koruyarak inflamasyon yaratmayan programlı ölümdür.\n\n- **İntrinsik (Mitokondriyal) Yol**: Sitokrom-c sitoplazmaya sızar, Apaf-1 ile apoptozomu kurar ve Kaspaz-9'u uyarır.\n- **Ekstrinsik (Ölüm Reseptörü) Yol**: Fas (CD95) ve TNF reseptörleri Kaspaz-8 ve 10'u aktive eder.\n- **İcraatçı Kaspazlar**: **Kaspaz-3 ve Kaspaz-6, 7** her iki yolda nükleazları ve sitoiskeleti yıkar.\n- **Bcl-2 Ailesi**: Pro-apoptotikler: Bax, Bak, Bid. Anti-apoptotikler: Bcl-2, Bcl-xL.",
+        "summary": "İntrinsik kaspaz 9, ekstrinsik kaspaz 8; her ikisi kaspaz 3'ü aktive eder. Bcl-2 apoptozu engeller.",
+        "keyPoints": [
+          "Kaspaz-3 ana yürütücü (executioner) enzimdir.",
+          "Folliküler Lenfoma t(14;18) translokasyonu Bcl-2 aşırı üretimi yapar.",
+          "Apoptoziste inflamasyon ve nötrofil infiltrasyonu OLMAZ."
+        ],
+        "model3d": "brain",
+        "image2d": "gorsel_hafiza/inborn_metabolism.png"
+      }
+    ]
+  },
+  {
+    "unitName": "Neoplazi ve Sistem Patolojisi",
+    "unitIndex": 2,
+    "sections": [
+      {
+        "title": "Onkogenler ve Tümör Baskılayıcı Genler",
+        "content": "Tümör biyolojisinde genetik kontrol mekanizmaları sınavların demirbaşıdır:\n\n- **Onkogenler (Tek alel mutasyonu yeterlidir - dominant)**:\n  - **KRAS**: Kolon, pankreas ve akciğer kanserlerinde en sık mutasyona uğrayan GTPaz onkogenidir.\n  - **HER2/neu (ERBB2)**: Meme kanserinde reseptör tirozin kinaz; Trastuzumab hedefidir.\n  - **c-MYC**: Burkitt lenfoma t(8;14) translokasyonudur (yıldızlı gökyüzü manzarası).\n  - **ABL**: Kronik Miyelositer Lösemi (KML) t(9;22) Philadelphia kromozomu (BCR-ABL füzyonu, İmatinib hedefi).\n- **Tümör Baskılayıcı Genler (İki alel mutasyonu gerekir - resesif, 'Knudson'ın İki Vuruş Hipotezi')**:\n  - **TP53 (p53)**: Genomun koruyucusudur. İnsan kanserlerinin %50'sinden fazlasında mutantedir. G1/S kontrol noktasında DNA hasarını denetler, p21 aracılığıyla siklin bağımlı kinazları durdurur. Kalıtsal mutasyonu **Li-Fraumeni Sendromu**dur.\n  - **RB**: Retinoblastom ve osteosarkom geni. Hipofosforile formu E2F'i tutarak G1/S geçişini bloke eder.\n  - **APC**: Kolon kanseri ve FAP geni; Wnt/Beta-katenin yolağını yıkar.",
+        "summary": "KRAS en sık mutasyona uğrayan onkogendir. TP53 G1/S denetler (Li-Fraumeni). RB E2F'i bloke eder.",
+        "keyPoints": [
+          "Li-Fraumeni Sendromu: TP53 germline mutasyonu (meme, sarkom, beyin, lösemi).",
+          "Burkitt lenfoma: t(8;14) c-myc translokasyonu.",
+          "KML: t(9;22) BCR-ABL tirozin kinaz aktivitesi."
+        ],
+        "model3d": "brain",
+        "image2d": "gorsel_hafiza/inborn_metabolism.png"
+      }
+    ]
+  }
+]

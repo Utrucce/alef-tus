@@ -1,0 +1,2075 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>ALEF TUS 3 Boyutlu Anatomi Atlası</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+    body, html {
+      width: 100%; height: 100%;
+      background: #070D18;
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      touch-action: none;
+      user-select: none;
+      -webkit-user-select: none;
+      color: #FFFFFF;
+    }
+    #canvas-container {
+      width: 100vw; height: 100vh;
+      position: absolute; top: 0; left: 0;
+      z-index: 1;
+      background: radial-gradient(circle at center, #0F1E36 0%, #070D18 80%);
+    }
+
+    /* Top Control Bar */
+    #top-controls {
+      position: absolute; top: 12px; left: 14px; right: 14px;
+      display: flex; justify-content: space-between; align-items: center;
+      z-index: 60; pointer-events: none;
+    }
+    #mode-selector {
+      pointer-events: auto;
+      display: flex; gap: 4px;
+      background: rgba(13, 25, 45, 0.92);
+      border: 1px solid rgba(0, 240, 255, 0.35);
+      border-radius: 24px; padding: 4px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      touch-action: manipulation;
+    }
+    .mode-tab {
+      background: transparent; border: none;
+      color: #8CA9C9; font-size: 11px; font-weight: 700;
+      padding: 6px 12px; border-radius: 18px;
+      cursor: pointer; transition: all 0.2s ease;
+      touch-action: manipulation;
+    }
+    .mode-tab.active {
+      background: linear-gradient(135deg, #00C6FF, #0072FF);
+      color: #FFFFFF;
+      box-shadow: 0 2px 12px rgba(0, 198, 255, 0.5);
+    }
+
+    .action-buttons {
+      display: flex; gap: 8px; pointer-events: auto;
+      touch-action: manipulation;
+    }
+    .circle-btn {
+      width: 38px; height: 38px; border-radius: 50%;
+      background: rgba(13, 25, 45, 0.92);
+      border: 1px solid rgba(0, 240, 255, 0.35);
+      color: #00F0FF; font-size: 15px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; transition: all 0.2s ease;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      touch-action: manipulation;
+    }
+    .circle-btn:active {
+      transform: scale(0.92);
+    }
+    .circle-btn.active {
+      background: #00F0FF; color: #070D18;
+      box-shadow: 0 0 16px rgba(0, 240, 255, 0.8);
+    }
+
+    /* Quiz Prompt Bar */
+    #quiz-box {
+      display: none; position: absolute; top: 64px; left: 50%; transform: translateX(-50%);
+      width: 92%; max-width: 420px;
+      background: linear-gradient(135deg, rgba(239, 71, 111, 0.95), rgba(255, 107, 107, 0.95));
+      border: 1.5px solid rgba(255, 255, 255, 0.8);
+      border-radius: 14px;
+      padding: 10px 16px; z-index: 70;
+      box-shadow: 0 8px 25px rgba(239, 71, 111, 0.45);
+      text-align: center; color: white;
+      pointer-events: auto;
+      touch-action: manipulation;
+    }
+    #quiz-score-row {
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.8px;
+      color: #FFE600; margin-bottom: 4px;
+    }
+    #quiz-prompt {
+      font-size: 14px; font-weight: 800; line-height: 1.35;
+    }
+    #quiz-target-name {
+      color: #FFFFFF; text-decoration: underline; text-underline-offset: 3px;
+    }
+
+    /* Hotspot Carousel at bottom */
+    #hotspot-carousel-wrap {
+      position: absolute; bottom: 18px; left: 0; right: 0;
+      z-index: 60; display: flex; flex-direction: column; align-items: center;
+      pointer-events: none;
+    }
+    #hotspot-carousel {
+      display: flex; gap: 8px; overflow-x: auto; max-width: 96vw;
+      padding: 6px 16px; pointer-events: auto;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+      touch-action: pan-x;
+    }
+    #hotspot-carousel::-webkit-scrollbar { display: none; }
+    .hotspot-chip {
+      white-space: nowrap;
+      background: rgba(13, 25, 45, 0.92);
+      border: 1px solid rgba(0, 240, 255, 0.35);
+      color: #E2EBF5; font-size: 12px; font-weight: 600;
+      padding: 8px 14px; border-radius: 20px;
+      cursor: pointer; transition: all 0.2s ease;
+      display: flex; align-items: center; gap: 7px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      touch-action: manipulation;
+    }
+    .hotspot-chip:active {
+      transform: scale(0.95);
+    }
+    .hotspot-chip .dot {
+      width: 8px; height: 8px; border-radius: 50%;
+    }
+    .hotspot-chip.active {
+      background: linear-gradient(135deg, #00C6FF, #0072FF);
+      border-color: #00F0FF; color: #FFFFFF;
+      box-shadow: 0 0 16px rgba(0, 198, 255, 0.7);
+      transform: translateY(-2px);
+    }
+
+    /* Info Sheet Modal */
+    #info-sheet {
+      position: absolute; bottom: 76px; left: 50%; transform: translateX(-50%) translateY(20px);
+      width: 92%; max-width: 440px;
+      background: rgba(10, 20, 36, 0.96);
+      border: 1.5px solid #00F0FF;
+      border-radius: 18px;
+      padding: 16px 18px;
+      z-index: 100;
+      box-shadow: 0 14px 40px rgba(0, 0, 0, 0.85), 0 0 25px rgba(0, 240, 255, 0.25);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      opacity: 0; pointer-events: none;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      touch-action: pan-y;
+      max-height: 55vh;
+      overflow-y: auto;
+    }
+    #info-sheet.show {
+      opacity: 1; pointer-events: auto;
+      transform: translateX(-50%) translateY(0);
+    }
+    #sheet-close {
+      position: absolute; top: 12px; right: 12px;
+      width: 28px; height: 28px; border-radius: 50%;
+      background: rgba(255, 255, 255, 0.12); border: none;
+      color: #FFFFFF; font-size: 15px; font-weight: bold;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; touch-action: manipulation;
+    }
+    #sheet-close:active {
+      background: rgba(255, 255, 255, 0.25);
+    }
+    #sheet-tag {
+      display: inline-block; font-size: 10px; font-weight: 800;
+      padding: 3px 9px; border-radius: 10px;
+      background: rgba(0, 240, 255, 0.15); color: #00F0FF;
+      margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.6px;
+    }
+    #sheet-title {
+      font-size: 18px; font-weight: 900; color: #FFFFFF;
+      margin-bottom: 2px; line-height: 1.25;
+    }
+    #sheet-latin {
+      font-size: 12px; font-style: italic; color: #FFD166;
+      margin-bottom: 8px;
+    }
+    #sheet-detail {
+      font-size: 13px; line-height: 1.5; color: #D2E4F7;
+      margin-bottom: 8px;
+    }
+    .sheet-meta-box {
+      background: rgba(0, 0, 0, 0.4); border-radius: 10px;
+      padding: 9px 12px; margin-top: 6px;
+      border-left: 3px solid #00F0FF;
+    }
+    .sheet-meta-label {
+      font-size: 10px; font-weight: bold; color: #00F0FF; text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .sheet-meta-text {
+      font-size: 12px; color: #E8F1FA; margin-top: 3px; line-height: 1.45; white-space: pre-line;
+    }
+
+    /* Toast Notification */
+    #toast {
+      position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0.8);
+      padding: 14px 24px; border-radius: 25px;
+      font-weight: 800; font-size: 14px;
+      color: white; z-index: 200;
+      display: none; opacity: 0; transition: all 0.25s cubic-bezier(0.17, 0.89, 0.32, 1.28);
+      pointer-events: none; text-align: center; max-width: 85%;
+    }
+    #toast.success {
+      background: linear-gradient(135deg, #00B09B, #96C93D);
+      box-shadow: 0 0 25px rgba(0, 176, 155, 0.8);
+    }
+    #toast.error {
+      background: linear-gradient(135deg, #FF416C, #FF4B2B);
+      box-shadow: 0 0 25px rgba(255, 65, 108, 0.8);
+    }
+
+    /* Loading Screen */
+    #loader {
+      position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+      background: #070D18; z-index: 500;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      transition: opacity 0.4s ease;
+    }
+    .spinner {
+      width: 52px; height: 52px;
+      border: 3.5px solid rgba(0, 240, 255, 0.15);
+      border-top-color: #00F0FF; border-right-color: #0072FF;
+      border-radius: 50%;
+      animation: spin 0.9s infinite linear;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    #loader-text {
+      margin-top: 18px; font-size: 14px; font-weight: 700; color: #00F0FF;
+      letter-spacing: 0.5px;
+    }
+    #loader-sub {
+      margin-top: 4px; font-size: 11px; color: #728DAE;
+    }
+  </style>
+
+  <!-- Local Offline Three.js r128 Scripts -->
+  <script src="js/three.min.js"></script>
+  <script src="js/OrbitControls.js"></script>
+  <script src="js/meshopt_decoder.js"></script>
+  <script src="js/GLTFLoader.js"></script>
+</head>
+<body>
+  <!-- Canvas container for WebGL -->
+  <div id="canvas-container"></div>
+
+  <!-- Loading Screen -->
+  <div id="loader">
+    <div class="spinner"></div>
+    <div id="loader-text">3 Boyutlu Model Hazırlanıyor...</div>
+    <div id="loader-sub">Terminologia Anatomica (TA2) Yükleniyor</div>
+  </div>
+
+  <!-- Top Control Bar -->
+  <div id="top-controls">
+    <div id="mode-selector">
+      <button class="mode-tab active" id="tab-learn" onclick="selectMode('learn')">🎓 TUS Atlası</button>
+      <button class="mode-tab" id="tab-explore" onclick="selectMode('explore')">🔍 Keşif</button>
+      <button class="mode-tab" id="tab-quiz" onclick="selectMode('quiz')">🎯 3 Boyutlu Sınav</button>
+    </div>
+    <div class="action-buttons">
+      <button class="circle-btn" id="btn-rotate" title="Otomatik Döndür" onclick="toggleAutoRotate()">🔄</button>
+      <button class="circle-btn" id="btn-reset" title="Bakışı Sıfırla" onclick="resetCamera()">🎯</button>
+    </div>
+  </div>
+
+  <!-- Quiz Box -->
+  <div id="quiz-box">
+    <div id="quiz-score-row">
+      <span>🎯 TUS Anatomik Hedef Sınavı</span>
+      <span>Puan: <b id="score-val">0</b></span>
+    </div>
+    <div id="quiz-prompt">
+      Hedef: <span id="quiz-target-name">Seçiliyor...</span>
+    </div>
+  </div>
+
+  <!-- Hotspot Carousel -->
+  <div id="hotspot-carousel-wrap">
+    <div id="hotspot-carousel"></div>
+  </div>
+
+  <!-- Info Sheet Modal -->
+  <div id="info-sheet">
+    <button id="sheet-close" onclick="closeSheet()">✕</button>
+    <div id="sheet-tag">ANATOMİK YAPI</div>
+    <div id="sheet-title">Yapı Adı</div>
+    <div id="sheet-latin">Terminologia Anatomica</div>
+    <div id="sheet-detail">Açıklama ve TUS detayları...</div>
+    <div class="sheet-meta-box" id="sheet-meta" style="display: none;">
+      <div class="sheet-meta-label">KLİNİK & TUS NOTLARI</div>
+      <div class="sheet-meta-text" id="sheet-meta-text"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast"></div>
+
+  <script>
+    // Embedded Catalog containing all 11 organs and 7 systems with complete TUS details
+    window.EMBEDDED_CATALOG = {
+  "organs": [
+    {
+      "id": "heart",
+      "title": "Kalp",
+      "latin": "Cor",
+      "system": "Kardiyovasküler Sistem",
+      "icon": "🫀",
+      "model": "models/heart.glb",
+      "accent": "#FF4D6D",
+      "scale": 2.0,
+      "description": "Oksijenlenmiş kanı tüm vücuda pompalayan hayati kas organıdır. Sol ventrikül miyokard tabakası en kalındır.",
+      "clinical": "Kalbin ileti sistemi: SA düğüm -> AV düğüm -> His demeti -> Purkinje lifleridir. Koroner damarlar esas olarak diastolde kanlanır.",
+      "bloodSupply": "A. coronaria dextra ve A. coronaria sinistra (Aort kökünden sinus valsalvalardan dallanır).",
+      "conditions": [
+        "Koroner Arter Hastalığı (MI)",
+        "Aritmiler",
+        "Kapak Hastalıkları",
+        "Kalp Yetersizliği"
+      ],
+      "hotspots": [
+        {
+          "id": "aorta",
+          "ta": "Aorta",
+          "title": "Aort Damarı",
+          "position": [
+            -0.35,
+            1.65,
+            0.55
+          ],
+          "color": "#ee7c6a",
+          "detail": "Sol karıncıktan çıkan ana arterdir. Temiz kanı vücuda taşır. Truncus brachiocephalicus, A. carotis communis sinistra ve A. subclavia sinistra dallarını verir."
+        },
+        {
+          "id": "left-atrium",
+          "ta": "Atrium sinistrum",
+          "title": "Sol Kulakçık",
+          "position": [
+            0.82,
+            0.65,
+            0.5
+          ],
+          "color": "#f2a33b",
+          "detail": "Akciğerlerden gelen 4 adet Vv. pulmonales ile oksijenlenmiş temiz kanı karşılar ve mitral kapakla sol ventriküle iletir."
+        },
+        {
+          "id": "right-atrium",
+          "ta": "Atrium dextrum",
+          "title": "Sağ Kulakçık",
+          "position": [
+            -0.9,
+            0.35,
+            0.55
+          ],
+          "color": "#6393d8",
+          "detail": "Vena cava superior, Vena cava inferior ve Sinus coronarius venöz kanını toplar. Fossa ovalis ve SA düğüm burada bulunur."
+        },
+        {
+          "id": "left-ventricle",
+          "ta": "Ventriculus sinister",
+          "title": "Sol Karıncık",
+          "position": [
+            0.7,
+            -0.75,
+            0.65
+          ],
+          "color": "#f2a33b",
+          "detail": "Sistemik dolaşımın ana motorudur; miyokardı sağ ventrikülden 3 kat kalındır. Kanı aort kapağından geçirerek tüm vücuda basar."
+        },
+        {
+          "id": "right-ventricle",
+          "ta": "Ventriculus dexter",
+          "title": "Sağ Karıncık",
+          "position": [
+            -0.65,
+            -0.68,
+            0.66
+          ],
+          "color": "#ee7c6a",
+          "detail": "Triküspit kapaktan gelen kanı Truncus pulmonalis üzerinden akciğerlere pompalar. Trabecula septomarginalis (moderatör bant) içerir."
+        },
+        {
+          "id": "mitral",
+          "ta": "Valva atrioventricularis sinistra",
+          "title": "Mitral Kapak",
+          "position": [
+            0.18,
+            -1.35,
+            0.48
+          ],
+          "color": "#d89bc4",
+          "detail": "Sol kulakçık ile karıncık arasındaki 2 yaprakçıklı biküspit kapaktır; sistolde kapanarak kanın geriye kaçmasını engeller."
+        }
+      ]
+    },
+    {
+      "id": "brain",
+      "title": "Beyin",
+      "latin": "Encephalon",
+      "system": "Sinir Sistemi",
+      "icon": "🧠",
+      "model": "models/brain.glb",
+      "accent": "#9D4EDD",
+      "scale": 2.0,
+      "description": "Merkezi sinir sisteminin komuta merkezidir. Bilinç, hafıza, motor kontrol ve duyusal algıyı koordine eder.",
+      "clinical": "Glukoz ve oksijen kesintisine en duyarlı organdır (4-6 dakikada hasar başlar). A. carotis interna ve A. vertebralis (Willis Poligonu) ile beslenir.",
+      "bloodSupply": "Circulus arteriosus cerebri (Willis Poligonu).",
+      "conditions": [
+        "İnme (SVO)",
+        "Subaraknoid Kanama",
+        "Menenjit",
+        "Tümörler"
+      ],
+      "hotspots": [
+        {
+          "id": "frontal",
+          "ta": "Lobus frontalis",
+          "title": "Frontal Lob",
+          "position": [
+            -0.7,
+            0.65,
+            0.8
+          ],
+          "color": "#ee7c6a",
+          "detail": "Primer motor korteks (alan 4), planlama, kişilik ve motor konuşma merkezi (Broca - alan 44, 45) burada yer alır."
+        },
+        {
+          "id": "parietal",
+          "ta": "Lobus parietalis",
+          "title": "Parietal Lob",
+          "position": [
+            0.15,
+            1.1,
+            0.65
+          ],
+          "color": "#f2a33b",
+          "detail": "Primer somatosensoriyel korteks (alan 3, 1, 2) yer alır; dokunma, basınç, ağrı ve vücut pozisyon duyusunu işler."
+        },
+        {
+          "id": "temporal",
+          "ta": "Lobus temporalis",
+          "title": "Temporal Lob",
+          "position": [
+            0.75,
+            -0.1,
+            0.82
+          ],
+          "color": "#6393d8",
+          "detail": "Primer işitme alanı (alan 41, 42), konuşulanı anlama (Wernicke - alan 22) ve hafızanın merkezi Hipokampus buradadır."
+        },
+        {
+          "id": "cerebellum",
+          "ta": "Cerebellum",
+          "title": "Beyincik",
+          "position": [
+            0.72,
+            -0.9,
+            0.55
+          ],
+          "color": "#d89bc4",
+          "detail": "Denge, kas tonusu ve istemli hareketlerin koordinasyonunu yönetir. Lezyonunda ataksi, dismetri ve nistagmus görülür."
+        }
+      ]
+    },
+    {
+      "id": "skull",
+      "title": "Kafatası",
+      "latin": "Cranium",
+      "system": "İskelet Sistemi",
+      "icon": "💀",
+      "model": "models/skull.glb",
+      "accent": "#00FF87",
+      "scale": 1.8,
+      "description": "Beyni ve duyu organlarını koruyan, neurocranium ve viscerocranium'dan oluşan kemik yapıdır.",
+      "clinical": "Kafatası tabanındaki delikler (Foramina cranii) TUS'un en vazgeçilmez soru konusudur. Pterion noktası A. meningea media kanamaları için kritiktir.",
+      "bloodSupply": "A. meningea media, A. carotis interna ve externa dalları.",
+      "conditions": [
+        "Epidural Hematom",
+        "Kafatası Taban Kırıkları",
+        "Trigeminal Nevralji"
+      ],
+      "hotspots": [
+        {
+          "id": "os-frontale",
+          "ta": "Os frontale",
+          "title": "Alın Kemiği (Os Frontale)",
+          "position": [
+            0,
+            0.6,
+            0.9
+          ],
+          "color": "#00FF87",
+          "detail": "Alın bölgesini ve orbita tavanını oluşturur. Sinus frontalis burada yer alır. Foramen supraorbitale'den V1 sinir dalları geçer."
+        },
+        {
+          "id": "os-parietale",
+          "ta": "Os parietale",
+          "title": "Çeper Kemiği (Os Parietale)",
+          "position": [
+            0.5,
+            0.7,
+            0.2
+          ],
+          "color": "#00C6FF",
+          "detail": "Kafatasının üst yan kubbesini oluşturan çift kemiktir. Sutura sagittalis ile birleşir, iç yüzünde sulcus sinus sagittalis superior uzanır."
+        },
+        {
+          "id": "os-temporale",
+          "ta": "Os temporale",
+          "title": "Şakak Kemiği (Os Temporale)",
+          "position": [
+            0.85,
+            0.1,
+            0.1
+          ],
+          "color": "#FFD166",
+          "detail": "İşitme ve denge organlarını barındıran pars petrosa'yı içerir. Meatus acusticus internus (CN VII ve VIII) buradan geçer."
+        },
+        {
+          "id": "os-occipitale",
+          "ta": "Os occipitale",
+          "title": "Art Kafa Kemiği (Os Occipitale)",
+          "position": [
+            0,
+            -0.3,
+            -0.9
+          ],
+          "color": "#FF758C",
+          "detail": "Foramen magnum'u (medulla oblongata çıkışı) çevreler. Condylus occipitalis ile atlas omuruna bağlanır."
+        },
+        {
+          "id": "mandibula",
+          "ta": "Mandibula",
+          "title": "Alt Çene Kemiği (Mandibula)",
+          "position": [
+            0,
+            -0.8,
+            0.7
+          ],
+          "color": "#FF9800",
+          "detail": "Yüz iskeletinin tek hareketli kemiğidir. Articulatio temporomandibularis (Çene eklemi) ile kafatasına bağlanır."
+        }
+      ]
+    },
+    {
+      "id": "stomach",
+      "title": "Mide",
+      "latin": "Gaster",
+      "system": "Sindirim Sistemi",
+      "icon": "🍲",
+      "model": "models/stomach.glb",
+      "accent": "#F4A261",
+      "scale": 1.9,
+      "description": "Özofagus ile duodenum arasında yer alan, mekanik ve kimyasal sindirimin başladığı J şekilli organdır.",
+      "clinical": "Pariyetal hücreler HCl ve İntrensek Faktör (B12 emilimi) üretir. Helikobakter pilori enfeksiyonu en sık antruma yerleşir.",
+      "bloodSupply": "Truncus coeliacus dalları (A. gastrica sinistra/dextra, Aa. gastricae breves, A. gastroomentalis sinistra/dextra).",
+      "conditions": [
+        "Peptik Ülser",
+        "GÖRH",
+        "Gastrit",
+        "Mide Kanseri"
+      ],
+      "hotspots": [
+        {
+          "id": "cardia",
+          "ta": "Cardia",
+          "title": "Kardia (Mide Girişi)",
+          "position": [
+            0.2,
+            0.8,
+            0.3
+          ],
+          "color": "#00F0FF",
+          "detail": "Özofagusun mideye açıldığı T11 hizasındaki bölümdür. Z-çizgisi ve alt özofagus sfinkter mekanizması reflüyü önler."
+        },
+        {
+          "id": "fundus",
+          "ta": "Fundus gastricus",
+          "title": "Mide Kubbesi (Fundus)",
+          "position": [
+            0.6,
+            0.9,
+            -0.2
+          ],
+          "color": "#FFD166",
+          "detail": "Kardia seviyesinin üstünde kalan kubbe kısımdır. Direkt karın grafisinde mide hava cebi olarak izlenir."
+        },
+        {
+          "id": "corpus",
+          "ta": "Corpus gastricum",
+          "title": "Mide Gövdesi (Korpus)",
+          "position": [
+            0.3,
+            0.1,
+            0.2
+          ],
+          "color": "#00FF87",
+          "detail": "Midenin en geniş bölümüdür. Pariyetal hücrelerin (asit salgılayan) en yoğun bulunduğu yerdir."
+        },
+        {
+          "id": "antrum",
+          "ta": "Antrum pyloricum",
+          "title": "Mide Mağarası (Antrum)",
+          "position": [
+            -0.5,
+            -0.6,
+            0.3
+          ],
+          "color": "#FF758C",
+          "detail": "Gastrin üreten G hücrelerinin merkezidir. Mide motor hareketleriyle kimusu öğütür ve pilora iletir."
+        },
+        {
+          "id": "pylorus",
+          "ta": "Pylorus",
+          "title": "Pilor Sfinkteri",
+          "position": [
+            -0.9,
+            -0.4,
+            0.1
+          ],
+          "color": "#9D4EDD",
+          "detail": "Duodenuma geçişi denetleyen güçlü sfinkter kasıdır. İnfantlarda hipertrofisi safrasız fışkırır kusmaya yol açar."
+        }
+      ]
+    },
+    {
+      "id": "lungs",
+      "title": "Akciğerler",
+      "latin": "Pulmones",
+      "system": "Solunum Sistemi",
+      "icon": "🫁",
+      "model": "models/lungs.glb",
+      "accent": "#00B4D8",
+      "scale": 2.0,
+      "description": "Göğüs boşluğunda kalbin iki yanında yer alan gaz alışveriş organlarıdır.",
+      "clinical": "Sağ akciğer 3 loblu (oblik ve horizontal fissür), sol akciğer 2 lobludur (tek oblik fissür ve lingula pulmonis).",
+      "bloodSupply": "Fonksiyonel: A. pulmonalis / Vv. pulmonales. Besleyici: Aa. bronchiales.",
+      "conditions": [
+        "Pnömoni",
+        "KOAH",
+        "Pulmoner Emboli",
+        "Pnömotoraks"
+      ],
+      "hotspots": [
+        {
+          "id": "trachea",
+          "ta": "Trachea",
+          "title": "Soluk Borusu (Trakea)",
+          "position": [
+            0,
+            1.6,
+            0.2
+          ],
+          "color": "#6393d8",
+          "detail": "C6'dan başlar, T4-T5 (Carina) hizasında sağ ve sol ana bronşlara ayrılır."
+        },
+        {
+          "id": "right-lung",
+          "ta": "Pulmo dexter",
+          "title": "Sağ Akciğer",
+          "position": [
+            -1.2,
+            0.1,
+            0.7
+          ],
+          "color": "#ee7c6a",
+          "detail": "3 lobdan (üst, orta, alt) oluşur. Bronş açısı daha diktir, yabancı cisimler çoğunlukla sağa kaçar."
+        },
+        {
+          "id": "left-lung",
+          "ta": "Pulmo sinister",
+          "title": "Sol Akciğer",
+          "position": [
+            1.2,
+            0.1,
+            0.7
+          ],
+          "color": "#f2a33b",
+          "detail": "2 lobdan oluşur. Kalbin oturduğu incisura cardiaca ve lingula pulmonis içerir."
+        },
+        {
+          "id": "bronchus",
+          "ta": "Bronchus principalis",
+          "title": "Ana Bronşlar",
+          "position": [
+            -0.03,
+            0.3,
+            0.35
+          ],
+          "color": "#d89bc4",
+          "detail": "Sağ ana bronş daha geniş, daha kısa ve daha dikeydir; sol ana bronş daha uzun ve açılıdır."
+        },
+        {
+          "id": "base",
+          "ta": "Basis pulmonis",
+          "title": "Akciğer Tabanı",
+          "position": [
+            -1.14,
+            -1.2,
+            1
+          ],
+          "color": "#7fa88a",
+          "detail": "Diyafram kubbesine oturan konkav yüzeydir. Recessus costodiaphragmaticus komşuluğu önemlidir."
+        }
+      ]
+    },
+    {
+      "id": "liver",
+      "title": "Karaciğer",
+      "latin": "Hepar",
+      "system": "Gastrointestinal & Metabolizma",
+      "icon": "🩸",
+      "model": "models/liver.glb",
+      "accent": "#E76F51",
+      "scale": 2.0,
+      "description": "Vücudun en büyük iç organıdır. Protein sentezi, safra yapımı ve toksin arındırma merkezidir.",
+      "clinical": "Çift kan dolaşımı vardır (%80 V. Portae, %20 A. hepatica propria). Couinaud'a göre 8 fonksiyonel segmente ayrılır.",
+      "bloodSupply": "Vena portae hepatis ve Arteria hepatica propria.",
+      "conditions": [
+        "Siroz",
+        "Hepatit",
+        "Portal Hipertansiyon"
+      ],
+      "hotspots": [
+        {
+          "id": "right-lobe",
+          "ta": "Lobus hepatis dexter",
+          "title": "Sağ Lob",
+          "position": [
+            -0.75,
+            0.35,
+            0.75
+          ],
+          "color": "#ee7c6a",
+          "detail": "En büyük lobdur (segment 5, 6, 7, 8). Safra kesesi yatağı alt yüzeyindedir."
+        },
+        {
+          "id": "left-lobe",
+          "ta": "Lobus hepatis sinister",
+          "title": "Sol Lob",
+          "position": [
+            0.85,
+            0.25,
+            0.75
+          ],
+          "color": "#f2a33b",
+          "detail": "Mide ile komşudur. Ligamentum falciforme ile sağ lobdan anatomik olarak ayrılır."
+        },
+        {
+          "id": "portal",
+          "ta": "Porta hepatis",
+          "title": "Karaciğer Kapısı",
+          "position": [
+            0.1,
+            -0.3,
+            0.82
+          ],
+          "color": "#6393d8",
+          "detail": "Portal triadın (V. portae, A. hepatica propria, Ductus hepaticus communis) giriş-çıkış merkezidir."
+        }
+      ]
+    },
+    {
+      "id": "kidneys",
+      "title": "Böbrekler",
+      "latin": "Renes",
+      "system": "Üriner Sistem",
+      "icon": "💧",
+      "model": "models/kidneys.glb",
+      "accent": "#2A9D8F",
+      "scale": 2.0,
+      "description": "Kanı süzerek atık maddeleri idrarla uzaklaştıran, tansiyon ve eritropoezi denetleyen çift organdır.",
+      "clinical": "Sağ böbrek karaciğer baskısıyla 1-2 cm daha aşağıdadır. Fonksiyonel birim nefrondur.",
+      "bloodSupply": "Arteria renalis (L1-L2 seviyesi).",
+      "conditions": [
+        "Glomerülonefrit",
+        "Nefrolitiyazis",
+        "Akut Böbrek Hasarı"
+      ],
+      "hotspots": [
+        {
+          "id": "cortex",
+          "ta": "Cortex renalis",
+          "title": "Böbrek Korteksi",
+          "position": [
+            -0.9,
+            0.55,
+            0.7
+          ],
+          "color": "#ee7c6a",
+          "detail": "Glomerüller ve kıvrımlı tübülleri içerir. Eritropoietin fibroblastlarca burada üretilir."
+        },
+        {
+          "id": "medulla",
+          "ta": "Medulla renalis",
+          "title": "Böbrek Medullası",
+          "position": [
+            0.85,
+            0.2,
+            0.7
+          ],
+          "color": "#f2a33b",
+          "detail": "Malpighi piramitlerini ve Henle kulplarını içerir. İdrar konsantrasyonu sağlanır."
+        },
+        {
+          "id": "ureter",
+          "ta": "Ureter",
+          "title": "Üreter Girişi",
+          "position": [
+            0.4,
+            -1.1,
+            0.5
+          ],
+          "color": "#6393d8",
+          "detail": "Pelvis renalis'ten idrarı mesaneye taşır. 3 anatomik darlık taş düşürmede kritiktir."
+        }
+      ]
+    },
+    {
+      "id": "eyeball",
+      "title": "Göz Küresi",
+      "latin": "Bulbus Oculi",
+      "system": "Duyu Organı",
+      "icon": "👁️",
+      "model": "models/eyeball.glb",
+      "accent": "#48CAE4",
+      "scale": 2.0,
+      "description": "Işığı kırarak retinada odaklayan ve görme siniriyle beyne aktaran karmaşık duyu organıdır.",
+      "clinical": "Kornea gözün en güçlü kırıcısıdır (~43 dioptri). N. opticus 3 kat beyin zarıyla sarılıdır.",
+      "bloodSupply": "Arteria centralis retinae.",
+      "conditions": [
+        "Glokom",
+        "Katarakt",
+        "Retina Dekolmanı"
+      ],
+      "hotspots": [
+        {
+          "id": "cornea",
+          "ta": "Cornea",
+          "title": "Saydam Kornea",
+          "position": [
+            -0.94,
+            0.05,
+            1.47
+          ],
+          "color": "#6393d8",
+          "detail": "En ön saydam kısımdır. Damarsızdır, beslenmesini diffüzyonla humor aquosus'tan alır."
+        },
+        {
+          "id": "iris",
+          "ta": "Iris & Pupilla",
+          "title": "İris ve Göz Bebeği",
+          "position": [
+            -1.22,
+            -0.53,
+            1.15
+          ],
+          "color": "#f2a33b",
+          "detail": "Göz rengini verir. M. sphincter ve dilator pupillae ile ışık girişini ayarlar."
+        },
+        {
+          "id": "optic",
+          "ta": "Nervus opticus (CN II)",
+          "title": "Görme Siniri",
+          "position": [
+            1.61,
+            -0.18,
+            0.54
+          ],
+          "color": "#d89bc4",
+          "detail": "Retina ganglion hücre aksonlarıdır. KİBAS durumunda papilödem gelişir."
+        }
+      ]
+    },
+    {
+      "id": "intestine",
+      "title": "Bağırsaklar",
+      "latin": "Intestinum",
+      "system": "Sindirim Sistemi",
+      "icon": "🥩",
+      "model": "models/intestine.glb",
+      "accent": "#F4A261",
+      "scale": 2.0,
+      "description": "Besinlerin sindirim ve emiliminin tamamlandığı uzun kıvrımlı sindirim kanalıdır.",
+      "clinical": "İnce bağırsak villuslarla emilim yapar. Kalın bağırsakta taenia coli, haustra ve apendiks epiploika vardır.",
+      "bloodSupply": "AMS ve AMI.",
+      "conditions": [
+        "Apendisit",
+        "Crohn",
+        "Ülseratif Kolit"
+      ],
+      "hotspots": [
+        {
+          "id": "duodenum",
+          "ta": "Duodenum",
+          "title": "Onikiparmak Bağırsağı",
+          "position": [
+            0.6,
+            0.8,
+            0.75
+          ],
+          "color": "#f2a33b",
+          "detail": "Pankreas başını sarar. Papilla duodeni major (Oddi sfinkteri) koledok ve Wirsung kanallarını alır."
+        },
+        {
+          "id": "jejunum",
+          "ta": "Jejunum",
+          "title": "Boş Bağırsak",
+          "position": [
+            -0.45,
+            0.1,
+            0.82
+          ],
+          "color": "#ee7c6a",
+          "detail": "İnce bağırsağın üst 2/5'idir. Kerckring plikaları ve vaskülarizasyonu çok zengindir."
+        },
+        {
+          "id": "colon",
+          "ta": "Colon",
+          "title": "Kolon (Kalın Bağırsak)",
+          "position": [
+            0.75,
+            -0.55,
+            0.72
+          ],
+          "color": "#6393d8",
+          "detail": "Su ve elektrolitleri emer. 3 adet taenia coli kas şeridi içerir."
+        }
+      ]
+    },
+    {
+      "id": "pancreas",
+      "title": "Pankreas",
+      "latin": "Pancreas",
+      "system": "Endokrin & Ekzokrin",
+      "icon": "🥞",
+      "model": "models/pancreas.glb",
+      "accent": "#E9C46A",
+      "scale": 2.0,
+      "description": "Hem sindirim enzimleri hem de insülin ve glukagon salgılayan retroperitoneal karma bez.",
+      "clinical": "Pankreas başı tümörlerinde ağrısız sarılık (Courvoisier bulgusu) gelişir. Kuyruğu dalakla komşudur.",
+      "bloodSupply": "A. splenica ve Aa. pancreaticoduodenales.",
+      "conditions": [
+        "Pankreatit",
+        "Diyabet",
+        "Pankreas Kanseri"
+      ],
+      "hotspots": [
+        {
+          "id": "head",
+          "ta": "Caput pancreatis",
+          "title": "Pankreas Başı",
+          "position": [
+            -1.32,
+            -0.36,
+            0.55
+          ],
+          "color": "#ee7c6a",
+          "detail": "Duodenum kavsi içindedir. Arkasından V. cava inferior ve koledok geçer."
+        },
+        {
+          "id": "body",
+          "ta": "Corpus pancreatis",
+          "title": "Pankreas Gövdesi",
+          "position": [
+            0.05,
+            0.25,
+            0.45
+          ],
+          "color": "#f2a33b",
+          "detail": "Aort abdominalis'i çaprazlar. Üst kenarında A. splenica kıvrılarak seyreder."
+        },
+        {
+          "id": "tail",
+          "ta": "Cauda pancreatis",
+          "title": "Pankreas Kuyruğu",
+          "position": [
+            1.55,
+            0.3,
+            0.35
+          ],
+          "color": "#6393d8",
+          "detail": "İntraperitoneal tek kısımdır; Lig. splenorenale içinde dalak hilusuna uzanır."
+        },
+        {
+          "id": "duct",
+          "ta": "Ductus pancreaticus",
+          "title": "Wirsung Kanalı",
+          "position": [
+            -0.61,
+            0.39,
+            0.5
+          ],
+          "color": "#d89bc4",
+          "detail": "Koledokla birleşerek Vater ampulü üzerinden duodenuma enzim boşaltır."
+        }
+      ]
+    },
+    {
+      "id": "skin",
+      "title": "Deri Katmanları",
+      "latin": "Integumentum",
+      "system": "Örtü Sistemi",
+      "icon": "🔬",
+      "model": "models/skin.glb",
+      "accent": "#DDA15E",
+      "scale": 2.0,
+      "description": "Vücudun dış ortam bariyerini oluşturan, duyu ve ısı dengesinden sorumlu en geniş organ.",
+      "clinical": "Epidermis damarsızdır. Dermal papillalar parmak izlerini oluşturur.",
+      "bloodSupply": "Pleksus vascularis superficialis ve profundus.",
+      "conditions": [
+        "Melanom",
+        "Sedef",
+        "Yanıklar"
+      ],
+      "hotspots": [
+        {
+          "id": "epidermis",
+          "ta": "Epidermis",
+          "title": "Üst Deri (Epidermis)",
+          "position": [
+            -0.05,
+            0.88,
+            1.4
+          ],
+          "color": "#ee7c6a",
+          "detail": "Keratinize epiteldir. Melanosit, Langerhans ve Merkel hücrelerini içerir. Damarsızdır."
+        },
+        {
+          "id": "dermis",
+          "ta": "Dermis",
+          "title": "Gerçek Deri (Dermis)",
+          "position": [
+            0.29,
+            0.05,
+            1.4
+          ],
+          "color": "#f2a33b",
+          "detail": "Kolajen ve elastik lifler, Meissner ve Pacini cisimcikleri, damarlar ve bezler içerir."
+        },
+        {
+          "id": "hypodermis",
+          "ta": "Tela subcutanea",
+          "title": "Deri Altı (Hipodermis)",
+          "position": [
+            -0.39,
+            -1.15,
+            1.4
+          ],
+          "color": "#6393d8",
+          "detail": "Adipoz dokudan zengindir; ısı izolasyonu ve enerji deposudur."
+        },
+        {
+          "id": "follicle",
+          "ta": "Folliculus pili",
+          "title": "Kıl Kökü & Kası",
+          "position": [
+            0.89,
+            -0.44,
+            1.4
+          ],
+          "color": "#d89bc4",
+          "detail": "M. arrector pili (sempatik) kasılarak piloereksiyon (tüylerin dikleşmesi) sağlar."
+        }
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "skeletal_system",
+      "title": "İskelet Sistemi",
+      "latin": "Systema Skeletale",
+      "system": "Hareket Sistemi",
+      "icon": "💀",
+      "model": "models/system_skeletal_sys.glb",
+      "accent": "#00FF87",
+      "scale": 1.8,
+      "description": "206 kemikten oluşan aksiyal ve appendiküler kemik iskelet.",
+      "clinical": "Hematopoez iliak kanat, sternum ve vertebralarda devam eder.",
+      "bloodSupply": "Aa. nutritiae ve periosteal damarlar.",
+      "conditions": [
+        "Osteoporoz",
+        "Kırıklar",
+        "Osteomiyelit"
+      ],
+      "hotspots": [
+        {
+          "id": "skel-skull",
+          "ta": "Cranium",
+          "title": "Kafatası (Cranium)",
+          "position": [
+            0,
+            1.6,
+            0.1
+          ],
+          "color": "#00FF87",
+          "detail": "Beyni koruyan neurocranium ve yüz iskeleti viscerocranium'dan oluşur."
+        },
+        {
+          "id": "skel-spine",
+          "ta": "Columna vertebralis",
+          "title": "Omurga",
+          "position": [
+            0,
+            0.5,
+            -0.1
+          ],
+          "color": "#00C6FF",
+          "detail": "33 vertebradan oluşur (7 servikal, 12 torakal, 5 lumbal, 5 sakral, 4 koksigeal). Omuriliği korur."
+        },
+        {
+          "id": "skel-ribs",
+          "ta": "Costae & Sternum",
+          "title": "Göğüs Kafesi",
+          "position": [
+            0,
+            0.7,
+            0.25
+          ],
+          "color": "#FFD166",
+          "detail": "12 çift kaburga ve sternum kalp ile akciğerleri korur; solunuma katılır."
+        },
+        {
+          "id": "skel-pelvis",
+          "ta": "Pelvis",
+          "title": "Leğen Kemiği (Pelvis)",
+          "position": [
+            0,
+            -0.1,
+            0.05
+          ],
+          "color": "#FF758C",
+          "detail": "Os coxae (ilium, ischium, pubis) ve os sacrum'dan oluşur; gövde ağırlığını bacaklara aktarır."
+        },
+        {
+          "id": "skel-femur",
+          "ta": "Femur",
+          "title": "Uyluk Kemiği (Femur)",
+          "position": [
+            0.25,
+            -0.7,
+            0.05
+          ],
+          "color": "#9D4EDD",
+          "detail": "Vücudun en uzun ve en güçlü kemiğidir. Collum femoris kırıkları avasküler nekroz riski taşır."
+        }
+      ]
+    },
+    {
+      "id": "brainstem",
+      "title": "Beyin Sapı",
+      "latin": "Truncus Encephali",
+      "system": "Sinir Sistemi",
+      "icon": "🧩",
+      "model": "models/BrainStem.glb",
+      "accent": "#FFD166",
+      "scale": 2.0,
+      "description": "Mesencephalon, Pons ve Medulla oblongata'dan oluşur.",
+      "clinical": "III'ten XII'ye kadar kraniyal sinir çekirdeklerini ve hayati merkezleri barındırır.",
+      "bloodSupply": "A. basilaris ve A. vertebralis dalları.",
+      "conditions": [
+        "Wallenberg Sendromu",
+        "Weber Sendromu",
+        "Koma"
+      ],
+      "hotspots": [
+        {
+          "id": "bs-mesen",
+          "ta": "Mesencephalon",
+          "title": "Orta Beyin (Mesencephalon)",
+          "position": [
+            0,
+            0.7,
+            0.2
+          ],
+          "color": "#FF4D6D",
+          "detail": "Colliculus superior (görme refleksleri) ve inferior (işitme refleksleri) ile III-IV sinir çekirdeklerini içerir."
+        },
+        {
+          "id": "bs-pons",
+          "ta": "Pons",
+          "title": "Pons (Varolii)",
+          "position": [
+            0,
+            0.1,
+            0.4
+          ],
+          "color": "#00F0FF",
+          "detail": "V, VI, VII ve VIII. kraniyal sinir çekirdeklerini barındırır. Beyincik yarım kürelerini bağlar."
+        },
+        {
+          "id": "bs-medulla",
+          "ta": "Medulla oblongata",
+          "title": "Omurilik Soğanı",
+          "position": [
+            0,
+            -0.6,
+            0.25
+          ],
+          "color": "#00FF87",
+          "detail": "Solunum ve dolaşım gibi hayati otonom refleks merkezlerini ve IX, X, XI, XII çekirdeklerini içerir."
+        }
+      ]
+    },
+    {
+      "id": "cardiovascular_system",
+      "title": "Dolaşım Sistemi",
+      "latin": "Systema Cardiovasculare",
+      "system": "Kardiyovasküler",
+      "icon": "🫀",
+      "model": "models/system_cardiovascular_sys.glb",
+      "accent": "#EF476F",
+      "scale": 1.8,
+      "description": "Kalp ve tüm vücuda yayılan arteriyel ve venöz vasküler ağ.",
+      "clinical": "Aort kavsi dalları ve alt ekstremite venöz kapak mekanizması TUS'ta esastır.",
+      "bloodSupply": "Sistemik ve pulmoner dolaşım.",
+      "conditions": [
+        "Aort Diseksiyonu",
+        "DVT",
+        "Anevrizma"
+      ],
+      "hotspots": [
+        {
+          "id": "cv-aorta",
+          "ta": "Arcus aortae",
+          "title": "Aort Kavsi",
+          "position": [
+            0,
+            0.8,
+            0.15
+          ],
+          "color": "#EF476F",
+          "detail": "Truncus brachiocephalicus, A. carotis communis sinistra ve A. subclavia sinistra buradan ayrılır."
+        },
+        {
+          "id": "cv-carotid",
+          "ta": "Arteria carotis",
+          "title": "Şah Damarı (Karotis)",
+          "position": [
+            0.15,
+            1.2,
+            0.1
+          ],
+          "color": "#FFD166",
+          "detail": "C4 hizasında interna (beyin) ve externa (yüz) dallarına ayrılır. Glomus caroticum kemoreseptördür."
+        },
+        {
+          "id": "cv-femoral",
+          "ta": "Arteria femoralis",
+          "title": "Femoral Arter",
+          "position": [
+            0.2,
+            -0.4,
+            0.1
+          ],
+          "color": "#00F0FF",
+          "detail": "Lig. inguinale altından geçer; trigonum femorale içinde nabzı palpe edilir."
+        }
+      ]
+    },
+    {
+      "id": "nervous_system",
+      "title": "Sinir Sistemi",
+      "latin": "Systema Nervosum",
+      "system": "Nöroloji",
+      "icon": "🧠",
+      "model": "models/system_nervous_sys.glb",
+      "accent": "#7209B7",
+      "scale": 1.8,
+      "description": "Beyin, omurilik, pleksuslar ve periferik sinir ağları.",
+      "clinical": "Refleks arkları, dermatom haritası ve tuzak nöropatileri cerrahi ve dahiliyede temeldir.",
+      "bloodSupply": "A. spinalis anterior ve posterior, serebral arterler.",
+      "conditions": [
+        "MS",
+        "Guillain-Barré",
+        "Siyatik Nöropati"
+      ],
+      "hotspots": [
+        {
+          "id": "ns-cord",
+          "ta": "Medulla spinalis",
+          "title": "Omurilik (Medulla Spinalis)",
+          "position": [
+            0,
+            0.5,
+            -0.1
+          ],
+          "color": "#7209B7",
+          "detail": "Foramen magnum'dan L1-L2 seviyesine (conus medullaris) kadar uzanır. Refleks merkezidir."
+        },
+        {
+          "id": "ns-brachial",
+          "ta": "Plexus brachialis",
+          "title": "Kol Sinir Ağı (Plexus Brachialis)",
+          "position": [
+            0.35,
+            0.9,
+            0
+          ],
+          "color": "#00F0FF",
+          "detail": "C5-T1 köklerinden doğar; N. radialis, medianus, ulnaris, musculocutaneus ve axillaris'i verir."
+        },
+        {
+          "id": "ns-sciatic",
+          "ta": "Nervus ischiadicus",
+          "title": "Siyatik Sinir",
+          "position": [
+            0.2,
+            -0.5,
+            -0.15
+          ],
+          "color": "#FFD166",
+          "detail": "Vücudun en kalın siniridir (L4-S3). Foramen infrapiriforme'den gluteal bölgeye çıkar."
+        }
+      ]
+    },
+    {
+      "id": "digestive_system",
+      "title": "Sindirim Kanalı",
+      "latin": "Systema Digestorium",
+      "system": "Gastrointestinal",
+      "icon": "🍎",
+      "model": "models/system_digestive_sys.glb",
+      "accent": "#F77F00",
+      "scale": 1.8,
+      "description": "Ağızdan anüse kadar sindirim, enzim salgılama ve emilim traktusu.",
+      "clinical": "Truncus coeliacus, AMS ve AMI beslenme sınırları cerrahide çok kritiktir.",
+      "bloodSupply": "Çölyak arter, AMS, AMI.",
+      "conditions": [
+        "GÖRH",
+        "İleus",
+        "Safra Taşları"
+      ],
+      "hotspots": [
+        {
+          "id": "dig-esoph",
+          "ta": "Esophagus",
+          "title": "Yemek Borusu (Özofagus)",
+          "position": [
+            0,
+            1.0,
+            0
+          ],
+          "color": "#F77F00",
+          "detail": "Farenksten mideye uzanan 25 cm kaslı borudur; krikoid, arkus aorta/bronş ve diyafram darlıkları vardır."
+        },
+        {
+          "id": "dig-stomach",
+          "ta": "Gaster",
+          "title": "Mide Bölgesi",
+          "position": [
+            0.15,
+            0.45,
+            0.15
+          ],
+          "color": "#00FF87",
+          "detail": "Sol hipokondriyumda yer alır; HCl ve pepsin ile kimyasal sindirimi başlatır."
+        },
+        {
+          "id": "dig-colon",
+          "ta": "Intestinum crassum",
+          "title": "Kalın Bağırsak",
+          "position": [
+            0,
+            0,
+            0.15
+          ],
+          "color": "#00C6FF",
+          "detail": "Çekum, kolonlar ve rektumdan oluşur; su ve elektrolit emilimini tamamlar."
+        }
+      ]
+    },
+    {
+      "id": "respiratory_system",
+      "title": "Solunum Sistemi",
+      "latin": "Systema Respiratorium",
+      "system": "Pnömoloji",
+      "icon": "🫁",
+      "model": "models/system_respiratory_sys.glb",
+      "accent": "#4CC9F0",
+      "scale": 1.8,
+      "description": "Larenks, trakea, bronşiyal ağaç ve akciğerler.",
+      "clinical": "N. laryngeus recurrens larenks kaslarını innerve eder; hasarında ses kısıklığı gelişir.",
+      "bloodSupply": "A. pulmonalis ve Aa. bronchiales.",
+      "conditions": [
+        "KOAH",
+        "Bronşektazi",
+        "Larenjit"
+      ],
+      "hotspots": [
+        {
+          "id": "resp-larynx",
+          "ta": "Larynx",
+          "title": "Gırtlak (Larenks)",
+          "position": [
+            0,
+            1.35,
+            0.15
+          ],
+          "color": "#4CC9F0",
+          "detail": "Tiroid, krikoid ve epiglottis kıkırdaklarını ve ses tellerini (plica vocalis) barındırır."
+        },
+        {
+          "id": "resp-trachea",
+          "ta": "Trachea",
+          "title": "Trakea (Soluk Borusu)",
+          "position": [
+            0,
+            1.0,
+            0.1
+          ],
+          "color": "#FFD166",
+          "detail": "At nalı kıkırdak halkalardan oluşur; bifurcatio tracheae (T4-T5) ile ana bronşlara ayrılır."
+        },
+        {
+          "id": "resp-lungs",
+          "ta": "Pulmones",
+          "title": "Akciğer Parankimi",
+          "position": [
+            0.4,
+            0.6,
+            0.15
+          ],
+          "color": "#00FF87",
+          "detail": "Alveollerde sürfaktan varlığı kollapsı engeller ve gaz difüzyonunu sağlar."
+        }
+      ]
+    },
+    {
+      "id": "urinary_system",
+      "title": "Boşaltım Sistemi",
+      "latin": "Systema Urinarium",
+      "system": "Üroloji",
+      "icon": "💧",
+      "model": "models/system_urinary_sys.glb",
+      "accent": "#06D6A0",
+      "scale": 1.8,
+      "description": "Böbrekler, üreterler, mesane ve üretra.",
+      "clinical": "Mesane trigonu embriyolojik mezoderm kökenlidir ve düz mukozalıdır.",
+      "bloodSupply": "A. renalis, Aa. vesicales.",
+      "conditions": [
+        "İdrar Yolu Enfeksiyonu",
+        "Mesane Tümörü",
+        "Üreter Taşı"
+      ],
+      "hotspots": [
+        {
+          "id": "uri-kidney",
+          "ta": "Ren",
+          "title": "Böbrek",
+          "position": [
+            -0.3,
+            0.5,
+            0
+          ],
+          "color": "#06D6A0",
+          "detail": "Retroperitoneal fasulye şekilli organdır; nefronlar aracılığıyla idrarı oluşturur."
+        },
+        {
+          "id": "uri-ureter",
+          "ta": "Ureter",
+          "title": "Üreter",
+          "position": [
+            -0.2,
+            0.1,
+            0.05
+          ],
+          "color": "#FFD166",
+          "detail": "Pelvis renalis ile mesane arasındaki 25-30 cm kanaldır; peristaltizmle idrarı iletir."
+        },
+        {
+          "id": "uri-bladder",
+          "ta": "Vesica urinaria",
+          "title": "Mesane (İdrar Kesesi)",
+          "position": [
+            0,
+            -0.35,
+            0.1
+          ],
+          "color": "#00F0FF",
+          "detail": "Symphysis pubica arkasında yer alır; detrusor kası parasempatik uyarıyla kasılarak miksiyonu sağlar."
+        }
+      ]
+    }
+  ]
+};
+
+    // Helper: URL param extractor (query + hash)
+    function getParam(key, defaultValue) {
+      var query = window.location.search.substring(1);
+      var hash = window.location.hash.substring(1);
+      var full = query + '&' + hash;
+      var vars = full.split('&');
+      for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split('=');
+        if (decodeURIComponent(pair[0]) === key && pair[1] !== undefined) {
+          return decodeURIComponent(pair[1]);
+        }
+      }
+      return defaultValue;
+    }
+
+    var requestedId = getParam('id', 'heart');
+    var requestedModel = getParam('model', 'models/heart.glb');
+    var requestedTitle = getParam('title', 'Kalp');
+
+    // THREE.JS GLOBALS
+    var scene, camera, renderer, controls;
+    var mainModel = null;
+    var currentMode = 'learn'; // Default to learn mode as requested
+    var autoRotate = false;
+    var activeOrganData = null;
+    var hotspotMarkers = [];
+    var hitTargetMeshes = []; // Larger invisible hit targets for responsive touch
+    var activeHotspotId = null;
+    var quizTarget = null;
+    var quizScore = 0;
+    var originalCameraPos = new THREE.Vector3(0, 0, 3.2);
+
+    var raycaster = new THREE.Raycaster();
+    var mouse = new THREE.Vector2();
+
+    // Prevent touch drag & jitter on all UI controls
+    function setupUIEventGuards() {
+      var uiElements = ['top-controls', 'mode-selector', 'quiz-box', 'hotspot-carousel-wrap', 'info-sheet'];
+      uiElements.forEach(function(id) {
+        var el = document.getElementById(id);
+        if (el) {
+          ['pointerdown', 'pointermove', 'pointerup', 'touchstart', 'touchmove', 'touchend'].forEach(function(evt) {
+            el.addEventListener(evt, function(e) {
+              e.stopPropagation();
+            }, { passive: false });
+          });
+        }
+      });
+    }
+
+    function initScene() {
+      var container = document.getElementById('canvas-container');
+
+      scene = new THREE.Scene();
+      scene.background = new THREE.Color(0x070D18);
+
+      camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.05, 50);
+      camera.position.copy(originalCameraPos);
+
+      renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false, powerPreference: "high-performance" });
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+      renderer.setClearColor(0x070D18, 1);
+      container.appendChild(renderer.domElement);
+
+      controls = new THREE.OrbitControls(camera, renderer.domElement);
+      controls.enableDamping = true;
+      controls.dampingFactor = 0.07;
+      controls.rotateSpeed = 0.8;
+      controls.zoomSpeed = 1.0;
+      controls.panSpeed = 0.7;
+      controls.minDistance = 0.3;
+      controls.maxDistance = 10;
+
+      // Lights
+      var ambientLight = new THREE.AmbientLight(0xFFFFFF, 0.95);
+      scene.add(ambientLight);
+
+      var mainLight = new THREE.DirectionalLight(0xFFFFFF, 1.2);
+      mainLight.position.set(5, 10, 7);
+      scene.add(mainLight);
+
+      var rimLight = new THREE.DirectionalLight(0x00C6FF, 0.85);
+      rimLight.position.set(-5, -3, -5);
+      scene.add(rimLight);
+
+      var warmLight = new THREE.DirectionalLight(0xFFA500, 0.45);
+      warmLight.position.set(0, -6, 4);
+      scene.add(warmLight);
+
+      renderer.domElement.addEventListener('pointerup', onPointerUp, false);
+      window.addEventListener('resize', onWindowResize, false);
+
+      setupUIEventGuards();
+    }
+
+    function loadCatalog() {
+      var catalog = window.EMBEDDED_CATALOG || { organs: [], systems: [] };
+      var allItems = (catalog.organs || []).concat(catalog.systems || []);
+
+      activeOrganData = allItems.find(function(o) {
+        return o.id === requestedId || (o.model && o.model.indexOf(requestedId) !== -1) || (o.title && o.title.toLowerCase() === requestedTitle.toLowerCase());
+      }) || allItems[0];
+
+      if (!activeOrganData) {
+        activeOrganData = {
+          id: requestedId,
+          title: requestedTitle,
+          latin: 'Cor',
+          system: 'Kardiyovasküler',
+          icon: '🫀',
+          model: requestedModel,
+          accent: '#00F0FF',
+          scale: 2.0,
+          description: '3 Boyutlu Anatomi Modeli',
+          clinical: 'TUS sınavı ve klinik tıp açısından kritik anatomik yapılar.',
+          hotspots: []
+        };
+      }
+
+      load3DModel(activeOrganData.model || requestedModel);
+    }
+
+    function load3DModel(modelUrl) {
+      var loader = new THREE.GLTFLoader();
+
+      if (typeof MeshoptDecoder !== 'undefined') {
+        if (MeshoptDecoder.ready) {
+          MeshoptDecoder.ready.then(function() {
+            loader.setMeshoptDecoder(MeshoptDecoder);
+            executeLoad(loader, modelUrl);
+          });
+          return;
+        } else {
+          loader.setMeshoptDecoder(MeshoptDecoder);
+        }
+      }
+      executeLoad(loader, modelUrl);
+    }
+
+    function executeLoad(loader, modelUrl) {
+      loader.load(
+        modelUrl,
+        function (gltf) {
+          mainModel = gltf.scene;
+
+          var box = new THREE.Box3().setFromObject(mainModel);
+          var size = box.getSize(new THREE.Vector3());
+          var center = box.getCenter(new THREE.Vector3());
+          var maxDim = Math.max(size.x, size.y, size.z);
+
+          if (maxDim > 0) {
+            var targetScale = (activeOrganData.scale || 2.0) / maxDim;
+            mainModel.scale.set(targetScale, targetScale, targetScale);
+          }
+
+          box.setFromObject(mainModel);
+          box.getCenter(center);
+          mainModel.position.sub(center);
+
+          scene.add(mainModel);
+
+          createHotspotMarkers();
+          buildHotspotCarousel();
+
+          var loaderElem = document.getElementById('loader');
+          loaderElem.style.opacity = '0';
+          setTimeout(function() { loaderElem.style.display = 'none'; }, 400);
+
+          // Apply initial learn mode
+          selectMode('learn');
+
+          animate();
+        },
+        function (xhr) {
+          if (xhr.lengthComputable) {
+            var pct = Math.round((xhr.loaded / xhr.total) * 100);
+            document.getElementById('loader-text').innerText = '%' + pct + ' Yükleniyor...';
+          }
+        },
+        function (error) {
+          console.error('GLTF Load Error:', error);
+          document.getElementById('loader-text').innerText = 'Model Yüklenemedi';
+          document.getElementById('loader-sub').innerText = (error && error.message) || 'Lütfen tekrar deneyin';
+        }
+      );
+    }
+
+    function createHotspotMarkers() {
+      hotspotMarkers.forEach(function(m) { scene.remove(m); });
+      hotspotMarkers = [];
+      hitTargetMeshes = [];
+
+      if (!activeOrganData || !activeOrganData.hotspots || activeOrganData.hotspots.length === 0) {
+        return;
+      }
+
+      var sphereGeo = new THREE.SphereGeometry(0.06, 16, 16);
+      var ringGeo = new THREE.RingGeometry(0.08, 0.12, 24);
+      // Large invisible hit target sphere (radius 0.28) for easy mobile touching
+      var hitGeo = new THREE.SphereGeometry(0.28, 12, 12);
+      var hitMat = new THREE.MeshBasicMaterial({
+        transparent: true,
+        opacity: 0.001,
+        depthWrite: false
+      });
+
+      activeOrganData.hotspots.forEach(function(hs, idx) {
+        var markerGroup = new THREE.Group();
+        markerGroup.position.set(hs.position[0], hs.position[1], hs.position[2]);
+
+        var markerColor = hs.color ? new THREE.Color(hs.color) : new THREE.Color(0x00F0FF);
+
+        // Core visual sphere
+        var sphereMat = new THREE.MeshBasicMaterial({ color: markerColor });
+        var sphereMesh = new THREE.Mesh(sphereGeo, sphereMat);
+        markerGroup.add(sphereMesh);
+
+        // Outer pulsing ring
+        var ringMat = new THREE.MeshBasicMaterial({
+          color: markerColor,
+          side: THREE.DoubleSide,
+          transparent: true,
+          opacity: 0.85
+        });
+        var ringMesh = new THREE.Mesh(ringGeo, ringMat);
+        markerGroup.add(ringMesh);
+
+        // Invisible touch collision hitbox
+        var hitMesh = new THREE.Mesh(hitGeo, hitMat);
+        markerGroup.add(hitMesh);
+
+        markerGroup.userData = {
+          hotspot: hs,
+          index: idx,
+          ringMesh: ringMesh,
+          sphereMesh: sphereMesh,
+          hitMesh: hitMesh
+        };
+
+        hitMesh.userData = {
+          hotspot: hs,
+          markerGroup: markerGroup
+        };
+
+        scene.add(markerGroup);
+        hotspotMarkers.push(markerGroup);
+        hitTargetMeshes.push(hitMesh);
+      });
+    }
+
+    function buildHotspotCarousel() {
+      var carousel = document.getElementById('hotspot-carousel');
+      carousel.innerHTML = '';
+
+      if (!activeOrganData.hotspots || activeOrganData.hotspots.length === 0) {
+        var chip = document.createElement('div');
+        chip.className = 'hotspot-chip active';
+        chip.innerHTML = '<span>📖 Genel Bilgi</span>';
+        chip.onclick = function() { showGeneralOrganInfo(); };
+        carousel.appendChild(chip);
+        return;
+      }
+
+      var generalChip = document.createElement('div');
+      generalChip.className = 'hotspot-chip';
+      generalChip.id = 'chip-general';
+      generalChip.innerHTML = '<span>📖 ' + activeOrganData.title + ' Özeti</span>';
+      generalChip.onclick = function() { showGeneralOrganInfo(); };
+      carousel.appendChild(generalChip);
+
+      activeOrganData.hotspots.forEach(function(hs) {
+        var chip = document.createElement('div');
+        chip.className = 'hotspot-chip';
+        chip.id = 'chip-' + hs.id;
+        var color = hs.color || '#00F0FF';
+        chip.innerHTML = '<span class="dot" style="background:' + color + '; box-shadow:0 0 8px ' + color + '"></span><span>' + hs.title + '</span>';
+        chip.onclick = function() { selectHotspot(hs.id, true); };
+        carousel.appendChild(chip);
+      });
+    }
+
+    function selectHotspot(id, zoomIn) {
+      activeHotspotId = id;
+
+      document.querySelectorAll('.hotspot-chip').forEach(function(c) { c.classList.remove('active'); });
+      var activeChip = document.getElementById('chip-' + id);
+      if (activeChip) {
+        activeChip.classList.add('active');
+        activeChip.scrollIntoView({ behavior: 'smooth', inline: 'center' });
+      }
+
+      var marker = hotspotMarkers.find(function(m) { return m.userData.hotspot.id === id; });
+      if (!marker) return;
+
+      var hs = marker.userData.hotspot;
+
+      if (zoomIn) {
+        var targetPos = new THREE.Vector3(hs.position[0], hs.position[1], hs.position[2]);
+        var camOffset = targetPos.clone().normalize().multiplyScalar(1.5);
+        if (camOffset.length() === 0) camOffset.set(0, 0, 1.5);
+        var destination = targetPos.clone().add(camOffset);
+        smoothMoveCamera(destination, targetPos);
+      }
+
+      showHotspotCard(hs);
+    }
+
+    function showHotspotCard(hs) {
+      document.getElementById('sheet-tag').innerText = activeOrganData.system || 'ANATOMİK YAPI';
+      document.getElementById('sheet-title').innerText = hs.title;
+      document.getElementById('sheet-latin').innerText = hs.ta ? 'Terminologia Anatomica: ' + hs.ta : '';
+      document.getElementById('sheet-detail').innerText = hs.detail || '';
+
+      var metaBox = document.getElementById('sheet-meta');
+      var metaText = document.getElementById('sheet-meta-text');
+      if (activeOrganData.clinical) {
+        metaBox.style.display = 'block';
+        metaText.innerText = activeOrganData.clinical;
+      } else {
+        metaBox.style.display = 'none';
+      }
+
+      document.getElementById('info-sheet').classList.add('show');
+    }
+
+    function showGeneralOrganInfo() {
+      document.getElementById('sheet-tag').innerText = (activeOrganData.system || 'SİSTEM') + ' • GENEL BİLGİ';
+      document.getElementById('sheet-title').innerText = activeOrganData.title;
+      document.getElementById('sheet-latin').innerText = activeOrganData.latin ? 'Terminologia Anatomica: ' + activeOrganData.latin : '';
+      document.getElementById('sheet-detail').innerText = activeOrganData.description || '';
+
+      var metaBox = document.getElementById('sheet-meta');
+      var metaText = document.getElementById('sheet-meta-text');
+      var combinedMeta = '';
+      if (activeOrganData.bloodSupply) combinedMeta += '🩺 Kanlanması: ' + activeOrganData.bloodSupply + '\n\n';
+      if (activeOrganData.clinical) combinedMeta += '💡 TUS Notu: ' + activeOrganData.clinical;
+      if (activeOrganData.conditions && activeOrganData.conditions.length) {
+        combinedMeta += '\n\n⚠️ Klinik Korelasyon: ' + activeOrganData.conditions.join(', ');
+      }
+
+      if (combinedMeta) {
+        metaBox.style.display = 'block';
+        metaText.innerText = combinedMeta;
+      } else {
+        metaBox.style.display = 'none';
+      }
+
+      document.getElementById('info-sheet').classList.add('show');
+      resetCamera();
+    }
+
+    function closeSheet() {
+      document.getElementById('info-sheet').classList.remove('show');
+    }
+
+    var tweenData = null;
+    function smoothMoveCamera(targetCamPos, targetLookAt) {
+      tweenData = {
+        startTime: performance.now(),
+        duration: 750,
+        startCamPos: camera.position.clone(),
+        endCamPos: targetCamPos,
+        startTarget: controls.target.clone(),
+        endTarget: targetLookAt
+      };
+    }
+
+    function updateCameraTween() {
+      if (!tweenData) return;
+      var elapsed = performance.now() - tweenData.startTime;
+      var progress = Math.min(elapsed / tweenData.duration, 1.0);
+      var ease = 0.5 - Math.cos(progress * Math.PI) / 2;
+
+      camera.position.lerpVectors(tweenData.startCamPos, tweenData.endCamPos, ease);
+      controls.target.lerpVectors(tweenData.startTarget, tweenData.endTarget, ease);
+      controls.update();
+
+      if (progress >= 1.0) {
+        tweenData = null;
+      }
+    }
+
+    // Touch / Pointer Handling
+    function onPointerUp(event) {
+      if (tweenData) return;
+
+      var rect = renderer.domElement.getBoundingClientRect();
+      mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+      mouse.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+
+      raycaster.setFromCamera(mouse, camera);
+
+      var matchedHotspot = null;
+
+      // 1. Check direct hits on large invisible hotspot hit targets
+      if (hitTargetMeshes.length > 0) {
+        var intersects = raycaster.intersectObjects(hitTargetMeshes, false);
+        if (intersects.length > 0) {
+          var hitMesh = intersects[0].object;
+          if (hitMesh.userData && hitMesh.userData.hotspot) {
+            matchedHotspot = hitMesh.userData.hotspot;
+          }
+        }
+      }
+
+      // 2. Intelligent Mesh Proximity Fallback:
+      // If student taps on the organ surface near a landmark, snap to the nearest hotspot!
+      if (!matchedHotspot && mainModel && hotspotMarkers.length > 0) {
+        var organIntersects = raycaster.intersectObject(mainModel, true);
+        if (organIntersects.length > 0) {
+          var hitPt = organIntersects[0].point;
+          var closestDist = Infinity;
+          var closestHs = null;
+
+          hotspotMarkers.forEach(function(m) {
+            var markerPos = m.position;
+            var dist = hitPt.distanceTo(markerPos);
+            if (dist < closestDist) {
+              closestDist = dist;
+              closestHs = m.userData.hotspot;
+            }
+          });
+
+          // If click is within 0.7 units of an anatomical landmark, select it!
+          if (closestHs && closestDist <= 0.7) {
+            matchedHotspot = closestHs;
+          }
+        }
+      }
+
+      if (matchedHotspot) {
+        if (currentMode === 'learn' || currentMode === 'explore') {
+          selectHotspot(matchedHotspot.id, true);
+        } else if (currentMode === 'quiz') {
+          handleQuizAnswer(matchedHotspot);
+        }
+      }
+    }
+
+    window.selectMode = function(mode) {
+      currentMode = mode;
+      document.querySelectorAll('.mode-tab').forEach(function(t) { t.classList.remove('active'); });
+      var activeTab = document.getElementById('tab-' + mode);
+      if (activeTab) activeTab.classList.add('active');
+
+      var carousel = document.getElementById('hotspot-carousel-wrap');
+      var quizBox = document.getElementById('quiz-box');
+
+      if (mode === 'explore') {
+        carousel.style.display = 'none';
+        quizBox.style.display = 'none';
+        hotspotMarkers.forEach(function(m) { m.visible = false; });
+        closeSheet();
+      } else if (mode === 'learn') {
+        carousel.style.display = 'flex';
+        quizBox.style.display = 'none';
+        hotspotMarkers.forEach(function(m) { m.visible = true; });
+        // Automatically open the first hotspot or general overview if available
+        if (activeOrganData.hotspots && activeOrganData.hotspots.length > 0) {
+          selectHotspot(activeOrganData.hotspots[0].id, false);
+        } else {
+          showGeneralOrganInfo();
+        }
+      } else if (mode === 'quiz') {
+        carousel.style.display = 'none';
+        quizBox.style.display = 'block';
+        hotspotMarkers.forEach(function(m) { m.visible = true; });
+        closeSheet();
+        startQuizRound();
+      }
+    };
+
+    function startQuizRound() {
+      if (!activeOrganData.hotspots || activeOrganData.hotspots.length === 0) {
+        document.getElementById('quiz-prompt').innerText = "Bu model için henüz test noktası tanımlanmadı.";
+        return;
+      }
+
+      var randomIndex = Math.floor(Math.random() * activeOrganData.hotspots.length);
+      quizTarget = activeOrganData.hotspots[randomIndex];
+      document.getElementById('quiz-target-name').innerText = quizTarget.title + ' (' + (quizTarget.ta || '') + ')';
+    }
+
+    function handleQuizAnswer(selectedHotspot) {
+      if (!quizTarget) return;
+
+      if (selectedHotspot.id === quizTarget.id) {
+        quizScore += 10;
+        document.getElementById('score-val').innerText = quizScore;
+        showToast("Tebrikler! Doğru Bildiniz 🎉 (+10 Puan)", "success");
+
+        if (window.Android && window.Android.onCorrectAnswer) {
+          try {
+            window.Android.onCorrectAnswer(10);
+          } catch(e) {
+            console.log(e);
+          }
+        }
+
+        setTimeout(function() {
+          startQuizRound();
+        }, 1600);
+      } else {
+        showToast("Yanlış! Burası " + selectedHotspot.title + ". Tekrar deneyin!", "error");
+      }
+    }
+
+    function showToast(text, type) {
+      var toast = document.getElementById('toast');
+      toast.innerText = text;
+      toast.className = type;
+      toast.style.display = 'block';
+      setTimeout(function() {
+        toast.style.opacity = '1';
+        toast.style.transform = 'translate(-50%, -50%) scale(1)';
+      }, 10);
+
+      setTimeout(function() {
+        toast.style.opacity = '0';
+        toast.style.transform = 'translate(-50%, -50%) scale(0.8)';
+        setTimeout(function() { toast.style.display = 'none'; }, 300);
+      }, 2000);
+    }
+
+    window.toggleAutoRotate = function() {
+      autoRotate = !autoRotate;
+      controls.autoRotate = autoRotate;
+      controls.autoRotateSpeed = 2.0;
+      document.getElementById('btn-rotate').classList.toggle('active', autoRotate);
+    };
+
+    window.resetCamera = function() {
+      smoothMoveCamera(originalCameraPos.clone(), new THREE.Vector3(0, 0, 0));
+    };
+
+    function onWindowResize() {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    }
+
+    function animate() {
+      requestAnimationFrame(animate);
+
+      var time = performance.now() * 0.003;
+      if (hotspotMarkers.length > 0) {
+        hotspotMarkers.forEach(function(m) {
+          if (m.userData.ringMesh) {
+            m.userData.ringMesh.quaternion.copy(camera.quaternion);
+          }
+          var pulse = 1.0 + 0.14 * Math.sin(time * 2.5 + m.userData.index);
+          m.scale.set(pulse, pulse, pulse);
+        });
+      }
+
+      updateCameraTween();
+      controls.update();
+      renderer.render(scene, camera);
+    }
+
+    window.onload = function() {
+      initScene();
+      loadCatalog();
+    };
+  </script>
+</body>
+</html>

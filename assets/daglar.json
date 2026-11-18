@@ -1,0 +1,248 @@
+[
+  {
+    "name": "Erciyes Dağı",
+    "description": "İç Anadolu Bölgesi'nin en yüksek dağıdır. Volkanik kökenlidir.",
+    "type": "Volkanik",
+    "provinces": ["38"]
+  },
+  {
+    "name": "Hasan Dağı",
+    "description": "İç Anadolu'da yer alan volkanik bir dağdır.",
+    "type": "Volkanik",
+    "provinces": ["68", "51"]
+  },
+  {
+    "name": "Melendiz Dağı",
+    "description": "İç Anadolu Bölgesi'nde volkanik bir dağdır.",
+    "type": "Volkanik",
+    "provinces": ["51"]
+  },
+  {
+    "name": "Karadağ",
+    "description": "İç Anadolu'da yer alan volkanik bir dağdır.",
+    "type": "Volkanik",
+    "provinces": ["42"]
+  },
+  {
+    "name": "Karacadağ (İç Anadolu)",
+    "description": "Konya havzasında yer alan volkanik bir dağdır.",
+    "type": "Volkanik",
+    "provinces": ["42"]
+  },
+  {
+    "name": "Büyük Ağrı Dağı",
+    "description": "Türkiye'nin en yüksek dağıdır. Volkanik kökenlidir.",
+    "type": "Volkanik",
+    "provinces": ["04", "76"]
+  },
+  {
+    "name": "Tendürek Dağı",
+    "description": "Doğu Anadolu'da yer alan volkanik bir dağdır.",
+    "type": "Volkanik",
+    "provinces": ["04", "65"]
+  },
+  {
+    "name": "Süphan Dağı",
+    "description": "Van Gölü'nün kuzeyinde yer alan Türkiye'nin üçüncü yüksek dağıdır. Volkaniktir.",
+    "type": "Volkanik",
+    "provinces": ["13"]
+  },
+  {
+    "name": "Nemrut Dağı (Bitlis)",
+    "description": "Üzerinde krater gölü (Nemrut Gölü) bulunan volkanik dağdır.",
+    "type": "Volkanik",
+    "provinces": ["13"]
+  },
+  {
+    "name": "Karacadağ (Güneydoğu)",
+    "description": "Yayvan (kalkan) volkan tipine örnek olan geniş alanlı volkanik dağdır.",
+    "type": "Volkanik",
+    "provinces": ["21", "63", "47"]
+  },
+  {
+    "name": "Kula Tepeleri",
+    "description": "Türkiye'nin en genç volkanik arazisidir.",
+    "type": "Volkanik",
+    "provinces": ["45"]
+  },
+  {
+    "name": "Kaz Dağları",
+    "description": "Biga Yarımadası'nda yer alan kırık (horst) dağıdır. Oksijen oranı yüksektir.",
+    "type": "Kırık",
+    "provinces": ["10", "17"]
+  },
+  {
+    "name": "Madra Dağı",
+    "description": "Ege Bölgesi'nde kıyıya dik uzanan kırık dağlarından biridir.",
+    "type": "Kırık",
+    "provinces": ["10", "35"]
+  },
+  {
+    "name": "Yunt Dağı",
+    "description": "Ege Bölgesi'nde Bakırçay ile Gediz grabenleri arasında yer alan kırık dağıdır.",
+    "type": "Kırık",
+    "provinces": ["35", "45"]
+  },
+  {
+    "name": "Bozdağlar",
+    "description": "Gediz ve Küçük Menderes grabenleri arasında yer alan kırık dağıdır.",
+    "type": "Kırık",
+    "provinces": ["35", "45"]
+  },
+  {
+    "name": "Aydın Dağları",
+    "description": "Küçük Menderes ile Büyük Menderes grabenleri arasında yer alan kırık dağıdır.",
+    "type": "Kırık",
+    "provinces": ["09", "35"]
+  },
+  {
+    "name": "Menteşe Dağları",
+    "description": "Ege Bölgesi'nin güneybatısında kıyıya paralel uzanan kırık dağlarıdır. Engebeli bir yapıya sahiptir.",
+    "type": "Kırık",
+    "provinces": ["48"]
+  },
+  {
+    "name": "Nur (Amanos) Dağları",
+    "description": "Akdeniz Bölgesi'nde yer alan, kırılmayla oluşmuş horst sistemidir.",
+    "type": "Kırık",
+    "provinces": ["31", "27"]
+  },
+  {
+    "name": "Yıldız (Istranca) Dağları",
+    "description": "Marmara Bölgesi'nde Karadeniz kıyısına paralel uzanan kıvrım dağlarıdır. Masif arazidir.",
+    "type": "Kıvrım",
+    "provinces": ["39"]
+  },
+  {
+    "name": "Küre (İsfendiyar) Dağları",
+    "description": "Batı Karadeniz kıyısına paralel uzanan kıvrım dağlarıdır. Bakır yataklarıyla bilinir.",
+    "type": "Kıvrım",
+    "provinces": ["37", "74", "57"]
+  },
+  {
+    "name": "Ilgaz Dağları",
+    "description": "Batı Karadeniz'de iç kesimde yer alan önemli bir kıvrım dağıdır. Kış turizmi yapılır.",
+    "type": "Kıvrım",
+    "provinces": ["37", "18"]
+  },
+  {
+    "name": "Köroğlu Dağları",
+    "description": "Batı Karadeniz'in iç kısımlarında uzanan kıvrım dağlarıdır.",
+    "type": "Kıvrım",
+    "provinces": ["14"]
+  },
+  {
+    "name": "Canik Dağları",
+    "description": "Orta Karadeniz'de yükseltisi az olan ve kıyıdan biraz içeride uzanan kıvrım dağlarıdır.",
+    "type": "Kıvrım",
+    "provinces": ["55"]
+  },
+  {
+    "name": "Giresun Dağları",
+    "description": "Doğu Karadeniz'in batı kısmında uzanan kıvrım dağlarıdır.",
+    "type": "Kıvrım",
+    "provinces": ["28"]
+  },
+  {
+    "name": "Kaçkar Dağları",
+    "description": "Doğu Karadeniz'in en yüksek kıvrım dağlarıdır. Üzerinde güncel buzullar bulunur.",
+    "type": "Kıvrım",
+    "provinces": ["53", "08"]
+  },
+  {
+    "name": "Mescit Dağı",
+    "description": "Kuzeydoğu Anadolu'da, Çoruh Nehri'nin kaynağını aldığı kıvrım dağıdır.",
+    "type": "Kıvrım",
+    "provinces": ["25", "08"]
+  },
+  {
+    "name": "Kop Dağı",
+    "description": "Doğu Karadeniz ile Doğu Anadolu arasında geçit veren kıvrım dağıdır.",
+    "type": "Kıvrım",
+    "provinces": ["69", "25"]
+  },
+  {
+    "name": "Yalnızçam Dağları",
+    "description": "Kuzeydoğu Anadolu'da Gürcistan sınırına doğru uzanan kıvrım dağlarıdır.",
+    "type": "Kıvrım",
+    "provinces": ["75", "08"]
+  },
+  {
+    "name": "Allahuekber Dağları",
+    "description": "Kars ve Erzurum arasında yer alan, Sarıkamış Harekatı'nın geçtiği kıvrım dağlarıdır.",
+    "type": "Kıvrım",
+    "provinces": ["36", "25"]
+  },
+  {
+    "name": "Bey Dağları",
+    "description": "Batı Toroslar'da Antalya'nın batısında yer alan kıvrım dağlarıdır.",
+    "type": "Kıvrım",
+    "provinces": ["07"]
+  },
+  {
+    "name": "Sultan Dağları",
+    "description": "Göller Yöresi'nin doğusunda uzanan kıvrım dağlarıdır.",
+    "type": "Kıvrım",
+    "provinces": ["42", "03"]
+  },
+  {
+    "name": "Geyik Dağları",
+    "description": "Orta Torosların batı kesiminde yer alan sarp ve karstik kıvrım dağlarıdır.",
+    "type": "Kıvrım",
+    "provinces": ["07", "42"]
+  },
+  {
+    "name": "Bolkar Dağları",
+    "description": "Orta Torosların en yüksek kısımlarından biridir. Karstik yapı yaygındır.",
+    "type": "Kıvrım",
+    "provinces": ["51", "33", "42"]
+  },
+  {
+    "name": "Aladağlar",
+    "description": "Orta Torosların en yüksek bölümüdür. Üzerinde buzul şekilleri görülür.",
+    "type": "Kıvrım",
+    "provinces": ["51", "38", "01"]
+  },
+  {
+    "name": "Tahtalı Dağları",
+    "description": "Orta Torosların doğusunda uzanan kıvrım dağlarıdır.",
+    "type": "Kıvrım",
+    "provinces": ["01", "46", "38"]
+  },
+  {
+    "name": "Binboğa Dağları",
+    "description": "Orta Torosların doğusunda uzanan kıvrım dağlarıdır.",
+    "type": "Kıvrım",
+    "provinces": ["46", "38"]
+  },
+  {
+    "name": "Sündiken Dağları",
+    "description": "İç Anadolu Bölgesi'nin kuzeybatısında yer alan kıvrım dağlarıdır.",
+    "type": "Kıvrım",
+    "provinces": ["26"]
+  },
+  {
+    "name": "Munzur (Mercan) Dağları",
+    "description": "Doğu Anadolu'da yer alan önemli bir kıvrım dağıdır. Munzur Vadisi Milli Parkı bulunur.",
+    "type": "Kıvrım",
+    "provinces": ["62", "24"]
+  },
+  {
+    "name": "Palandöken Dağı",
+    "description": "Erzurum'un güneyinde yer alan ve kış turizmi ile öne çıkan kıvrım dağıdır.",
+    "type": "Kıvrım",
+    "provinces": ["25"]
+  },
+  {
+    "name": "Buzul (Cilo) Dağları",
+    "description": "Hakkari'de yer alan, Türkiye'nin en büyük güncel buzullarının bulunduğu kıvrım dağlarıdır.",
+    "type": "Kıvrım",
+    "provinces": ["30"]
+  },
+  {
+    "name": "Cudi Dağı",
+    "description": "Güneydoğu Anadolu ile Doğu Anadolu sınırı yakınlarında yer alan kıvrım dağıdır.",
+    "type": "Kıvrım",
+    "provinces": ["73"]
+  }
+]

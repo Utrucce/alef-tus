@@ -1,0 +1,202 @@
+{
+  "Adana": {
+    "emoji": "☀️",
+    "bolge": "Akdeniz Bölgesi",
+    "yersekilleri": "Çukurova, Toros Dağları, Seyhan ve Ceyhan nehirleri.",
+    "iklimBitki": "Akdeniz iklimi, maki bitki örtüsü.",
+    "tarimHayvancilik": "Pamuk, turunçgil, mısır, yer fıstığı, soya fasulyesi.",
+    "madenSanayi": "Tarım aletleri, tekstil, gıda sanayi.",
+    "turizm": "Taşköprü, Varda Köprüsü, Anavarza.",
+    "description": "Türkiye'nin en verimli ovası olan Çukurova'ya sahiptir."
+  },
+  "Adıyaman": {
+    "emoji": "🗿",
+    "bolge": "Güneydoğu Anadolu Bölgesi",
+    "yersekilleri": "Güneydoğu Toroslar, Fırat Nehri, Atatürk Barajı Gölü.",
+    "iklimBitki": "Karasal iklim, bozkır ve meşe ormanları.",
+    "tarimHayvancilik": "Tütün, buğday, pamuk, mercimek.",
+    "madenSanayi": "Petrol çıkarımı (Türkiye'de önemli bir yere sahiptir).",
+    "turizm": "Nemrut Dağı Milli Parkı, Cendere Köprüsü.",
+    "description": "Dünyanın 8. harikası olarak anılan Nemrut Dağı'na ev sahipliği yapar."
+  },
+  "Afyonkarahisar": {
+    "emoji": "♨️",
+    "bolge": "Ege Bölgesi (İç Batı Anadolu Bölümü)",
+    "yersekilleri": "Eber ve Akşehir gölleri çevresi, dağlık ve yaylalık alanlar.",
+    "iklimBitki": "Karasal iklim (Ege ve İç Anadolu geçiş), bozkır.",
+    "tarimHayvancilik": "Haşhaş, şeker pancarı, patates, buğday. Küçükbaş hayvancılık.",
+    "madenSanayi": "Mermer, termal turizm, sucuk ve lokum sanayisi.",
+    "turizm": "Karahisar Kalesi, Frig Vadisi, Gazlıgöl Termal Tesisleri.",
+    "description": "Türkiye'nin mermer ve termal turizm başkenti olarak bilinir."
+  },
+  "Ağrı": {
+    "emoji": "⛰️",
+    "bolge": "Doğu Anadolu Bölgesi",
+    "yersekilleri": "Ağrı Dağı (Türkiye'nin en yüksek dağı), Tendürek Dağı, yüksek platolar.",
+    "iklimBitki": "Sert karasal iklim, yüksek dağ çayırları ve bozkır.",
+    "tarimHayvancilik": "Büyükbaş hayvancılık, arıcılık, şeker pancarı.",
+    "madenSanayi": "Kükürt, kaya tuzu, hayvancılığa dayalı sanayi.",
+    "turizm": "İshak Paşa Sarayı, Ağrı Dağı, Meteor Çukuru.",
+    "description": "Türkiye'nin çatısı olarak bilinen efsanevi Ağrı Dağı buradadır."
+  },
+  "Amasya": {
+    "emoji": "🍎",
+    "bolge": "Karadeniz Bölgesi (Orta Karadeniz Bölümü)",
+    "yersekilleri": "Yeşilırmak Vadisi etrafında dağlık alanlar.",
+    "iklimBitki": "Karadeniz ve karasal iklim arası geçiş iklimi.",
+    "tarimHayvancilik": "Amasya elması, kiraz, şeftali, soğan.",
+    "madenSanayi": "Linyit, un ve şeker sanayisi.",
+    "turizm": "Kral Kaya Mezarları, Yalıboyu Evleri, Amasya Kalesi.",
+    "description": "Şehzadeler şehri olarak bilinen tarihi ve kültürel bir kenttir."
+  },
+  "Ankara": {
+    "emoji": "🏛️",
+    "bolge": "İç Anadolu Bölgesi",
+    "yersekilleri": "Haymana ve Cihanbeyli platoları, Sakarya Nehri kolları, Tuz Gölü havzası.",
+    "iklimBitki": "Karasal iklim, bozkır (step).",
+    "tarimHayvancilik": "Tiftik keçisi, buğday, şeker pancarı.",
+    "madenSanayi": "Savunma sanayi, mobilya, makine ve havacılık.",
+    "turizm": "Anıtkabir, Anadolu Medeniyetleri Müzesi, Ankara Kalesi.",
+    "description": "Türkiye'nin başkenti ve siyasi merkezidir."
+  },
+  "Antalya": {
+    "emoji": "🏖️",
+    "bolge": "Akdeniz Bölgesi",
+    "yersekilleri": "Batı Toroslar, falezler, karstik ovalar.",
+    "iklimBitki": "Tipik Akdeniz iklimi, maki ve çam ormanları.",
+    "tarimHayvancilik": "Seracılık, turunçgiller, muz, zeytin, pamuk.",
+    "madenSanayi": "Turizm sanayisi, ferrokrom tesisleri.",
+    "turizm": "Aspendos, Kaleiçi, Düden Şelalesi, Olimpos.",
+    "description": "Türkiye'nin turizm başkenti olarak milyonlarca turisti ağırlar."
+  },
+  "Artvin": {
+    "emoji": "🌲",
+    "bolge": "Karadeniz Bölgesi (Doğu Karadeniz Bölümü)",
+    "yersekilleri": "Kaçkar Dağları, Çoruh Nehri Vadisi, sarp arazi.",
+    "iklimBitki": "Karadeniz iklimi, gür ve çeşitli ormanlar.",
+    "tarimHayvancilik": "Çay, fındık, mısır, kivi, arıcılık.",
+    "madenSanayi": "Bakır (Murgul), hidroelektrik santralleri (Deriner Barajı).",
+    "turizm": "Karagöl, Macahel, Çoruh Nehri'nde rafting.",
+    "description": "Dik yamaçları ve hırçın Çoruh Nehri ile doğa sporları merkezidir."
+  },
+  "Aydın": {
+    "emoji": "🍈",
+    "bolge": "Ege Bölgesi",
+    "yersekilleri": "Büyük Menderes Ovası, Aydın Dağları, Menteşe Yöresi sınırları.",
+    "iklimBitki": "Akdeniz iklimi, maki ve çam ormanları.",
+    "tarimHayvancilik": "İncir (dünya birincisi), zeytin, kestane, pamuk.",
+    "madenSanayi": "Linyit, jeotermal enerji, zeytinyağı ve tekstil sanayisi.",
+    "turizm": "Efes Antik Kenti (yakınlığı), Afrodisias, Didim, Kuşadası.",
+    "description": "Türkiye'nin ve dünyanın en kaliteli incirlerinin yetiştiği yerdir."
+  },
+  "Balıkesir": {
+    "emoji": "🫒",
+    "bolge": "Marmara Bölgesi (Güney Marmara Bölümü) ve Ege Bölgesi",
+    "yersekilleri": "Kaz Dağları, Susurluk Havzası, Marmara ve Ege'ye kıyılar.",
+    "iklimBitki": "Akdeniz ve Marmara geçiş iklimi, zeytinlikler ve ormanlar.",
+    "tarimHayvancilik": "Zeytin, ayçiçeği, kavun. Büyükbaş ve kümes hayvancılığı.",
+    "madenSanayi": "Bor mineralleri (Susurluk, Bigadiç), gıda sanayi.",
+    "turizm": "Cunda Adası, Manyas Kuş Cenneti, Kaz Dağları.",
+    "description": "Hem Marmara'ya hem Ege'ye kıyısı olan, bor rezervi zengini bir ildir."
+  },
+  "Bilecik": {
+    "emoji": "⛺",
+    "bolge": "Marmara Bölgesi",
+    "yersekilleri": "Sakarya Vadisi, engebeli platolar.",
+    "iklimBitki": "Marmara geçiş iklimi, ormanlık alanlar.",
+    "tarimHayvancilik": "Şerbetçiotu (Türkiye'de tek), ipekböcekçiliği, meyvecilik.",
+    "madenSanayi": "Mermer, seramik (Bozüyük) ve döküm sanayi.",
+    "turizm": "Ertuğrul Gazi Türbesi, Söğüt, Şeyh Edebali Türbesi.",
+    "description": "Osmanlı Devleti'nin temellerinin atıldığı tarihi bir şehirdir."
+  },
+  "Bingöl": {
+    "emoji": "🍯",
+    "bolge": "Doğu Anadolu Bölgesi (Yukarı Murat-Van Bölümü)",
+    "yersekilleri": "Dağlık ve engebeli arazi, Bingöl Dağları, Murat Nehri kolları.",
+    "iklimBitki": "Sert karasal iklim, meşe ormanları ve bozkır.",
+    "tarimHayvancilik": "Büyükbaş hayvancılık, arıcılık (Bingöl balı ünlüdür).",
+    "madenSanayi": "Demir, hayvancılığa dayalı sanayi.",
+    "turizm": "Yüzen Adalar, Çır Şelalesi, kaplıcalar.",
+    "description": "Eşsiz doğası ve kaliteli balı ile öne çıkan bir ildir."
+  },
+  "Bitlis": {
+    "emoji": "🏰",
+    "bolge": "Doğu Anadolu Bölgesi",
+    "yersekilleri": "Van Gölü havzası, Nemrut Volkanı, Süphan Dağı etekleri.",
+    "iklimBitki": "Sert karasal iklim, bozkır ve yüksek alanlarda meşelikler.",
+    "tarimHayvancilik": "Tütün (Ahlat), ceviz, küçükbaş hayvancılık.",
+    "madenSanayi": "Pomza taşı, tekstil ve tütün işlemeciliği.",
+    "turizm": "Ahlat Selçuklu Mezarlığı, Nemrut Krater Gölü.",
+    "description": "Ahlat Selçuklu Mezarlığı ile Türk tarihinin açık hava müzesidir."
+  },
+  "Bolu": {
+    "emoji": "🍂",
+    "bolge": "Karadeniz Bölgesi (Batı Karadeniz Bölümü)",
+    "yersekilleri": "Bolu ve Köroğlu Dağları, sık ormanlık alanlar, göller.",
+    "iklimBitki": "Karadeniz ve karasal geçiş iklimi, gür ormanlar.",
+    "tarimHayvancilik": "Kümes hayvancılığı (Türkiye'de liderlerden), ormancılık.",
+    "madenSanayi": "Linyit, orman ürünleri sanayisi.",
+    "turizm": "Abant Gölü, Yedigöller, Kartalkaya (Kış turizmi).",
+    "description": "Doğal gölleri ve yemyeşil ormanlarıyla Türkiye'nin akciğerlerinden biridir."
+  },
+  "Burdur": {
+    "emoji": "🦩",
+    "bolge": "Akdeniz Bölgesi (Göller Yöresi)",
+    "yersekilleri": "Göller Yöresi karstik arazileri, Burdur ve Salda Gölleri.",
+    "iklimBitki": "Karasal ağırlıklı Akdeniz geçiş iklimi, bozkır ve seyrek orman.",
+    "tarimHayvancilik": "Gül, anason, şeker pancarı, sığır yetiştiriciliği.",
+    "madenSanayi": "Mermer, şeker ve çimento sanayi.",
+    "turizm": "Salda Gölü (Türkiye'nin Maldivleri), Sagalassos Antik Kenti.",
+    "description": "Salda Gölü ile 'Türkiye'nin Maldivleri' unvanını taşır."
+  },
+  "Bursa": {
+    "emoji": "⛷️",
+    "bolge": "Marmara Bölgesi (Güney Marmara Bölümü)",
+    "yersekilleri": "Uludağ, Bursa Ovası, Marmara Denizi'ne kıyılar.",
+    "iklimBitki": "Marmara geçiş iklimi, geniş ormanlar.",
+    "tarimHayvancilik": "İpekböcekçiliği (tarihi önemi büyük), şeftali, zeytin, kestane.",
+    "madenSanayi": "Otomotiv, tekstil, gıda sanayisinin kalbi konumundadır.",
+    "turizm": "Uludağ (Kış turizmi), Cumalıkızık, Yeşil Türbe.",
+    "description": "Otomotiv ve tekstil sanayisinin merkezi, Osmanlı'nın ilk başkentlerindendir."
+  },
+  "Çanakkale": {
+    "emoji": "🚢",
+    "bolge": "Marmara Bölgesi",
+    "yersekilleri": "Çanakkale Boğazı, Biga Yarımadası, Gelibolu Yarımadası, Kaz Dağları.",
+    "iklimBitki": "Akdeniz iklimi ile Marmara geçiş iklimi.",
+    "tarimHayvancilik": "Zeytin, ayçiçeği, domates, üzüm. Balıkçılık.",
+    "madenSanayi": "Linyit, seramik sanayisi, konserve.",
+    "turizm": "Gelibolu Tarihi Milli Parkı, Truva Antik Kenti, Assos.",
+    "description": "Şanlı tarihi ve iki kıtayı birbirine bağlayan boğazı ile eşsizdir."
+  },
+  "Çankırı": {
+    "emoji": "🧂",
+    "bolge": "İç Anadolu Bölgesi (Kızılırmak Bölümü)",
+    "yersekilleri": "Ilgaz Dağları güney yamaçları, geniş bozkır alanları.",
+    "iklimBitki": "Karasal iklim, bozkır ve yükseklerde çam ormanları.",
+    "tarimHayvancilik": "Buğday, arpa, kavun. Küçükbaş hayvancılık.",
+    "madenSanayi": "Kaya tuzu (en büyük rezervlerden biri).",
+    "turizm": "Tuz Mağarası, Ilgaz Dağı Milli Parkı.",
+    "description": "Hititler döneminden beri işletilen devasa kaya tuzu mağaralarına ev sahipliği yapar."
+  },
+  "Çorum": {
+    "emoji": "🥜",
+    "bolge": "Karadeniz Bölgesi (Orta Karadeniz Bölümü)",
+    "yersekilleri": "Kızılırmak ve Yeşilırmak havzaları arasında platolar.",
+    "iklimBitki": "Karasal iklim etkili, bozkır.",
+    "tarimHayvancilik": "Leblebi (Nohut), pirinç (Osmancık), şekerpancarı, buğday.",
+    "madenSanayi": "Kiremit, tuğla ve çimento sanayi, gıda (leblebi).",
+    "turizm": "Hattuşaş (Hitit Başkenti), Alacahöyük.",
+    "description": "Hitit İmparatorluğu'nun başkenti Hattuşaş'a ev sahipliği yapar."
+  },
+  "Denizli": {
+    "emoji": "🐓",
+    "bolge": "Ege Bölgesi (Asıl Ege Bölümü)",
+    "yersekilleri": "Büyük Menderes Havzası, Honaz Dağı (Ege'nin en yükseği).",
+    "iklimBitki": "Akdeniz ve karasal iklim geçişi.",
+    "tarimHayvancilik": "Üzüm, pamuk, tütün, incir. Horozu ile meşhurdur.",
+    "madenSanayi": "Tekstil sanayi devidir, jeotermal enerji (Sarayköy).",
+    "turizm": "Pamukkale Travertenleri, Hierapolis Antik Kenti.",
+    "description": "Pamukkale travertenleri ile eşsiz bir doğa harikasına sahiptir."
+  }
+}

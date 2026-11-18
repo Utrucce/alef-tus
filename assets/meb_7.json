@@ -1,0 +1,1002 @@
+[
+  {
+    "word": "Ölçme",
+    "clue": "Bir niteliğin gözlenip gözlem sonucunun sayılarla veya sembollerle ifade edilmesidir."
+  },
+  {
+    "word": "Ölçme",
+    "clue": "Belli bir nesnenin ya da durumun özelliklerinin sayısal veya sembolik olarak betimlenmesi işlemidir."
+  },
+  {
+    "word": "Ölçme",
+    "clue": "Eğitimde öğrenci özelliklerinin sayı, sembol veya sıfatlarla gösterilmesi sürecidir."
+  },
+  {
+    "word": "Ölçme",
+    "clue": "Gözlem sonuçlarının sayısallaştırılması, sembolleştirilmesi veya isimlendirilmesi sürecidir."
+  },
+  {
+    "word": "Ölçme",
+    "clue": "Fiziksel veya psikolojik bir özelliğin miktarının belirlenip ifade edilmesi işlemidir."
+  },
+  {
+    "word": "Değerlendirme",
+    "clue": "Ölçme sonuçlarının bir ölçütle karşılaştırılarak bir karara veya yargıya varma sürecidir."
+  },
+  {
+    "word": "Değerlendirme",
+    "clue": "Eğitimde karar verme, yargıda bulunma, değer biçme sürecine verilen addır."
+  },
+  {
+    "word": "Değerlendirme",
+    "clue": "Ölçüm ile ölçütün karşılaştırılması sonucu elde edilen hüküm çıkarma işlemidir."
+  },
+  {
+    "word": "Değerlendirme",
+    "clue": "Öğrencinin başarısı hakkında bir hüküm ve karar verme sürecidir."
+  },
+  {
+    "word": "Değerlendirme",
+    "clue": "Yapılan bir ölçümün anlam kazanmasını sağlayan yargılama adımıdır."
+  },
+  {
+    "word": "Ölçüt",
+    "clue": "Değerlendirme yapabilmek için ölçüm sonuçlarının karşılaştırıldığı referans noktası veya kriterdir."
+  },
+  {
+    "word": "Ölçüt",
+    "clue": "Karar ve yargıya varmak için temel alınan kural ya da standarttır."
+  },
+  {
+    "word": "Ölçüt",
+    "clue": "Ölçme sonucunun yeterli olup olmadığına karar verirken kullanılan sınır değerdir."
+  },
+  {
+    "word": "Ölçüt",
+    "clue": "Eğitimde geçme veya kalma kararını belirlemek için kullanılan dayanaktır."
+  },
+  {
+    "word": "Ölçüt",
+    "clue": "Değerlendirmeye temel oluşturan, değerlendirmenin yönünü belirleyen kuraldır."
+  },
+  {
+    "word": "Ölçüm",
+    "clue": "Ölçme işlemi sonucunda elde edilen sayı, sembol veya sıfattır."
+  },
+  {
+    "word": "Ölçüm",
+    "clue": "Gözlem sonucunu temsil eden nicel veya nitel ifadedir."
+  },
+  {
+    "word": "Ölçüm",
+    "clue": "Sınav sonucunda öğrencinin aldığı puan (örneğin 75 puan) bu kavrama örnektir."
+  },
+  {
+    "word": "Ölçüm",
+    "clue": "Ölçme işleminin ürünü, çıktısı olarak adlandırılan değerdir."
+  },
+  {
+    "word": "Ölçüm",
+    "clue": "Özelliğin ne miktarda olduğuna ilişkin elde edilen gözlem sonucudur."
+  },
+  {
+    "word": "Ölçme Kuralı",
+    "clue": "Ölçme işlemi yapılırken niteliğin hangi miktarına ne kadar puan verileceğini belirleyen ilkedir."
+  },
+  {
+    "word": "Ölçme Kuralı",
+    "clue": "Sınavda her sorunun kaç puan değerinde olduğunu gösteren yönergedir."
+  },
+  {
+    "word": "Ölçme Kuralı",
+    "clue": "Ölçmeye konu olan özelliğin sayılarla nasıl eşleştirileceğini belirten kurallar bütünüdür."
+  },
+  {
+    "word": "Ölçme Kuralı",
+    "clue": "Ölçme aracı hazırlanırken belirlenen, puanlamanın standardını sağlayan ilkedir."
+  },
+  {
+    "word": "Ölçme Kuralı",
+    "clue": "Yanlışların doğruları nasıl götüreceğini önceden belirten ifadedir."
+  },
+  {
+    "word": "Mutlak Ölçüt",
+    "clue": "Ölçme işlemi yapılmadan önce kesin ve net olarak belirlenmiş, gruptan gruba değişmeyen ölçüttür."
+  },
+  {
+    "word": "Mutlak Ölçüt",
+    "clue": "Geçme notunun 50 olması gibi önceden belirlenen referans noktasıdır."
+  },
+  {
+    "word": "Mutlak Ölçüt",
+    "clue": "Öğrenci performansının diğer öğrencilerden bağımsız olarak karşılaştırıldığı kriterdir."
+  },
+  {
+    "word": "Mutlak Ölçüt",
+    "clue": "Sınavın veya programın hedeflerine dayalı olarak belirlenmiş standarttır."
+  },
+  {
+    "word": "Mutlak Ölçüt",
+    "clue": "Sınıfın başarı düzeyinden etkilenmeyen sabit sınır puandır."
+  },
+  {
+    "word": "Bağıl Ölçüt",
+    "clue": "Grubun başarısına, aritmetik ortalamasına veya standart sapmasına göre değişen referans noktasıdır."
+  },
+  {
+    "word": "Bağıl Ölçüt",
+    "clue": "Öğrencilerin birbiriyle rekabet içinde olduğu durumlarda kullanılan esnek kriterdir."
+  },
+  {
+    "word": "Bağıl Ölçüt",
+    "clue": "Çan eğrisi sisteminde geçme notunun sınıf ortalamasına göre belirlenmesidir."
+  },
+  {
+    "word": "Bağıl Ölçüt",
+    "clue": "Ölçme işlemi yapıldıktan sonra ortaya çıkan grup verilerine dayalı standarttır."
+  },
+  {
+    "word": "Bağıl Ölçüt",
+    "clue": "Yalnızca en yüksek puanı alan üç kişinin seçileceği durumlarda kullanılan ölçüt türüdür."
+  },
+  {
+    "word": "Mutlak Değerlendirme",
+    "clue": "Öğrencinin notunun sadece kendi başarısına ve önceden belirlenen sabit kritere bağlı olduğu yargılama türüdür."
+  },
+  {
+    "word": "Mutlak Değerlendirme",
+    "clue": "Geçme notunun kesin çizgilerle belirlendiği, hedeflere ulaşma derecesine bakılan değerlendirmedir."
+  },
+  {
+    "word": "Mutlak Değerlendirme",
+    "clue": "Herkesin hedeflenen kazanımları ne kadar edindiğinin bağımsız olarak saptandığı karardır."
+  },
+  {
+    "word": "Mutlak Değerlendirme",
+    "clue": "Eğitim programında belirlenen asgari standartların sağlanıp sağlanmadığına bakılan süreçtir."
+  },
+  {
+    "word": "Mutlak Değerlendirme",
+    "clue": "Ölçütün grubun ortalamasından bağımsız olarak uygulandığı karar alma işlemidir."
+  },
+  {
+    "word": "Bağıl Değerlendirme",
+    "clue": "Bireyin başarısının grubun diğer üyelerine göre belirlendiği karar alma türüdür."
+  },
+  {
+    "word": "Bağıl Değerlendirme",
+    "clue": "Seçme sınavlarında kontenjan sınırlı olduğu için uygulanan, sıraya dizmeye dayalı değerlendirmedir."
+  },
+  {
+    "word": "Bağıl Değerlendirme",
+    "clue": "Çan eğrisi veya Z/T puanı hesaplanarak yapılan yargıda bulunma sürecidir."
+  },
+  {
+    "word": "Bağıl Değerlendirme",
+    "clue": "Norma dayalı değerlendirme olarak da bilinen, grup performansına odaklı sistemdir."
+  },
+  {
+    "word": "Bağıl Değerlendirme",
+    "clue": "KPSS, YKS gibi yarışmacı sınavlarda uygulanan değerlendirme yaklaşımıdır."
+  },
+  {
+    "word": "Diagnostik Değerlendirme",
+    "clue": "Eğitim öğretim süreci başında öğrencilerin hazırbulunuşluk düzeylerini belirlemeyi amaçlayan tanılayıcı değerlendirmedir."
+  },
+  {
+    "word": "Diagnostik Değerlendirme",
+    "clue": "Tanıma ve yerleştirmeye yönelik yapılan, eksiklikleri tespit edip uygun bölüme yönlendiren uygulamadır."
+  },
+  {
+    "word": "Diagnostik Değerlendirme",
+    "clue": "Öğrencilerin ön koşul öğrenmelerini saptamak için sürecin en başında yapılan testlerdir."
+  },
+  {
+    "word": "Diagnostik Değerlendirme",
+    "clue": "Seviye tespit sınavları (STS) veya muafiyet sınavları bu tür değerlendirmeye girer."
+  },
+  {
+    "word": "Diagnostik Değerlendirme",
+    "clue": "Öğretim sürecine başlamadan önce öğrenci profilini ortaya çıkaran tanılamadır."
+  },
+  {
+    "word": "Formatif Değerlendirme",
+    "clue": "Öğretim süreci devam ederken öğrenme eksikliklerini belirlemek ve gidermek amacıyla yapılan biçimlendirici değerlendirmedir."
+  },
+  {
+    "word": "Formatif Değerlendirme",
+    "clue": "Ünite ve konu sonlarında yapılan izleme testleriyle öğrencilere dönüt sağlamayı amaçlayan süreçtir."
+  },
+  {
+    "word": "Formatif Değerlendirme",
+    "clue": "Not verme amacı gütmeyen, öğretimin niteliğini artırmak için yapılan kısa sınavlardır."
+  },
+  {
+    "word": "Formatif Değerlendirme",
+    "clue": "Kavrama testleri (quizler) aracılığıyla yapılan öğrenmeyi geliştirici uygulamadır."
+  },
+  {
+    "word": "Formatif Değerlendirme",
+    "clue": "Biçimlendirme ve yetiştirmeye yönelik, süreç odaklı değerlendirme türüdür."
+  },
+  {
+    "word": "Summatif Değerlendirme",
+    "clue": "Öğretim süreci sonunda öğrenciye not vermek ve başarı düzeyini belirlemek için yapılan düzey belirleyici değerlendirmedir."
+  },
+  {
+    "word": "Summatif Değerlendirme",
+    "clue": "Dönem sonu sınavları veya bitirme tezleri ile yapılan, sertifika vermeyi amaçlayan süreçtir."
+  },
+  {
+    "word": "Summatif Değerlendirme",
+    "clue": "Özetleyici değerlendirme olarak da bilinir ve genellikle notla sonuçlanır."
+  },
+  {
+    "word": "Summatif Değerlendirme",
+    "clue": "Değer biçmeye yönelik, eğitimin hedeflerine ne ölçüde ulaşıldığını gösteren sondajdır."
+  },
+  {
+    "word": "Summatif Değerlendirme",
+    "clue": "Vize ve final sınavları gibi ağırlığı olan genel başarı testleridir."
+  },
+  {
+    "word": "Sınıflama Ölçeği",
+    "clue": "Nesneleri veya bireyleri belli bir özelliğe göre gruplara ayıran en basit ölçek türüdür."
+  },
+  {
+    "word": "Sınıflama Ölçeği",
+    "clue": "Adlandırma ölçeği olarak da bilinen, cinsiyet veya illerin plaka kodları gibi kategoriler oluşturan ölçektir."
+  },
+  {
+    "word": "Sınıflama Ölçeği",
+    "clue": "Sayıların sadece kimlik veya etiket işlevi gördüğü, matematiksel işlem yapılamayan ölçektir."
+  },
+  {
+    "word": "Sınıflama Ölçeği",
+    "clue": "Özelliklerin miktarını göstermeyen, sadece benzerlik ve farklılıklarına göre ayrım yapan tiptir."
+  },
+  {
+    "word": "Sınıflama Ölçeği",
+    "clue": "Medeni duruma göre 'Evli=1, Bekar=2' şeklinde kodlama yapılan veri düzeyidir."
+  },
+  {
+    "word": "Sıralama Ölçeği",
+    "clue": "Nesneleri bir özelliğe sahip oluş miktarına göre azdan çoğa veya çoktan aza dizen ölçek türüdür."
+  },
+  {
+    "word": "Sıralama Ölçeği",
+    "clue": "Büyüklük-küçüklük, üstünlük-astlık ilişkisi kuran ancak aralarındaki farkın eşit olmadığı ölçektir."
+  },
+  {
+    "word": "Sıralama Ölçeği",
+    "clue": "Öğrencileri sınav puanlarına göre birinci, ikinci, üçüncü olarak listelemeyi sağlayan düzeydir."
+  },
+  {
+    "word": "Sıralama Ölçeği",
+    "clue": "Askeri rütbeler veya akademik unvanlar gibi hiyerarşik yapıları ifade eden ölçektir."
+  },
+  {
+    "word": "Sıralama Ölçeği",
+    "clue": "Sıra sayı sıfatlarının (1., 2., 3.) kullanıldığı ancak birimlerin eşit olmadığı veri seviyesidir."
+  },
+  {
+    "word": "Eşit Aralıklı Ölçek",
+    "clue": "Göreceli (bağıl) sıfır noktasının kullanıldığı, birimler arası mesafenin eşit olduğu ölçektir."
+  },
+  {
+    "word": "Eşit Aralıklı Ölçek",
+    "clue": "Termometre ile sıcaklık ölçümü veya takvim kullanımı gibi uygulamalarda görülen ölçek türüdür."
+  },
+  {
+    "word": "Eşit Aralıklı Ölçek",
+    "clue": "Sıfırın 'yokluk' ifade etmediği, oranlama yapılamayan ancak toplama/çıkarma yapılabilen ölçektir."
+  },
+  {
+    "word": "Eşit Aralıklı Ölçek",
+    "clue": "Eğitimde ve psikolojide (zeka, yetenek, ilgi testleri) en çok kullanılan veri düzeyidir."
+  },
+  {
+    "word": "Eşit Aralıklı Ölçek",
+    "clue": "Sıcaklığın 20 dereceden 40 dereceye çıkmasının 'iki katına çıktı' denilemediği ancak aradaki farkın 20 olduğu ölçektir."
+  },
+  {
+    "word": "Eşit Oranlı Ölçek",
+    "clue": "Mutlak (gerçek) sıfır noktasının bulunduğu, en gelişmiş ve en çok bilgi veren ölçektir."
+  },
+  {
+    "word": "Eşit Oranlı Ölçek",
+    "clue": "Ağırlık, uzunluk, yaş gibi fiziksel ölçümlerde kullanılan, sıfırın 'hiçlik' belirttiği ölçek türüdür."
+  },
+  {
+    "word": "Eşit Oranlı Ölçek",
+    "clue": "Dört işlemin tamamının yapılabildiği ve değişkenler arası orantı kurulabilen düzeydir."
+  },
+  {
+    "word": "Eşit Oranlı Ölçek",
+    "clue": "100 cm'nin 50 cm'nin tam iki katı olduğunu söyleyebilmemizi sağlayan ölçektir."
+  },
+  {
+    "word": "Eşit Oranlı Ölçek",
+    "clue": "Hız, süre veya kişi sayısı gibi değişkenlerin ifade edildiği istatistiksel ölçek tipidir."
+  },
+  {
+    "word": "Sabit Hata",
+    "clue": "Ölçmeden ölçmeye miktarı değişmeyen, her ölçümde eşit olarak yansıyan hata türüdür."
+  },
+  {
+    "word": "Sabit Hata",
+    "clue": "Bir öğretmenin tüm öğrencilerin sınav kağıdına 10 puan fazladan eklemesi durumudur."
+  },
+  {
+    "word": "Sabit Hata",
+    "clue": "Cetvelin 0 noktası yerine 2 cm içeriden başlaması nedeniyle herkesin boyunun 2 cm eksik çıkmasıdır."
+  },
+  {
+    "word": "Sabit Hata",
+    "clue": "Yönü ve miktarı kesin olarak bilinen, aritmetik ortalamayı etkileyen fakat standart sapmayı etkilemeyen hatadır."
+  },
+  {
+    "word": "Sabit Hata",
+    "clue": "Geçerliği doğrudan düşüren, ancak güvenirliği etkilemeyen sistematik yanlılıktır."
+  },
+  {
+    "word": "Sistemli Hata",
+    "clue": "Hata miktarının ölçülen büyüklüğe, ölçmeciye veya ölçme koşullarına göre kurallı olarak değiştiği hata türüdür."
+  },
+  {
+    "word": "Sistemli Hata",
+    "clue": "Öğretmenin sadece yazısı güzel olan öğrencilere +5 puan vermesi durumunda oluşan hatadır."
+  },
+  {
+    "word": "Sistemli Hata",
+    "clue": "Kız öğrencilere daha yüksek puan verme veya devamsızlara ceza puanı düşme gibi yanlılık göstergeleridir."
+  },
+  {
+    "word": "Sistemli Hata",
+    "clue": "Sınavda her öğrenciye aldığı notun %10'u kadar ek puan verildiğinde ortaya çıkan değişkendir."
+  },
+  {
+    "word": "Sistemli Hata",
+    "clue": "Sadece belirli bir gruba yansıdığı için geçerliği düşüren, yönü bilinen kasıtlı veya kasıtsız hatadır."
+  },
+  {
+    "word": "Tesadüfi Hata",
+    "clue": "Kaynağı, yönü ve miktarı tam olarak bilinemeyen, ölçme sonuçlarına rastgele karışan hata türüdür."
+  },
+  {
+    "word": "Tesadüfi Hata",
+    "clue": "Öğrencinin sınav esnasında hastalanması, dikkatsizliği veya şans başarısı nedeniyle oluşan sapmadır."
+  },
+  {
+    "word": "Tesadüfi Hata",
+    "clue": "Sınav ortamının gürültülü olması, optik formun yanlış kodlanması gibi kontrol edilemeyen etkenlerdir."
+  },
+  {
+    "word": "Tesadüfi Hata",
+    "clue": "Ölçme aracının güvenirliğini doğrudan ve en çok düşüren hata çeşididir."
+  },
+  {
+    "word": "Tesadüfi Hata",
+    "clue": "İstatistiksel olarak ortalamasının sıfır olduğu varsayılan, rastgelelik barındıran varyanstır."
+  },
+  {
+    "word": "Güvenirlik",
+    "clue": "Ölçme aracının ölçtüğü özelliği hatalardan (tesadüfi) arınık olarak, istikrarlı ve tutarlı biçimde ölçmesidir."
+  },
+  {
+    "word": "Güvenirlik",
+    "clue": "Bir testin farklı zamanlarda aynı gruba uygulandığında benzer sonuçlar vermesi (kararlılık) durumudur."
+  },
+  {
+    "word": "Güvenirlik",
+    "clue": "Soru sayısını artırmanın, duyarlılığı yükselterek doğrudan artırdığı temel kavramdır."
+  },
+  {
+    "word": "Güvenirlik",
+    "clue": "Test içindeki maddelerin birbirleriyle uyumu ve homojenliğine (iç tutarlılık) dayalı özelliktir."
+  },
+  {
+    "word": "Güvenirlik",
+    "clue": "Geçerlik için bir ön koşul olup, 0.00 ile +1.00 arasında değer alan katsayıdır."
+  },
+  {
+    "word": "Geçerlik",
+    "clue": "Ölçme aracının, ölçmeyi amaçladığı özelliği başka özelliklerle karıştırmadan tam ve doğru olarak ölçebilme derecesidir."
+  },
+  {
+    "word": "Geçerlik",
+    "clue": "Bir sınavın amaca ne ölçüde hizmet ettiğini, yani \"ölçmek istenileni ne kadar doğru ölçtüğünü\" ifade eder."
+  },
+  {
+    "word": "Geçerlik",
+    "clue": "Sabit ve sistemli hatalardan doğrudan etkilenen, aracın amacına uygunluğunu gösteren kavramdır."
+  },
+  {
+    "word": "Geçerlik",
+    "clue": "Güvenirlik sağlansa bile her zaman garanti olmayan, ölçme aracının en önemli özelliğidir."
+  },
+  {
+    "word": "Geçerlik",
+    "clue": "Bir matematik sınavında soruların sadece matematik bilgisini ölçmesi, okuduğunu anlama becerisine dönüşmemesi gerekliliğidir."
+  },
+  {
+    "word": "Kullanışlılık",
+    "clue": "Ölçme aracının hazırlanmasının, uygulanmasının ve puanlanmasının kolay, ucuz ve pratik olmasıdır."
+  },
+  {
+    "word": "Kullanışlılık",
+    "clue": "Sınavın kısa sürede uygulanabilmesi ve az maliyetli olması ile ilgili özelliğidir."
+  },
+  {
+    "word": "Kullanışlılık",
+    "clue": "Hazır optik okuyucular kullanarak zaman tasarrufu sağlamanın artırdığı test niteliğidir."
+  },
+  {
+    "word": "Kullanışlılık",
+    "clue": "Bir aracın uzmanlık gerektirmeden uygulanabilme ve değerlendirilebilme kolaylığıdır."
+  },
+  {
+    "word": "Kullanışlılık",
+    "clue": "Maliyet, zaman, emek açısından ekonomikliği ifade eden temel ölçme kavramıdır."
+  },
+  {
+    "word": "Kapsam Geçerliği",
+    "clue": "Bir testin, ölçmek istediği hedef davranışları ve konuları yeterli düzeyde temsil edebilme derecesidir."
+  },
+  {
+    "word": "Kapsam Geçerliği",
+    "clue": "Belirtke tablosu kullanılarak, öğretilen her konudan yeteri kadar soru sorulmasıyla sağlanan geçerliktir."
+  },
+  {
+    "word": "Kapsam Geçerliği",
+    "clue": "Uzman kanısı (görüşü) alınarak testin konu evrenini yansıtıp yansıtmadığının kontrol edildiği özelliktir."
+  },
+  {
+    "word": "Kapsam Geçerliği",
+    "clue": "Başarı testlerinde (vize, final vb.) en çok aranan ve en önemli olan geçerlik türüdür."
+  },
+  {
+    "word": "Kapsam Geçerliği",
+    "clue": "Soruların, öğrencilere kazandırılması hedeflenen bilgi ve becerilerin tümünü homojen dağılımla ölçmesidir."
+  },
+  {
+    "word": "Yordama Geçerliği",
+    "clue": "Ölçme aracından elde edilen sonuçların, bireyin gelecekteki başarısını ne derece doğru tahmin ettiğini gösterir."
+  },
+  {
+    "word": "Yordama Geçerliği",
+    "clue": "Üniversiteye giriş sınavı (YKS) puanlarının, öğrencinin üniversite not ortalaması ile korelasyonunun incelenmesidir."
+  },
+  {
+    "word": "Yordama Geçerliği",
+    "clue": "Seçme ve yerleştirme amaçlı testlerde aranan en önemli geçerlik türü olup geleceği tahmin gücüdür."
+  },
+  {
+    "word": "Yordama Geçerliği",
+    "clue": "Ölçütün (gelecekteki performansın) ölçme işleminden sonra (ileride) elde edildiği geçerlik belirleme türüdür."
+  },
+  {
+    "word": "Yordama Geçerliği",
+    "clue": "KPSS'de yüksek puan alan birinin ileride iyi bir öğretmen olup olmayacağının kestirilmesidir."
+  },
+  {
+    "word": "Uygunluk Geçerliği",
+    "clue": "Ölçme aracının sonuçlarının, aynı özelliği ölçen ve önceden uygulanmış (veya aynı anda uygulanan) standart bir testin sonuçlarıyla ilişkisidir."
+  },
+  {
+    "word": "Uygunluk Geçerliği",
+    "clue": "Yeni geliştirilen bir zeka testinin, kabul görmüş mevcut bir zeka testi ile sonuçlarının karşılaştırılmasıdır."
+  },
+  {
+    "word": "Uygunluk Geçerliği",
+    "clue": "Eşzamanlı geçerlik, zamandaş geçerlik veya halihazır geçerlik olarak da adlandırılır."
+  },
+  {
+    "word": "Uygunluk Geçerliği",
+    "clue": "Ölçüt verisinin (kriterin) test ile aynı anda veya testten önce elde edilmiş olması esasına dayanır."
+  },
+  {
+    "word": "Uygunluk Geçerliği",
+    "clue": "Bir aracın sağlamasını mevcut ve güvenilir bir başka araç üzerinden geçmişe/şu ana dönük yapmaktır."
+  },
+  {
+    "word": "Yapı Geçerliği",
+    "clue": "Testin, ölçmeyi amaçladığı teorik kavramı (zeka, kaygı, tutum vb.) ne derece doğru ölçebildiğini gösteren özelliktir."
+  },
+  {
+    "word": "Yapı Geçerliği",
+    "clue": "Faktör analizi yapılarak, soruların aynı psikolojik özelliği veya boyutu ölçüp ölçmediğinin incelenmesidir."
+  },
+  {
+    "word": "Yapı Geçerliği",
+    "clue": "Bir kaygı ölçeğinin gerçekten kaygıyı ölçtüğünün, başka bir duyguyu (örneğin korkuyu) ölçmediğinin kanıtlanmasıdır."
+  },
+  {
+    "word": "Yapı Geçerliği",
+    "clue": "Psikolojik testlerde en çok aranan, içsel tutarlılık ve hipotez testi ile de belirlenebilen geçerliktir."
+  },
+  {
+    "word": "Yapı Geçerliği",
+    "clue": "Test maddelerinin birbirleriyle olan ilişkisinin (korelasyon) teorik bir modeli desteklemesi durumudur."
+  },
+  {
+    "word": "Görünüş Geçerliği",
+    "clue": "Testin adının, formatının ve sorularının dışarıdan bakıldığında ölçmek istediği özelliği ölçüyor gibi algılanmasıdır."
+  },
+  {
+    "word": "Görünüş Geçerliği",
+    "clue": "Matematik testinin kapağında 'Matematik Sınavı' yazması ve soruların rakam/işlem içermesinin yarattığı izlenimdir."
+  },
+  {
+    "word": "Görünüş Geçerliği",
+    "clue": "Uzman olmayan bir kişinin bile testi incelediğinde neyi ölçtüğünü tahmin edebilme derecesidir."
+  },
+  {
+    "word": "Görünüş Geçerliği",
+    "clue": "Bilimsel olmaktan ziyade, katılımcının testi ciddiye almasını ve motive olmasını sağlayan özelliktir."
+  },
+  {
+    "word": "Görünüş Geçerliği",
+    "clue": "Bir fizik sorusunun ilk bakışta fizik sorusu intibası uyandırmasıdır."
+  },
+  {
+    "word": "Test-Tekrar Test Yöntemi",
+    "clue": "Aynı ölçme aracının, aynı gruba belli bir zaman aralığı (genelde 2-4 hafta) bırakılarak iki kez uygulanmasıyla güvenirliğin bulunmasıdır."
+  },
+  {
+    "word": "Test-Tekrar Test Yöntemi",
+    "clue": "Testin zamana karşı direncini, yani 'Kararlılık Katsayısını' (istikrar) belirlemek için kullanılan tekniktir."
+  },
+  {
+    "word": "Test-Tekrar Test Yöntemi",
+    "clue": "Özellikle zeka, kişilik ve tutum gibi kolay değişmeyen özellikleri ölçen testler için uygun güvenirlik yöntemidir."
+  },
+  {
+    "word": "Test-Tekrar Test Yöntemi",
+    "clue": "İki uygulama sonucu arasındaki korelasyon katsayısının yüksek olması beklenen güvenirlik hesabıdır."
+  },
+  {
+    "word": "Test-Tekrar Test Yöntemi",
+    "clue": "Araya giren zaman yüzünden öğrencilerin unutma, öğrenme veya olgunlaşma gibi faktörlerden etkilenebileceği analizdir."
+  },
+  {
+    "word": "Eşdeğer Yarılar Yöntemi",
+    "clue": "Bir testin tek bir gruba bir kez uygulanıp, ardından tek-çift veya ilk-yarı/son-yarı şeklinde ikiye bölünerek korelasyonunun incelenmesidir."
+  },
+  {
+    "word": "Eşdeğer Yarılar Yöntemi",
+    "clue": "Testin iç tutarlılığını bulmak için kullanılan, 'İki Yarı' veya 'Bölünmüş Test' yöntemi olarak bilinen yaklaşımdır."
+  },
+  {
+    "word": "Eşdeğer Yarılar Yöntemi",
+    "clue": "Spearman-Brown formülü kullanılarak yarım testten elde edilen güvenirliğin tüm teste genellendiği hesaplamadır."
+  },
+  {
+    "word": "Eşdeğer Yarılar Yöntemi",
+    "clue": "Maddelerin homojenliğini kontrol eden, pratik bir tek uygulamalı güvenirlik bulma tekniğidir."
+  },
+  {
+    "word": "Eşdeğer Yarılar Yöntemi",
+    "clue": "Soruların yarısı ile diğer yarısının birbirine paralel olup olmadığını ölçen güvenirliğin iç tutarlılık analizidir."
+  },
+  {
+    "word": "KR-20",
+    "clue": "Kuder-Richardson tarafından geliştirilen, maddelerin 1-0 şeklinde (doğru-yanlış) puanlandığı durumlarda iç tutarlılığı ölçen formüldür."
+  },
+  {
+    "word": "KR-20",
+    "clue": "Testteki maddelerin güçlük dereceleri birbirinden farklı olduğunda kullanılan güvenirlik hesaplamasıdır."
+  },
+  {
+    "word": "KR-20",
+    "clue": "Madde varyanslarının toplamı üzerinden hesaplanarak soruların homojenliğini ve iç tutarlılığını gösteren katsayıdır."
+  },
+  {
+    "word": "KR-20",
+    "clue": "Bu katsayı yüksek çıkarsa 'Test tek boyutludur ve sorular aynı özelliği ölçmektedir' yorumu yapılır."
+  },
+  {
+    "word": "KR-20",
+    "clue": "Doğru cevaba 1, yanlış veya boş cevaba 0 puan verilen testlerde yapı geçerliği hakkında da fikir veren formüldür."
+  },
+  {
+    "word": "KR-21",
+    "clue": "Maddelerin eşit güçlükte olduğu varsayımıyla (veya madde güçlükleri bilinmediğinde aritmetik ortalama kullanılarak) hesaplanan iç tutarlılık formüldür."
+  },
+  {
+    "word": "KR-21",
+    "clue": "KR-20 formülünün daha basit ve özel bir hali olup her zaman KR-20'den küçük veya ona eşit bir sonuç verir."
+  },
+  {
+    "word": "KR-21",
+    "clue": "Sadece testin ortalaması, varyansı ve soru sayısı bilindiğinde (1-0 puanlamalı testte) kolayca hesaplanan katsayıdır."
+  },
+  {
+    "word": "KR-21",
+    "clue": "Bu katsayı yüksek ise öğrencilerin düzeylerinin birbirinden farklı olduğu (heterojen grup) yorumu yapılabilir."
+  },
+  {
+    "word": "KR-21",
+    "clue": "Madde güçlük indeksleri hesaplanamadığında testin genel güvenirliğini tahmin eden istatistiksel araçtır."
+  },
+  {
+    "word": "Cronbach Alpha",
+    "clue": "Likert tipi (1'den 5'e kadar dereceli) tutum ölçekleri veya psikolojik testler için geliştirilmiş iç tutarlılık katsayısıdır."
+  },
+  {
+    "word": "Cronbach Alpha",
+    "clue": "Sadece doğru-yanlış (1-0) değil, çoklu puanlama sistemine sahip (kısmi puanlama yapılan) araçlarda kullanılan güvenirlik yöntemidir."
+  },
+  {
+    "word": "Cronbach Alpha",
+    "clue": "Testteki her bir sorunun diğer sorularla ve testin bütünüyle ne kadar tutarlı olduğunu gösteren değerdir."
+  },
+  {
+    "word": "Cronbach Alpha",
+    "clue": "Yazılı yoklamalar veya dereceleme ölçekleri gibi araçlarda güvenirliği (homojenliği) kanıtlayan katsayıdır."
+  },
+  {
+    "word": "Cronbach Alpha",
+    "clue": "Bu değer 0.70 ve üzerinde olduğunda testin yapısal olarak tutarlı olduğu kabul edilen istatistiktir."
+  },
+  {
+    "word": "Madde Güçlük İndeksi",
+    "clue": "Bir soruyu doğru cevaplayanların sayısının, soruyu yanıtlayan toplam kişi sayısına (p veya pj) oranıdır."
+  },
+  {
+    "word": "Madde Güçlük İndeksi",
+    "clue": "0.00 ile +1.00 arasında değer alan, sorunun ne kadar kolay veya zor olduğunu gösteren parametredir."
+  },
+  {
+    "word": "Madde Güçlük İndeksi",
+    "clue": "Değeri 1'e yaklaştıkça sorunun kolaylaştığını, 0'a yaklaştıkça zorlaştığını ifade eden istatistiktir."
+  },
+  {
+    "word": "Madde Güçlük İndeksi",
+    "clue": "0.50 civarında olması, testin ortalama güçlükte olduğunu ve ayırıcılığının yüksek olma potansiyelini gösterir."
+  },
+  {
+    "word": "Madde Güçlük İndeksi",
+    "clue": "Sınıfın başarı düzeyini veya testin ortalamasını doğrudan etkileyen madde bazlı değerdir."
+  },
+  {
+    "word": "Madde Ayırıcılık İndeksi",
+    "clue": "Bir sorunun, ölçülen özellik bakımından üstün olanlarla zayıf olanları ne derece ayırt edebildiğini gösteren değerdir."
+  },
+  {
+    "word": "Madde Ayırıcılık İndeksi",
+    "clue": "-1.00 ile +1.00 arasında değer alan (rjx), sorunun kalitesini gösteren en önemli ölçüttür."
+  },
+  {
+    "word": "Madde Ayırıcılık İndeksi",
+    "clue": "Üst grup (başarılı olanlar) ile alt grup (başarısız olanlar) arasındaki doğru cevaplama farkına dayanan istatistiktir."
+  },
+  {
+    "word": "Madde Ayırıcılık İndeksi",
+    "clue": "Değeri 0.30 ve üzeri olması istenen, 0.40 üzerinde ise çok kaliteli (mükemmel) kabul edilen sorunun parametresidir."
+  },
+  {
+    "word": "Madde Ayırıcılık İndeksi",
+    "clue": "Negatif veya sıfıra yakın çıkması durumunda sorunun testten çıkarılması veya tamamen düzeltilmesi gerektiğine işaret eden kavramdır."
+  },
+  {
+    "word": "Aritmetik Ortalama",
+    "clue": "Öğrencilerin aldıkları puanların toplamının öğrenci (veri) sayısına bölünmesiyle elde edilen merkezi eğilim ölçüsüdür."
+  },
+  {
+    "word": "Aritmetik Ortalama",
+    "clue": "Sınıfın genel başarı düzeyini (öğrenme düzeyini, grubun ağırlık merkezini) gösteren en güvenilir parametredir."
+  },
+  {
+    "word": "Aritmetik Ortalama",
+    "clue": "Uç değerlerden (çok yüksek veya çok düşük notlar) en çok etkilenen merkezi yığılma ölçüsüdür."
+  },
+  {
+    "word": "Aritmetik Ortalama",
+    "clue": "Normal dağılımda medyan ve mod ile aynı (veya çok yakın) değeri alan temel istatistiksel veridir."
+  },
+  {
+    "word": "Aritmetik Ortalama",
+    "clue": "Madde güçlük indekslerinin toplamına eşit olan test istatistiğidir."
+  },
+  {
+    "word": "Medyan",
+    "clue": "Büyüklük sırasına göre dizilmiş bir veri grubunu tam ortadan iki eşit parçaya bölen değere verilen isimdir."
+  },
+  {
+    "word": "Medyan",
+    "clue": "Uç noktalardaki aşırı değerlerden (sivri sapmalardan) etkilenmediği için çarpık dağılımlarda ortalamadan daha güvenilir olan ölçüdür."
+  },
+  {
+    "word": "Medyan",
+    "clue": "Ortanca olarak da adlandırılan ve %50'lik dilimi (ikinci çeyreklik - Q2) temsil eden merkezi eğilim ölçüsüdür."
+  },
+  {
+    "word": "Medyan",
+    "clue": "Sınıftaki öğrencilerin yarısının altında, diğer yarısının üstünde not aldığı referans noktasıdır."
+  },
+  {
+    "word": "Medyan",
+    "clue": "Sola veya sağa çarpık (asimetrik) dizilerde grubun başarısını yorumlamak için aritmetik ortalamaya tercih edilen değerdir."
+  },
+  {
+    "word": "Mod",
+    "clue": "Bir veri grubunda (sınav sonuçlarında) en çok tekrar eden, frekansı en yüksek olan değere verilen isimdir."
+  },
+  {
+    "word": "Mod",
+    "clue": "Tepe değer olarak da bilinen, hakkında en kaba ve en az bilgi veren merkezi eğilim ölçüsüdür."
+  },
+  {
+    "word": "Mod",
+    "clue": "Dağılım grafiğinin en yüksek noktasını (zirvesini) belirleyen sayısal veridir."
+  },
+  {
+    "word": "Mod",
+    "clue": "Birden fazla değere sahip olabilen (bimodal/çok modlu) veya hiç bulunmayan (frekanslar eşitse) ölçüdür."
+  },
+  {
+    "word": "Mod",
+    "clue": "Sınıftaki öğrencilerin çoğunluğunun ortak olarak aldığı notu (popüler not) gösterir."
+  },
+  {
+    "word": "Standart Sapma",
+    "clue": "Puanların aritmetik ortalamadan ne kadar uzaklaştığını (dağıldığını) gösteren merkezi dağılım ölçüsüdür."
+  },
+  {
+    "word": "Standart Sapma",
+    "clue": "Grubun homojen (benzer) veya heterojen (farklı) olup olmadığını belirlemek için kullanılan temel göstergedir."
+  },
+  {
+    "word": "Standart Sapma",
+    "clue": "Değeri yüksekse öğrencilerin düzeyleri arasındaki farkın çok olduğu, testin ayırt ediciliğinin yüksek olduğu anlaşılır."
+  },
+  {
+    "word": "Standart Sapma",
+    "clue": "Varyansın karekökü alınarak hesaplanan, güvenirlik üzerinde doğrudan etkili olan yayılma ölçüsüdür."
+  },
+  {
+    "word": "Standart Sapma",
+    "clue": "Z ve T puanlarının hesaplanabilmesi için aritmetik ortalama ile birlikte ihtiyaç duyulan değerdir."
+  },
+  {
+    "word": "Varyans",
+    "clue": "Puanların aritmetik ortalamadan farklarının karelerinin ortalaması olarak hesaplanan dağılım ölçüsüdür."
+  },
+  {
+    "word": "Varyans",
+    "clue": "Standart sapmanın karesine eşit olan ve veri genişliğini, değişkenliği gösteren istatistiktir."
+  },
+  {
+    "word": "Varyans",
+    "clue": "İstatistiksel analizlerde, ANOVA (varyans analizi) gibi işlemlerde doğrudan kullanılan, farklılaşma derecesidir."
+  },
+  {
+    "word": "Varyans",
+    "clue": "Değer büyüdükçe testin güvenirlik katsayısının (ve testin ayırıcılığının) da arttığı varsayılan değişkendir."
+  },
+  {
+    "word": "Varyans",
+    "clue": "Karekökü standart sapmayı veren, grup içindeki notların saçılımını açıklayan orandır."
+  },
+  {
+    "word": "Ranj",
+    "clue": "Bir veri setindeki en büyük değer (en yüksek not) ile en küçük değer (en düşük not) arasındaki farktır."
+  },
+  {
+    "word": "Ranj",
+    "clue": "Dizi genişliği (açıklık) olarak da adlandırılan en basit merkezi dağılım ölçüsüdür."
+  },
+  {
+    "word": "Ranj",
+    "clue": "Sadece uç değerlere dayandığı için veri dağılımı hakkında yüzeysel ve yanıltıcı bilgi verebilen istatistiktir."
+  },
+  {
+    "word": "Ranj",
+    "clue": "Gruptaki heterojenlik veya homojenlik hakkında ilk ve en hızlı fikri veren yayılım ölçüsüdür."
+  },
+  {
+    "word": "Ranj",
+    "clue": "Sınıftaki bir kişinin notu aşırı düşük veya aşırı yüksek olduğunda aniden büyüyen güvensiz aralıktır."
+  },
+  {
+    "word": "Z Puanı",
+    "clue": "Öğrencinin aldığı ham puanın, sınıfın aritmetik ortalamasından standart sapma cinsinden ne kadar uzakta olduğunu gösteren standart puandır."
+  },
+  {
+    "word": "Z Puanı",
+    "clue": "Farklı sınavlardan alınan notları karşılaştırabilmek (aynı birime çevirmek) için kullanılan, ortalaması 0, sapması 1 olan sistemdir."
+  },
+  {
+    "word": "Z Puanı",
+    "clue": "(Ham Puan - Aritmetik Ortalama) / Standart Sapma formülüyle hesaplanan bağıl değerlendirme kriteridir."
+  },
+  {
+    "word": "Z Puanı",
+    "clue": "Bir öğrencinin sınıf içindeki sırasını (yüzdelik dilimini) ve gerçek başarısını belirlemeye yarayan değişkendir."
+  },
+  {
+    "word": "Z Puanı",
+    "clue": "Negatif değerler alabildiği için (örneğin -1, -2) bazen velilere ve öğrencilere açıklanması zor olan istatistiksel ölçüdür."
+  },
+  {
+    "word": "T Puanı",
+    "clue": "Z puanının eksi değerlerden kurtarılması amacıyla, ortalaması 50 ve standart sapması 10 kabul edilerek oluşturulan standart puandır."
+  },
+  {
+    "word": "T Puanı",
+    "clue": "Formülü 10z + 50 olan ve hesaplandığında daima pozitif tam sayı değerler alan puandır."
+  },
+  {
+    "word": "T Puanı",
+    "clue": "Z puanının daha kullanışlı ve anlaşılır hali olup bağıl değerlendirmede (örn: KPSS'de) yaygın kullanılan hesaplamadır."
+  },
+  {
+    "word": "T Puanı",
+    "clue": "Öğrencinin Z puanı sıfır olduğunda, doğrudan 50 değerini alan istatistiksel puandır."
+  },
+  {
+    "word": "T Puanı",
+    "clue": "Negatif değerleri ortadan kaldırarak öğrenci sıralamasını daha pratik hale getiren standartlaştırılmış ölçüttür."
+  },
+  {
+    "word": "Çoktan Seçmeli Test",
+    "clue": "Soru kökü ve seçeneklerden (çeldirici ve doğru cevap) oluşan, şans başarısının bulunduğu objektif test türüdür."
+  },
+  {
+    "word": "Çoktan Seçmeli Test",
+    "clue": "Madde sayısı çok tutulabildiği için kapsam geçerliği en yüksek olan, hazırlanması zor puanlanması kolay testtir."
+  },
+  {
+    "word": "Çoktan Seçmeli Test",
+    "clue": "Sentez (yaratma) ve değerlendirme gibi üst düzey bilişsel basamakları ölçmekte yetersiz kalan ölçme aracıdır."
+  },
+  {
+    "word": "Çoktan Seçmeli Test",
+    "clue": "Okuduğunu anlama hızının önemli olduğu, çok sayıda öğrencinin aynı anda nesnel olarak değerlendirilebildiği yöntemdir."
+  },
+  {
+    "word": "Çoktan Seçmeli Test",
+    "clue": "Düzeltme formülünün (yanlışın doğruyu götürmesi) kullanılması gereken en yaygın standart testtir."
+  },
+  {
+    "word": "Yazılı Yoklama",
+    "clue": "Öğrencinin sorunun cevabını kendisinin düşünüp yazdığı, açık uçlu klasik sınav türüdür."
+  },
+  {
+    "word": "Yazılı Yoklama",
+    "clue": "Sentez, değerlendirme (yaratıcılık, eleştirel düşünme, organizasyon) gibi en üst düzey davranışları ölçmede en etkili araçtır."
+  },
+  {
+    "word": "Yazılı Yoklama",
+    "clue": "Soru sayısı az olduğu için kapsam geçerliği düşük olan, ancak şans başarısı barındırmayan ölçme aracıdır."
+  },
+  {
+    "word": "Yazılı Yoklama",
+    "clue": "Puanlayıcı yanlılığının (subjektifliğin) karışma ihtimali en yüksek olan, puanlama güvenirliği düşük testtir."
+  },
+  {
+    "word": "Yazılı Yoklama",
+    "clue": "Yazı güzelliği, kağıt düzeni, ifade gücü gibi faktörlerin sistemli hataya yol açabildiği klasik yöntemdir."
+  },
+  {
+    "word": "Kısa Cevaplı Test",
+    "clue": "Cevabı bir kelime, bir rakam veya en fazla bir cümle olan, boşluk doldurma şeklinde de sorulabilen test türüdür."
+  },
+  {
+    "word": "Kısa Cevaplı Test",
+    "clue": "Hatırlama (bilgi) basamağını ölçen, çok soru sorulabildiği için kapsam geçerliği yüksek olan sınav şeklidir."
+  },
+  {
+    "word": "Kısa Cevaplı Test",
+    "clue": "Şans başarısının sıfır (veya çok düşük) olduğu, puanlaması nispeten objektif olan yarı-yapılandırılmış araçtır."
+  },
+  {
+    "word": "Kısa Cevaplı Test",
+    "clue": "Cevabın kesinliği sayesinde değerlendirmenin kolay olduğu, ilköğretimden üniversiteye her kademede kullanılabilen testtir."
+  },
+  {
+    "word": "Kısa Cevaplı Test",
+    "clue": "Öğrencilerin sadece ezberini (olgusal bilgileri) ölçtüğü için eleştirilen soru tiplerindendir."
+  },
+  {
+    "word": "Doğru-Yanlış Testi",
+    "clue": "Verilen bir önermenin doğru mu yoksa yanlış mı olduğunun işaretlenmesini gerektiren, sadece iki seçeneği olan testtir."
+  },
+  {
+    "word": "Doğru-Yanlış Testi",
+    "clue": "%50 şans başarısı barındırdığı için güvenirliği düşük olan ölçme aracıdır."
+  },
+  {
+    "word": "Doğru-Yanlış Testi",
+    "clue": "Daha çok bilgi basamağındaki veya ilke/kavram düzeyindeki olguları ölçmek için kullanılan kısa süreli testtir."
+  },
+  {
+    "word": "Doğru-Yanlış Testi",
+    "clue": "Okuma süresi çok kısa olduğundan en fazla sorunun sorulabileceği, kapsam geçerliği sağlanabilen soru türüdür."
+  },
+  {
+    "word": "Doğru-Yanlış Testi",
+    "clue": "İfadelerin kesin doğruluğu veya kesin yanlışlığı üzerine kurulduğu için tartışmaya açık konularda kullanılamayan ölçme aracıdır."
+  },
+  {
+    "word": "Performans Görevi",
+    "clue": "Öğrencinin sahip olduğu bilgi ve becerileri günlük hayat benzeri bir problem durumunda ortaya koymasını isteyen uygulamalı süreçtir."
+  },
+  {
+    "word": "Performans Görevi",
+    "clue": "Bilişsel becerilerin yanı sıra psikomotor ve duyuşsal özellikleri (el becerisi, iletişim, sunum) de ölçebilen çağdaş görevdir."
+  },
+  {
+    "word": "Performans Görevi",
+    "clue": "Sürecin (nasıl yapıldığının) ve/veya ürünün (ortaya ne çıktığının) rubriklerle değerlendirildiği etkinliktir."
+  },
+  {
+    "word": "Performans Görevi",
+    "clue": "Öğrencinin kendi potansiyelini sergilemesine imkan tanıyan, tamamlayıcı ve alternatif değerlendirme aracıdır."
+  },
+  {
+    "word": "Performans Görevi",
+    "clue": "Deney yapma, kompozisyon yazma, resim çizme, maket hazırlama gibi öğrenciyi aktifleştiren işlerdir."
+  },
+  {
+    "word": "Portfolyo",
+    "clue": "Öğrencinin belirli bir süreçteki gelişimini, çabasını ve başarısını gösteren çalışmalarının sistemli bir şekilde toplandığı gelişim dosyasıdır."
+  },
+  {
+    "word": "Portfolyo",
+    "clue": "Tümel değerlendirme olarak da adlandırılan, bireysel farklılıkları dikkate alan çok boyutlu ölçme aracıdır."
+  },
+  {
+    "word": "Portfolyo",
+    "clue": "Sadece ürünlerin değil, öğrencinin öz değerlendirmelerinin, taslakların ve öğretmenin dönütlerinin de bulunduğu arşivdir."
+  },
+  {
+    "word": "Portfolyo",
+    "clue": "Öğrenciye kendi öğrenme sorumluluğunu veren, veliyi sürece dahil eden çağdaş değerlendirme yöntemidir."
+  },
+  {
+    "word": "Portfolyo",
+    "clue": "Geleneksel sınavların aksine anlık durumu değil, zamana yayılan akademik ve sosyal büyümeyi kanıtlayan belgeliktir."
+  },
+  {
+    "word": "Rubrik",
+    "clue": "Performans görevleri veya açık uçlu sorular için hazırlanan, beklentileri ve puanlama kriterlerini düzey düzey tanımlayan dereceli puanlama anahtarıdır."
+  },
+  {
+    "word": "Rubrik",
+    "clue": "Bütüncül (holistik) ve analitik olmak üzere iki türü bulunan, puanlama güvenirliğini (objektifliği) artıran araçtır."
+  },
+  {
+    "word": "Rubrik",
+    "clue": "Öğrencinin değerlendirme öncesinde kendisinden ne beklendiğini ve hangi kritere ne kadar puan verileceğini görmesini sağlayan matristir."
+  },
+  {
+    "word": "Rubrik",
+    "clue": "Öğretmenin değerlendirme yaparken tarafsız kalmasını sağlayan, süreci veya ürünü belirli boyutlarda ele alan rehberdir."
+  },
+  {
+    "word": "Rubrik",
+    "clue": "Yazılı anlatım becerisini, proje ödevlerini veya sözlü sunumları değerlendirmek için hazırlanan detaylı yönergedir."
+  },
+  {
+    "word": "Öz Değerlendirme",
+    "clue": "Öğrencinin kendi öğrenme süreci, performansı ve güçlü/zayıf yönleri hakkında yargıda bulunmasıdır."
+  },
+  {
+    "word": "Öz Değerlendirme",
+    "clue": "Çağdaş eğitimde bireye kendi eksiğini görme, özeleştiri yapma ve bağımsız düşünme becerisi kazandıran araçtır."
+  },
+  {
+    "word": "Öz Değerlendirme",
+    "clue": "Öğrencinin taraflı (subjektif) davranma ihtimali yüksek olduğu için tek başına not vermede kullanılması riskli olan değerlendirmedir."
+  },
+  {
+    "word": "Öz Değerlendirme",
+    "clue": "Öğrenmenin sorumluluğunu üstlenme, içsel motivasyonu artırma ve yansıtıcı düşünmeyi geliştirme amacı taşıyan eylemdir."
+  },
+  {
+    "word": "Öz Değerlendirme",
+    "clue": "Ünite sonunda 'Bu etkinlikte en çok zorlandığım yer neresiydi?', 'Neyi daha iyi yapabilirdim?' sorularına verilen cevaptır."
+  }
+]

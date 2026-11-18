@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Kapadokya",
+    "description": "Peri bacaları, yeraltı şehirleri ve kaya kiliseleriyle ünlü benzersiz bir doğal ve tarihi sit alanıdır. Sıcak hava balon turizmi açısından dünyada marka değerine sahiptir.",
+    "type": "Doğa Turizmi",
+    "provinces": ["50"]
+  },
+  {
+    "name": "Göreme Milli Parkı ve Kapadokya",
+    "description": "Erciyes ve Hasan Dağı volkanik tüflerinin aşınmasıyla oluşan peribacaları ile birlikte, erken Hristiyanlık dönemine ait oyma kiliseleri ve yeraltı şehirleri barındıran Dünya Mirası alanıdır.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["50"]
+  },
+  {
+    "name": "Pamukkale ve Hierapolis",
+    "description": "Traverten terasları ve antik Hierapolis kenti ile hem doğal hem de arkeolojik olarak büyük önem taşır. Termal suları ile sağlık turizminde de öncüdür.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["20"]
+  },
+  {
+    "name": "Efes Antik Kenti",
+    "description": "Antik dönemin en önemli liman şehirlerinden biri olan Efes, Celsus Kütüphanesi, Artemis Tapınağı ve Büyük Tiyatro gibi görkemli yapılara ev sahipliği yapar.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["35"]
+  },
+  {
+    "name": "Nemrut Dağı",
+    "description": "Kommagene Krallığı'na ait devasa heykelleri ve tümülüsüyle ünlüdür. Gündoğumu ve günbatımı manzarasıyla dünyanın en çok ilgi çeken noktalarından biridir.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["02"]
+  },
+  {
+    "name": "Safranbolu Şehri",
+    "description": "Geleneksel Türk sivil mimarisinin en güzel örneklerini barındıran Safranbolu evleri, tarihi dokusu korunmuş ender kentlerden biridir.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["78"]
+  },
+  {
+    "name": "Truva Antik Kenti",
+    "description": "Homeros'un İlyada destanına konu olan Truva Savaşı'nın yaşandığı antik kenttir. 9 farklı yerleşim katmanına sahip eşsiz bir arkeolojik alandır.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["17"]
+  },
+  {
+    "name": "Aspendos",
+    "description": "Antik dünyanın akustiği en iyi korunmuş amfi tiyatrosuna sahiptir. Günümüzde halen uluslararası festivallere ve konserlere ev sahipliği yapmaktadır.",
+    "type": "Kültür Turizmi",
+    "provinces": ["07"]
+  },
+  {
+    "name": "Sümela Manastırı",
+    "description": "Altındere Vadisi'ne hakim sarp bir kayalık üzerine kurulmuş tarihi bir Rum Ortodoks manastırıdır. Karadeniz inanç turizmi rotasının en önemli durağıdır.",
+    "type": "Kültür Turizmi",
+    "provinces": ["61"]
+  },
+  {
+    "name": "Göbeklitepe",
+    "description": "Tarihin sıfır noktası olarak kabul edilen, insanlığın bilinen en eski tapınak kompleksidir. Neolitik dönem inanç sistemlerine ışık tutmaktadır.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["63"]
+  },
+  {
+    "name": "Hattuşaş (Boğazköy)",
+    "description": "Hitit İmparatorluğu'nun başkenti olan kent, Aslanlı Kapı, Yer Kapı ve çivi yazılı tablet arşiviyle Anadolu'nun en eski uygarlık merkezlerindendir.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["19"]
+  },
+  {
+    "name": "Ani Arkeolojik Alanı",
+    "description": "Ortaçağ'ın en büyük ticaret merkezlerinden biri olan İpek Yolu üzerindeki tarihi kent, Türk-İslam ve Ermeni mimarisinin eşsiz örneklerini barındırır.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["36"]
+  },
+  {
+    "name": "Divriği Ulu Camii ve Darüşşifası",
+    "description": "Mengücekoğulları döneminde inşa edilen eser, benzersiz taş işçiliği ve gölgelerle oluşan silüetleriyle Anadolu Selçuklu sanatının bir şaheseridir.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["58"]
+  },
+  {
+    "name": "Patara",
+    "description": "Likya Birliği'nin başkenti olan antik kenttir. Aynı zamanda dünyanın en eski demokratik meclis binasını (Bouleuterion) sınırlarında bulundurur.",
+    "type": "Kültür Turizmi",
+    "provinces": ["07"]
+  },
+  {
+    "name": "Perge Antik Kenti",
+    "description": "Pamfilya bölgesinin önemli kentlerinden olan Perge, görkemli sütunlu caddeleri, tiyatrosu, stadyumu ve su kanallarıyla muhteşem bir arkeolojik alandır.",
+    "type": "Kültür Turizmi",
+    "provinces": ["07"]
+  },
+  {
+    "name": "Afrodisias",
+    "description": "Antik dönemin en büyük heykeltıraşlık okullarından birine ev sahipliği yapmış olan kent, devasa stadyumu ve muazzam heykelleri ile tanınır.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["09"]
+  },
+  {
+    "name": "Bergama Çok Katmanlı Kültürel Peyzaj Alanı",
+    "description": "Helenistik dönemin en önemli merkezlerinden olan Bergama (Pergamon), dik yamaç tiyatrosu ve antik hastanesi Asklepion ile meşhurdur.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["35"]
+  },
+  {
+    "name": "Çatalhöyük Neolitik Kenti",
+    "description": "İnsanlığın avcı-toplayıcı düzenden yerleşik hayata geçişine ve ilk şehirleşme süreçlerine ışık tutan dünyanın en eski yerleşim yerlerinden biridir.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["42"]
+  },
+  {
+    "name": "Xanthos-Letoon",
+    "description": "Likya medeniyetinin dini ve idari başkenti olan iki komşu antik kenttir. Dikilitaşları ve antik yazıtları ile ünlüdür.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["07", "48"]
+  },
+  {
+    "name": "Selimiye Camii ve Külliyesi",
+    "description": "Mimar Sinan'ın 'ustalık eserim' olarak nitelendirdiği cami, Osmanlı dönemi klasik mimarisinin şaheseri ve Edirne'nin simgesidir.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["22"]
+  },
+  {
+    "name": "İstanbul'un Tarihi Alanları (Topkapı Sarayı)",
+    "description": "Osmanlı İmparatorluğu'nun yüzlerce yıl yönetim merkezi olan Topkapı Sarayı, Kutsal Emanetler, Harem ve muhteşem avlularıyla tarihi yarımadanın incisidir.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["34"]
+  },
+  {
+    "name": "İstanbul'un Tarihi Alanları (Ayasofya)",
+    "description": "Bizans İmparatorluğu döneminde inşa edilen dünyanın en büyük mabetlerinden olan yapı, etkileyici kubbesi, mozaikleri ve tarihi ile mimarlık tarihinin şaheseridir.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["34"]
+  },
+  {
+    "name": "Bursa ve Cumalıkızık",
+    "description": "Osmanlı İmparatorluğu'nun ilk başkenti ve ticari merkezi olan Bursa ile erken Osmanlı döneminin köy hayatını yansıtan tarihi Cumalıkızık köyüdür.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["16"]
+  },
+  {
+    "name": "Diyarbakır Kalesi ve Hevsel Bahçeleri",
+    "description": "Bölgede hüküm süren pek çok medeniyetin izini taşıyan görkemli şehir surları ile tarihi Hevsel tarım havzası benzersiz bir kültürel bütünlük oluşturur.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["21"]
+  },
+  {
+    "name": "Uludağ",
+    "description": "Türkiye'nin en popüler ve tesisleşmiş kış sporları ve kayak merkezidir. Antik çağlarda Olympos Mysios adıyla anılan dağdır.",
+    "type": "Kış Turizmi",
+    "provinces": ["16"]
+  },
+  {
+    "name": "Palandöken",
+    "description": "Toz kar kalitesi ve uzun kayak pistleriyle öne çıkan Türkiye'nin en yüksek rakımlı uluslararası düzeydeki kayak ve kış turizmi merkezidir.",
+    "type": "Kış Turizmi",
+    "provinces": ["25"]
+  },
+  {
+    "name": "Ayder Yaylası",
+    "description": "Kaçkar Dağları'nın eteklerinde, ladin ve çam ormanlarıyla kaplı eşsiz bir doğa ve kaplıca merkezidir. Trekking ve doğa turizminin kalbidir.",
+    "type": "Doğa Turizmi",
+    "provinces": ["53"]
+  },
+  {
+    "name": "Ölüdeniz",
+    "description": "Durgun ve turkuaz rengi suları ile dünyanın en güzel plajlarından biridir. Aynı zamanda Babadağ üzerinden yapılan yamaç paraşütü için bir cazibe merkezidir.",
+    "type": "Sahil Turizmi",
+    "provinces": ["48"]
+  },
+  {
+    "name": "Ihlara Vadisi",
+    "description": "Melendiz Çayı'nın aşındırmasıyla oluşan derin ve sarp vadidir. Vadi yamaçlarına oyulmuş erken dönem Hıristiyan kiliseleri barındırır.",
+    "type": "Doğa Turizmi",
+    "provinces": ["68"]
+  },
+  {
+    "name": "Olympos",
+    "description": "Antik kalıntılarla çam ormanlarının denize ulaştığı noktada buluştuğu harika bir koya sahip yerleşim. Ağaç evleri ve bakir doğası ile ünlü bir sırt çantalı gezgin cennetidir.",
+    "type": "Sahil Turizmi",
+    "provinces": ["07"]
+  },
+  {
+    "name": "Afyonkarahisar Kaplıcaları",
+    "description": "Türkiye'nin en önemli termal ve sağlık turizm merkezlerindendir. Zengin mineralli suları pek çok rahatsızlığa iyi gelir.",
+    "type": "Termal Turizm",
+    "provinces": ["03"]
+  },
+  {
+    "name": "Gordion",
+    "description": "Frigya Krallığı'nın siyasi ve kültürel başkenti. Kral Midas'ın devasa tümülüsü ile Anadolu arkeolojisinin en önemli noktalarındandır.",
+    "type": "UNESCO Dünya Mirası",
+    "provinces": ["06"]
+  }
+]

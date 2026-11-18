@@ -1,0 +1,50 @@
+[
+  {
+    "unitName": "Kardiyoloji ve Göğüs Hastalıkları",
+    "unitIndex": 1,
+    "sections": [
+      {
+        "title": "Akut Koroner Sendromlar ve EKG Lokalizasyonu",
+        "content": "Göğüs ağrısı ile acile gelen hastada ilk 10 dakikada EKG çekilmelidir:\n\n- **STEMI Tanısı**: En az birbirini izleyen 2 derivasyonda yeni ST elevasyonu (V2-V3'te erkeklerde >=2-2.5 mm, kadınlarda >=1.5 mm, diğer derivasyonlarda >=1 mm).\n- **EKG Lokalizasyonları ve Tıkalı Arterler**:\n  - **Anterior MI (V1-V4)**: LAD (Sol ön inen arter). En sık görülen ve en ölümcül MI tipidir.\n  - **Lateral MI (I, aVL, V5, V6)**: Cx (Sirkumfleks) veya Diagonal arter.\n  - **İnferior MI (DII, DIII, aVF)**: RCA (%85-90) veya Cx. Bradikardi ve AV bloklar sıktır. Nitrat verilirse ani hipotansiyon gelişebilir (özellikle sağ ventrikül tutulumunda)!\n  - **Sağ Ventrikül MI (V3R, V4R)**: İnferior MI'ya eşlik eder. Tedavide IV serum fizyolojik verilir; nitrat ve diüretik kontrendikedir!\n  - **Posterior MI (V1-V3'te ayna görüntüsü: ST depresyonu, uzun R dalgası)**: V7, V8, V9'da ST elevasyonu ile teyit edilir.\n- **Biyobelirteçler**: Kardiyak Troponin I ve T en duyarlı ve özgüldür (2-4. saatte yükselir, 7-14 gün yüksek kalır). **CK-MB** 48-72 saatte normale döner; bu nedenle **re-infarktüs (tekrar kalp krizi)** tanısında 1 numaradır!",
+        "summary": "Anterior LAD (V1-V4), İnferior RCA (DII, DIII, aVF), Lateral Cx (I, aVL, V5-V6). Troponin altın standart, CK-MB re-infarktüste kullanılır.",
+        "keyPoints": [
+          "Re-infarktüs tanısında troponin değil CK-MB kullanılır (çünkü troponin 2 hafta yüksek kalır).",
+          "Sağ ventrikül MI'da nitrat ve morfin kontrendikedir; tedavi bol IV hidrasyondur.",
+          "STEMI'de kapı-balon süresi hedefi <90 dakikadır."
+        ],
+        "model3d": "heart",
+        "image2d": "gorsel_hafiza/ecg_st_elevation.png"
+      },
+      {
+        "title": "KOAH, Astım ve Solunum Fonksiyon Testleri",
+        "content": "Obstrüktif akciğer hastalıklarının ayrımı solunum fonksiyon testleri (SFT) ile yapılır:\n\n- **SFT Bulguları**: Obstrüksiyon tanısı için **FEV1/FVC < %70 (veya <0.70)** olması şarttır!\n- **Reversibilite Testi**: Kısa etkili beta-2 agonist (Salbutamol) inhalasyonu sonrası FEV1'de en az **%12 ve 200 mL artış** olması reversibilite (astım lehine) göstergesidir. KOAH'ta bu düzelme tam olmaz.\n- **KOAH Tedavisinde Sağkalımı (Mortaliteyi) Artıran 3 Müdahale**:\n  1. **Sigaranın bırakılması** (en etkili yöntem),\n  2. **Uzun Süreli Oksijen Tedavisi (USOT)**: PaO2 <= 55 mmHg veya SaO2 <= %88 olan hipoksemik KOAH hastasında günde en az 15 saat oksijen verilmesi,\n  3. **Akciğer volüm küçültücü cerrahi** (seçilmiş üst lob amfizemi olgularında).\n- **Pulmoner Emboli**: Tanıda altın standart Pulmoner BT Anjiyografi'dir. EKG'de klasik ama nadir bulgu S1Q3T3 paterni, en sık bulgu ise sinüs taşikardisidir.",
+        "summary": "Obstrüksiyon: FEV1/FVC < %70. Reversibilite FEV1'de >=%12 ve 200 mL artıştır. KOAH'ta mortaliteyi azaltanlar: Sigarayı bırakma ve Uzun Süreli O2 Tedavisi.",
+        "keyPoints": [
+          "KOAH'ta mortaliteyi azaltan farmakolojik tedavi YOKTUR; sadece sigarayı bırakma ve O2 tedavisi sağkalımı uzatır.",
+          "Pulmoner embolide en sık EKG bulgusu: Sinüs taşikardisi.",
+          "Astım krizinde pCO2'nin normale dönmesi veya yükselmesi solunum arresti alarmıdır!"
+        ],
+        "model3d": "lungs",
+        "image2d": "gorsel_hafiza/spirometry_loop.png"
+      }
+    ]
+  },
+  {
+    "unitName": "Nefroloji ve Sıvı-Elektrolit",
+    "unitIndex": 2,
+    "sections": [
+      {
+        "title": "Glomerülonefritler ve İdrar Sedimenti",
+        "content": "Glomerüler hastalıklar nefrotik ve nefritik sendrom olarak ikiye ayrılır:\n\n- **Nefrotik Sendrom Kriterleri**: Masif proteinüri (>3.5 g/gün/1.73m2), hipoalbüminemi (<3 g/dL), yaygın ödem ve hiperlipidemi / lipidüri (Maltepe haçı görünümlü oval yağ cisimcikleri).\n  - **Minimal Lezyon Hastalığı**: Çocuklarda en sık nefrotik sendrom etkeni. Işık mikroskobunda glomerüller normaldir; elektron mikroskobunda podosit ayaklarında silinme (efasman) görülür. Steroide yanıtı mükemmeldir.\n  - **Membranöz Nefropati**: Erişkinde primer nefrotik sendromun en sık nedenlerinden biri. Anti-PLA2R antikoru pozitiftir. Bazal membranda 'Spike and Dome' (diken ve kubbe) görünümü.\n- **Nefritik Sendrom Kriterleri**: Hematüri (dismorfik eritrositler ve eritrosit silendirleri - patognomonik!), oligüri, hipertansiyon ve hafif-orta proteinüri.\n  - **IgA Nefropatisi (Berger Hastalığı)**: Dünyada en sık görülen primer glomerülonefrittir. ÜSYE atağından 1-2 gün sonra ortaya çıkan epizodik makroskopik hematüri ile karakterizedir (Synpharyngitic hematüri).",
+        "summary": "Nefrotik: >3.5 g proteinüri, ödem, hipoalbüminemi. Çocukta en sık Minimal Lezyon, erişkinde Membranöz (Anti-PLA2R). Nefritik: Eritrosit silendirleri patognomonik; ÜSYE ile eşzamanlı hematüri = IgA Nefropatisi.",
+        "keyPoints": [
+          "Glomerüler hematürinin kanıtı: Dismorfik eritrositler ve eritrosit silendirleri.",
+          "ÜSYE'den 1-2 gün sonra hematüri: IgA nefropatisi. ÜSYE'den 2-3 hafta sonra hematüri: APSGN.",
+          "Erişkinde nefrotik sendromda derin ven trombozu ve renal ven trombozu riski artar (Antitrombin III kaybı nedeniyle)."
+        ],
+        "model3d": "kidneys",
+        "image2d": "gorsel_hafiza/glomerulonephritis.png"
+      }
+    ]
+  }
+]

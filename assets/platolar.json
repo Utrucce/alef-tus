@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Erzurum Platosu",
+    "description": "Doğu Anadolu Bölgesi'nde yer alan, yüksek rakımlı (2000m üzeri) bir lav platosudur. Yaz yağışları nedeniyle gür çayırlar görülür ve büyükbaş hayvancılık (mera) yaygındır. Çernozyom (kara toprak) toprakları görülür ancak iklim nedeniyle tarıma elverişli değildir.",
+    "type": "Lav Platosu",
+    "provinces": ["25"]
+  },
+  {
+    "name": "Kars Platosu",
+    "description": "Erzurum Platosu ile benzer özellikler gösterir. Türkiye'nin en yüksek platolarından biridir. Yazları serin ve yağışlı, kışları ise çok sert geçer. Büyükbaş hayvancılık ve peynir üretimi (Kars kaşarı vb.) ile öne çıkar. Çernozyom toprakları barındırır.",
+    "type": "Lav Platosu",
+    "provinces": ["36"]
+  },
+  {
+    "name": "Ardahan Platosu",
+    "description": "Kuzeydoğu Anadolu'da yer alan, volkanik faaliyetler sonucu oluşmuş lav platosudur. Yüksek rakımı ve sert karasal iklimi ile bilinir. Gür çayırlar büyükbaş mera hayvancılığı için ideal ortam sunar.",
+    "type": "Lav Platosu",
+    "provinces": ["75"]
+  },
+  {
+    "name": "Teke Platosu",
+    "description": "Akdeniz Bölgesi'nde, Antalya'nın batısında yer alan karstik bir platodur. Kalker (kireçtaşı) yapısı nedeniyle yüzey suları bakımından fakirdir, sular yeraltına sızar. Engebeli arazi yapısı kıl keçisi yetiştiriciliğine uygundur. Nüfus tenhadır.",
+    "type": "Karstik Plato",
+    "provinces": ["07", "15"]
+  },
+  {
+    "name": "Taşeli Platosu",
+    "description": "Akdeniz Bölgesi'nde, Mersin ve Antalya arasında yer alan karstik platodur. Tıpkı Teke Platosu gibi kalkerli yapıdadır ve yüzey suları sızdığı için tarım alanları dardır. Kıl keçisi yetiştiriciliği yaygındır. Ulaşım zor, nüfus seyrektir.",
+    "type": "Karstik Plato",
+    "provinces": ["33", "07"]
+  },
+  {
+    "name": "Haymana Platosu",
+    "description": "İç Anadolu Bölgesi'nde, Ankara'nın güneyinde yer alır. Yatay duruşlu (tabaka düzlüğü) aşınım platosudur. Tahıl tarımı ve küçükbaş hayvancılık (özellikle Tiftik keçisi) yoğun olarak yapılır. Türkiye'nin önemli tahıl ambarlarından biridir.",
+    "type": "Aşınım Platosu",
+    "provinces": ["06"]
+  },
+  {
+    "name": "Cihanbeyli Platosu",
+    "description": "Konya Ovası'nın kuzeyinde yer alan, yatay duruşlu aşınım platosudur. Yarı kurak iklimi nedeniyle bozkır bitki örtüsü hakimdir. Küçükbaş hayvancılık (koyun) ve kuru tarım (buğday, arpa) temel ekonomik faaliyetlerdir.",
+    "type": "Aşınım Platosu",
+    "provinces": ["42"]
+  },
+  {
+    "name": "Obruk Platosu",
+    "description": "Tuz Gölü'nün güneyinde, Konya sınırları içerisinde yer alır. Karstik erimeler sonucu oluşan ve 'obruk' adı verilen çukurluklarla (örneğin Kızören Obruğu) meşhurdur. Aşınım ve kısmen karstik özellikler gösterir, yeraltı suları çekildiği için obruk oluşumları hızlanmıştır.",
+    "type": "Aşınım Platosu",
+    "provinces": ["42", "68"]
+  },
+  {
+    "name": "Bozok Platosu",
+    "description": "İç Anadolu'da Yozgat ve çevresini kaplayan, akarsular (Kızılırmak kolları) tarafından yarılmış geniş aşınım platosudur. Bozkır bitki örtüsü hakimdir, küçükbaş hayvancılık ve tahıl tarımı yaygındır.",
+    "type": "Aşınım Platosu",
+    "provinces": ["66"]
+  },
+  {
+    "name": "Uzunyayla Platosu",
+    "description": "İç Anadolu ile Doğu Anadolu geçiş kuşağında, Sivas ve Kayseri arasında yer alan yüksek platodur. Rakımı İç Anadolu'daki diğer platolara göre daha yüksektir. Karasal iklim etkilidir, hayvancılık ön plandadır.",
+    "type": "Aşınım Platosu",
+    "provinces": ["58", "38"]
+  },
+  {
+    "name": "Yazılıkaya (Midas) Platosu",
+    "description": "İç Ege ile İç Anadolu arasında, Eskişehir ve Afyonkarahisar çevresinde yer alır. Aşınım (tabaka düzlüğü) platosudur. Frigya medeniyetine ait kalıntılar (Yazılıkaya) barındırdığı için tarihi ve turistik önemi de vardır.",
+    "type": "Aşınım Platosu",
+    "provinces": ["26", "03"]
+  },
+  {
+    "name": "Gaziantep Platosu",
+    "description": "Güneydoğu Anadolu Bölgesi'nde yer alan yatay duruşlu aşınım platosudur. Akdeniz iklimi ile karasal iklimin geçiş özelliklerini taşır. Antep fıstığı, zeytin ve bağcılık gibi tarımsal faaliyetler yoğun olarak yapılır.",
+    "type": "Aşınım Platosu",
+    "provinces": ["27"]
+  },
+  {
+    "name": "Şanlıurfa Platosu",
+    "description": "Güneydoğu Anadolu'da yer alan geniş aşınım platosudur. GAP (Güneydoğu Anadolu Projesi) ile birlikte sulu tarımın en çok geliştiği platolardan biridir. Pamuk üretimi ve tahıl tarımı çok önemli yer tutar.",
+    "type": "Aşınım Platosu",
+    "provinces": ["63"]
+  },
+  {
+    "name": "Adıyaman Platosu",
+    "description": "Güneydoğu Anadolu Toroslarının güney eteklerinde yer alan, Fırat Nehri ve kolları tarafından yarılmış aşınım platosudur. Tarım ve hayvancılık temel geçim kaynağıdır.",
+    "type": "Aşınım Platosu",
+    "provinces": ["02"]
+  },
+  {
+    "name": "Diyarbakır Platosu",
+    "description": "Dicle Nehri ve kolları tarafından parçalanmış geniş bir platodur. Karasal iklim hakimdir, kırmızımsı kahverengi topraklar görülür. Hububat, pamuk ve mercimek tarımı yapılır.",
+    "type": "Aşınım Platosu",
+    "provinces": ["21"]
+  },
+  {
+    "name": "Çatalca Platosu",
+    "description": "Marmara Bölgesi'nde İstanbul'un batısında yer alır. Türkiye'nin yükseltisi en az olan (peneplenleşmiş) platolarından biridir. Sanayi, ticaret, ulaşım ve yerleşmenin en yoğun olduğu platodur. Nüfus yoğunluğu çok yüksektir.",
+    "type": "Taban Seviyesi Platosu",
+    "provinces": ["34"]
+  },
+  {
+    "name": "Kocaeli Platosu",
+    "description": "Marmara Bölgesi'nde, İstanbul'un doğusu ve Kocaeli'ni kapsayan, fiziki olarak Çatalca ile aynı özellikleri gösteren platodur. Sanayileşmenin zirve yaptığı, yükseltisi çok az olan taban seviyesi platosudur.",
+    "type": "Taban Seviyesi Platosu",
+    "provinces": ["41", "34"]
+  },
+  {
+    "name": "Karacadağ Platosu",
+    "description": "Güneydoğu Anadolu'da, Diyarbakır ve Şanlıurfa arasında yer alan kalkan şekilli Karacadağ volkanından çıkan bazaltik lavların yayılmasıyla oluşmuş lav platosudur. Taşlık arazi nedeniyle tarım zordur, daha çok hayvancılık yapılır.",
+    "type": "Lav Platosu",
+    "provinces": ["21", "63"]
+  },
+  {
+    "name": "Perşembe Platosu",
+    "description": "Karadeniz Bölgesi'nde Ordu ilinde yer alan, akarsularla parçalanmış yüksek düzlüklerdir. Menderesler çizen dereleriyle meşhurdur. Turizm ve yaylacılık (hayvancılık) açısından büyük öneme sahiptir.",
+    "type": "Aşınım Platosu",
+    "provinces": ["52"]
+  },
+  {
+    "name": "Çambaşı Platosu",
+    "description": "Ordu'da yer alan Karadeniz'in en geniş yayla ve platolarından biridir. Yüksek rakımı ile yazın serinlemek ve otlak amacıyla kullanılır. Kış turizmine (kayak) yönelik yatırımlar da mevcuttur.",
+    "type": "Aşınım Platosu",
+    "provinces": ["52"]
+  },
+  {
+    "name": "Safranbolu Platosu",
+    "description": "Batı Karadeniz'de, kireçtaşı (kalker) arazilerin akarsular tarafından yarılmasıyla oluşmuş karstik özellikler de gösteren aşınım platosudur. Derin kanyonlar (örneğin Tokatlı Kanyonu) barındırır.",
+    "type": "Aşınım Platosu",
+    "provinces": ["78"]
+  },
+  {
+    "name": "Ayder Platosu",
+    "description": "Doğu Karadeniz'de Rize'de bulunan, ladin ve kayın ormanlarıyla kaplı, kaplıcaları ve şelaleleriyle ünlü turistik aşınım ve buzul vadisi düzlüğüdür. Turizm baskısı altındadır.",
+    "type": "Aşınım Platosu",
+    "provinces": ["53"]
+  },
+  {
+    "name": "Pokut Platosu",
+    "description": "Rize'nin Çamlıhemşin ilçesinde, orman üst sınırında yer alan, eşsiz manzarası ve sivil mimarisiyle öne çıkan Karadeniz yaylalarından/platolarından biridir.",
+    "type": "Aşınım Platosu",
+    "provinces": ["53"]
+  },
+  {
+    "name": "Kümbet Platosu",
+    "description": "Giresun'un güneyinde yer alan ormanlık ve çayır alanlardan oluşan yayla platosudur. Şenlikleri ve turizm potansiyeliyle Karadeniz'in önemli cazibe merkezlerindendir.",
+    "type": "Aşınım Platosu",
+    "provinces": ["28"]
+  },
+  {
+    "name": "Kapadokya Platosu",
+    "description": "İç Anadolu'da Nevşehir, Niğde, Kayseri üçgeninde Erciyes ve Hasan Dağı'ndan püsküren tüf ve lavların akarsu/rüzgar ile aşınmasıyla oluşan peribacalarının bulunduğu volkanik aşınım platosudur. Turizm değeri çok yüksektir.",
+    "type": "Aşınım Platosu",
+    "provinces": ["50", "38", "51"]
+  },
+  {
+    "name": "Köse Dağı Platosu",
+    "description": "Sivas'ın Zara ve Suşehri ilçeleri arasında yer alan, yüksek kısımlardaki aşınım yüzeylerinden oluşan platodur. Karasal iklim ve engebeli arazi hayvancılığı zorunlu kılar.",
+    "type": "Aşınım Platosu",
+    "provinces": ["58"]
+  }
+]
